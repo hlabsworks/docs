@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OffLink उपयोगकर्ता मैनुअल</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans Devanagari',sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html' selected>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="offlink-उपयगकरत-मनअल">OffLink उपयोगकर्ता मैनुअल</h1>
+<p><strong>ऐप का नाम:</strong> OffLink</p>
+<p><strong>लक्षित उपयोगकर्ता:</strong> एक ही WiFi नेटवर्क में ग्रुप वॉइस कॉल करने के इच्छुक लोग</p>
+<p><strong>निर्माण तिथि:</strong> 9 मार्च 2026</p>
+<p><strong>अंतिम अपडेट:</strong> 11 अप्रैल 2026</p>
+<hr>
+<h2 id="परचय">परिचय</h2>
+<p>OffLink एक ऐसा ऐप है जो <strong>एक ही WiFi / टेथरिंग वातावरण में बिना इंटरनेट के ग्रुप वॉइस कॉल</strong> करने की सुविधा प्रदान करता है। WebRTC द्वारा P2P संचार से कम विलंबता वाली वॉइस कॉल संभव होती है।</p>
+<p><strong>उपयोग के उदाहरण:</strong></p>
+<ul>
+  <li>बाइक और साइकिल टूरिंग के दौरान ग्रुप कॉल</li>
+  <li>आउटडोर इवेंट और कैम्पिंग में संपर्क का साधन</li>
+  <li>गोदाम, फैक्ट्री, प्रदर्शनी हॉल आदि जहाँ इंटरनेट अस्थिर हो, वहाँ कार्य संपर्क</li>
+  <li>खेल प्रतियोगिता और उत्सवों में संचालन स्टाफ के बीच संपर्क</li>
+</ul>
+<div class="screenshot"><img src="images/hi/01_home_empty.png" width="280" alt="OffLink होम स्क्रीन"></div>
+<blockquote>ऐप शुरू करने के तुरंत बाद की होम स्क्रीन।</blockquote>
+<hr>
+<h2 id="1-करयपरणल-और-आवशयक-वतवरण">1. कार्यप्रणाली और आवश्यक वातावरण</h2>
+<h3 id="सचर-वध">संचार विधि</h3>
+<p>OffLink <strong>WiFi LAN मोड</strong> में काम करता है। सभी लोग एक ही WiFi नेटवर्क से जुड़कर कॉल करते हैं।</p>
+<blockquote><strong>मुख्य बात:</strong> इंटरनेट कनेक्शन आवश्यक नहीं है।</blockquote>
+<h3 id="आवशयक-डवइस-कनफगरशन">आवश्यक डिवाइस कॉन्फ़िगरेशन</h3>
+<table>
+<thead><tr><th>भूमिका</th><th>समर्थित डिवाइस</th><th>विवरण</th></tr></thead>
+<tbody>
+<tr><td><strong>होस्ट</strong></td><td>Android / iPhone</td><td>कॉल प्रबंधित करने वाला डिवाइस</td></tr>
+<tr><td><strong>गेस्ट</strong></td><td>Android / iPhone</td><td>कॉल में शामिल होने वाला डिवाइस</td></tr>
+</tbody></table>
+<blockquote><strong>ध्यान दें:</strong> सभी को एक ही WiFi नेटवर्क से जुड़ा होना आवश्यक है।</blockquote>
+<hr>
+<h2 id="2-पररभक-सटअप">2. प्रारंभिक सेटअप</h2>
+<h3 id="2-1-इसटलशन-और-पहल-बर-लनच">2-1. इंस्टॉलेशन और पहली बार लॉन्च</h3>
+<ol>
+  <li>OffLink इंस्टॉल करें</li>
+  <li>पहली बार शुरू करने पर अनुमति अनुरोध डायलॉग दिखाई देगा</li>
+  <li>सभी के लिए "अनुमति दें" चुनें</li>
+</ol>
+<h3 id="2-2-अनमतय-क-सच">2-2. अनुमतियों की सूची</h3>
+<table>
+<thead><tr><th>अनुमति</th><th>उपयोग</th><th>अस्वीकार करने पर प्रभाव</th></tr></thead>
+<tbody>
+<tr><td><strong>माइक्रोफ़ोन</strong></td><td>वॉइस कॉल</td><td>कॉल नहीं हो सकती</td></tr>
+<tr><td><strong>कैमरा</strong></td><td>QR कोड स्कैन</td><td>QR से ग्रुप पंजीकरण नहीं हो सकता</td></tr>
+<tr><td><strong>पास के डिवाइस (WiFi)</strong> ※Android</td><td>WiFi नेटवर्क डिटेक्शन</td><td>होस्ट डिटेक्शन नहीं हो सकता</td></tr>
+<tr><td><strong>लोकेशन</strong> ※Android</td><td>WiFi स्कैन (OS आवश्यकता)</td><td>WiFi SSID प्राप्त नहीं हो सकता</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>हेडसेट कनेक्शन</td><td>हेडसेट उपयोग नहीं हो सकता</td></tr>
+<tr><td><strong>नोटिफ़िकेशन</strong> ※Android</td><td>कॉल आमंत्रण सूचना</td><td>बैकग्राउंड नोटिफ़िकेशन नहीं</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/hi/15_qr_scan_screen.png" width="280" alt="अनुमति डायलॉग"></div>
+<blockquote>अनुमति अस्वीकार करने पर: "सेटिंग्स" → "ऐप्स" → "OffLink" से बदलें।</blockquote>
+<h3 id="2-3-परव-तयर">2-3. पूर्व तैयारी</h3>
+<ul>
+  <li>ऐसा वातावरण जहाँ सभी एक ही WiFi से जुड़ सकें</li>
+  <li>Bluetooth हेडसेट पहले से पेयर करें</li>
+</ul>
+<hr>
+<h2 id="3-उपयग-करन-क-तरक">3. उपयोग करने का तरीका</h2>
+<h3 id="3-1-अभ-कल-कर-स-आसन-स-शर-कर">3-1. "अभी कॉल करें" से आसानी से शुरू करें</h3>
+<p><strong>चरण 1:</strong> सभी एक ही WiFi से जुड़ें</p>
+<p><strong>चरण 2:</strong> "अभी कॉल करें" (हरा बटन) टैप करें</p>
+<div class="screenshot"><img src="images/hi/01_home_empty.png" width="280" alt="होम - अभी कॉल करें"></div>
+<p><strong>चरण 3:</strong> उपयोगकर्ता नाम दर्ज करें</p>
+<div class="screenshot"><img src="images/hi/04_home_username_dialog.png" width="280" alt="उपयोगकर्ता नाम डायलॉग"></div>
+<p><strong>चरण 4:</strong> टियर चुनें और कॉल शुरू करें</p>
+<p><strong>चरण 5:</strong> सदस्यों को कॉल आमंत्रण स्वचालित रूप से भेजा जाएगा</p>
+<hr>
+<h3 id="3-2-हसट-क-रप-म-गरप-बनन">3-2. होस्ट के रूप में ग्रुप बनाना</h3>
+<p><strong>चरण 1:</strong> "होस्ट के रूप में बनाएं" (नीला बटन) टैप करें</p>
+<p><strong>चरण 2:</strong> ग्रुप का नाम और पासवर्ड दर्ज करें और "बनाएं" दबाएं</p>
+<div class="screenshot"><img src="images/hi/05_create_group.png" width="280" alt="ग्रुप बनाएं (खाली)"> <img src="images/hi/06_create_group_filled.png" width="280" alt="ग्रुप बनाएं (भरा हुआ)"></div>
+<p><strong>चरण 3:</strong> क्रिएट एक्शन चुनें</p>
+<div class="screenshot"><img src="images/hi/07_create_group_bottomsheet.png" width="280" alt="क्रिएट एक्शन"></div>
+<table>
+<thead><tr><th>कार्रवाई</th><th>विवरण</th></tr></thead>
+<tbody>
+<tr><td><strong>अभी जुड़ें</strong></td><td>सर्वर शुरू करके कॉल आरंभ</td></tr>
+<tr><td><strong>स्टैंडबाय शुरू</strong></td><td>सर्वर शुरू करके प्रतीक्षा</td></tr>
+<tr><td><strong>केवल सेव</strong></td><td>बाद में शुरू किया जा सकता है</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-गसट-क-रप-म-गरप-म-शमल-हन">3-3. गेस्ट के रूप में ग्रुप में शामिल होना</h3>
+<p><strong>चरण 1:</strong> "गेस्ट के रूप में शामिल हों" (हल्का नीला बटन) टैप करें</p>
+<p><strong>चरण 2:</strong> शामिल होने का तरीका चुनें</p>
+<div class="screenshot"><img src="images/hi/08_register_group.png" width="280" alt="गेस्ट शामिल हों"></div>
+<table>
+<thead><tr><th>तरीका</th><th>संचालन</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>QR कोड स्कैन करें</strong></td><td>होस्ट का QR स्कैन करें</td></tr>
+<tr><td>📋 <strong>कोड पेस्ट करें</strong></td><td>साझा किया गया कोड पेस्ट करें</td></tr>
+<tr><td>✏️ <strong>मैनुअल इनपुट</strong></td><td>सीधे दर्ज करें</td></tr>
+</tbody></table>
+<p><strong>QR कोड शेयर (होस्ट की तरफ):</strong></p>
+<div class="screenshot"><img src="images/hi/03_home_qr_dialog.png" width="280" alt="QR कोड"></div>
+<p><strong>कोड पेस्ट (गेस्ट की तरफ):</strong></p>
+<div class="screenshot"><img src="images/hi/09_register_paste_dialog.png" width="280" alt="कोड पेस्ट"></div>
+<p><strong>चरण 3:</strong> "रजिस्टर" टैप करें</p>
+<div class="screenshot"><img src="images/hi/10_register_group_filled.png" width="280" alt="गेस्ट शामिल भरा हुआ"></div>
+<hr>
+<h3 id="3-4-सव-कए-गए-गरप-स-कल-शर-करन">3-4. सेव किए गए ग्रुप से कॉल शुरू करना</h3>
+<div class="screenshot"><img src="images/hi/02_home_with_group.png" width="280" alt="ग्रुप वाली होम स्क्रीन"></div>
+<p>गेस्ट शामिल होने की स्क्रीन:</p>
+<div class="screenshot"><img src="images/hi/11_join_group_empty.png" width="280" alt="शामिल खाली"> <img src="images/hi/12_join_group_with_groups.png" width="280" alt="ग्रुप के साथ शामिल"></div>
+<p>स्टैंडबाय स्क्रीन:</p>
+<div class="screenshot"><img src="images/hi/13_standby_screen.png" width="280" alt="स्टैंडबाय"></div>
+<p>कॉल स्क्रीन:</p>
+<div class="screenshot"><img src="images/hi/14_call_screen.png" width="280" alt="कॉल स्क्रीन"></div>
+<table>
+<thead><tr><th>बटन</th><th>कार्य</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>म्यूट</strong></td><td>माइक ऑन/ऑफ</td></tr>
+<tr><td>🔊 <strong>ऑडियो आउटपुट स्विच</strong></td><td>स्पीकर / Bluetooth / ईयरपीस</td></tr>
+<tr><td>🔴 <strong>कॉल समाप्त</strong></td><td>कॉल से बाहर निकलें</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-पइट-ससटम">3-5. पॉइंट सिस्टम</h3>
+<table>
+<thead><tr><th>टियर</th><th>खपत पॉइंट</th><th>अधिकतम प्रतिभागी</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>4 लोग</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>10 लोग</td></tr>
+</tbody></table>
+<ul>
+  <li>कॉल समय असीमित</li>
+  <li>रिवॉर्ड विज्ञापन 1 बार = 10 pt</li>
+  <li>Premium उपयोगकर्ताओं को पॉइंट खर्च नहीं होते</li>
+</ul>
+<hr>
+<h2 id="4-अकसर-पछ-जन-वल-परशन">4. अक्सर पूछे जाने वाले प्रश्न</h2>
+<h3 id="पर-कल-करन-वल-वयकत-नह-मल-रह">प्र. कॉल करने वाला व्यक्ति नहीं मिल रहा</h3>
+<ol>
+  <li>सभी एक ही WiFi पर हैं या नहीं जाँचें</li>
+  <li>राउटर/टेथरिंग सामान्य रूप से काम कर रहा है जाँचें</li>
+  <li>होस्ट ऐप चल रहा है जाँचें</li>
+  <li>AP आइसोलेशन बंद है जाँचें</li>
+</ol>
+<h3 id="पर-हटसपट">प्र. हॉटस्पॉट</h3>
+<p>OffLink के अंदर से ऑटो स्टार्ट नहीं हो सकता। मैन्युअल रूप से सेट करें।</p>
+<h3 id="पर-आवज-टट-टट-कर-आत-ह">प्र. आवाज़ टूट-टूट कर आती है</h3>
+<ol>
+  <li>WiFi रेंज में हैं?</li>
+  <li>Bluetooth बैटरी</li>
+  <li>कनेक्टेड डिवाइस की संख्या</li>
+  <li>होस्ट डिवाइस पर लोड</li>
+</ol>
+<h3 id="पर-qr-कड-सकन-नह-ह-रह">प्र. QR कोड स्कैन नहीं हो रहा</h3>
+<ol>
+  <li>कैमरा अनुमति जाँचें</li>
+  <li>स्क्रीन की चमक</li>
+  <li>"कोड पेस्ट करें" का उपयोग करें</li>
+</ol>
+<h3 id="पर-अनमत-असवकर">प्र. अनुमति अस्वीकार</h3>
+<p>"सेटिंग्स" → "ऐप्स" → "OffLink" → "अनुमतियाँ" से बदलें</p>
+<hr>
+<h2 id="5-समए">5. सीमाएं</h2>
+<table>
+<thead><tr><th>आइटम</th><th>सीमा विवरण</th></tr></thead>
+<tbody>
+<tr><td>अधिकतम प्रतिभागी</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>कॉल विधि</td><td>केवल WiFi LAN</td></tr>
+<tr><td>बैकग्राउंड</td><td>डिवाइस के अनुसार सीमित</td></tr>
+<tr><td>ग्रुप सेव सीमा</td><td>Free: 5 / Premium: असीमित</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-अनशसत-वतवरण">6. अनुशंसित वातावरण</h2>
+<table>
+<thead><tr><th>आइटम</th><th>अनुशंसित</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>5.0+ (API 21+)</td></tr>
+<tr><td>iOS</td><td>13.0+</td></tr>
+<tr><td>बैटरी</td><td>80% से अधिक अनुशंसित</td></tr>
+<tr><td>स्टोरेज</td><td>100MB से अधिक</td></tr>
+<tr><td>WiFi</td><td>राउटर / टेथरिंग / पॉकेट WiFi</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OffLink ユーザーマニュアル</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP',sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html' selected>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="offlink-ユーザーマニュアル">OffLink ユーザーマニュアル</h1>
+<p><strong>アプリ名:</strong> OffLink</p>
+<p><strong>対象ユーザー:</strong> 同じ WiFi ネットワーク内でグループ音声通話をしたい方</p>
+<p><strong>作成日:</strong> 2026年3月9日</p>
+<p><strong>最終更新:</strong> 2026年4月11日</p>
+<hr>
+<h2 id="はじめに">はじめに</h2>
+<p>OffLink は、<strong>同一 WiFi / テザリング環境内でインターネットなしにグループ音声通話ができる</strong>アプリです。 WebRTC による P2P 通信で低遅延の音声通話を実現します。</p>
+<p><strong>利用シーン例:</strong></p>
+<ul>
+  <li>バイク・自転車ツーリング中のグループ通話</li>
+  <li>アウトドアイベント・キャンプでの連絡手段</li>
+  <li>倉庫・工場・展示会場など、インターネット環境が不安定な場所での業務連絡</li>
+  <li>スポーツ大会・フェスでの運営スタッフ間連絡</li>
+</ul>
+<div class="screenshot"><img src="images/ja/01_home_empty.png" width="280" alt="OffLink ホーム画面（初回起動時）"></div>
+<blockquote>アプリ起動直後のホーム画面。下部の3つのボタンから操作を開始します。</blockquote>
+<hr>
+<h2 id="1-仕組みと必要な環境">1. 仕組みと必要な環境</h2>
+<h3 id="通信方式">通信方式</h3>
+<p>OffLink は <strong>WiFi LAN モード</strong> で動作します。 全員が同じ WiFi ネットワーク（自宅 WiFi、モバイルテザリング、ポケット WiFi 等）に接続した状態で、 ホスト端末がシグナリングサーバーを起動し、同一ネットワーク内の端末同士で音声通話を行います。</p>
+<blockquote><strong>ポイント:</strong> インターネット接続は不要です。ルーターやテザリング端末が電波を出していれば通話できます。</blockquote>
+<h3 id="必要なデバイス構成">必要なデバイス構成</h3>
+<table>
+<thead><tr><th>役割</th><th>対応デバイス</th><th>説明</th></tr></thead>
+<tbody>
+<tr><td><strong>ホスト（通話の主催者）</strong></td><td>Android / iPhone</td><td>シグナリングサーバーを起動し通話を管理する端末</td></tr>
+<tr><td><strong>ゲスト（参加者）</strong></td><td>Android / iPhone</td><td>ホストが作成した通話に参加する端末</td></tr>
+</tbody></table>
+<blockquote><strong>注意:</strong> 全員が同一の WiFi ネットワークに接続している必要があります。</blockquote>
+<hr>
+<h2 id="2-初期設定">2. 初期設定</h2>
+<h3 id="2-1-アプリのインストールと初回起動">2-1. アプリのインストールと初回起動</h3>
+<ol>
+  <li>OffLink をインストールする</li>
+  <li>アプリを起動すると、<strong>初回起動時にパーミッション許可のダイアログが表示されます</strong></li>
+  <li><strong>すべて「許可」してください</strong> — 許可しないと正常に動作しません</li>
+</ol>
+<h3 id="2-2-パーミッション一覧">2-2. パーミッション一覧</h3>
+<p>アプリの<strong>初回起動時</strong>に以下のパーミッションを一括で要求します。 すべて「許可」しないと一部機能が動作しません。</p>
+<table>
+<thead><tr><th>パーミッション</th><th>用途</th><th>拒否した場合の影響</th></tr></thead>
+<tbody>
+<tr><td><strong>マイク</strong></td><td>音声通話</td><td>通話不可</td></tr>
+<tr><td><strong>カメラ</strong></td><td>QR コードスキャン</td><td>QR でのグループ登録不可</td></tr>
+<tr><td><strong>近くのデバイス（WiFi）</strong> ※Android</td><td>WiFi ネットワーク検出・ホスト探索</td><td>ホスト検出不可</td></tr>
+<tr><td><strong>位置情報</strong> ※Android</td><td>WiFi スキャン（Android OS の要件）</td><td>WiFi SSID の取得不可</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Bluetooth ヘッドセット連携</td><td>ヘッドセット使用不可</td></tr>
+<tr><td><strong>通知</strong> ※Android</td><td>通話招待の通知</td><td>バックグラウンド時に通知が届かない</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/ja/15_qr_scan_screen.png" width="280" alt="パーミッション許可ダイアログの例（カメラ）"></div>
+<blockquote><strong>パーミッションを誤って拒否した場合:</strong>  <br>
+アプリが設定画面への誘導ダイアログを表示します。端末の「設定」→「アプリ」→「OffLink」からパーミッションを変更してください。</blockquote>
+<h3 id="2-3-事前に必要な準備">2-3. 事前に必要な準備</h3>
+<ul>
+  <li>全員が <strong>同じ WiFi ネットワーク</strong> に接続できる環境を用意する</li>
+</ul>
+<p>（自宅 WiFi、テザリング、ポケット WiFi など）</p>
+<ul>
+  <li>Bluetooth ヘッドセットを使う場合は事前にペアリングしておく</li>
+</ul>
+<hr>
+<h2 id="3-使い方">3. 使い方</h2>
+<h3 id="3-1-今すぐ通話で手軽に始める">3-1. 「今すぐ通話」で手軽に始める</h3>
+<p>事前にグループを作成せず、同じ WiFi に接続しているメンバーとすぐに通話を始められます。</p>
+<p><strong>Step 1:</strong> 全員が同じ WiFi ネットワークに接続します。</p>
+<p><strong>Step 2:</strong> ホーム画面の <strong>「今すぐ通話」</strong>（緑色のボタン）をタップします。</p>
+<div class="screenshot"><img src="images/ja/01_home_empty.png" width="280" alt="ホーム画面 — 「今すぐ通話」ボタン"></div>
+<p><strong>Step 3:</strong> ユーザー名を入力するダイアログが表示されます。通話中に他メンバーに表示される名前を入力します。</p>
+<div class="screenshot"><img src="images/ja/04_home_username_dialog.png" width="280" alt="ユーザー名入力ダイアログ"></div>
+<p><strong>Step 4:</strong> ポイント消費画面でティアを選択し、通話を開始します（→ <a href="#3-5-ポイントシステム">3-5. ポイントシステム</a> を参照）。</p>
+<p><strong>Step 5:</strong> 同じ WiFi ネットワーク内の他メンバーに通話招待が自動通知されます。メンバーが参加すると通話が開始されます。</p>
+<blockquote><strong>既存のホストがいる場合:</strong>  <br>
+同じネットワーク内に既にホストがいる場合、参加するか新しく通話を開始するかを選択できます。</blockquote>
+<hr>
+<h3 id="3-2-ホストとしてグループを作成する">3-2. ホストとしてグループを作成する</h3>
+<p>繰り返し同じメンバーで通話する場合は、グループを作成して保存しておくと便利です。</p>
+<p><strong>Step 1:</strong> ホーム画面の <strong>「ホストとして作成」</strong>（青色のボタン）をタップします。</p>
+<p><strong>Step 2:</strong> グループ作成画面で <strong>グループ名</strong> と <strong>パスワード（任意）</strong> を入力し、<strong>「作成する」</strong> をタップします。</p>
+<div class="screenshot"><img src="images/ja/05_create_group.png" width="280" alt="グループ作成画面（空欄）"> <img src="images/ja/06_create_group_filled.png" width="280" alt="グループ作成画面（入力済み）"></div>
+<blockquote><strong>Tips:</strong><br>
+- グループ名はメンバーに分かりやすい名前にしましょう（例: <code>ツーリングA組</code>、<code>倉庫連絡</code>）<br>
+- パスワードを設定すると、知らない人が参加できなくなります（推奨）</blockquote>
+<p><strong>Step 3:</strong> 作成アクションを選びます。ボトムシートが表示されます。</p>
+<div class="screenshot"><img src="images/ja/07_create_group_bottomsheet.png" width="280" alt="作成アクション選択 — 今すぐ参加 / スタンバイ開始 / 保存のみ"></div>
+<table>
+<thead><tr><th>アクション</th><th>説明</th></tr></thead>
+<tbody>
+<tr><td><strong>今すぐ参加</strong></td><td>WiFi LAN 上でサーバーを起動し、すぐに通話画面へ移動</td></tr>
+<tr><td><strong>スタンバイ開始</strong></td><td>サーバーを起動してメンバーの接続を待機</td></tr>
+<tr><td><strong>保存のみ</strong></td><td>グループ情報を保存するだけ（後から開始可能）</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-ゲストとしてグループに参加する">3-3. ゲストとしてグループに参加する</h3>
+<p>メンバー（ゲスト）は、ホストからグループ情報を受け取って参加登録します。</p>
+<p><strong>Step 1:</strong> ホーム画面の <strong>「ゲストとして参加」</strong>（水色のボタン）をタップします。</p>
+<p><strong>Step 2:</strong> 参加方法を選びます。3つの方法があります。</p>
+<div class="screenshot"><img src="images/ja/08_register_group.png" width="280" alt="ゲスト参加画面 — QRスキャン / コード貼り付け / 手動入力"></div>
+<table>
+<thead><tr><th>方法</th><th>操作</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>QR コードをスキャン</strong></td><td>ホストが表示した QR コードをカメラで読み取る（最も簡単）</td></tr>
+<tr><td>📋 <strong>コードを貼り付け</strong></td><td>ホストから LINE 等で共有されたコードを貼り付ける</td></tr>
+<tr><td>✏️ <strong>手動入力</strong></td><td>グループ名・SSID・パスワードを直接入力する</td></tr>
+</tbody></table>
+<p><strong>QR コードでのグループ共有（ホスト側）:</strong></p>
+<p>ホストはホーム画面のグループカード右側の QR アイコンをタップして QR コードを表示できます。</p>
+<div class="screenshot"><img src="images/ja/03_home_qr_dialog.png" width="280" alt="QR コード表示ダイアログ"></div>
+<blockquote>他のメンバーは OffLink の「QR をスキャン」で読み取れます。</blockquote>
+<p><strong>コード貼り付けでの参加（ゲスト側）:</strong></p>
+<div class="screenshot"><img src="images/ja/09_register_paste_dialog.png" width="280" alt="共有コード貼り付けダイアログ"></div>
+<p><strong>Step 3:</strong> グループ情報が自動入力されたら <strong>「登録」</strong> をタップします。</p>
+<div class="screenshot"><img src="images/ja/10_register_group_filled.png" width="280" alt="ゲスト参加 — 情報入力済み"></div>
+<hr>
+<h3 id="3-4-保存済みグループから通話を開始する">3-4. 保存済みグループから通話を開始する</h3>
+<p>一度作成・登録したグループはホーム画面に保存されます。</p>
+<div class="screenshot"><img src="images/ja/02_home_with_group.png" width="280" alt="ホーム画面 — 保存済みグループ一覧"></div>
+<ul>
+  <li>ホストは <strong>「ホストとして開始」</strong> をタップ</li>
+  <li>ゲストは <strong>「ゲストとして参加」</strong> をタップ</li>
+</ul>
+<p><strong>ゲスト側の参加画面:</strong></p>
+<p>ユーザー名を入力し、参加するグループを選択します。</p>
+<div class="screenshot"><img src="images/ja/11_join_group_empty.png" width="280" alt="グループ参加画面（初期状態）"> <img src="images/ja/12_join_group_with_groups.png" width="280" alt="グループ参加 — グループ選択画面"></div>
+<p><strong>スタンバイ画面:</strong></p>
+<p>ホストがサーバーを起動すると、スタンバイ画面で接続待機中の状態が表示されます。</p>
+<div class="screenshot"><img src="images/ja/13_standby_screen.png" width="280" alt="スタンバイ画面 — WiFi LAN サーバーを起動中..."></div>
+<p><strong>通話画面:</strong></p>
+<p>接続が完了すると自動的に通話画面に遷移します。</p>
+<div class="screenshot"><img src="images/ja/14_call_screen.png" width="280" alt="通話画面 — ミュート・受話器・通話終了ボタン"></div>
+<p><strong>通話画面の操作:</strong></p>
+<table>
+<thead><tr><th>ボタン</th><th>機能</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>ミュート</strong></td><td>自分のマイクをオン/オフ切り替え</td></tr>
+<tr><td>🔊 <strong>音声出力切り替え</strong></td><td>スピーカー / Bluetooth / イヤピースを切り替え</td></tr>
+<tr><td>🔴 <strong>通話終了</strong></td><td>通話から退出</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-ポイントシステム">3-5. ポイントシステム</h3>
+<p>通話の開始にはポイントが必要です。ポイントはリワード広告の視聴で獲得できます。</p>
+<table>
+<thead><tr><th>ティア</th><th>消費ポイント</th><th>最大参加人数</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>4 人</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>10 人</td></tr>
+</tbody></table>
+<ul>
+  <li><strong>通話時間は無制限</strong> — 時間を気にせず通話できます</li>
+  <li><strong>リワード広告 1 回視聴で 10 pt チャージ</strong>（= Standard 通話 1 回分）</li>
+  <li><strong>Premium ユーザー:</strong> ポイント消費なしで通話を開始できます</li>
+</ul>
+<blockquote><strong>ポイントが足りない場合:</strong> リワード広告を視聴すると 10pt を獲得できます。画面に表示される広告視聴ボタンをタップしてください。</blockquote>
+<hr>
+<h2 id="4-よくある質問-トラブルシューティング">4. よくある質問 / トラブルシューティング</h2>
+<h3 id="q-通話相手が見つからない-接続できない">Q. 通話相手が見つからない / 接続できない</h3>
+<p><strong>確認事項:</strong></p>
+<ol>
+  <li><strong>全員が同じ WiFi ネットワークに接続しているか</strong>確認してください（最も多い原因）</li>
+  <li>WiFi ルーターやテザリング端末が正常に動作しているか確認</li>
+  <li>ホスト側のアプリが起動中（バックグラウンドで停止されていないか）確認</li>
+  <li>ルーターの「AP 分離」（クライアント間通信の禁止）が無効になっているか確認</li>
+</ol>
+<h3 id="q-ホットスポットについて">Q. ホットスポットについて</h3>
+<p>現在のバージョンでは<strong>ホットスポット（WiFi テザリング）を OffLink 内から自動起動する機能はありません。</strong> 代わりに、テザリングを使いたい場合は Android 端末の設定アプリから手動でテザリングをオンにし、全員がそのネットワークに接続してください。</p>
+<h3 id="q-通話の音が途切れる遅延する">Q. 通話の音が途切れる・遅延する</h3>
+<p><strong>確認事項:</strong></p>
+<ol>
+  <li>WiFi の電波が十分に届く範囲にいるか確認</li>
+  <li>Bluetooth ヘッドセットのバッテリー残量を確認</li>
+  <li>WiFi ルーターに接続しているデバイス数が多すぎないか確認</li>
+  <li>ホスト端末に負荷がかかりすぎていないか確認（他のアプリを閉じる）</li>
+</ol>
+<h3 id="q-qr-コードが読み取れない">Q. QR コードが読み取れない</h3>
+<p><strong>確認事項:</strong></p>
+<ol>
+  <li>カメラのパーミッションが「許可」になっているか確認</li>
+  <li>画面の明るさを上げて QR コードを見やすくする</li>
+  <li>QR コードの代わりに <strong>「コードを貼り付け」</strong> 機能で共有コードを使用する</li>
+</ol>
+<h3 id="q-パーミッションを拒否してしまった">Q. パーミッションを拒否してしまった</h3>
+<p>アプリが設定画面への誘導ダイアログを表示します。端末の <strong>「設定」→「アプリ」→「OffLink」→「権限」</strong> から必要なパーミッションを「許可」に変更してください。</p>
+<hr>
+<h2 id="5-制限事項">5. 制限事項</h2>
+<table>
+<thead><tr><th>項目</th><th>制限内容</th></tr></thead>
+<tbody>
+<tr><td>最大参加人数</td><td>Standard: 4人 / Large: 10人</td></tr>
+<tr><td>通話方式</td><td>同一 WiFi ネットワーク内（WiFi LAN）のみ</td></tr>
+<tr><td>バックグラウンド動作</td><td>機種・OS バージョンにより制限される場合があります</td></tr>
+<tr><td>グループ保存上限</td><td>Free ユーザーは 5 グループまで（Premium は無制限）</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-推奨環境">6. 推奨環境</h2>
+<table>
+<thead><tr><th>項目</th><th>推奨</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>Android 5.0 以上（API 21+）</td></tr>
+<tr><td>iOS</td><td>iOS 13.0 以上</td></tr>
+<tr><td>バッテリー残量</td><td>80% 以上推奨（ホスト端末はバッテリー消費が大きいため）</td></tr>
+<tr><td>ストレージ空き容量</td><td>100MB 以上</td></tr>
+<tr><td>WiFi 環境</td><td>ルーター / テザリング / ポケット WiFi 等、同一ネットワーク接続可能な環境</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دليل مستخدم OffLink</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans Arabic',sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    th,td{text-align:right}blockquote{border-left:none;border-right:4px solid #1a73e8}
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html' selected>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="دليل-مستخدم-offlink">دليل مستخدم OffLink</h1>
+<p><strong>اسم التطبيق:</strong> OffLink</p>
+<p><strong>المستخدمون المستهدفون:</strong> الأشخاص الذين يرغبون في إجراء مكالمات صوتية جماعية داخل نفس شبكة WiFi</p>
+<p><strong>تاريخ الإنشاء:</strong> 9 مارس 2026</p>
+<p><strong>آخر تحديث:</strong> 11 أبريل 2026</p>
+<hr>
+<h2 id="مقدمة">مقدمة</h2>
+<p>OffLink هو تطبيق يتيح لك <strong>إجراء مكالمات صوتية جماعية بدون إنترنت داخل نفس بيئة WiFi / نقطة اتصال</strong>. يوفر مكالمات صوتية منخفضة التأخير عبر اتصال P2P باستخدام WebRTC.</p>
+<p><strong>أمثلة على سيناريوهات الاستخدام:</strong></p>
+<ul>
+  <li>مكالمات جماعية أثناء جولات الدراجات النارية والدراجات الهوائية</li>
+  <li>وسيلة اتصال في الأنشطة الخارجية والتخييم</li>
+  <li>اتصالات العمل في المستودعات والمصانع وقاعات المعارض حيث يكون الاتصال بالإنترنت غير مستقر</li>
+  <li>التواصل بين طاقم التنظيم في المسابقات الرياضية والمهرجانات</li>
+</ul>
+<div class="screenshot"><img src="images/ar/01_home_empty.png" width="280" alt="شاشة OffLink الرئيسية"></div>
+<blockquote>الشاشة الرئيسية بعد تشغيل التطبيق مباشرة.</blockquote>
+<hr>
+<h2 id="1-آلية-العمل-والبيئة-المطلوبة">1. آلية العمل والبيئة المطلوبة</h2>
+<h3 id="طريقة-الاتصال">طريقة الاتصال</h3>
+<p>يعمل OffLink في <strong>وضع WiFi LAN</strong>. يتم إجراء المكالمات بينما يكون الجميع متصلين بنفس شبكة WiFi.</p>
+<blockquote><strong>ملاحظة:</strong> لا يلزم الاتصال بالإنترنت.</blockquote>
+<h3 id="تكوين-الأجهزة-المطلوبة">تكوين الأجهزة المطلوبة</h3>
+<table>
+<thead><tr><th>الدور</th><th>الأجهزة المدعومة</th><th>الوصف</th></tr></thead>
+<tbody>
+<tr><td><strong>المضيف</strong></td><td>Android / iPhone</td><td>الجهاز الذي يدير المكالمة</td></tr>
+<tr><td><strong>الضيف</strong></td><td>Android / iPhone</td><td>الجهاز الذي ينضم إلى المكالمة</td></tr>
+</tbody></table>
+<blockquote><strong>تنبيه:</strong> يجب أن يكون الجميع متصلين بنفس شبكة WiFi.</blockquote>
+<hr>
+<h2 id="2-الإعداد-الأولي">2. الإعداد الأولي</h2>
+<h3 id="2-1-التثبيت-والتشغيل-الأول">2-1. التثبيت والتشغيل الأول</h3>
+<ol>
+  <li>قم بتثبيت OffLink</li>
+  <li>عند التشغيل الأول ستظهر نافذة طلب الأذونات</li>
+  <li>اضغط "سماح" لجميع الأذونات</li>
+</ol>
+<h3 id="2-2-قائمة-الأذونات">2-2. قائمة الأذونات</h3>
+<table>
+<thead><tr><th>الإذن</th><th>الاستخدام</th><th>التأثير عند الرفض</th></tr></thead>
+<tbody>
+<tr><td><strong>الميكروفون</strong></td><td>المكالمات الصوتية</td><td>لا يمكن إجراء المكالمات</td></tr>
+<tr><td><strong>الكاميرا</strong></td><td>مسح رمز QR</td><td>لا يمكن تسجيل المجموعة عبر QR</td></tr>
+<tr><td><strong>الأجهزة القريبة (WiFi)</strong> ※Android</td><td>اكتشاف شبكة WiFi</td><td>لا يمكن اكتشاف المضيف</td></tr>
+<tr><td><strong>الموقع</strong> ※Android</td><td>مسح WiFi (متطلبات نظام التشغيل)</td><td>لا يمكن الحصول على SSID WiFi</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>توصيل سماعة الرأس</td><td>لا يمكن استخدام سماعة الرأس</td></tr>
+<tr><td><strong>الإشعارات</strong> ※Android</td><td>إشعارات دعوة المكالمة</td><td>لا توجد إشعارات في الخلفية</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/ar/15_qr_scan_screen.png" width="280" alt="نافذة الأذونات"></div>
+<blockquote>في حالة رفض الإذن: انتقل إلى "الإعدادات" → "التطبيقات" → "OffLink" لتغييرها.</blockquote>
+<h3 id="2-3-التحضير-المسبق">2-3. التحضير المسبق</h3>
+<ul>
+  <li>بيئة يمكن فيها للجميع الاتصال بنفس WiFi</li>
+  <li>قم بإقران سماعة Bluetooth مسبقاً</li>
+</ul>
+<hr>
+<h2 id="3-طريقة-الاستخدام">3. طريقة الاستخدام</h2>
+<h3 id="3-1-البدء-بسهولة-باستخدام-اتصل-الآن">3-1. البدء بسهولة باستخدام "اتصل الآن"</h3>
+<p><strong>الخطوة 1:</strong> اتصل الجميع بنفس WiFi</p>
+<p><strong>الخطوة 2:</strong> اضغط على "اتصل الآن" (الزر الأخضر)</p>
+<div class="screenshot"><img src="images/ar/01_home_empty.png" width="280" alt="الصفحة الرئيسية - اتصل الآن"></div>
+<p><strong>الخطوة 3:</strong> أدخل اسم المستخدم</p>
+<div class="screenshot"><img src="images/ar/04_home_username_dialog.png" width="280" alt="نافذة اسم المستخدم"></div>
+<p><strong>الخطوة 4:</strong> اختر الفئة وابدأ المكالمة</p>
+<p><strong>الخطوة 5:</strong> يتم إرسال إشعار دعوة المكالمة تلقائياً للأعضاء</p>
+<hr>
+<h3 id="3-2-إنشاء-مجموعة-كمضيف">3-2. إنشاء مجموعة كمضيف</h3>
+<p><strong>الخطوة 1:</strong> اضغط على "إنشاء كمضيف" (الزر الأزرق)</p>
+<p><strong>الخطوة 2:</strong> أدخل اسم المجموعة وكلمة المرور ثم اضغط "إنشاء"</p>
+<div class="screenshot"><img src="images/ar/05_create_group.png" width="280" alt="إنشاء مجموعة (فارغة)"> <img src="images/ar/06_create_group_filled.png" width="280" alt="إنشاء مجموعة (معبأة)"></div>
+<p><strong>الخطوة 3:</strong> اختر إجراء الإنشاء</p>
+<div class="screenshot"><img src="images/ar/07_create_group_bottomsheet.png" width="280" alt="إجراء الإنشاء"></div>
+<table>
+<thead><tr><th>الإجراء</th><th>الوصف</th></tr></thead>
+<tbody>
+<tr><td><strong>انضم الآن</strong></td><td>تشغيل الخادم وبدء المكالمة</td></tr>
+<tr><td><strong>بدء الاستعداد</strong></td><td>تشغيل الخادم والانتظار</td></tr>
+<tr><td><strong>حفظ فقط</strong></td><td>يمكن البدء لاحقاً</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-الانضمام-إلى-مجموعة-كضيف">3-3. الانضمام إلى مجموعة كضيف</h3>
+<p><strong>الخطوة 1:</strong> اضغط على "انضم كضيف" (الزر الأزرق الفاتح)</p>
+<p><strong>الخطوة 2:</strong> اختر طريقة الانضمام</p>
+<div class="screenshot"><img src="images/ar/08_register_group.png" width="280" alt="انضمام الضيف"></div>
+<table>
+<thead><tr><th>الطريقة</th><th>العملية</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>مسح رمز QR</strong></td><td>امسح رمز QR الخاص بالمضيف</td></tr>
+<tr><td>📋 <strong>لصق الرمز</strong></td><td>الصق الرمز المشترك</td></tr>
+<tr><td>✏️ <strong>إدخال يدوي</strong></td><td>أدخل مباشرة</td></tr>
+</tbody></table>
+<p><strong>مشاركة رمز QR (جانب المضيف):</strong></p>
+<div class="screenshot"><img src="images/ar/03_home_qr_dialog.png" width="280" alt="رمز QR"></div>
+<p><strong>لصق الرمز (جانب الضيف):</strong></p>
+<div class="screenshot"><img src="images/ar/09_register_paste_dialog.png" width="280" alt="لصق الرمز"></div>
+<p><strong>الخطوة 3:</strong> اضغط "تسجيل"</p>
+<div class="screenshot"><img src="images/ar/10_register_group_filled.png" width="280" alt="انضمام الضيف معبأ"></div>
+<hr>
+<h3 id="3-4-بدء-مكالمة-من-مجموعة-محفوظة">3-4. بدء مكالمة من مجموعة محفوظة</h3>
+<div class="screenshot"><img src="images/ar/02_home_with_group.png" width="280" alt="الصفحة الرئيسية مع المجموعات"></div>
+<p>شاشة انضمام الضيف:</p>
+<div class="screenshot"><img src="images/ar/11_join_group_empty.png" width="280" alt="انضمام فارغ"> <img src="images/ar/12_join_group_with_groups.png" width="280" alt="انضمام مع المجموعات"></div>
+<p>شاشة الاستعداد:</p>
+<div class="screenshot"><img src="images/ar/13_standby_screen.png" width="280" alt="الاستعداد"></div>
+<p>شاشة المكالمة:</p>
+<div class="screenshot"><img src="images/ar/14_call_screen.png" width="280" alt="شاشة المكالمة"></div>
+<table>
+<thead><tr><th>الزر</th><th>الوظيفة</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>كتم الصوت</strong></td><td>تشغيل/إيقاف الميكروفون</td></tr>
+<tr><td>🔊 <strong>تبديل مخرج الصوت</strong></td><td>مكبر الصوت / Bluetooth / سماعة الأذن</td></tr>
+<tr><td>🔴 <strong>إنهاء المكالمة</strong></td><td>الخروج من المكالمة</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-نظام-النقاط">3-5. نظام النقاط</h3>
+<table>
+<thead><tr><th>الفئة</th><th>النقاط المستهلكة</th><th>الحد الأقصى للمشاركين</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 نقاط</td><td>4 أشخاص</td></tr>
+<tr><td><strong>Large</strong></td><td>20 نقطة</td><td>10 أشخاص</td></tr>
+</tbody></table>
+<ul>
+  <li>وقت المكالمة غير محدود</li>
+  <li>إعلان مكافأة واحد = 10 نقاط</li>
+  <li>مستخدمو Premium لا يستهلكون نقاطاً</li>
+</ul>
+<hr>
+<h2 id="4-الأسئلة-الشائعة">4. الأسئلة الشائعة</h2>
+<h3 id="س-لا-يمكن-العثور-على-المتصل">س. لا يمكن العثور على المتصل</h3>
+<ol>
+  <li>تأكد أن الجميع على نفس WiFi</li>
+  <li>تأكد من عمل الراوتر / نقطة الاتصال بشكل طبيعي</li>
+  <li>تأكد أن تطبيق المضيف قيد التشغيل</li>
+  <li>تأكد أن عزل AP معطل</li>
+</ol>
+<h3 id="س-نقطة-الاتصال">س. نقطة الاتصال</h3>
+<p>لا يمكن التشغيل التلقائي من داخل OffLink. قم بالإعداد يدوياً.</p>
+<h3 id="س-الصوت-يتقطع">س. الصوت يتقطع</h3>
+<ol>
+  <li>هل أنت ضمن نطاق WiFi؟</li>
+  <li>بطارية Bluetooth</li>
+  <li>عدد الأجهزة المتصلة</li>
+  <li>حمولة جهاز المضيف</li>
+</ol>
+<h3 id="س-لا-يمكن-قراءة-رمز-qr">س. لا يمكن قراءة رمز QR</h3>
+<ol>
+  <li>تحقق من إذن الكاميرا</li>
+  <li>سطوع الشاشة</li>
+  <li>استخدم "لصق الرمز" كبديل</li>
+</ol>
+<h3 id="س-رفض-الأذونات">س. رفض الأذونات</h3>
+<p>انتقل إلى "الإعدادات" → "التطبيقات" → "OffLink" → "الأذونات" لتغييرها</p>
+<hr>
+<h2 id="5-القيود">5. القيود</h2>
+<table>
+<thead><tr><th>العنصر</th><th>محتوى القيد</th></tr></thead>
+<tbody>
+<tr><td>الحد الأقصى للمشاركين</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>طريقة المكالمة</td><td>WiFi LAN فقط</td></tr>
+<tr><td>الخلفية</td><td>قيود حسب الجهاز</td></tr>
+<tr><td>حد حفظ المجموعات</td><td>Free: 5 / Premium: غير محدود</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-البيئة-الموصى-بها">6. البيئة الموصى بها</h2>
+<table>
+<thead><tr><th>العنصر</th><th>الموصى به</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>5.0+ (API 21+)</td></tr>
+<tr><td>iOS</td><td>13.0+</td></tr>
+<tr><td>البطارية</td><td>يُوصى بـ 80% فأكثر</td></tr>
+<tr><td>التخزين</td><td>100MB فأكثر</td></tr>
+<tr><td>WiFi</td><td>راوتر / نقطة اتصال / WiFi محمول</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

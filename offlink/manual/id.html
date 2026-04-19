@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panduan Pengguna OffLink</title>
+  
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html' selected>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="panduan-pengguna-offlink">Panduan Pengguna OffLink</h1>
+<p><strong>Nama Aplikasi:</strong> OffLink</p>
+<p><strong>Target Pengguna:</strong> Orang yang ingin melakukan panggilan suara grup dalam jaringan WiFi yang sama</p>
+<p><strong>Tanggal Dibuat:</strong> 9 Maret 2026</p>
+<p><strong>Terakhir Diperbarui:</strong> 11 April 2026</p>
+<hr>
+<h2 id="pendahuluan">Pendahuluan</h2>
+<p>OffLink adalah aplikasi yang memungkinkan Anda <strong>melakukan panggilan suara grup tanpa Internet dalam lingkungan WiFi / tethering yang sama</strong>. Menggunakan komunikasi P2P melalui WebRTC untuk menghasilkan panggilan suara dengan latensi rendah.</p>
+<p><strong>Contoh Skenario Penggunaan:</strong></p>
+<ul>
+  <li>Panggilan grup saat touring sepeda motor dan sepeda</li>
+  <li>Sarana komunikasi di acara outdoor dan berkemah</li>
+  <li>Komunikasi kerja di gudang, pabrik, ruang pameran yang koneksi internetnya tidak stabil</li>
+  <li>Komunikasi antar staf penyelenggara di pertandingan olahraga dan festival</li>
+</ul>
+<div class="screenshot"><img src="images/id/01_home_empty.png" width="280" alt="Layar utama OffLink"></div>
+<blockquote>Layar utama setelah aplikasi diluncurkan.</blockquote>
+<hr>
+<h2 id="1-cara-kerja-dan-lingkungan-yang-dibutuhkan">1. Cara Kerja dan Lingkungan yang Dibutuhkan</h2>
+<h3 id="metode-komunikasi">Metode Komunikasi</h3>
+<p>OffLink bekerja dalam <strong>mode WiFi LAN</strong>. Semua orang terhubung ke jaringan WiFi yang sama untuk melakukan panggilan.</p>
+<blockquote><strong>Catatan:</strong> Koneksi internet tidak diperlukan.</blockquote>
+<h3 id="konfigurasi-perangkat-yang-dibutuhkan">Konfigurasi Perangkat yang Dibutuhkan</h3>
+<table>
+<thead><tr><th>Peran</th><th>Perangkat yang Didukung</th><th>Keterangan</th></tr></thead>
+<tbody>
+<tr><td><strong>Host</strong></td><td>Android / iPhone</td><td>Perangkat yang mengelola panggilan</td></tr>
+<tr><td><strong>Guest</strong></td><td>Android / iPhone</td><td>Perangkat yang bergabung ke panggilan</td></tr>
+</tbody></table>
+<blockquote><strong>Perhatian:</strong> Semua orang harus terhubung ke jaringan WiFi yang sama.</blockquote>
+<hr>
+<h2 id="2-pengaturan-awal">2. Pengaturan Awal</h2>
+<h3 id="2-1-instalasi-dan-peluncuran-pertama">2-1. Instalasi dan Peluncuran Pertama</h3>
+<ol>
+  <li>Instal OffLink</li>
+  <li>Saat pertama kali diluncurkan, dialog permintaan izin akan muncul</li>
+  <li>Pilih "Izinkan" untuk semua</li>
+</ol>
+<h3 id="2-2-daftar-izin">2-2. Daftar Izin</h3>
+<table>
+<thead><tr><th>Izin</th><th>Kegunaan</th><th>Dampak Jika Ditolak</th></tr></thead>
+<tbody>
+<tr><td><strong>Mikrofon</strong></td><td>Panggilan suara</td><td>Tidak dapat melakukan panggilan</td></tr>
+<tr><td><strong>Kamera</strong></td><td>Pemindaian kode QR</td><td>Tidak dapat mendaftarkan grup via QR</td></tr>
+<tr><td><strong>Perangkat Terdekat (WiFi)</strong> ※Android</td><td>Deteksi jaringan WiFi</td><td>Tidak dapat mendeteksi Host</td></tr>
+<tr><td><strong>Lokasi</strong> ※Android</td><td>Pemindaian WiFi (persyaratan OS)</td><td>Tidak dapat mendapatkan SSID WiFi</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Koneksi headset</td><td>Tidak dapat menggunakan headset</td></tr>
+<tr><td><strong>Notifikasi</strong> ※Android</td><td>Notifikasi undangan panggilan</td><td>Tidak ada notifikasi latar belakang</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/id/15_qr_scan_screen.png" width="280" alt="Dialog izin"></div>
+<blockquote>Jika izin ditolak: Buka "Pengaturan" → "Aplikasi" → "OffLink" untuk mengubah.</blockquote>
+<h3 id="2-3-persiapan-sebelumnya">2-3. Persiapan Sebelumnya</h3>
+<ul>
+  <li>Lingkungan di mana semua orang dapat terhubung ke WiFi yang sama</li>
+  <li>Pasangkan headset Bluetooth terlebih dahulu</li>
+</ul>
+<hr>
+<h2 id="3-cara-penggunaan">3. Cara Penggunaan</h2>
+<h3 id="3-1-mulai-cepat-dengan-panggil-sekarang">3-1. Mulai Cepat dengan "Panggil Sekarang"</h3>
+<p><strong>Langkah 1:</strong> Semua orang terhubung ke WiFi yang sama</p>
+<p><strong>Langkah 2:</strong> Ketuk "Panggil Sekarang" (tombol hijau)</p>
+<div class="screenshot"><img src="images/id/01_home_empty.png" width="280" alt="Beranda - Panggil Sekarang"></div>
+<p><strong>Langkah 3:</strong> Masukkan nama pengguna</p>
+<div class="screenshot"><img src="images/id/04_home_username_dialog.png" width="280" alt="Dialog nama pengguna"></div>
+<p><strong>Langkah 4:</strong> Pilih tier dan mulai panggilan</p>
+<p><strong>Langkah 5:</strong> Notifikasi undangan panggilan akan dikirim otomatis ke anggota</p>
+<hr>
+<h3 id="3-2-membuat-grup-sebagai-host">3-2. Membuat Grup sebagai Host</h3>
+<p><strong>Langkah 1:</strong> Ketuk "Buat sebagai Host" (tombol biru)</p>
+<p><strong>Langkah 2:</strong> Masukkan nama grup dan kata sandi lalu ketuk "Buat"</p>
+<div class="screenshot"><img src="images/id/05_create_group.png" width="280" alt="Buat grup (kosong)"> <img src="images/id/06_create_group_filled.png" width="280" alt="Buat grup (terisi)"></div>
+<p><strong>Langkah 3:</strong> Pilih tindakan pembuatan</p>
+<div class="screenshot"><img src="images/id/07_create_group_bottomsheet.png" width="280" alt="Tindakan pembuatan"></div>
+<table>
+<thead><tr><th>Tindakan</th><th>Keterangan</th></tr></thead>
+<tbody>
+<tr><td><strong>Gabung Sekarang</strong></td><td>Mulai server dan mulai panggilan</td></tr>
+<tr><td><strong>Mulai Siaga</strong></td><td>Mulai server dan menunggu</td></tr>
+<tr><td><strong>Simpan Saja</strong></td><td>Bisa dimulai nanti</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-bergabung-ke-grup-sebagai-guest">3-3. Bergabung ke Grup sebagai Guest</h3>
+<p><strong>Langkah 1:</strong> Ketuk "Gabung sebagai Guest" (tombol biru muda)</p>
+<p><strong>Langkah 2:</strong> Pilih metode bergabung</p>
+<div class="screenshot"><img src="images/id/08_register_group.png" width="280" alt="Guest bergabung"></div>
+<table>
+<thead><tr><th>Metode</th><th>Operasi</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>Pindai kode QR</strong></td><td>Pindai QR milik Host</td></tr>
+<tr><td>📋 <strong>Tempel kode</strong></td><td>Tempel kode yang dibagikan</td></tr>
+<tr><td>✏️ <strong>Input manual</strong></td><td>Masukkan langsung</td></tr>
+</tbody></table>
+<p><strong>Berbagi kode QR (sisi Host):</strong></p>
+<div class="screenshot"><img src="images/id/03_home_qr_dialog.png" width="280" alt="Kode QR"></div>
+<p><strong>Tempel kode (sisi Guest):</strong></p>
+<div class="screenshot"><img src="images/id/09_register_paste_dialog.png" width="280" alt="Tempel kode"></div>
+<p><strong>Langkah 3:</strong> Ketuk "Daftar"</p>
+<div class="screenshot"><img src="images/id/10_register_group_filled.png" width="280" alt="Guest bergabung terisi"></div>
+<hr>
+<h3 id="3-4-memulai-panggilan-dari-grup-yang-tersimpan">3-4. Memulai Panggilan dari Grup yang Tersimpan</h3>
+<div class="screenshot"><img src="images/id/02_home_with_group.png" width="280" alt="Beranda dengan grup"></div>
+<p>Layar bergabung Guest:</p>
+<div class="screenshot"><img src="images/id/11_join_group_empty.png" width="280" alt="Gabung kosong"> <img src="images/id/12_join_group_with_groups.png" width="280" alt="Gabung dengan grup"></div>
+<p>Layar siaga:</p>
+<div class="screenshot"><img src="images/id/13_standby_screen.png" width="280" alt="Siaga"></div>
+<p>Layar panggilan:</p>
+<div class="screenshot"><img src="images/id/14_call_screen.png" width="280" alt="Layar panggilan"></div>
+<table>
+<thead><tr><th>Tombol</th><th>Fungsi</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>Bisukan</strong></td><td>Mikrofon hidup/mati</td></tr>
+<tr><td>🔊 <strong>Ganti output audio</strong></td><td>Speaker / Bluetooth / Earpiece</td></tr>
+<tr><td>🔴 <strong>Akhiri panggilan</strong></td><td>Keluar dari panggilan</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-sistem-poin">3-5. Sistem Poin</h3>
+<table>
+<thead><tr><th>Tier</th><th>Poin yang Digunakan</th><th>Peserta Maksimum</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>4 orang</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>10 orang</td></tr>
+</tbody></table>
+<ul>
+  <li>Waktu panggilan tidak terbatas</li>
+  <li>1 iklan reward = 10 pt</li>
+  <li>Pengguna Premium tidak menggunakan poin</li>
+</ul>
+<hr>
+<h2 id="4-faq">4. FAQ</h2>
+<h3 id="t-tidak-menemukan-orang-yang-dipanggil">T. Tidak menemukan orang yang dipanggil</h3>
+<ol>
+  <li>Pastikan semua orang di WiFi yang sama</li>
+  <li>Pastikan router/tethering berfungsi normal</li>
+  <li>Pastikan aplikasi Host sedang berjalan</li>
+  <li>Pastikan AP isolation dinonaktifkan</li>
+</ol>
+<h3 id="t-hotspot">T. Hotspot</h3>
+<p>Tidak dapat diaktifkan otomatis dari dalam OffLink. Atur secara manual.</p>
+<h3 id="t-suara-terputus-putus">T. Suara terputus-putus</h3>
+<ol>
+  <li>Apakah dalam jangkauan WiFi?</li>
+  <li>Baterai Bluetooth</li>
+  <li>Jumlah perangkat yang terhubung</li>
+  <li>Beban perangkat Host</li>
+</ol>
+<h3 id="t-kode-qr-tidak-bisa-dipindai">T. Kode QR tidak bisa dipindai</h3>
+<ol>
+  <li>Periksa izin kamera</li>
+  <li>Kecerahan layar</li>
+  <li>Gunakan "Tempel kode" sebagai alternatif</li>
+</ol>
+<h3 id="t-izin-ditolak">T. Izin ditolak</h3>
+<p>Buka "Pengaturan" → "Aplikasi" → "OffLink" → "Izin" untuk mengubah</p>
+<hr>
+<h2 id="5-batasan">5. Batasan</h2>
+<table>
+<thead><tr><th>Item</th><th>Isi Batasan</th></tr></thead>
+<tbody>
+<tr><td>Peserta maksimum</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>Metode panggilan</td><td>Hanya WiFi LAN</td></tr>
+<tr><td>Latar belakang</td><td>Terbatas tergantung perangkat</td></tr>
+<tr><td>Batas penyimpanan grup</td><td>Free: 5 / Premium: Tidak terbatas</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-lingkungan-yang-direkomendasikan">6. Lingkungan yang Direkomendasikan</h2>
+<table>
+<thead><tr><th>Item</th><th>Rekomendasi</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>5.0+ (API 21+)</td></tr>
+<tr><td>iOS</td><td>13.0+</td></tr>
+<tr><td>Baterai</td><td>Disarankan 80% ke atas</td></tr>
+<tr><td>Penyimpanan</td><td>100MB ke atas</td></tr>
+<tr><td>WiFi</td><td>Router / Tethering / WiFi portabel</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

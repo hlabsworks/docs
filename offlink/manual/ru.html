@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Руководство пользователя OffLink</title>
+  
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html' selected>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="руководство-пользователя-offlink">Руководство пользователя OffLink</h1>
+<p><strong>Название приложения:</strong> OffLink</p>
+<p><strong>Целевая аудитория:</strong> Все, кто хочет совершать групповые голосовые вызовы в одной сети WiFi</p>
+<p><strong>Дата создания:</strong> 9 марта 2026 г.</p>
+<p><strong>Последнее обновление:</strong> 11 апреля 2026 г.</p>
+<hr>
+<h2 id="введение">Введение</h2>
+<p>OffLink — это приложение, которое позволяет <strong>совершать групповые голосовые вызовы без подключения к Интернету в одной сети WiFi или при использовании раздачи интернета</strong>. Благодаря P2P-связи через WebRTC обеспечиваются голосовые вызовы с минимальной задержкой.</p>
+<p><strong>Примеры использования:</strong></p>
+<ul>
+  <li>Групповые вызовы во время мотоциклетных или велосипедных поездок</li>
+  <li>Связь на мероприятиях на открытом воздухе или в кемпингах</li>
+  <li>Рабочая связь на складах, фабриках или выставочных площадках с нестабильным интернет-соединением</li>
+  <li>Координация между персоналом на спортивных мероприятиях или фестивалях</li>
+</ul>
+<div class="screenshot"><img src="images/ru/01_home_empty.png" width="280" alt="Главный экран OffLink"></div>
+<blockquote>Главный экран после запуска приложения. Начните работу, используя три кнопки в нижней части экрана.</blockquote>
+<hr>
+<h2 id="1-принцип-работы-и-требования-к-окружению">1. Принцип работы и требования к окружению</h2>
+<h3 id="режим-связи">Режим связи</h3>
+<p>OffLink работает в <strong>режиме WiFi LAN</strong>. Все участники должны быть подключены к одной сети WiFi. Устройство-хост запускает сигнальный сервер, и голосовые вызовы осуществляются между устройствами в одной сети.</p>
+<blockquote><strong>Ключевой момент:</strong> Подключение к Интернету не требуется.</blockquote>
+<h3 id="необходимая-конфигурация-устройств">Необходимая конфигурация устройств</h3>
+<table>
+<thead><tr><th>Роль</th><th>Совместимые устройства</th><th>Описание</th></tr></thead>
+<tbody>
+<tr><td><strong>Хост</strong></td><td>Android / iPhone</td><td>Устройство, которое запускает сигнальный сервер и управляет вызовом</td></tr>
+<tr><td><strong>Гость</strong></td><td>Android / iPhone</td><td>Устройство, которое присоединяется к вызову, созданному хостом</td></tr>
+</tbody></table>
+<blockquote><strong>Примечание:</strong> Все участники должны быть подключены к одной сети WiFi.</blockquote>
+<hr>
+<h2 id="2-начальная-настройка">2. Начальная настройка</h2>
+<h3 id="2-1-установка-и-первый-запуск">2-1. Установка и первый запуск</h3>
+<ol>
+  <li>Установите OffLink</li>
+  <li>При первом запуске появятся диалоговые окна запроса разрешений</li>
+  <li>Предоставьте все разрешения</li>
+</ol>
+<h3 id="2-2-список-разрешений">2-2. Список разрешений</h3>
+<table>
+<thead><tr><th>Разрешение</th><th>Назначение</th><th>Последствия отказа</th></tr></thead>
+<tbody>
+<tr><td><strong>Микрофон</strong></td><td>Голосовые вызовы</td><td>Невозможно совершать вызовы</td></tr>
+<tr><td><strong>Камера</strong></td><td>Сканирование QR-кода</td><td>Невозможна регистрация группы через QR</td></tr>
+<tr><td><strong>Устройства поблизости (WiFi)</strong> ※Android</td><td>Обнаружение сети WiFi</td><td>Невозможно обнаружить хост</td></tr>
+<tr><td><strong>Местоположение</strong> ※Android</td><td>Сканирование WiFi (требование ОС)</td><td>Невозможно получить SSID WiFi</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Подключение гарнитуры</td><td>Невозможно использовать гарнитуру</td></tr>
+<tr><td><strong>Уведомления</strong> ※Android</td><td>Уведомления о приглашении на вызов</td><td>Нет фоновых уведомлений</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/ru/15_qr_scan_screen.png" width="280" alt="Пример диалогового окна разрешений"></div>
+<blockquote>Если вы случайно отклонили разрешение: перейдите в «Настройки» → «Приложения» → «OffLink», чтобы изменить разрешения.</blockquote>
+<h3 id="2-3-предварительная-подготовка">2-3. Предварительная подготовка</h3>
+<ul>
+  <li>Обеспечьте среду, в которой все участники могут подключиться к одной сети WiFi</li>
+  <li>Bluetooth-гарнитуры должны быть предварительно сопряжены</li>
+</ul>
+<hr>
+<h2 id="3-как-пользоваться">3. Как пользоваться</h2>
+<h3 id="3-1-быстрый-старт-с-мгновенным-вызовом">3-1. Быстрый старт с «Мгновенным вызовом»</h3>
+<p>Начните вызов мгновенно, без предварительного создания группы.</p>
+<p><strong>Шаг 1:</strong> Все участники подключаются к одной сети WiFi</p>
+<p><strong>Шаг 2:</strong> Нажмите «Мгновенный вызов» (зелёная кнопка)</p>
+<div class="screenshot"><img src="images/ru/01_home_empty.png" width="280" alt="Главная — кнопка мгновенного вызова"></div>
+<p><strong>Шаг 3:</strong> Введите имя пользователя</p>
+<div class="screenshot"><img src="images/ru/04_home_username_dialog.png" width="280" alt="Диалог ввода имени пользователя"></div>
+<p><strong>Шаг 4:</strong> Выберите уровень и начните вызов (→ 3-5. Система баллов)</p>
+<p><strong>Шаг 5:</strong> Приглашение на вызов автоматически отправляется участникам в той же сети WiFi</p>
+<blockquote>Если хост уже существует, вы можете выбрать — присоединиться к его вызову или начать новый.</blockquote>
+<hr>
+<h3 id="3-2-создание-группы-в-качестве-хоста">3-2. Создание группы в качестве хоста</h3>
+<p><strong>Шаг 1:</strong> Нажмите «Создать как хост» (синяя кнопка)</p>
+<p><strong>Шаг 2:</strong> Введите имя группы и пароль (необязательно), затем нажмите «Создать»</p>
+<div class="screenshot"><img src="images/ru/05_create_group.png" width="280" alt="Создание группы (пустое)"> <img src="images/ru/06_create_group_filled.png" width="280" alt="Создание группы (заполненное)"></div>
+<blockquote>Совет: Выберите легко узнаваемое имя группы. Рекомендуется установить пароль.</blockquote>
+<p><strong>Шаг 3:</strong> Выберите действие при создании</p>
+<div class="screenshot"><img src="images/ru/07_create_group_bottomsheet.png" width="280" alt="Лист выбора действий"></div>
+<table>
+<thead><tr><th>Действие</th><th>Описание</th></tr></thead>
+<tbody>
+<tr><td><strong>Присоединиться сейчас</strong></td><td>Запускает сервер и открывает экран вызова</td></tr>
+<tr><td><strong>Режим ожидания</strong></td><td>Запускает сервер и ожидает</td></tr>
+<tr><td><strong>Только сохранить</strong></td><td>Можно запустить позже</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-присоединение-к-группе-в-качестве-гостя">3-3. Присоединение к группе в качестве гостя</h3>
+<p><strong>Шаг 1:</strong> Нажмите «Присоединиться как гость» (голубая кнопка)</p>
+<p><strong>Шаг 2:</strong> Выберите способ присоединения</p>
+<div class="screenshot"><img src="images/ru/08_register_group.png" width="280" alt="Экран присоединения гостя"></div>
+<table>
+<thead><tr><th>Способ</th><th>Действие</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>Сканировать QR-код</strong></td><td>Отсканируйте QR-код хоста</td></tr>
+<tr><td>📋 <strong>Вставить код</strong></td><td>Вставьте общий код</td></tr>
+<tr><td>✏️ <strong>Ввод вручную</strong></td><td>Введите информацию вручную</td></tr>
+</tbody></table>
+<p><strong>Передача QR-кода (сторона хоста):</strong></p>
+<div class="screenshot"><img src="images/ru/03_home_qr_dialog.png" width="280" alt="Диалог QR-кода"></div>
+<p><strong>Вставка кода (сторона гостя):</strong></p>
+<div class="screenshot"><img src="images/ru/09_register_paste_dialog.png" width="280" alt="Диалог вставки кода"></div>
+<p><strong>Шаг 3:</strong> После ввода информации нажмите «Зарегистрировать»</p>
+<div class="screenshot"><img src="images/ru/10_register_group_filled.png" width="280" alt="Присоединение гостя — заполнено"></div>
+<hr>
+<h3 id="3-4-начало-вызова-из-сохранённой-группы">3-4. Начало вызова из сохранённой группы</h3>
+<div class="screenshot"><img src="images/ru/02_home_with_group.png" width="280" alt="Главная — сохранённые группы"></div>
+<ul>
+  <li>Хост нажимает «Начать как хост»</li>
+  <li>Гость нажимает «Присоединиться как гость»</li>
+</ul>
+<p><strong>Экран присоединения гостя:</strong></p>
+<div class="screenshot"><img src="images/ru/11_join_group_empty.png" width="280" alt="Присоединиться к группе (пусто)"> <img src="images/ru/12_join_group_with_groups.png" width="280" alt="Присоединиться к группе (с группами)"></div>
+<p><strong>Экран ожидания:</strong></p>
+<div class="screenshot"><img src="images/ru/13_standby_screen.png" width="280" alt="Экран ожидания"></div>
+<p><strong>Экран вызова:</strong></p>
+<div class="screenshot"><img src="images/ru/14_call_screen.png" width="280" alt="Экран вызова"></div>
+<table>
+<thead><tr><th>Кнопка</th><th>Функция</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>Отключить звук</strong></td><td>Включить/выключить микрофон</td></tr>
+<tr><td>🔊 <strong>Переключить аудиовыход</strong></td><td>Динамик / Bluetooth / Наушник</td></tr>
+<tr><td>🔴 <strong>Завершить вызов</strong></td><td>Выйти из вызова</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-система-баллов">3-5. Система баллов</h3>
+<table>
+<thead><tr><th>Уровень</th><th>Расход баллов</th><th>Максимум участников</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>4 человека</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>10 человек</td></tr>
+</tbody></table>
+<ul>
+  <li>Продолжительность вызова не ограничена</li>
+  <li>Просмотр рекламы с вознаграждением даёт 10 pt</li>
+  <li>Пользователи Premium не расходуют баллы</li>
+</ul>
+<hr>
+<h2 id="4-часто-задаваемые-вопросы-faq">4. Часто задаваемые вопросы / FAQ</h2>
+<h3 id="в-не-удаётся-найти-других-участников">В. Не удаётся найти других участников</h3>
+<ol>
+  <li>Убедитесь, что все подключены к одной сети WiFi</li>
+  <li>Убедитесь, что маршрутизатор или раздача интернета работает корректно</li>
+  <li>Убедитесь, что приложение хоста запущено</li>
+  <li>Убедитесь, что изоляция точки доступа (AP) отключена</li>
+</ol>
+<h3 id="в-о-точке-доступа">В. О точке доступа</h3>
+<p>OffLink не имеет функции автоматического запуска точки доступа. Включите раздачу интернета вручную.</p>
+<h3 id="в-звук-прерывается">В. Звук прерывается</h3>
+<ol>
+  <li>Убедитесь, что вы находитесь в зоне действия сигнала WiFi</li>
+  <li>Проверьте заряд батареи Bluetooth-устройства</li>
+  <li>Проверьте количество подключённых устройств</li>
+  <li>Проверьте нагрузку на устройство-хост</li>
+</ol>
+<h3 id="в-не-удаётся-отсканировать-qr-код">В. Не удаётся отсканировать QR-код</h3>
+<ol>
+  <li>Проверьте разрешение камеры</li>
+  <li>Увеличьте яркость экрана</li>
+  <li>Используйте функцию «Вставить код» в качестве альтернативы</li>
+</ol>
+<h3 id="в-я-случайно-отклонил-разрешение">В. Я случайно отклонил разрешение</h3>
+<p>Перейдите в «Настройки» → «Приложения» → «OffLink» → «Разрешения», чтобы изменить их</p>
+<hr>
+<h2 id="5-ограничения">5. Ограничения</h2>
+<table>
+<thead><tr><th>Элемент</th><th>Ограничение</th></tr></thead>
+<tbody>
+<tr><td>Максимальное число участников</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>Режим связи</td><td>Только WiFi LAN</td></tr>
+<tr><td>Фоновый режим</td><td>Ограничен в зависимости от модели устройства</td></tr>
+<tr><td>Лимит сохранённых групп</td><td>Free: 5 / Premium: без ограничений</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-рекомендуемая-среда">6. Рекомендуемая среда</h2>
+<table>
+<thead><tr><th>Элемент</th><th>Рекомендация</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>5.0+ (API 21+)</td></tr>
+<tr><td>iOS</td><td>13.0+</td></tr>
+<tr><td>Батарея</td><td>Рекомендуется 80 % и выше</td></tr>
+<tr><td>Хранилище</td><td>100 МБ и более</td></tr>
+<tr><td>WiFi</td><td>Маршрутизатор / Раздача интернета / Портативный WiFi и т. д.</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

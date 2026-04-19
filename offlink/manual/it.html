@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuale utente OffLink</title>
+  
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html' selected>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="manuale-utente-offlink">Manuale utente OffLink</h1>
+<p><strong>Nome dell'app:</strong> OffLink</p>
+<p><strong>Destinatari:</strong> Chiunque desideri effettuare chiamate vocali di gruppo all'interno della stessa rete WiFi</p>
+<p><strong>Data di creazione:</strong> 9 marzo 2026</p>
+<p><strong>Ultimo aggiornamento:</strong> 11 aprile 2026</p>
+<hr>
+<h2 id="introduzione">Introduzione</h2>
+<p>OffLink è un'app che consente di <strong>effettuare chiamate vocali di gruppo senza connessione Internet, all'interno della stessa rete WiFi o hotspot condiviso</strong>. Grazie alla comunicazione P2P tramite WebRTC, offre chiamate vocali a bassissima latenza.</p>
+<p><strong>Esempi di utilizzo:</strong></p>
+<ul>
+  <li>Chiamate di gruppo durante giri in moto o bicicletta</li>
+  <li>Comunicazione durante eventi all'aperto o campeggi</li>
+  <li>Comunicazione lavorativa in magazzini, fabbriche o fiere dove la connessione Internet è instabile</li>
+  <li>Coordinamento tra il personale organizzativo in eventi sportivi o festival</li>
+</ul>
+<div class="screenshot"><img src="images/it/01_home_empty.png" width="280" alt="Schermata iniziale di OffLink"></div>
+<blockquote>Schermata iniziale dopo l'apertura dell'app. Inizia utilizzando i tre pulsanti nella parte inferiore.</blockquote>
+<hr>
+<h2 id="1-funzionamento-e-requisiti-dellambiente">1. Funzionamento e requisiti dell'ambiente</h2>
+<h3 id="modalità-di-comunicazione">Modalità di comunicazione</h3>
+<p>OffLink funziona in <strong>modalità WiFi LAN</strong>. Tutti i partecipanti devono essere connessi alla stessa rete WiFi. Il dispositivo host avvia un server di segnalazione e le chiamate vocali avvengono tra i dispositivi della stessa rete.</p>
+<blockquote><strong>Punto chiave:</strong> Non è necessaria alcuna connessione Internet.</blockquote>
+<h3 id="configurazione-dei-dispositivi-necessaria">Configurazione dei dispositivi necessaria</h3>
+<table>
+<thead><tr><th>Ruolo</th><th>Dispositivi compatibili</th><th>Descrizione</th></tr></thead>
+<tbody>
+<tr><td><strong>Host</strong></td><td>Android / iPhone</td><td>Dispositivo che avvia il server di segnalazione e gestisce la chiamata</td></tr>
+<tr><td><strong>Ospite</strong></td><td>Android / iPhone</td><td>Dispositivo che si unisce alla chiamata creata dall'host</td></tr>
+</tbody></table>
+<blockquote><strong>Nota:</strong> Tutti i partecipanti devono essere connessi alla stessa rete WiFi.</blockquote>
+<hr>
+<h2 id="2-configurazione-iniziale">2. Configurazione iniziale</h2>
+<h3 id="2-1-installazione-e-primo-avvio">2-1. Installazione e primo avvio</h3>
+<ol>
+  <li>Installa OffLink</li>
+  <li>Al primo avvio vengono mostrate le finestre di dialogo dei permessi</li>
+  <li>Concedi tutti i permessi</li>
+</ol>
+<h3 id="2-2-elenco-dei-permessi">2-2. Elenco dei permessi</h3>
+<table>
+<thead><tr><th>Permesso</th><th>Utilizzo</th><th>Impatto in caso di rifiuto</th></tr></thead>
+<tbody>
+<tr><td><strong>Microfono</strong></td><td>Chiamate vocali</td><td>Impossibile effettuare chiamate</td></tr>
+<tr><td><strong>Fotocamera</strong></td><td>Scansione codice QR</td><td>Impossibile registrare un gruppo tramite QR</td></tr>
+<tr><td><strong>Dispositivi nelle vicinanze (WiFi)</strong> ※Android</td><td>Rilevamento rete WiFi</td><td>Impossibile rilevare l'host</td></tr>
+<tr><td><strong>Posizione</strong> ※Android</td><td>Scansione WiFi (requisito del sistema)</td><td>Impossibile ottenere il SSID WiFi</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Connessione auricolari</td><td>Impossibile utilizzare gli auricolari</td></tr>
+<tr><td><strong>Notifiche</strong> ※Android</td><td>Notifiche di invito alla chiamata</td><td>Nessuna notifica in background</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/it/15_qr_scan_screen.png" width="280" alt="Esempio di finestra di dialogo dei permessi"></div>
+<blockquote>Se hai rifiutato un permesso per errore: vai su «Impostazioni» → «App» → «OffLink» per modificare i permessi.</blockquote>
+<h3 id="2-3-preparazione-preliminare">2-3. Preparazione preliminare</h3>
+<ul>
+  <li>Un ambiente in cui tutti i partecipanti possano connettersi alla stessa rete WiFi</li>
+  <li>Gli auricolari Bluetooth devono essere abbinati in anticipo</li>
+</ul>
+<hr>
+<h2 id="3-come-si-usa">3. Come si usa</h2>
+<h3 id="3-1-iniziare-rapidamente-con-chiamata-immediata">3-1. Iniziare rapidamente con «Chiamata immediata»</h3>
+<p>Avvia una chiamata all'istante senza dover creare un gruppo in anticipo.</p>
+<p><strong>Passaggio 1:</strong> Tutti i partecipanti si connettono allo stesso WiFi</p>
+<p><strong>Passaggio 2:</strong> Tocca «Chiamata immediata» (pulsante verde)</p>
+<div class="screenshot"><img src="images/it/01_home_empty.png" width="280" alt="Home — Pulsante Chiamata immediata"></div>
+<p><strong>Passaggio 3:</strong> Inserisci il tuo nome utente</p>
+<div class="screenshot"><img src="images/it/04_home_username_dialog.png" width="280" alt="Finestra di dialogo nome utente"></div>
+<p><strong>Passaggio 4:</strong> Seleziona un livello e avvia la chiamata (→ 3-5. Sistema a punti)</p>
+<p><strong>Passaggio 5:</strong> Un invito alla chiamata viene inviato automaticamente ai membri nella stessa rete WiFi</p>
+<blockquote>Se esiste già un host, puoi scegliere se unirti o avviare una nuova chiamata.</blockquote>
+<hr>
+<h3 id="3-2-creare-un-gruppo-come-host">3-2. Creare un gruppo come host</h3>
+<p><strong>Passaggio 1:</strong> Tocca «Crea come host» (pulsante blu)</p>
+<p><strong>Passaggio 2:</strong> Inserisci il nome del gruppo e una password (facoltativa), poi tocca «Crea»</p>
+<div class="screenshot"><img src="images/it/05_create_group.png" width="280" alt="Crea gruppo (vuoto)"> <img src="images/it/06_create_group_filled.png" width="280" alt="Crea gruppo (compilato)"></div>
+<blockquote>Suggerimento: Scegli un nome di gruppo facile da identificare. Si consiglia di impostare una password.</blockquote>
+<p><strong>Passaggio 3:</strong> Seleziona l'azione di creazione</p>
+<div class="screenshot"><img src="images/it/07_create_group_bottomsheet.png" width="280" alt="Foglio azioni di creazione"></div>
+<table>
+<thead><tr><th>Azione</th><th>Descrizione</th></tr></thead>
+<tbody>
+<tr><td><strong>Unisciti ora</strong></td><td>Avvia il server e apre la schermata di chiamata</td></tr>
+<tr><td><strong>Avvia in standby</strong></td><td>Avvia il server e resta in attesa</td></tr>
+<tr><td><strong>Solo salvataggio</strong></td><td>Può essere avviato successivamente</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-unirsi-a-un-gruppo-come-ospite">3-3. Unirsi a un gruppo come ospite</h3>
+<p><strong>Passaggio 1:</strong> Tocca «Unisciti come ospite» (pulsante celeste)</p>
+<p><strong>Passaggio 2:</strong> Scegli il metodo di adesione</p>
+<div class="screenshot"><img src="images/it/08_register_group.png" width="280" alt="Schermata di adesione ospite"></div>
+<table>
+<thead><tr><th>Metodo</th><th>Azione</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>Scansiona codice QR</strong></td><td>Scansiona il codice QR dell'host</td></tr>
+<tr><td>📋 <strong>Incolla codice</strong></td><td>Incolla il codice condiviso</td></tr>
+<tr><td>✏️ <strong>Inserimento manuale</strong></td><td>Inserisci le informazioni direttamente</td></tr>
+</tbody></table>
+<p><strong>Condivisione del codice QR (lato host):</strong></p>
+<div class="screenshot"><img src="images/it/03_home_qr_dialog.png" width="280" alt="Finestra di dialogo codice QR"></div>
+<p><strong>Incollare il codice (lato ospite):</strong></p>
+<div class="screenshot"><img src="images/it/09_register_paste_dialog.png" width="280" alt="Finestra di dialogo per incollare il codice"></div>
+<p><strong>Passaggio 3:</strong> Una volta inserite le informazioni, tocca «Registra»</p>
+<div class="screenshot"><img src="images/it/10_register_group_filled.png" width="280" alt="Adesione ospite — compilato"></div>
+<hr>
+<h3 id="3-4-avviare-una-chiamata-da-un-gruppo-salvato">3-4. Avviare una chiamata da un gruppo salvato</h3>
+<div class="screenshot"><img src="images/it/02_home_with_group.png" width="280" alt="Home — gruppi salvati"></div>
+<ul>
+  <li>L'host tocca «Avvia come host»</li>
+  <li>L'ospite tocca «Unisciti come ospite»</li>
+</ul>
+<p><strong>Schermata di adesione ospite:</strong></p>
+<div class="screenshot"><img src="images/it/11_join_group_empty.png" width="280" alt="Unisciti al gruppo (vuoto)"> <img src="images/it/12_join_group_with_groups.png" width="280" alt="Unisciti al gruppo (con gruppi)"></div>
+<p><strong>Schermata di standby:</strong></p>
+<div class="screenshot"><img src="images/it/13_standby_screen.png" width="280" alt="Schermata di standby"></div>
+<p><strong>Schermata di chiamata:</strong></p>
+<div class="screenshot"><img src="images/it/14_call_screen.png" width="280" alt="Schermata di chiamata"></div>
+<table>
+<thead><tr><th>Pulsante</th><th>Funzione</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>Disattiva audio</strong></td><td>Attiva/disattiva il microfono</td></tr>
+<tr><td>🔊 <strong>Cambia uscita audio</strong></td><td>Altoparlante / Bluetooth / Auricolare</td></tr>
+<tr><td>🔴 <strong>Termina chiamata</strong></td><td>Esci dalla chiamata</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-sistema-a-punti">3-5. Sistema a punti</h3>
+<table>
+<thead><tr><th>Livello</th><th>Punti consumati</th><th>Partecipanti massimi</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>4 persone</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>10 persone</td></tr>
+</tbody></table>
+<ul>
+  <li>Durata della chiamata illimitata</li>
+  <li>Guarda una pubblicità a ricompensa per guadagnare 10 pt</li>
+  <li>Gli utenti Premium non consumano punti</li>
+</ul>
+<hr>
+<h2 id="4-domande-frequenti-faq">4. Domande frequenti / FAQ</h2>
+<h3 id="d-non-riesco-a-trovare-gli-altri-partecipanti">D. Non riesco a trovare gli altri partecipanti</h3>
+<ol>
+  <li>Verifica che tutti siano sulla stessa rete WiFi</li>
+  <li>Verifica che il router o l'hotspot funzioni correttamente</li>
+  <li>Verifica che l'app dell'host sia in esecuzione</li>
+  <li>Verifica che l'isolamento AP sia disattivato</li>
+</ol>
+<h3 id="d-informazioni-sullhotspot">D. Informazioni sull'hotspot</h3>
+<p>OffLink non dispone di una funzione di avvio automatico dell'hotspot. Attiva manualmente la condivisione della connessione.</p>
+<h3 id="d-laudio-è-discontinuo">D. L'audio è discontinuo</h3>
+<ol>
+  <li>Verifica di essere nel raggio del segnale WiFi</li>
+  <li>Verifica la batteria del Bluetooth</li>
+  <li>Verifica il numero di dispositivi connessi</li>
+  <li>Verifica il carico del dispositivo host</li>
+</ol>
+<h3 id="d-non-riesco-a-scansionare-il-codice-qr">D. Non riesco a scansionare il codice QR</h3>
+<ol>
+  <li>Verifica il permesso della fotocamera</li>
+  <li>Aumenta la luminosità dello schermo</li>
+  <li>Utilizza in alternativa la funzione «Incolla codice»</li>
+</ol>
+<h3 id="d-ho-rifiutato-un-permesso-per-errore">D. Ho rifiutato un permesso per errore</h3>
+<p>Vai su «Impostazioni» → «App» → «OffLink» → «Autorizzazioni» per modificarle</p>
+<hr>
+<h2 id="5-limitazioni">5. Limitazioni</h2>
+<table>
+<thead><tr><th>Elemento</th><th>Limitazione</th></tr></thead>
+<tbody>
+<tr><td>Numero massimo di partecipanti</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>Modalità di comunicazione</td><td>Solo WiFi LAN</td></tr>
+<tr><td>Background</td><td>Limitato a seconda del modello del dispositivo</td></tr>
+<tr><td>Limite gruppi salvati</td><td>Free: 5 / Premium: illimitato</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-ambiente-consigliato">6. Ambiente consigliato</h2>
+<table>
+<thead><tr><th>Elemento</th><th>Consigliato</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>5.0+ (API 21+)</td></tr>
+<tr><td>iOS</td><td>13.0+</td></tr>
+<tr><td>Batteria</td><td>Consigliato almeno l'80 %</td></tr>
+<tr><td>Spazio di archiviazione</td><td>Almeno 100 MB</td></tr>
+<tr><td>WiFi</td><td>Router / Hotspot condiviso / WiFi portatile, ecc.</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

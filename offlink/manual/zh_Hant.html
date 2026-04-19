@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OffLink 使用者手冊</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans TC',sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html' selected>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="offlink-使用者手冊">OffLink 使用者手冊</h1>
+<p><strong>應用程式名稱：</strong> OffLink</p>
+<p><strong>目標使用者：</strong> 希望在同一 WiFi 網路內進行群組語音通話的使用者</p>
+<p><strong>建立日期：</strong> 2026年3月9日</p>
+<p><strong>最後更新：</strong> 2026年4月11日</p>
+<hr>
+<h2 id="簡介">簡介</h2>
+<p>OffLink 是一款<strong>無需網際網路，在同一 WiFi / 熱點分享環境內即可進行群組語音通話</strong>的應用程式。 透過基於 WebRTC 的 P2P 通訊實現低延遲語音通話。</p>
+<p><strong>使用情境範例：</strong></p>
+<ul>
+  <li>機車·自行車騎行中的群組通話</li>
+  <li>戶外活動·露營中的聯繫方式</li>
+  <li>倉庫·工廠·展覽場館等網際網路不穩定場所的業務聯繫</li>
+  <li>體育賽事·音樂祭中工作人員之間的溝通</li>
+</ul>
+<div class="screenshot"><img src="images/zh_Hant/01_home_empty.png" width="280" alt="OffLink 首頁（首次啟動時）"></div>
+<blockquote>應用程式啟動後的首頁畫面。透過底部的三個按鈕開始操作。</blockquote>
+<hr>
+<h2 id="1-運作原理與所需環境">1. 運作原理與所需環境</h2>
+<h3 id="通訊方式">通訊方式</h3>
+<p>OffLink 在 <strong>WiFi 區域網路模式</strong>下運作。 所有人連線到同一 WiFi 網路（家用 WiFi、行動熱點、隨身 WiFi 等）後， 由主機裝置啟動訊號伺服器，在同一網路內的裝置之間進行語音通話。</p>
+<blockquote><strong>重點：</strong> 無需網際網路連線。只要路由器或熱點裝置正在發送訊號，就可以進行通話。</blockquote>
+<h3 id="所需裝置配置">所需裝置配置</h3>
+<table>
+<thead><tr><th>角色</th><th>支援裝置</th><th>說明</th></tr></thead>
+<tbody>
+<tr><td><strong>主機（通話發起者）</strong></td><td>Android / iPhone</td><td>啟動訊號伺服器並管理通話的裝置</td></tr>
+<tr><td><strong>訪客（參與者）</strong></td><td>Android / iPhone</td><td>加入主機建立的通話的裝置</td></tr>
+</tbody></table>
+<blockquote><strong>注意：</strong> 所有參與者必須連線到同一 WiFi 網路。</blockquote>
+<hr>
+<h2 id="2-初始設定">2. 初始設定</h2>
+<h3 id="2-1-安裝應用程式與首次啟動">2-1. 安裝應用程式與首次啟動</h3>
+<ol>
+  <li>安裝 OffLink</li>
+  <li>啟動應用程式後，<strong>首次啟動時會彈出權限要求對話框</strong></li>
+  <li><strong>請全部選擇「允許」</strong> — 不允許將無法正常使用</li>
+</ol>
+<h3 id="2-2-權限清單">2-2. 權限清單</h3>
+<p>應用程式在<strong>首次啟動時</strong>會一次性要求以下權限。 如果未全部允許，部分功能將無法使用。</p>
+<table>
+<thead><tr><th>權限</th><th>用途</th><th>拒絕後的影響</th></tr></thead>
+<tbody>
+<tr><td><strong>麥克風</strong></td><td>語音通話</td><td>無法通話</td></tr>
+<tr><td><strong>相機</strong></td><td>QR 碼掃描</td><td>無法透過 QR 註冊群組</td></tr>
+<tr><td><strong>附近裝置（WiFi）</strong> ※Android</td><td>WiFi 網路偵測·主機搜尋</td><td>無法偵測主機</td></tr>
+<tr><td><strong>位置資訊</strong> ※Android</td><td>WiFi 掃描（Android 系統要求）</td><td>無法取得 WiFi SSID</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Bluetooth 耳機連線</td><td>無法使用耳機</td></tr>
+<tr><td><strong>通知</strong> ※Android</td><td>通話邀請通知</td><td>背景執行時無法收到通知</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/zh_Hant/15_qr_scan_screen.png" width="280" alt="權限要求對話框範例（相機）"></div>
+<blockquote><strong>誤拒權限的情況：</strong>  <br>
+應用程式會彈出引導您前往設定頁面的對話框。請前往裝置的<strong>設定 → 應用程式 → OffLink</strong>變更權限。</blockquote>
+<h3 id="2-3-使用前準備">2-3. 使用前準備</h3>
+<ul>
+  <li>準備好所有人都能連線到<strong>同一 WiFi 網路</strong>的環境</li>
+</ul>
+<p>（家用 WiFi、熱點分享、隨身 WiFi 等）</p>
+<ul>
+  <li>如需使用 Bluetooth 耳機，請事先完成配對</li>
+</ul>
+<hr>
+<h2 id="3-使用方法">3. 使用方法</h2>
+<h3 id="3-1-透過立即通話快速開始">3-1. 透過「立即通話」快速開始</h3>
+<p>無需事先建立群組，即可與連線到同一 WiFi 的成員立即開始通話。</p>
+<p><strong>Step 1：</strong> 所有人連線到同一 WiFi 網路。</p>
+<p><strong>Step 2：</strong> 點擊首頁的<strong>「立即通話」</strong>（綠色按鈕）。</p>
+<div class="screenshot"><img src="images/zh_Hant/01_home_empty.png" width="280" alt="首頁 — 「立即通話」按鈕"></div>
+<p><strong>Step 3：</strong> 彈出使用者名稱輸入對話框。輸入通話中顯示給其他成員看的名稱。</p>
+<div class="screenshot"><img src="images/zh_Hant/04_home_username_dialog.png" width="280" alt="使用者名稱輸入對話框"></div>
+<p><strong>Step 4：</strong> 在點數消耗頁面選擇層級並開始通話（→ 參見 <a href="#3-5-點數系統">3-5. 點數系統</a>）。</p>
+<p><strong>Step 5：</strong> 同一 WiFi 網路內的其他成員會自動收到通話邀請通知。成員加入後通話即開始。</p>
+<blockquote><strong>如果已有主機：</strong>  <br>
+同一網路內已有主機時，您可以選擇加入現有通話或開始新的通話。</blockquote>
+<hr>
+<h3 id="3-2-作為主機建立群組">3-2. 作為主機建立群組</h3>
+<p>如果經常和相同成員通話，建立並儲存群組會更方便。</p>
+<p><strong>Step 1：</strong> 點擊首頁的<strong>「作為主機建立」</strong>（藍色按鈕）。</p>
+<p><strong>Step 2：</strong> 在群組建立頁面輸入<strong>群組名稱</strong>和<strong>密碼（選填）</strong>，然後點擊<strong>「建立」</strong>。</p>
+<div class="screenshot"><img src="images/zh_Hant/05_create_group.png" width="280" alt="群組建立頁面（空白）"> <img src="images/zh_Hant/06_create_group_filled.png" width="280" alt="群組建立頁面（已填寫）"></div>
+<blockquote><strong>小提示：</strong><br>
+- 群組名稱請使用成員容易辨識的名字（例如：<code>騎行A組</code>、<code>倉庫聯絡</code>）<br>
+- 設定密碼可防止陌生人加入（建議設定）</blockquote>
+<p><strong>Step 3：</strong> 選擇建立後的動作。將彈出底部選單。</p>
+<div class="screenshot"><img src="images/zh_Hant/07_create_group_bottomsheet.png" width="280" alt="建立後動作選擇 — 立即加入 / 開始待命 / 僅儲存"></div>
+<table>
+<thead><tr><th>動作</th><th>說明</th></tr></thead>
+<tbody>
+<tr><td><strong>立即加入</strong></td><td>在 WiFi 區域網路上啟動伺服器，直接進入通話頁面</td></tr>
+<tr><td><strong>開始待命</strong></td><td>啟動伺服器等待成員連線</td></tr>
+<tr><td><strong>僅儲存</strong></td><td>僅儲存群組資訊（之後可隨時啟動）</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-作為訪客加入群組">3-3. 作為訪客加入群組</h3>
+<p>成員（訪客）從主機取得群組資訊後進行參加註冊。</p>
+<p><strong>Step 1：</strong> 點擊首頁的<strong>「作為訪客加入」</strong>（淺藍色按鈕）。</p>
+<p><strong>Step 2：</strong> 選擇加入方式。有三種方法。</p>
+<div class="screenshot"><img src="images/zh_Hant/08_register_group.png" width="280" alt="訪客加入頁面 — QR 掃描 / 貼上代碼 / 手動輸入"></div>
+<table>
+<thead><tr><th>方法</th><th>操作</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>掃描 QR 碼</strong></td><td>用相機掃描主機顯示的 QR 碼（最簡單）</td></tr>
+<tr><td>📋 <strong>貼上代碼</strong></td><td>貼上主機透過 LINE 等分享的代碼</td></tr>
+<tr><td>✏️ <strong>手動輸入</strong></td><td>直接輸入群組名稱·SSID·密碼</td></tr>
+</tbody></table>
+<p><strong>透過 QR 碼分享群組（主機端）：</strong></p>
+<p>主機可以點擊首頁群組卡片右側的 QR 圖示來顯示 QR 碼。</p>
+<div class="screenshot"><img src="images/zh_Hant/03_home_qr_dialog.png" width="280" alt="QR 碼顯示對話框"></div>
+<blockquote>其他成員可以透過 OffLink 的「掃描 QR」功能讀取。</blockquote>
+<p><strong>透過貼上代碼加入（訪客端）：</strong></p>
+<div class="screenshot"><img src="images/zh_Hant/09_register_paste_dialog.png" width="280" alt="分享代碼貼上對話框"></div>
+<p><strong>Step 3：</strong> 群組資訊自動填入後，點擊<strong>「註冊」</strong>。</p>
+<div class="screenshot"><img src="images/zh_Hant/10_register_group_filled.png" width="280" alt="訪客加入 — 資訊已填寫"></div>
+<hr>
+<h3 id="3-4-從已儲存的群組開始通話">3-4. 從已儲存的群組開始通話</h3>
+<p>已建立或註冊的群組會儲存在首頁上。</p>
+<div class="screenshot"><img src="images/zh_Hant/02_home_with_group.png" width="280" alt="首頁 — 已儲存群組列表"></div>
+<ul>
+  <li>主機點擊<strong>「作為主機開始」</strong></li>
+  <li>訪客點擊<strong>「作為訪客加入」</strong></li>
+</ul>
+<p><strong>訪客端加入頁面：</strong></p>
+<p>輸入使用者名稱並選擇要加入的群組。</p>
+<div class="screenshot"><img src="images/zh_Hant/11_join_group_empty.png" width="280" alt="群組加入頁面（初始狀態）"> <img src="images/zh_Hant/12_join_group_with_groups.png" width="280" alt="群組加入 — 群組選擇頁面"></div>
+<p><strong>待命頁面：</strong></p>
+<p>主機啟動伺服器後，待命頁面會顯示等待連線的狀態。</p>
+<div class="screenshot"><img src="images/zh_Hant/13_standby_screen.png" width="280" alt="待命頁面 — WiFi 區域網路伺服器啟動中..."></div>
+<p><strong>通話頁面：</strong></p>
+<p>連線完成後自動跳轉到通話頁面。</p>
+<div class="screenshot"><img src="images/zh_Hant/14_call_screen.png" width="280" alt="通話頁面 — 靜音·音訊輸出·結束通話按鈕"></div>
+<p><strong>通話頁面操作：</strong></p>
+<table>
+<thead><tr><th>按鈕</th><th>功能</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>靜音</strong></td><td>開啟/關閉自己的麥克風</td></tr>
+<tr><td>🔊 <strong>音訊輸出切換</strong></td><td>在揚聲器 / Bluetooth / 聽筒之間切換</td></tr>
+<tr><td>🔴 <strong>結束通話</strong></td><td>退出通話</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-點數系統">3-5. 點數系統</h3>
+<p>開始通話需要點數。點數可以透過觀看獎勵廣告獲得。</p>
+<table>
+<thead><tr><th>層級</th><th>消耗點數</th><th>最大參與人數</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>4 人</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>10 人</td></tr>
+</tbody></table>
+<ul>
+  <li><strong>通話時間無限制</strong> — 不用擔心時間，盡情暢聊</li>
+  <li><strong>觀看 1 次獎勵廣告可獲得 10 pt</strong>（= 1 次 Standard 通話）</li>
+  <li><strong>Premium 使用者：</strong> 無需消耗點數即可開始通話</li>
+</ul>
+<blockquote><strong>點數不足時：</strong> 觀看獎勵廣告即可獲得 10pt。請點擊頁面上顯示的廣告觀看按鈕。</blockquote>
+<hr>
+<h2 id="4-常見問題-疑難排解">4. 常見問題 / 疑難排解</h2>
+<h3 id="q-找不到通話對象-無法連線">Q. 找不到通話對象 / 無法連線</h3>
+<p><strong>請確認以下事項：</strong></p>
+<ol>
+  <li><strong>確認所有人是否連線到同一 WiFi 網路</strong>（最常見的原因）</li>
+  <li>確認 WiFi 路由器或熱點裝置是否正常運作</li>
+  <li>確認主機端應用程式是否在執行中（未被背景停止）</li>
+  <li>確認路由器的「AP 隔離」（禁止用戶端間通訊）是否已關閉</li>
+</ol>
+<h3 id="q-關於熱點">Q. 關於熱點</h3>
+<p>目前版本<strong>不提供從 OffLink 內自動開啟熱點（WiFi 熱點分享）的功能。</strong> 如需使用熱點分享，請手動在 Android 裝置的設定應用程式中開啟熱點功能，然後讓所有人連線到該網路。</p>
+<h3 id="q-通話聲音斷斷續續或有延遲">Q. 通話聲音斷斷續續或有延遲</h3>
+<p><strong>請確認以下事項：</strong></p>
+<ol>
+  <li>確認是否在 WiFi 訊號涵蓋範圍內</li>
+  <li>檢查 Bluetooth 耳機的電池電量</li>
+  <li>確認連線到 WiFi 路由器的裝置數量是否過多</li>
+  <li>確認主機裝置是否負載過高（關閉其他應用程式）</li>
+</ol>
+<h3 id="q-無法掃描-qr-碼">Q. 無法掃描 QR 碼</h3>
+<p><strong>請確認以下事項：</strong></p>
+<ol>
+  <li>確認相機權限是否已設為「允許」</li>
+  <li>提高螢幕亮度使 QR 碼更清晰</li>
+  <li>使用<strong>「貼上代碼」</strong>功能，透過分享代碼代替 QR 掃描</li>
+</ol>
+<h3 id="q-不小心拒絕了權限">Q. 不小心拒絕了權限</h3>
+<p>應用程式會彈出引導您前往設定頁面的對話框。請前往裝置的<strong>設定 → 應用程式 → OffLink → 權限</strong>，將所需權限變更為「允許」。</p>
+<hr>
+<h2 id="5-使用限制">5. 使用限制</h2>
+<table>
+<thead><tr><th>項目</th><th>限制內容</th></tr></thead>
+<tbody>
+<tr><td>最大參與人數</td><td>Standard: 4人 / Large: 10人</td></tr>
+<tr><td>通話方式</td><td>僅限同一 WiFi 網路（WiFi 區域網路）內</td></tr>
+<tr><td>背景執行</td><td>可能因裝置型號及系統版本不同而受限</td></tr>
+<tr><td>群組儲存上限</td><td>Free 使用者最多 5 個群組（Premium 無限制）</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-建議環境">6. 建議環境</h2>
+<table>
+<thead><tr><th>項目</th><th>建議配置</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>Android 5.0 及以上（API 21+）</td></tr>
+<tr><td>iOS</td><td>iOS 13.0 及以上</td></tr>
+<tr><td>電池電量</td><td>建議 80% 以上（主機裝置電池消耗較大）</td></tr>
+<tr><td>可用儲存空間</td><td>100MB 以上</td></tr>
+<tr><td>WiFi 環境</td><td>路由器 / 熱點分享 / 隨身 WiFi 等可連線同一網路的環境</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

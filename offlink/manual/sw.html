@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mwongozo wa Mtumiaji wa OffLink</title>
+  
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html' selected>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="mwongozo-wa-mtumiaji-wa-offlink">Mwongozo wa Mtumiaji wa OffLink</h1>
+<p><strong>Jina la Programu:</strong> OffLink</p>
+<p><strong>Watumiaji Walengwa:</strong> Watu wanaotaka kufanya simu za sauti za kikundi ndani ya mtandao mmoja wa WiFi</p>
+<p><strong>Tarehe ya Kuundwa:</strong> 9 Machi 2026</p>
+<p><strong>Sasisho la Mwisho:</strong> 11 Aprili 2026</p>
+<hr>
+<h2 id="utangulizi">Utangulizi</h2>
+<p>OffLink ni programu inayokuwezesha <strong>kufanya simu za sauti za kikundi bila mtandao ndani ya mazingira yale yale ya WiFi / hotspot</strong>. Inatoa simu za sauti za kuchelewa kidogo kupitia mawasiliano ya P2P kwa kutumia WebRTC.</p>
+<p><strong>Mifano ya Matumizi:</strong></p>
+<ul>
+  <li>Simu za kikundi wakati wa safari za pikipiki na baiskeli</li>
+  <li>Njia ya mawasiliano katika matukio ya nje na kambi</li>
+  <li>Mawasiliano ya kazi katika maghala, viwanda, na kumbi za maonyesho ambapo mtandao si imara</li>
+  <li>Mawasiliano kati ya wafanyakazi wa uratibu katika mashindano ya michezo na tamasha</li>
+</ul>
+<div class="screenshot"><img src="images/sw/01_home_empty.png" width="280" alt="Skrini ya nyumbani ya OffLink"></div>
+<blockquote>Skrini ya nyumbani mara baada ya kuzindua programu.</blockquote>
+<hr>
+<h2 id="1-jinsi-inavyofanya-kazi-na-mazingira-yanayohitajika">1. Jinsi Inavyofanya Kazi na Mazingira Yanayohitajika</h2>
+<h3 id="njia-ya-mawasiliano">Njia ya Mawasiliano</h3>
+<p>OffLink inafanya kazi katika <strong>hali ya WiFi LAN</strong>. Kila mtu anaunganishwa kwenye mtandao mmoja wa WiFi kufanya simu.</p>
+<blockquote><strong>Kumbuka:</strong> Muunganisho wa mtandao hauhitajiki.</blockquote>
+<h3 id="usanidi-wa-vifaa-unaohitajika">Usanidi wa Vifaa Unaohitajika</h3>
+<table>
+<thead><tr><th>Jukumu</th><th>Vifaa Vinavyoungwa Mkono</th><th>Maelezo</th></tr></thead>
+<tbody>
+<tr><td><strong>Mwenyeji (Host)</strong></td><td>Android / iPhone</td><td>Kifaa kinachosimamia simu</td></tr>
+<tr><td><strong>Mgeni (Guest)</strong></td><td>Android / iPhone</td><td>Kifaa kinachojiunga na simu</td></tr>
+</tbody></table>
+<blockquote><strong>Onyo:</strong> Kila mtu lazima awe ameunganishwa kwenye mtandao mmoja wa WiFi.</blockquote>
+<hr>
+<h2 id="2-usanidi-wa-awali">2. Usanidi wa Awali</h2>
+<h3 id="2-1-kusakinisha-na-kuzindua-kwa-mara-ya-kwanza">2-1. Kusakinisha na Kuzindua kwa Mara ya Kwanza</h3>
+<ol>
+  <li>Sakinisha OffLink</li>
+  <li>Unapozindua kwa mara ya kwanza, mazungumzo ya ombi la ruhusa yataonekana</li>
+  <li>Chagua "Ruhusu" kwa yote</li>
+</ol>
+<h3 id="2-2-orodha-ya-ruhusa">2-2. Orodha ya Ruhusa</h3>
+<table>
+<thead><tr><th>Ruhusa</th><th>Matumizi</th><th>Athari Inapokatiwa</th></tr></thead>
+<tbody>
+<tr><td><strong>Maikrofoni</strong></td><td>Simu za sauti</td><td>Haiwezi kupiga simu</td></tr>
+<tr><td><strong>Kamera</strong></td><td>Kuchanganua msimbo wa QR</td><td>Haiwezi kusajili kikundi kupitia QR</td></tr>
+<tr><td><strong>Vifaa vilivyo Karibu (WiFi)</strong> ※Android</td><td>Kugundua mtandao wa WiFi</td><td>Haiwezi kugundua Host</td></tr>
+<tr><td><strong>Mahali</strong> ※Android</td><td>Kuchanganua WiFi (mahitaji ya OS)</td><td>Haiwezi kupata SSID ya WiFi</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Kuunganisha vifaa vya masikioni</td><td>Haiwezi kutumia vifaa vya masikioni</td></tr>
+<tr><td><strong>Arifa</strong> ※Android</td><td>Arifa za mwaliko wa simu</td><td>Hakuna arifa za nyuma</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/sw/15_qr_scan_screen.png" width="280" alt="Mazungumzo ya ruhusa"></div>
+<blockquote>Ikiwa ruhusa imekataliwa: Nenda "Mipangilio" → "Programu" → "OffLink" kubadilisha.</blockquote>
+<h3 id="2-3-maandalizi-ya-awali">2-3. Maandalizi ya Awali</h3>
+<ul>
+  <li>Mazingira ambapo kila mtu anaweza kuunganishwa kwenye WiFi moja</li>
+  <li>Oanisha vifaa vya Bluetooth vya masikioni mapema</li>
+</ul>
+<hr>
+<h2 id="3-jinsi-ya-kutumia">3. Jinsi ya Kutumia</h2>
+<h3 id="3-1-anza-haraka-kwa-piga-simu-sasa">3-1. Anza Haraka kwa "Piga Simu Sasa"</h3>
+<p><strong>Hatua ya 1:</strong> Kila mtu aunganishe kwenye WiFi moja</p>
+<p><strong>Hatua ya 2:</strong> Gusa "Piga Simu Sasa" (kitufe cha kijani)</p>
+<div class="screenshot"><img src="images/sw/01_home_empty.png" width="280" alt="Nyumbani - Piga Sasa"></div>
+<p><strong>Hatua ya 3:</strong> Ingiza jina la mtumiaji</p>
+<div class="screenshot"><img src="images/sw/04_home_username_dialog.png" width="280" alt="Mazungumzo ya jina la mtumiaji"></div>
+<p><strong>Hatua ya 4:</strong> Chagua kiwango na anza simu</p>
+<p><strong>Hatua ya 5:</strong> Arifa ya mwaliko itatumwa kiotomatiki kwa wanachama</p>
+<hr>
+<h3 id="3-2-kuunda-kikundi-kama-mwenyeji">3-2. Kuunda Kikundi kama Mwenyeji</h3>
+<p><strong>Hatua ya 1:</strong> Gusa "Unda kama Host" (kitufe cha bluu)</p>
+<p><strong>Hatua ya 2:</strong> Ingiza jina la kikundi na nenosiri kisha gusa "Unda"</p>
+<div class="screenshot"><img src="images/sw/05_create_group.png" width="280" alt="Unda kikundi (tupu)"> <img src="images/sw/06_create_group_filled.png" width="280" alt="Unda kikundi (imejazwa)"></div>
+<p><strong>Hatua ya 3:</strong> Chagua kitendo cha kuunda</p>
+<div class="screenshot"><img src="images/sw/07_create_group_bottomsheet.png" width="280" alt="Kitendo cha kuunda"></div>
+<table>
+<thead><tr><th>Kitendo</th><th>Maelezo</th></tr></thead>
+<tbody>
+<tr><td><strong>Jiunge Sasa</strong></td><td>Anzisha seva na anza simu</td></tr>
+<tr><td><strong>Anza Kusubiri</strong></td><td>Anzisha seva na usubiri</td></tr>
+<tr><td><strong>Hifadhi Tu</strong></td><td>Inaweza kuanzishwa baadaye</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-kujiunga-na-kikundi-kama-mgeni">3-3. Kujiunga na Kikundi kama Mgeni</h3>
+<p><strong>Hatua ya 1:</strong> Gusa "Jiunge kama Guest" (kitufe cha bluu iliyofifia)</p>
+<p><strong>Hatua ya 2:</strong> Chagua njia ya kujiunga</p>
+<div class="screenshot"><img src="images/sw/08_register_group.png" width="280" alt="Mgeni kujiunga"></div>
+<table>
+<thead><tr><th>Njia</th><th>Uendeshaji</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>Changanua QR</strong></td><td>Changanua QR ya Host</td></tr>
+<tr><td>📋 <strong>Bandika msimbo</strong></td><td>Bandika msimbo ulioshirikiwa</td></tr>
+<tr><td>✏️ <strong>Ingiza kwa mkono</strong></td><td>Ingiza moja kwa moja</td></tr>
+</tbody></table>
+<p><strong>Kushiriki QR (upande wa Host):</strong></p>
+<div class="screenshot"><img src="images/sw/03_home_qr_dialog.png" width="280" alt="Msimbo wa QR"></div>
+<p><strong>Kubandika msimbo (upande wa Guest):</strong></p>
+<div class="screenshot"><img src="images/sw/09_register_paste_dialog.png" width="280" alt="Bandika msimbo"></div>
+<p><strong>Hatua ya 3:</strong> Gusa "Sajili"</p>
+<div class="screenshot"><img src="images/sw/10_register_group_filled.png" width="280" alt="Mgeni kujiunga imejazwa"></div>
+<hr>
+<h3 id="3-4-kuanza-simu-kutoka-kikundi-kilichohifadhiwa">3-4. Kuanza Simu kutoka Kikundi Kilichohifadhiwa</h3>
+<div class="screenshot"><img src="images/sw/02_home_with_group.png" width="280" alt="Nyumbani na vikundi"></div>
+<p>Skrini ya kujiunga kwa Mgeni:</p>
+<div class="screenshot"><img src="images/sw/11_join_group_empty.png" width="280" alt="Jiunga tupu"> <img src="images/sw/12_join_group_with_groups.png" width="280" alt="Jiunga na vikundi"></div>
+<p>Skrini ya kusubiri:</p>
+<div class="screenshot"><img src="images/sw/13_standby_screen.png" width="280" alt="Kusubiri"></div>
+<p>Skrini ya simu:</p>
+<div class="screenshot"><img src="images/sw/14_call_screen.png" width="280" alt="Skrini ya simu"></div>
+<table>
+<thead><tr><th>Kitufe</th><th>Kazi</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>Nyamazisha</strong></td><td>Washa/zima maikrofoni</td></tr>
+<tr><td>🔊 <strong>Badilisha pato la sauti</strong></td><td>Spika / Bluetooth / Kipokezi cha sikio</td></tr>
+<tr><td>🔴 <strong>Maliza simu</strong></td><td>Ondoka kwenye simu</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-mfumo-wa-pointi">3-5. Mfumo wa Pointi</h3>
+<table>
+<thead><tr><th>Kiwango</th><th>Pointi Zinazotumika</th><th>Washiriki wa Juu</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>Watu 4</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>Watu 10</td></tr>
+</tbody></table>
+<ul>
+  <li>Muda wa simu hauna kikomo</li>
+  <li>Tangazo la tuzo 1 = 10 pt</li>
+  <li>Watumiaji wa Premium hawatumii pointi</li>
+</ul>
+<hr>
+<h2 id="4-maswali-yanayoulizwa-mara-kwa-mara">4. Maswali Yanayoulizwa Mara kwa Mara</h2>
+<h3 id="s-siwezi-kupata-mtu-wa-kupiga-simu">S. Siwezi kupata mtu wa kupiga simu</h3>
+<ol>
+  <li>Hakikisha kila mtu yuko kwenye WiFi moja</li>
+  <li>Hakikisha ruta/hotspot inafanya kazi vizuri</li>
+  <li>Hakikisha programu ya Host inafanya kazi</li>
+  <li>Hakikisha AP isolation imezimwa</li>
+</ol>
+<h3 id="s-hotspot">S. Hotspot</h3>
+<p>Haiwezi kuanzishwa kiotomatiki kutoka ndani ya OffLink. Sanidi kwa mkono.</p>
+<h3 id="s-sauti-inakatika">S. Sauti inakatika</h3>
+<ol>
+  <li>Uko ndani ya masafa ya WiFi?</li>
+  <li>Betri ya Bluetooth</li>
+  <li>Idadi ya vifaa vilivyounganishwa</li>
+  <li>Mzigo wa kifaa cha Host</li>
+</ol>
+<h3 id="s-qr-haichanganuliwi">S. QR haichanganuliwi</h3>
+<ol>
+  <li>Angalia ruhusa ya kamera</li>
+  <li>Mwangaza wa skrini</li>
+  <li>Tumia "Bandika msimbo" badala yake</li>
+</ol>
+<h3 id="s-ruhusa-imekataliwa">S. Ruhusa imekataliwa</h3>
+<p>Nenda "Mipangilio" → "Programu" → "OffLink" → "Ruhusa" kubadilisha</p>
+<hr>
+<h2 id="5-vikwazo">5. Vikwazo</h2>
+<table>
+<thead><tr><th>Kipengee</th><th>Yaliyomo ya Kikwazo</th></tr></thead>
+<tbody>
+<tr><td>Washiriki wa juu</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>Njia ya simu</td><td>WiFi LAN pekee</td></tr>
+<tr><td>Nyuma</td><td>Vikwazo kulingana na kifaa</td></tr>
+<tr><td>Kikomo cha kuhifadhi vikundi</td><td>Free: 5 / Premium: Bila kikomo</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-mazingira-yanayopendekezwa">6. Mazingira Yanayopendekezwa</h2>
+<table>
+<thead><tr><th>Kipengee</th><th>Iliyopendekezwa</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>5.0+ (API 21+)</td></tr>
+<tr><td>iOS</td><td>13.0+</td></tr>
+<tr><td>Betri</td><td>80% au zaidi inapendekezwa</td></tr>
+<tr><td>Hifadhi</td><td>100MB au zaidi</td></tr>
+<tr><td>WiFi</td><td>Ruta / Hotspot / WiFi ya mfukoni</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

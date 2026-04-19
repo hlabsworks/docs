@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hướng dẫn sử dụng OffLink</title>
+  
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html' selected>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="hướng-dẫn-sử-dụng-offlink">Hướng dẫn sử dụng OffLink</h1>
+<p><strong>Tên ứng dụng:</strong> OffLink</p>
+<p><strong>Đối tượng sử dụng:</strong> Người muốn thực hiện cuộc gọi thoại nhóm trong cùng mạng WiFi</p>
+<p><strong>Ngày tạo:</strong> 9 tháng 3, 2026</p>
+<p><strong>Cập nhật lần cuối:</strong> 11 tháng 4, 2026</p>
+<hr>
+<h2 id="giới-thiệu">Giới thiệu</h2>
+<p>OffLink là ứng dụng cho phép bạn <strong>thực hiện cuộc gọi thoại nhóm không cần Internet trong cùng môi trường WiFi / điểm phát sóng</strong>. Sử dụng giao tiếp P2P qua WebRTC để mang đến cuộc gọi thoại có độ trễ thấp.</p>
+<p><strong>Ví dụ về các tình huống sử dụng:</strong></p>
+<ul>
+  <li>Gọi nhóm khi đi phượt bằng xe máy hoặc xe đạp</li>
+  <li>Phương tiện liên lạc trong các sự kiện ngoài trời và cắm trại</li>
+  <li>Liên lạc công việc tại nhà kho, nhà máy, hội chợ triển lãm nơi kết nối Internet không ổn định</li>
+  <li>Liên lạc giữa nhân viên tổ chức tại các giải thể thao và lễ hội</li>
+</ul>
+<div class="screenshot"><img src="images/vi/01_home_empty.png" width="280" alt="Màn hình chính OffLink"></div>
+<blockquote>Màn hình chính ngay sau khi khởi động ứng dụng.</blockquote>
+<hr>
+<h2 id="1-cơ-chế-hoạt-động-và-môi-trường-cần-thiết">1. Cơ chế hoạt động và môi trường cần thiết</h2>
+<h3 id="phương-thức-giao-tiếp">Phương thức giao tiếp</h3>
+<p>OffLink hoạt động ở <strong>chế độ WiFi LAN</strong>. Tất cả mọi người đều kết nối vào cùng một mạng WiFi để thực hiện cuộc gọi.</p>
+<blockquote><strong>Lưu ý:</strong> Không cần kết nối Internet.</blockquote>
+<h3 id="cấu-hình-thiết-bị-cần-thiết">Cấu hình thiết bị cần thiết</h3>
+<table>
+<thead><tr><th>Vai trò</th><th>Thiết bị hỗ trợ</th><th>Mô tả</th></tr></thead>
+<tbody>
+<tr><td><strong>Chủ phòng (Host)</strong></td><td>Android / iPhone</td><td>Thiết bị quản lý cuộc gọi</td></tr>
+<tr><td><strong>Khách (Guest)</strong></td><td>Android / iPhone</td><td>Thiết bị tham gia cuộc gọi</td></tr>
+</tbody></table>
+<blockquote><strong>Chú ý:</strong> Tất cả mọi người phải kết nối cùng một mạng WiFi.</blockquote>
+<hr>
+<h2 id="2-thiết-lập-ban-đầu">2. Thiết lập ban đầu</h2>
+<h3 id="2-1-cài-đặt-và-khởi-động-lần-đầu">2-1. Cài đặt và khởi động lần đầu</h3>
+<ol>
+  <li>Cài đặt OffLink</li>
+  <li>Khi khởi động lần đầu, hộp thoại yêu cầu quyền sẽ xuất hiện</li>
+  <li>Chọn "Cho phép" cho tất cả</li>
+</ol>
+<h3 id="2-2-danh-sách-quyền">2-2. Danh sách quyền</h3>
+<table>
+<thead><tr><th>Quyền</th><th>Mục đích</th><th>Ảnh hưởng khi từ chối</th></tr></thead>
+<tbody>
+<tr><td><strong>Micro</strong></td><td>Cuộc gọi thoại</td><td>Không thể gọi</td></tr>
+<tr><td><strong>Camera</strong></td><td>Quét mã QR</td><td>Không thể đăng ký nhóm qua QR</td></tr>
+<tr><td><strong>Thiết bị lân cận (WiFi)</strong> ※Android</td><td>Phát hiện mạng WiFi</td><td>Không thể phát hiện Host</td></tr>
+<tr><td><strong>Vị trí</strong> ※Android</td><td>Quét WiFi (yêu cầu OS)</td><td>Không thể lấy SSID WiFi</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Kết nối tai nghe</td><td>Không thể sử dụng tai nghe</td></tr>
+<tr><td><strong>Thông báo</strong> ※Android</td><td>Thông báo mời gọi</td><td>Không có thông báo nền</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/vi/15_qr_scan_screen.png" width="280" alt="Hộp thoại quyền"></div>
+<blockquote>Nếu từ chối quyền: Vào "Cài đặt" → "Ứng dụng" → "OffLink" để thay đổi.</blockquote>
+<h3 id="2-3-chuẩn-bị-trước">2-3. Chuẩn bị trước</h3>
+<ul>
+  <li>Môi trường mà tất cả mọi người có thể kết nối cùng WiFi</li>
+  <li>Ghép nối tai nghe Bluetooth trước</li>
+</ul>
+<hr>
+<h2 id="3-cách-sử-dụng">3. Cách sử dụng</h2>
+<h3 id="3-1-bắt-đầu-nhanh-với-gọi-ngay">3-1. Bắt đầu nhanh với "Gọi ngay"</h3>
+<p><strong>Bước 1:</strong> Tất cả kết nối cùng WiFi</p>
+<p><strong>Bước 2:</strong> Nhấn "Gọi ngay" (nút màu xanh lá)</p>
+<div class="screenshot"><img src="images/vi/01_home_empty.png" width="280" alt="Trang chủ - Gọi ngay"></div>
+<p><strong>Bước 3:</strong> Nhập tên người dùng</p>
+<div class="screenshot"><img src="images/vi/04_home_username_dialog.png" width="280" alt="Hộp thoại tên người dùng"></div>
+<p><strong>Bước 4:</strong> Chọn gói và bắt đầu cuộc gọi</p>
+<p><strong>Bước 5:</strong> Thông báo mời cuộc gọi sẽ tự động gửi đến các thành viên</p>
+<hr>
+<h3 id="3-2-tạo-nhóm-với-tư-cách-chủ-phòng">3-2. Tạo nhóm với tư cách Chủ phòng</h3>
+<p><strong>Bước 1:</strong> Nhấn "Tạo với tư cách Host" (nút màu xanh dương)</p>
+<p><strong>Bước 2:</strong> Nhập tên nhóm và mật khẩu rồi nhấn "Tạo"</p>
+<div class="screenshot"><img src="images/vi/05_create_group.png" width="280" alt="Tạo nhóm (trống)"> <img src="images/vi/06_create_group_filled.png" width="280" alt="Tạo nhóm (đã điền)"></div>
+<p><strong>Bước 3:</strong> Chọn hành động tạo</p>
+<div class="screenshot"><img src="images/vi/07_create_group_bottomsheet.png" width="280" alt="Hành động tạo"></div>
+<table>
+<thead><tr><th>Hành động</th><th>Mô tả</th></tr></thead>
+<tbody>
+<tr><td><strong>Tham gia ngay</strong></td><td>Khởi động máy chủ và bắt đầu gọi</td></tr>
+<tr><td><strong>Bắt đầu chờ</strong></td><td>Khởi động máy chủ và đợi</td></tr>
+<tr><td><strong>Chỉ lưu</strong></td><td>Có thể bắt đầu sau</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-tham-gia-nhóm-với-tư-cách-khách">3-3. Tham gia nhóm với tư cách Khách</h3>
+<p><strong>Bước 1:</strong> Nhấn "Tham gia với tư cách Guest" (nút màu xanh nhạt)</p>
+<p><strong>Bước 2:</strong> Chọn phương thức tham gia</p>
+<div class="screenshot"><img src="images/vi/08_register_group.png" width="280" alt="Khách tham gia"></div>
+<table>
+<thead><tr><th>Phương thức</th><th>Thao tác</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>Quét mã QR</strong></td><td>Quét mã QR của Host</td></tr>
+<tr><td>📋 <strong>Dán mã</strong></td><td>Dán mã được chia sẻ</td></tr>
+<tr><td>✏️ <strong>Nhập thủ công</strong></td><td>Nhập trực tiếp</td></tr>
+</tbody></table>
+<p><strong>Chia sẻ mã QR (phía Host):</strong></p>
+<div class="screenshot"><img src="images/vi/03_home_qr_dialog.png" width="280" alt="Mã QR"></div>
+<p><strong>Dán mã (phía Guest):</strong></p>
+<div class="screenshot"><img src="images/vi/09_register_paste_dialog.png" width="280" alt="Dán mã"></div>
+<p><strong>Bước 3:</strong> Nhấn "Đăng ký"</p>
+<div class="screenshot"><img src="images/vi/10_register_group_filled.png" width="280" alt="Khách tham gia đã điền"></div>
+<hr>
+<h3 id="3-4-bắt-đầu-cuộc-gọi-từ-nhóm-đã-lưu">3-4. Bắt đầu cuộc gọi từ nhóm đã lưu</h3>
+<div class="screenshot"><img src="images/vi/02_home_with_group.png" width="280" alt="Trang chủ với nhóm"></div>
+<p>Màn hình tham gia Guest:</p>
+<div class="screenshot"><img src="images/vi/11_join_group_empty.png" width="280" alt="Tham gia trống"> <img src="images/vi/12_join_group_with_groups.png" width="280" alt="Tham gia với nhóm"></div>
+<p>Màn hình chờ:</p>
+<div class="screenshot"><img src="images/vi/13_standby_screen.png" width="280" alt="Chờ"></div>
+<p>Màn hình cuộc gọi:</p>
+<div class="screenshot"><img src="images/vi/14_call_screen.png" width="280" alt="Màn hình cuộc gọi"></div>
+<table>
+<thead><tr><th>Nút</th><th>Chức năng</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>Tắt tiếng</strong></td><td>Bật/tắt micro</td></tr>
+<tr><td>🔊 <strong>Chuyển đổi đầu ra âm thanh</strong></td><td>Loa / Bluetooth / Tai nghe</td></tr>
+<tr><td>🔴 <strong>Kết thúc cuộc gọi</strong></td><td>Rời khỏi cuộc gọi</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-hệ-thống-điểm">3-5. Hệ thống điểm</h3>
+<table>
+<thead><tr><th>Gói</th><th>Điểm tiêu thụ</th><th>Số người tham gia tối đa</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 điểm</td><td>4 người</td></tr>
+<tr><td><strong>Large</strong></td><td>20 điểm</td><td>10 người</td></tr>
+</tbody></table>
+<ul>
+  <li>Thời gian gọi không giới hạn</li>
+  <li>1 quảng cáo thưởng = 10 điểm</li>
+  <li>Người dùng Premium không tiêu thụ điểm</li>
+</ul>
+<hr>
+<h2 id="4-câu-hỏi-thường-gặp">4. Câu hỏi thường gặp</h2>
+<h3 id="h-không-tìm-thấy-người-gọi">H. Không tìm thấy người gọi</h3>
+<ol>
+  <li>Kiểm tra tất cả có cùng WiFi không</li>
+  <li>Kiểm tra router/điểm phát sóng hoạt động bình thường</li>
+  <li>Kiểm tra ứng dụng Host đang chạy</li>
+  <li>Kiểm tra AP isolation đã tắt</li>
+</ol>
+<h3 id="h-điểm-phát-sóng">H. Điểm phát sóng</h3>
+<p>Không thể tự động khởi động từ trong OffLink. Hãy thiết lập thủ công.</p>
+<h3 id="h-âm-thanh-bị-ngắt-quãng">H. Âm thanh bị ngắt quãng</h3>
+<ol>
+  <li>Có trong phạm vi WiFi không?</li>
+  <li>Pin Bluetooth</li>
+  <li>Số thiết bị kết nối</li>
+  <li>Tải của thiết bị Host</li>
+</ol>
+<h3 id="h-không-quét-được-mã-qr">H. Không quét được mã QR</h3>
+<ol>
+  <li>Kiểm tra quyền camera</li>
+  <li>Độ sáng màn hình</li>
+  <li>Sử dụng "Dán mã" thay thế</li>
+</ol>
+<h3 id="h-từ-chối-quyền">H. Từ chối quyền</h3>
+<p>Vào "Cài đặt" → "Ứng dụng" → "OffLink" → "Quyền" để thay đổi</p>
+<hr>
+<h2 id="5-hạn-chế">5. Hạn chế</h2>
+<table>
+<thead><tr><th>Mục</th><th>Nội dung hạn chế</th></tr></thead>
+<tbody>
+<tr><td>Số người tham gia tối đa</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>Phương thức gọi</td><td>Chỉ WiFi LAN</td></tr>
+<tr><td>Chạy nền</td><td>Giới hạn tùy thiết bị</td></tr>
+<tr><td>Giới hạn lưu nhóm</td><td>Free: 5 / Premium: Không giới hạn</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-môi-trường-khuyến-nghị">6. Môi trường khuyến nghị</h2>
+<table>
+<thead><tr><th>Mục</th><th>Khuyến nghị</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>5.0+ (API 21+)</td></tr>
+<tr><td>iOS</td><td>13.0+</td></tr>
+<tr><td>Pin</td><td>Khuyến nghị 80% trở lên</td></tr>
+<tr><td>Bộ nhớ</td><td>100MB trở lên</td></tr>
+<tr><td>WiFi</td><td>Router / Điểm phát sóng / WiFi di động</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

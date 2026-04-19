@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OffLink User Manual</title>
+  
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html'>Deutsch</option>
+<option value='en.html' selected>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="offlink-user-manual">OffLink User Manual</h1>
+<p><strong>App Name:</strong> OffLink</p>
+<p><strong>Target Users:</strong> Anyone who wants to make group voice calls within the same WiFi network</p>
+<p><strong>Created:</strong> March 9, 2026</p>
+<p><strong>Last Updated:</strong> April 11, 2026</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>OffLink is an app that enables <strong>group voice calls without the internet, within the same WiFi / tethering environment</strong>. It delivers low-latency voice calls through WebRTC-based P2P communication.</p>
+<p><strong>Example Use Cases:</strong></p>
+<ul>
+  <li>Group calls during motorcycle or bicycle touring</li>
+  <li>Communication at outdoor events and camping trips</li>
+  <li>Work communication in warehouses, factories, and exhibition halls where internet is unreliable</li>
+  <li>Coordination among event staff at sports tournaments and festivals</li>
+</ul>
+<div class="screenshot"><img src="images/en/01_home_empty.png" width="280" alt="OffLink Home Screen (First Launch)"></div>
+<blockquote>The home screen right after launching the app. Start by using the three buttons at the bottom.</blockquote>
+<hr>
+<h2 id="1-how-it-works-requirements">1. How It Works & Requirements</h2>
+<h3 id="communication-method">Communication Method</h3>
+<p>OffLink operates in <strong>WiFi LAN mode</strong>. With everyone connected to the same WiFi network (home WiFi, mobile tethering, pocket WiFi, etc.), the host device starts a signaling server and voice calls are made between devices on the same network.</p>
+<blockquote><strong>Key Point:</strong> No internet connection is required. As long as the router or tethering device is broadcasting a signal, calls can be made.</blockquote>
+<h3 id="required-device-setup">Required Device Setup</h3>
+<table>
+<thead><tr><th>Role</th><th>Supported Devices</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td><strong>Host (Call Organizer)</strong></td><td>Android / iPhone</td><td>The device that starts the signaling server and manages the call</td></tr>
+<tr><td><strong>Guest (Participant)</strong></td><td>Android / iPhone</td><td>Devices that join the call created by the host</td></tr>
+</tbody></table>
+<blockquote><strong>Note:</strong> All participants must be connected to the same WiFi network.</blockquote>
+<hr>
+<h2 id="2-initial-setup">2. Initial Setup</h2>
+<h3 id="2-1-installing-the-app-first-launch">2-1. Installing the App & First Launch</h3>
+<ol>
+  <li>Install OffLink</li>
+  <li>When you launch the app, <strong>permission request dialogs will appear on first launch</strong></li>
+  <li><strong>Allow all permissions</strong> — the app will not function properly if permissions are denied</li>
+</ol>
+<h3 id="2-2-permission-list">2-2. Permission List</h3>
+<p>The app requests all of the following permissions <strong>at first launch</strong>. Some features will not work unless all permissions are granted.</p>
+<table>
+<thead><tr><th>Permission</th><th>Purpose</th><th>Impact if Denied</th></tr></thead>
+<tbody>
+<tr><td><strong>Microphone</strong></td><td>Voice calls</td><td>Cannot make calls</td></tr>
+<tr><td><strong>Camera</strong></td><td>QR code scanning</td><td>Cannot register groups via QR</td></tr>
+<tr><td><strong>Nearby Devices (WiFi)</strong> ※Android</td><td>WiFi network detection & host discovery</td><td>Cannot detect hosts</td></tr>
+<tr><td><strong>Location</strong> ※Android</td><td>WiFi scanning (required by Android OS)</td><td>Cannot retrieve WiFi SSID</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Bluetooth headset support</td><td>Cannot use headsets</td></tr>
+<tr><td><strong>Notifications</strong> ※Android</td><td>Call invitation notifications</td><td>No notifications when app is in background</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/en/15_qr_scan_screen.png" width="280" alt="Permission Request Dialog Example (Camera)"></div>
+<blockquote><strong>If you accidentally denied a permission:</strong>  <br>
+The app will display a dialog guiding you to the settings screen. Go to your device's <strong>Settings → Apps → OffLink</strong> to change the permission.</blockquote>
+<h3 id="2-3-before-you-start">2-3. Before You Start</h3>
+<ul>
+  <li>Make sure everyone can connect to the <strong>same WiFi network</strong></li>
+</ul>
+<p>(home WiFi, tethering, pocket WiFi, etc.)</p>
+<ul>
+  <li>If using a Bluetooth headset, pair it in advance</li>
+</ul>
+<hr>
+<h2 id="3-how-to-use">3. How to Use</h2>
+<h3 id="3-1-quick-start-with-call-now">3-1. Quick Start with "Call Now"</h3>
+<p>Start a call immediately with members on the same WiFi — no need to create a group first.</p>
+<p><strong>Step 1:</strong> Have everyone connect to the same WiFi network.</p>
+<p><strong>Step 2:</strong> Tap <strong>"Call Now"</strong> (the green button) on the home screen.</p>
+<div class="screenshot"><img src="images/en/01_home_empty.png" width="280" alt="Home Screen — 'Call Now' Button"></div>
+<p><strong>Step 3:</strong> A dialog will appear asking you to enter your username. Enter the name that will be displayed to other members during the call.</p>
+<div class="screenshot"><img src="images/en/04_home_username_dialog.png" width="280" alt="Username Input Dialog"></div>
+<p><strong>Step 4:</strong> Select a tier on the point consumption screen and start the call (→ see <a href="#3-5-point-system">3-5. Point System</a>).</p>
+<p><strong>Step 5:</strong> Other members on the same WiFi network will be automatically notified of the call invitation. The call begins once members join.</p>
+<blockquote><strong>If a host already exists:</strong>  <br>
+If there is already a host on the same network, you can choose to join the existing call or start a new one.</blockquote>
+<hr>
+<h3 id="3-2-creating-a-group-as-host">3-2. Creating a Group as Host</h3>
+<p>If you regularly call with the same members, it's convenient to create and save a group.</p>
+<p><strong>Step 1:</strong> Tap <strong>"Create as Host"</strong> (the blue button) on the home screen.</p>
+<p><strong>Step 2:</strong> Enter a <strong>group name</strong> and <strong>password (optional)</strong> on the group creation screen, then tap <strong>"Create"</strong>.</p>
+<div class="screenshot"><img src="images/en/05_create_group.png" width="280" alt="Group Creation Screen (Empty)"> <img src="images/en/06_create_group_filled.png" width="280" alt="Group Creation Screen (Filled)"></div>
+<blockquote><strong>Tips:</strong><br>
+- Choose a group name that's easy for members to recognize (e.g., <code>Touring Group A</code>, <code>Warehouse Comms</code>)<br>
+- Setting a password prevents unknown people from joining (recommended)</blockquote>
+<p><strong>Step 3:</strong> Choose a creation action. A bottom sheet will appear.</p>
+<div class="screenshot"><img src="images/en/07_create_group_bottomsheet.png" width="280" alt="Creation Action Selection — Join Now / Start Standby / Save Only"></div>
+<table>
+<thead><tr><th>Action</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td><strong>Join Now</strong></td><td>Starts the server on WiFi LAN and immediately goes to the call screen</td></tr>
+<tr><td><strong>Start Standby</strong></td><td>Starts the server and waits for members to connect</td></tr>
+<tr><td><strong>Save Only</strong></td><td>Only saves the group information (can be started later)</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-joining-a-group-as-guest">3-3. Joining a Group as Guest</h3>
+<p>Members (guests) receive group information from the host and register to join.</p>
+<p><strong>Step 1:</strong> Tap <strong>"Join as Guest"</strong> (the light blue button) on the home screen.</p>
+<p><strong>Step 2:</strong> Choose how to join. There are three methods.</p>
+<div class="screenshot"><img src="images/en/08_register_group.png" width="280" alt="Guest Join Screen — QR Scan / Paste Code / Manual Input"></div>
+<table>
+<thead><tr><th>Method</th><th>How To</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>Scan QR Code</strong></td><td>Scan the QR code displayed by the host with your camera (easiest method)</td></tr>
+<tr><td>📋 <strong>Paste Code</strong></td><td>Paste the code shared by the host via LINE, messaging apps, etc.</td></tr>
+<tr><td>✏️ <strong>Manual Input</strong></td><td>Directly enter the group name, SSID, and password</td></tr>
+</tbody></table>
+<p><strong>Sharing a Group via QR Code (Host Side):</strong></p>
+<p>The host can display a QR code by tapping the QR icon on the right side of the group card on the home screen.</p>
+<div class="screenshot"><img src="images/en/03_home_qr_dialog.png" width="280" alt="QR Code Display Dialog"></div>
+<blockquote>Other members can scan it using OffLink's "Scan QR" feature.</blockquote>
+<p><strong>Joining via Pasted Code (Guest Side):</strong></p>
+<div class="screenshot"><img src="images/en/09_register_paste_dialog.png" width="280" alt="Shared Code Paste Dialog"></div>
+<p><strong>Step 3:</strong> Once the group information is auto-filled, tap <strong>"Register"</strong>.</p>
+<div class="screenshot"><img src="images/en/10_register_group_filled.png" width="280" alt="Guest Join — Information Filled"></div>
+<hr>
+<h3 id="3-4-starting-a-call-from-a-saved-group">3-4. Starting a Call from a Saved Group</h3>
+<p>Groups that have been created or registered are saved on the home screen.</p>
+<div class="screenshot"><img src="images/en/02_home_with_group.png" width="280" alt="Home Screen — Saved Group List"></div>
+<ul>
+  <li>Hosts tap <strong>"Start as Host"</strong></li>
+  <li>Guests tap <strong>"Join as Guest"</strong></li>
+</ul>
+<p><strong>Guest Join Screen:</strong></p>
+<p>Enter your username and select the group to join.</p>
+<div class="screenshot"><img src="images/en/11_join_group_empty.png" width="280" alt="Group Join Screen (Initial State)"> <img src="images/en/12_join_group_with_groups.png" width="280" alt="Group Join — Group Selection Screen"></div>
+<p><strong>Standby Screen:</strong></p>
+<p>When the host starts the server, the standby screen shows a waiting-for-connection state.</p>
+<div class="screenshot"><img src="images/en/13_standby_screen.png" width="280" alt="Standby Screen — Starting WiFi LAN Server..."></div>
+<p><strong>Call Screen:</strong></p>
+<p>Once the connection is established, the screen automatically transitions to the call screen.</p>
+<div class="screenshot"><img src="images/en/14_call_screen.png" width="280" alt="Call Screen — Mute, Audio Output, End Call Buttons"></div>
+<p><strong>Call Screen Controls:</strong></p>
+<table>
+<thead><tr><th>Button</th><th>Function</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>Mute</strong></td><td>Toggle your microphone on/off</td></tr>
+<tr><td>🔊 <strong>Audio Output Switch</strong></td><td>Switch between speaker / Bluetooth / earpiece</td></tr>
+<tr><td>🔴 <strong>End Call</strong></td><td>Leave the call</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-point-system">3-5. Point System</h3>
+<p>Points are required to start a call. Points can be earned by watching rewarded ads.</p>
+<table>
+<thead><tr><th>Tier</th><th>Points Required</th><th>Max Participants</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>4 people</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>10 people</td></tr>
+</tbody></table>
+<ul>
+  <li><strong>Unlimited call duration</strong> — talk as long as you want</li>
+  <li><strong>Watch 1 rewarded ad to earn 10 pt</strong> (= 1 Standard call)</li>
+  <li><strong>Premium users:</strong> Can start calls without consuming points</li>
+</ul>
+<blockquote><strong>If you don't have enough points:</strong> Watch a rewarded ad to earn 10 pt. Tap the ad viewing button displayed on the screen.</blockquote>
+<hr>
+<h2 id="4-faq-troubleshooting">4. FAQ / Troubleshooting</h2>
+<h3 id="q-cant-find-other-callers-cant-connect">Q. Can't find other callers / Can't connect</h3>
+<p><strong>Check the following:</strong></p>
+<ol>
+  <li><strong>Make sure everyone is connected to the same WiFi network</strong> (the most common cause)</li>
+  <li>Verify that the WiFi router or tethering device is functioning properly</li>
+  <li>Confirm the host's app is running (not stopped in the background)</li>
+  <li>Check that the router's "AP Isolation" (client-to-client communication blocking) is disabled</li>
+</ol>
+<h3 id="q-about-hotspot">Q. About Hotspot</h3>
+<p>In the current version, <strong>there is no feature to automatically start a hotspot (WiFi tethering) from within OffLink.</strong> Instead, if you want to use tethering, manually turn on tethering from the Android device's Settings app, and have everyone connect to that network.</p>
+<h3 id="q-audio-is-choppy-or-delayed">Q. Audio is choppy or delayed</h3>
+<p><strong>Check the following:</strong></p>
+<ol>
+  <li>Make sure you are within range of the WiFi signal</li>
+  <li>Check the battery level of your Bluetooth headset</li>
+  <li>Verify that there aren't too many devices connected to the WiFi router</li>
+  <li>Check whether the host device is overloaded (close other apps)</li>
+</ol>
+<h3 id="q-cant-scan-the-qr-code">Q. Can't scan the QR code</h3>
+<p><strong>Check the following:</strong></p>
+<ol>
+  <li>Confirm that the camera permission is set to "Allow"</li>
+  <li>Increase screen brightness to make the QR code more visible</li>
+  <li>Use the <strong>"Paste Code"</strong> feature with a shared code instead of QR</li>
+</ol>
+<h3 id="q-i-accidentally-denied-a-permission">Q. I accidentally denied a permission</h3>
+<p>The app will display a dialog guiding you to the settings screen. Go to your device's <strong>Settings → Apps → OffLink → Permissions</strong> and change the required permissions to "Allow."</p>
+<hr>
+<h2 id="5-limitations">5. Limitations</h2>
+<table>
+<thead><tr><th>Item</th><th>Details</th></tr></thead>
+<tbody>
+<tr><td>Max Participants</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>Call Method</td><td>Same WiFi network (WiFi LAN) only</td></tr>
+<tr><td>Background Operation</td><td>May be restricted depending on the device model and OS version</td></tr>
+<tr><td>Saved Group Limit</td><td>Free users: up to 5 groups (Premium: unlimited)</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-recommended-environment">6. Recommended Environment</h2>
+<table>
+<thead><tr><th>Item</th><th>Recommendation</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>Android 5.0 or later (API 21+)</td></tr>
+<tr><td>iOS</td><td>iOS 13.0 or later</td></tr>
+<tr><td>Battery Level</td><td>80% or above recommended (host devices consume more battery)</td></tr>
+<tr><td>Available Storage</td><td>100 MB or more</td></tr>
+<tr><td>WiFi Environment</td><td>Router / Tethering / Pocket WiFi — any environment where everyone can connect to the same network</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

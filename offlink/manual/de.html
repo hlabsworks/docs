@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OffLink Benutzerhandbuch</title>
+  
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;color:#333;background:#fff}
+    h1{border-bottom:2px solid #1a73e8;padding-bottom:8px}
+    h2{color:#1a73e8;margin-top:2em}
+    h3{color:#444;margin-top:1.5em}
+    h4{color:#555}
+    table{border-collapse:collapse;width:100%;margin:1em 0}
+    th,td{border:1px solid #ddd;padding:8px 12px;text-align:left}
+    th{background:#f5f5f5;font-weight:bold}
+    
+    blockquote{border-left:4px solid #1a73e8;margin:1em 0;padding:0.5em 1em;background:#f8f9fa;color:#555}
+    code{background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:0.9em}
+    .screenshot{margin:1.5em 0;text-align:center}
+    .screenshot img{max-width:280px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+    .lang-selector{text-align:right;margin-bottom:1em}
+    .lang-selector select{font-size:14px;padding:4px 8px;border:1px solid #ccc;border-radius:4px;background:#fff}
+    a{color:#1a73e8}
+    hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+    .footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;text-align:center;color:#999;font-size:0.85em}
+    @media(max-width:600px){
+      body{padding:12px}
+      .screenshot img{max-width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="lang-selector">
+  <select onchange="if(this.value)window.location.href=this.value">
+    <option value=''>🌐 Language</option>
+    <option value='id.html'>Bahasa Indonesia</option>
+<option value='de.html' selected>Deutsch</option>
+<option value='en.html'>English</option>
+<option value='es.html'>Español</option>
+<option value='fr.html'>Français</option>
+<option value='it.html'>Italiano</option>
+<option value='sw.html'>Kiswahili</option>
+<option value='pt.html'>Português</option>
+<option value='vi.html'>Tiếng Việt</option>
+<option value='ru.html'>Русский</option>
+<option value='ar.html'>العربية</option>
+<option value='hi.html'>हिन्दी</option>
+<option value='th.html'>ไทย</option>
+<option value='my.html'>မြန်မာ</option>
+<option value='zh.html'>中文</option>
+<option value='ja.html'>日本語</option>
+<option value='zh_Hans.html'>简体中文</option>
+<option value='zh_Hant.html'>繁體中文</option>
+<option value='ko.html'>한국어</option>
+  </select>
+</div>
+  <h1 id="offlink-benutzerhandbuch">OffLink Benutzerhandbuch</h1>
+<p><strong>App-Name:</strong> OffLink</p>
+<p><strong>Zielgruppe:</strong> Alle, die Gruppensprachanrufe innerhalb desselben WiFi-Netzwerks führen möchten</p>
+<p><strong>Erstellungsdatum:</strong> 9. März 2026</p>
+<p><strong>Letzte Aktualisierung:</strong> 11. April 2026</p>
+<hr>
+<h2 id="einführung">Einführung</h2>
+<p>OffLink ist eine App, die <strong>Gruppensprachanrufe ohne Internetverbindung innerhalb desselben WiFi-Netzwerks oder Tethering-Umgebung</strong> ermöglicht. Durch P2P-Kommunikation über WebRTC werden Sprachanrufe mit minimaler Latenz realisiert.</p>
+<p><strong>Anwendungsbeispiele:</strong></p>
+<ul>
+  <li>Gruppenanrufe bei Motorrad- oder Fahrradtouren</li>
+  <li>Kommunikation bei Outdoor-Events oder Camping</li>
+  <li>Betriebliche Kommunikation in Lagerhallen, Fabriken oder Messehallen mit instabiler Internetverbindung</li>
+  <li>Koordination zwischen dem Organisationspersonal bei Sportveranstaltungen oder Festivals</li>
+</ul>
+<div class="screenshot"><img src="images/de/01_home_empty.png" width="280" alt="OffLink Startbildschirm"></div>
+<blockquote>Startbildschirm nach dem Öffnen der App. Beginnen Sie mit den drei Schaltflächen am unteren Rand.</blockquote>
+<hr>
+<h2 id="1-funktionsweise-und-systemvoraussetzungen">1. Funktionsweise und Systemvoraussetzungen</h2>
+<h3 id="kommunikationsmodus">Kommunikationsmodus</h3>
+<p>OffLink arbeitet im <strong>WiFi-LAN-Modus</strong>. Alle Teilnehmer müssen mit demselben WiFi-Netzwerk verbunden sein. Das Host-Gerät startet einen Signalisierungsserver, und die Sprachanrufe werden zwischen den Geräten im selben Netzwerk durchgeführt.</p>
+<blockquote><strong>Wichtig:</strong> Es wird keine Internetverbindung benötigt.</blockquote>
+<h3 id="erforderliche-gerätekonfiguration">Erforderliche Gerätekonfiguration</h3>
+<table>
+<thead><tr><th>Rolle</th><th>Kompatible Geräte</th><th>Beschreibung</th></tr></thead>
+<tbody>
+<tr><td><strong>Host</strong></td><td>Android / iPhone</td><td>Gerät, das den Signalisierungsserver startet und den Anruf verwaltet</td></tr>
+<tr><td><strong>Gast</strong></td><td>Android / iPhone</td><td>Gerät, das dem vom Host erstellten Anruf beitritt</td></tr>
+</tbody></table>
+<blockquote><strong>Hinweis:</strong> Alle Teilnehmer müssen mit demselben WiFi-Netzwerk verbunden sein.</blockquote>
+<hr>
+<h2 id="2-ersteinrichtung">2. Ersteinrichtung</h2>
+<h3 id="2-1-installation-und-erster-start">2-1. Installation und erster Start</h3>
+<ol>
+  <li>Installieren Sie OffLink</li>
+  <li>Beim ersten Start werden Berechtigungsdialoge angezeigt</li>
+  <li>Erteilen Sie alle Berechtigungen</li>
+</ol>
+<h3 id="2-2-berechtigungsübersicht">2-2. Berechtigungsübersicht</h3>
+<table>
+<thead><tr><th>Berechtigung</th><th>Verwendung</th><th>Auswirkung bei Ablehnung</th></tr></thead>
+<tbody>
+<tr><td><strong>Mikrofon</strong></td><td>Sprachanrufe</td><td>Anrufe nicht möglich</td></tr>
+<tr><td><strong>Kamera</strong></td><td>QR-Code-Scan</td><td>Gruppenregistrierung per QR nicht möglich</td></tr>
+<tr><td><strong>Geräte in der Nähe (WiFi)</strong> ※Android</td><td>WiFi-Netzwerkerkennung</td><td>Host-Erkennung nicht möglich</td></tr>
+<tr><td><strong>Standort</strong> ※Android</td><td>WiFi-Scan (Systemanforderung)</td><td>WiFi-SSID kann nicht abgerufen werden</td></tr>
+<tr><td><strong>Bluetooth</strong> ※Android</td><td>Headset-Verbindung</td><td>Headset-Nutzung nicht möglich</td></tr>
+<tr><td><strong>Benachrichtigungen</strong> ※Android</td><td>Anrufeinladungsbenachrichtigungen</td><td>Keine Hintergrundbenachrichtigungen</td></tr>
+</tbody></table>
+<div class="screenshot"><img src="images/de/15_qr_scan_screen.png" width="280" alt="Beispiel eines Berechtigungsdialogs"></div>
+<blockquote>Falls Sie eine Berechtigung versehentlich abgelehnt haben: Gehen Sie zu „Einstellungen" → „Apps" → „OffLink", um die Berechtigungen zu ändern.</blockquote>
+<h3 id="2-3-vorbereitungen">2-3. Vorbereitungen</h3>
+<ul>
+  <li>Eine Umgebung, in der sich alle Teilnehmer mit demselben WiFi-Netzwerk verbinden können</li>
+  <li>Bluetooth-Headsets sollten vorab gekoppelt werden</li>
+</ul>
+<hr>
+<h2 id="3-bedienung">3. Bedienung</h2>
+<h3 id="3-1-schnell-starten-mit-sofortanruf">3-1. Schnell starten mit „Sofortanruf"</h3>
+<p>Starten Sie sofort einen Anruf, ohne vorher eine Gruppe erstellen zu müssen.</p>
+<p><strong>Schritt 1:</strong> Alle Teilnehmer verbinden sich mit demselben WiFi</p>
+<p><strong>Schritt 2:</strong> Tippen Sie auf „Sofortanruf" (grüne Schaltfläche)</p>
+<div class="screenshot"><img src="images/de/01_home_empty.png" width="280" alt="Startseite — Sofortanruf-Schaltfläche"></div>
+<p><strong>Schritt 3:</strong> Geben Sie Ihren Benutzernamen ein</p>
+<div class="screenshot"><img src="images/de/04_home_username_dialog.png" width="280" alt="Benutzernamendialog"></div>
+<p><strong>Schritt 4:</strong> Wählen Sie eine Stufe und starten Sie den Anruf (→ 3-5. Punktesystem)</p>
+<p><strong>Schritt 5:</strong> Eine Anrufeinladung wird automatisch an die Mitglieder im selben WiFi-Netzwerk gesendet</p>
+<blockquote>Falls bereits ein Host vorhanden ist, können Sie wählen, ob Sie beitreten oder einen neuen Anruf starten möchten.</blockquote>
+<hr>
+<h3 id="3-2-eine-gruppe-als-host-erstellen">3-2. Eine Gruppe als Host erstellen</h3>
+<p><strong>Schritt 1:</strong> Tippen Sie auf „Als Host erstellen" (blaue Schaltfläche)</p>
+<p><strong>Schritt 2:</strong> Geben Sie den Gruppennamen und ein Passwort (optional) ein und tippen Sie auf „Erstellen"</p>
+<div class="screenshot"><img src="images/de/05_create_group.png" width="280" alt="Gruppe erstellen (leer)"> <img src="images/de/06_create_group_filled.png" width="280" alt="Gruppe erstellen (ausgefüllt)"></div>
+<blockquote>Tipp: Wählen Sie einen leicht erkennbaren Gruppennamen. Es wird empfohlen, ein Passwort festzulegen.</blockquote>
+<p><strong>Schritt 3:</strong> Wählen Sie die Erstellungsaktion</p>
+<div class="screenshot"><img src="images/de/07_create_group_bottomsheet.png" width="280" alt="Aktionsauswahl"></div>
+<table>
+<thead><tr><th>Aktion</th><th>Beschreibung</th></tr></thead>
+<tbody>
+<tr><td><strong>Jetzt beitreten</strong></td><td>Startet den Server und öffnet den Anrufbildschirm</td></tr>
+<tr><td><strong>Standby starten</strong></td><td>Startet den Server und wartet</td></tr>
+<tr><td><strong>Nur speichern</strong></td><td>Kann später gestartet werden</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-3-einer-gruppe-als-gast-beitreten">3-3. Einer Gruppe als Gast beitreten</h3>
+<p><strong>Schritt 1:</strong> Tippen Sie auf „Als Gast beitreten" (hellblaue Schaltfläche)</p>
+<p><strong>Schritt 2:</strong> Wählen Sie die Beitrittsmethode</p>
+<div class="screenshot"><img src="images/de/08_register_group.png" width="280" alt="Gast-Beitrittsbildschirm"></div>
+<table>
+<thead><tr><th>Methode</th><th>Vorgehensweise</th></tr></thead>
+<tbody>
+<tr><td>📱 <strong>QR-Code scannen</strong></td><td>Scannen Sie den QR-Code des Hosts</td></tr>
+<tr><td>📋 <strong>Code einfügen</strong></td><td>Fügen Sie den geteilten Code ein</td></tr>
+<tr><td>✏️ <strong>Manuelle Eingabe</strong></td><td>Geben Sie die Informationen direkt ein</td></tr>
+</tbody></table>
+<p><strong>QR-Code teilen (Host-Seite):</strong></p>
+<div class="screenshot"><img src="images/de/03_home_qr_dialog.png" width="280" alt="QR-Code-Dialog"></div>
+<p><strong>Code einfügen (Gast-Seite):</strong></p>
+<div class="screenshot"><img src="images/de/09_register_paste_dialog.png" width="280" alt="Code-Einfügen-Dialog"></div>
+<p><strong>Schritt 3:</strong> Sobald die Informationen eingegeben sind, tippen Sie auf „Registrieren"</p>
+<div class="screenshot"><img src="images/de/10_register_group_filled.png" width="280" alt="Gast-Beitritt — ausgefüllt"></div>
+<hr>
+<h3 id="3-4-einen-anruf-aus-einer-gespeicherten-gruppe-starten">3-4. Einen Anruf aus einer gespeicherten Gruppe starten</h3>
+<div class="screenshot"><img src="images/de/02_home_with_group.png" width="280" alt="Startseite — gespeicherte Gruppen"></div>
+<ul>
+  <li>Der Host tippt auf „Als Host starten"</li>
+  <li>Der Gast tippt auf „Als Gast beitreten"</li>
+</ul>
+<p><strong>Gast-Beitrittsbildschirm:</strong></p>
+<div class="screenshot"><img src="images/de/11_join_group_empty.png" width="280" alt="Gruppe beitreten (leer)"> <img src="images/de/12_join_group_with_groups.png" width="280" alt="Gruppe beitreten (mit Gruppen)"></div>
+<p><strong>Standby-Bildschirm:</strong></p>
+<div class="screenshot"><img src="images/de/13_standby_screen.png" width="280" alt="Standby-Bildschirm"></div>
+<p><strong>Anrufbildschirm:</strong></p>
+<div class="screenshot"><img src="images/de/14_call_screen.png" width="280" alt="Anrufbildschirm"></div>
+<table>
+<thead><tr><th>Schaltfläche</th><th>Funktion</th></tr></thead>
+<tbody>
+<tr><td>🎤 <strong>Stummschalten</strong></td><td>Mikrofon ein-/ausschalten</td></tr>
+<tr><td>🔊 <strong>Audioausgabe wechseln</strong></td><td>Lautsprecher / Bluetooth / Ohrhörer</td></tr>
+<tr><td>🔴 <strong>Anruf beenden</strong></td><td>Anruf verlassen</td></tr>
+</tbody></table>
+<hr>
+<h3 id="3-5-punktesystem">3-5. Punktesystem</h3>
+<table>
+<thead><tr><th>Stufe</th><th>Verbrauchte Punkte</th><th>Maximale Teilnehmer</th></tr></thead>
+<tbody>
+<tr><td><strong>Standard</strong></td><td>10 pt</td><td>4 Personen</td></tr>
+<tr><td><strong>Large</strong></td><td>20 pt</td><td>10 Personen</td></tr>
+</tbody></table>
+<ul>
+  <li>Unbegrenzte Anrufdauer</li>
+  <li>Schauen Sie eine Belohnungswerbung an, um 10 pt zu erhalten</li>
+  <li>Premium-Nutzer verbrauchen keine Punkte</li>
+</ul>
+<hr>
+<h2 id="4-häufig-gestellte-fragen-faq">4. Häufig gestellte Fragen / FAQ</h2>
+<h3 id="f-die-anderen-teilnehmer-werden-nicht-gefunden">F. Die anderen Teilnehmer werden nicht gefunden</h3>
+<ol>
+  <li>Überprüfen Sie, ob alle im selben WiFi sind</li>
+  <li>Überprüfen Sie, ob der Router oder das Tethering korrekt funktioniert</li>
+  <li>Überprüfen Sie, ob die Host-App läuft</li>
+  <li>Überprüfen Sie, ob die AP-Isolierung deaktiviert ist</li>
+</ol>
+<h3 id="f-zum-thema-hotspot">F. Zum Thema Hotspot</h3>
+<p>OffLink verfügt über keine Funktion zum automatischen Starten eines Hotspots. Bitte aktivieren Sie das Tethering manuell.</p>
+<h3 id="f-der-ton-ist-abgehackt">F. Der Ton ist abgehackt</h3>
+<ol>
+  <li>Überprüfen Sie, ob Sie sich in Reichweite des WiFi-Signals befinden</li>
+  <li>Überprüfen Sie den Bluetooth-Akkustand</li>
+  <li>Überprüfen Sie die Anzahl der verbundenen Geräte</li>
+  <li>Überprüfen Sie die Auslastung des Host-Geräts</li>
+</ol>
+<h3 id="f-der-qr-code-kann-nicht-gescannt-werden">F. Der QR-Code kann nicht gescannt werden</h3>
+<ol>
+  <li>Überprüfen Sie die Kameraberechtigung</li>
+  <li>Erhöhen Sie die Bildschirmhelligkeit</li>
+  <li>Verwenden Sie alternativ die Funktion „Code einfügen"</li>
+</ol>
+<h3 id="f-ich-habe-eine-berechtigung-versehentlich-abgelehnt">F. Ich habe eine Berechtigung versehentlich abgelehnt</h3>
+<p>Gehen Sie zu „Einstellungen" → „Apps" → „OffLink" → „Berechtigungen", um sie zu ändern</p>
+<hr>
+<h2 id="5-einschränkungen">5. Einschränkungen</h2>
+<table>
+<thead><tr><th>Element</th><th>Einschränkung</th></tr></thead>
+<tbody>
+<tr><td>Maximale Teilnehmeranzahl</td><td>Standard: 4 / Large: 10</td></tr>
+<tr><td>Kommunikationsmodus</td><td>Nur WiFi LAN</td></tr>
+<tr><td>Hintergrund</td><td>Je nach Gerätemodell eingeschränkt</td></tr>
+<tr><td>Limit gespeicherter Gruppen</td><td>Free: 5 / Premium: unbegrenzt</td></tr>
+</tbody></table>
+<hr>
+<h2 id="6-empfohlene-systemumgebung">6. Empfohlene Systemumgebung</h2>
+<table>
+<thead><tr><th>Element</th><th>Empfehlung</th></tr></thead>
+<tbody>
+<tr><td>Android</td><td>5.0+ (API 21+)</td></tr>
+<tr><td>iOS</td><td>13.0+</td></tr>
+<tr><td>Akku</td><td>Mindestens 80 % empfohlen</td></tr>
+<tr><td>Speicher</td><td>Mindestens 100 MB</td></tr>
+<tr><td>WiFi</td><td>Router / Tethering / Mobiler Hotspot usw.</td></tr>
+</tbody></table>
+  <div class="footer">
+    <p>© 2026 H Labs Works — <a href="mailto:hlabsworks@gmail.com">hlabsworks@gmail.com</a></p>
+  </div>
+</body>
+</html>

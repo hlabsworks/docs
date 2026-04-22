@@ -29,6 +29,15 @@
       .screenshot img{max-width:100%}
     }
   </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZXQEJ7BZ81"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    const m = location.pathname.match(/(?:privacy-policy-|\/manual\/)([^/.]+)\.html/);
+    gtag('config', 'G-ZXQEJ7BZ81', {content_language: m ? m[1] : 'unknown'});
+  </script>
 </head>
 <body>
   <div class="lang-selector">

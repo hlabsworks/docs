@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-wed-r1",
+    "name": "水曜: 背中",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-20T15:00:00Z",
+    "items": [
+      {
+        "id": "cat-wed-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-wed-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-wed-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-wed-m2",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-wed-m1",
+      "name": "メインブロック①（背面強化）",
+      "sets": 2,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 240,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-wed-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "スーパーマン",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m1-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "リバーススノーエンジェル",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m1-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m1-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "プローンコブラ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m1-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m1-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "Yレイズ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m1-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-wed-m2",
+      "name": "メインブロック②（体幹側面）",
+      "sets": 2,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 420,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-wed-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "サイドプランク右",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m2-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "サイドプランク左",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m2-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m2-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "レッグレイズ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m2-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

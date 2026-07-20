@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-mon-r1",
+    "name": "月曜: 胸・肩 & 下腹部",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-20T15:00:00Z",
+    "items": [
+      {
+        "id": "cat-mon-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-mon-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-mon-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-mon-m2",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-mon-m1",
+      "name": "メインブロック①（プッシュアップ4種）",
+      "sets": 2,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 240,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "ワイドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "デクラインプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "パイクプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ダイヤモンドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-mon-m2",
+      "name": "メインブロック②（下腹部）",
+      "sets": 2,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 420,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "リバースクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m2-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "バイシクルクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m2-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "プランクニーイン",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

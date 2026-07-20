@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-sunpm-r1",
+    "name": "日曜午後: モビリティ&コアコンディショニング",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-20T15:00:00Z",
+    "items": [
+      {
+        "id": "cat-sunpm-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-sunpm-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-sunpm-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-sunpm-m2",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-sunpm-m1",
+      "name": "メインブロック①（モビリティストレッチ）",
+      "sets": 8,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 240,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-sunpm-m2",
+      "name": "メインブロック②（コアスタビリティ）",
+      "sets": 6,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 420,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

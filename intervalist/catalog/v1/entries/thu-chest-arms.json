@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-thu-r1",
+    "name": "木曜: 胸・腕",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-20T15:00:00Z",
+    "items": [
+      {
+        "id": "cat-thu-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-thu-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-thu-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-thu-m2",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-thu-m1",
+      "name": "メインブロック①（プッシュアップ4種）",
+      "sets": 2,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 240,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-thu-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "ノーマルプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m1-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "クローズグリッププッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m1-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m1-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "デクラインプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m1-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m1-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ニーリングプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m1-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-thu-m2",
+      "name": "メインブロック②（下腹部）",
+      "sets": 2,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 420,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-thu-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "トゥタッチクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m2-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "リバースクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m2-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m2-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "バイシクルクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m2-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

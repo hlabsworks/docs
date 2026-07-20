@@ -14,12 +14,210 @@
         "en": "Warm-up, 8x high-intensity sprint intervals, recovery, 6x front-lift sets for upper body and core, and a long cool-down.",
         "ja": "ウォームアップ→高強度ペダリング8本→リカバリー→上半身・体幹のフロントアップ6本→クールダウンの30分構成。"
       },
-      "tags": ["hiit", "cycling", "cardio", "strength"],
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength"
+      ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
       "entryPath": "entries/bike-training-30min.json"
+    },
+    {
+      "id": "mon-chest-shoulders",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Monday: Chest & Shoulders + Lower Abs (30 min, home)",
+        "ja": "月曜: 胸・肩 & 下腹部（自宅30分）"
+      },
+      "description": {
+        "en": "A 30-minute home workout pairing four push-up variations for chest and shoulders with reverse-crunch style core work to finish.",
+        "ja": "プッシュアップ4種のインターバルで胸・肩を追い込み、リバースクランチ系の下腹部種目で仕上げる自宅30分メニュー。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/mon-chest-shoulders.json"
+    },
+    {
+      "id": "tue-fullbody-hiit",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Tuesday: Full-Body HIIT (30 min, home)",
+        "ja": "火曜: 全身HIIT（自宅30分）"
+      },
+      "description": {
+        "en": "A 30-minute full-body HIIT session with mountain climbers, jump squats, high knees and skater hops, finishing with core work.",
+        "ja": "マウンテンクライマーやジャンピングスクワットなど全身を使う高強度種目でカロリーを消費し、体幹種目で締めくくる30分HIIT。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/tue-fullbody-hiit.json"
+    },
+    {
+      "id": "wed-back",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Wednesday: Back (30 min, home)",
+        "ja": "水曜: 背中（自宅30分）"
+      },
+      "description": {
+        "en": "A 30-minute back-focused session (Superman, reverse snow angel, prone cobra, Y-raise) finished with side planks for lateral core strength.",
+        "ja": "スーパーマンやYレイズなど背面を鍛える種目で背中を強化し、サイドプランクで体幹側面も仕上げる30分メニュー。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/wed-back.json"
+    },
+    {
+      "id": "thu-chest-arms",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Thursday: Chest & Arms (30 min, home)",
+        "ja": "木曜: 胸・腕（自宅30分）"
+      },
+      "description": {
+        "en": "A 30-minute session of push-up variations for chest and arms, plus crunch variations for the lower abs.",
+        "ja": "プッシュアップのバリエーションで胸と腕を鍛え、クランチ系種目で下腹部も追い込む30分メニュー。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/thu-chest-arms.json"
+    },
+    {
+      "id": "fri-fullbody-core",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Friday: Full-Body Conditioning (30 min, home)",
+        "ja": "金曜: 全身コンディショニング（自宅30分）"
+      },
+      "description": {
+        "en": "A 30-minute mix of heart-pumping full-body HIIT (mountain climbers, burpees, high knees, skater hops) and core-holding work (hollow body, plank, Russian twist).",
+        "ja": "マウンテンクライマーやバーピーで心拍を上げる全身HIITと、ホロウボディホールドなど体幹保持種目を組み合わせた30分メニュー。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/fri-fullbody-core.json"
+    },
+    {
+      "id": "sat-am-hill-bike",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Saturday AM: Hill Bike Training (30 min)",
+        "ja": "土曜午前: 坂道バイクトレーニング（30分）"
+      },
+      "description": {
+        "en": "A 30-minute bike session alternating standing hill sprints with easy descents, finishing with a high-resistance seated block.",
+        "ja": "立ちこぎでの坂道ダッシュと下り・流しを繰り返す高強度インターバル、その後シッティングでの高負荷走行で仕上げる30分バイクメニュー。"
+      },
+      "tags": [
+        "cycling",
+        "hiit"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/sat-am-hill-bike.json"
+    },
+    {
+      "id": "sat-pm-recovery",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Saturday PM: Recovery Ride (30 min)",
+        "ja": "土曜午後: リカバリーライド（30分）"
+      },
+      "description": {
+        "en": "A gentle 30-minute active-recovery session — an easy walk or cruise to keep the legs loose without adding fatigue.",
+        "ja": "軽い散歩・クルージング程度の強度で心拍を落ち着け、疲労を抜くための30分アクティブリカバリー。"
+      },
+      "tags": [
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "entryPath": "entries/sat-pm-recovery.json"
+    },
+    {
+      "id": "sun-am-circuit",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sunday AM: Full-Body Circuit (30 min, home)",
+        "ja": "日曜午前: 全身サーキット（自宅30分）"
+      },
+      "description": {
+        "en": "A 30-minute full-body circuit combining bodyweight squats, push-ups, lunges, and mountain climbers, finished with core work.",
+        "ja": "スクワットやプッシュアップ、ランジなど基本種目を組み合わせた全身サーキットで一週間を締めくくり、体幹種目で仕上げる30分。"
+      },
+      "tags": [
+        "strength",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/sun-am-circuit.json"
+    },
+    {
+      "id": "sun-pm-conditioning",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sunday PM: Mobility & Core Conditioning (30 min)",
+        "ja": "日曜午後: モビリティ&コアコンディショニング（30分）"
+      },
+      "description": {
+        "en": "A 30-minute weekend wind-down of mobility stretches to open up the joints, followed by core-stability plank holds.",
+        "ja": "モビリティストレッチで関節の可動域を広げ、コアスタビリティ（プランク）で体幹を整える週末クールダウン30分。"
+      },
+      "tags": [
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/sun-pm-conditioning.json"
     }
   ]
 }

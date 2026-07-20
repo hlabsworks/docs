@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-satam-r1",
+    "name": "土曜午前: 坂道バイクトレーニング",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-20T15:00:00Z",
+    "items": [
+      {
+        "id": "cat-satam-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-satam-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-satam-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-satam-m2",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-satam-m1",
+      "name": "メインブロック①（坂道ダッシュ）",
+      "sets": 8,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 240,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-satam-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "坂道ダッシュ（立ちこぎ）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-satam-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "下り・流し",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-satam-m2",
+      "name": "メインブロック②（高負荷シッティング）",
+      "sets": 6,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 420,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-20T15:00:00Z",
+      "segments": [
+        {
+          "id": "cat-satam-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "高負荷シッティング",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-satam-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "軽く回す",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

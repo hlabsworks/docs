@@ -1,0 +1,25 @@
+{
+  "catalogVersion": 1,
+  "updatedAt": "2026-07-20T09:15:00Z",
+  "entries": [
+    {
+      "id": "bike-training-30min",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Training (30 min)",
+        "ja": "自転車トレーニング（30分）"
+      },
+      "description": {
+        "en": "Warm-up, 8x high-intensity sprint intervals, recovery, 6x front-lift sets for upper body and core, and a long cool-down.",
+        "ja": "ウォームアップ→高強度ペダリング8本→リカバリー→上半身・体幹のフロントアップ6本→クールダウンの30分構成。"
+      },
+      "tags": ["hiit", "cycling", "cardio", "strength"],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-20",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "entryPath": "entries/bike-training-30min.json"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 6,
+  "exportedAt": "2026-07-20T04:30:00Z",
+  "appVersion": "1.0.1",
+  "menus": [
+    {
+      "id": "b1a5e0c1-1111-4aaa-8bbb-000000000001",
+      "name": "メインブロック①（高強度ペダリング）",
+      "sets": 8,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 240,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T04:30:00Z",
+      "updatedAt": "2026-07-20T04:30:00Z",
+      "_description": "Warm-up 5分=準備（軽いペダリングで体を温める）。40秒 高強度（重めのギアで立ちこぎスプリント・下半身/心肺強化）+ 20秒 流し（心拍を上げるベース作り）を8セット=8分。クールダウン240秒=リカバリー4分（流し）",
+      "segments": [
+        {
+          "id": "b1a5e0c1-1111-4aaa-8bbb-000000000011",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "高強度ペダリング",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "b1a5e0c1-1111-4aaa-8bbb-000000000012",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "流し",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "b1a5e0c1-2222-4aaa-8bbb-000000000002",
+      "name": "メインブロック②（上半身・体幹強化）",
+      "sets": 6,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 420,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T04:30:00Z",
+      "updatedAt": "2026-07-20T04:30:00Z",
+      "_description": "30秒 フロントアップ（安全な平坦地で、踏み込みと同時にハンドルを爆発的に引きフロントを軽く浮かす動作を繰り返す）+ 30秒 休憩（軽いギアで呼吸を整え腕の乳酸を抜く）を6セット=6分。クールダウン420秒=7分（ゆっくり回して終了）",
+      "segments": [
+        {
+          "id": "b1a5e0c1-2222-4aaa-8bbb-000000000021",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "フロントアップ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "b1a5e0c1-2222-4aaa-8bbb-000000000022",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "routines": [
+    {
+      "id": "b1a5e0c1-3333-4aaa-8bbb-000000000003",
+      "name": "自転車トレーニング（30分）",
+      "createdAt": "2026-07-20T04:30:00Z",
+      "updatedAt": "2026-07-20T04:30:00Z",
+      "items": [
+        {
+          "id": "b1a5e0c1-3333-4aaa-8bbb-000000000031",
+          "orderIndex": 0,
+          "menuId": "b1a5e0c1-1111-4aaa-8bbb-000000000001",
+          "setsOverride": null
+        },
+        {
+          "id": "b1a5e0c1-3333-4aaa-8bbb-000000000032",
+          "orderIndex": 1,
+          "menuId": "b1a5e0c1-2222-4aaa-8bbb-000000000002",
+          "setsOverride": null
+        }
+      ]
+    }
+  ]
+}

@@ -24,7 +24,7 @@
     {
       "id": "cat-sunpm-m1",
       "name": "メインブロック①（モビリティストレッチ）",
-      "sets": 8,
+      "sets": 1,
       "prepareSeconds": 300,
       "prepareCountdownSeconds": 5,
       "restBetweenSetsSeconds": 0,
@@ -51,13 +51,125 @@
           "name": "休憩",
           "durationSeconds": 20,
           "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r2",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r2",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r3",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r3",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r4",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r4",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r5",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r5",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r6",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r6",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r7",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r7",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r8",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r8",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
         }
       ]
     },
     {
       "id": "cat-sunpm-m2",
       "name": "メインブロック②（コアスタビリティ）",
-      "sets": 6,
+      "sets": 1,
       "prepareSeconds": 0,
       "prepareCountdownSeconds": 0,
       "restBetweenSetsSeconds": 0,
@@ -80,6 +192,86 @@
         {
           "id": "cat-sunpm-m2-s2",
           "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r2",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r2",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r3",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r3",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r4",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r4",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r5",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r5",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r6",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r6",
+          "orderIndex": 11,
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,

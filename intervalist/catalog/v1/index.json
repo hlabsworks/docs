@@ -27,6 +27,52 @@
       "entryPath": "entries/bike-training-30min.json"
     },
     {
+      "id": "bike-training-30min-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Main 1: High-Intensity Pedaling (17 min)",
+        "ja": "自転車メイン①: 高強度ペダリング（17分）"
+      },
+      "description": {
+        "en": "8 rounds of high-intensity pedaling intervals. Standalone menu version (free to get).",
+        "ja": "高強度ペダリングを8本繰り返すインターバル走行。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/bike-training-30min-main1.json"
+    },
+    {
+      "id": "bike-training-30min-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Main 2: Upper Body & Core (13 min)",
+        "ja": "自転車メイン②: 上半身・体幹強化（13分）"
+      },
+      "description": {
+        "en": "6 rounds of front-lift work for upper body and core. Standalone menu version (free to get).",
+        "ja": "フロントアップなど上半身・体幹を鍛える種目を6本繰り返すブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/bike-training-30min-main2.json"
+    },
+    {
       "id": "mon-chest-shoulders",
       "type": "routine",
       "minSchemaVersion": 6,
@@ -46,6 +92,46 @@
       "estimatedSeconds": 1800,
       "menuCount": 2,
       "entryPath": "entries/mon-chest-shoulders.json"
+    },
+    {
+      "id": "mon-chest-shoulders-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Mon Main 1: Push-up Variations (17 min)",
+        "ja": "月曜メイン①: プッシュアップ4種（17分）"
+      },
+      "description": {
+        "en": "Four push-up variations — wide, decline, pike, diamond — for chest and shoulders. Standalone menu version (free to get).",
+        "ja": "ワイド・デクライン・パイク・ダイヤモンドの4種プッシュアップで胸・肩を追い込むブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/mon-chest-shoulders-main1.json"
+    },
+    {
+      "id": "mon-chest-shoulders-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Mon Main 2: Lower Abs (13 min)",
+        "ja": "月曜メイン②: 下腹部（13分）"
+      },
+      "description": {
+        "en": "Reverse-crunch style core work to finish off the lower abs. Standalone menu version (free to get).",
+        "ja": "リバースクランチ系種目で下腹部を仕上げるブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/mon-chest-shoulders-main2.json"
     },
     {
       "id": "tue-fullbody-hiit",
@@ -70,6 +156,48 @@
       "entryPath": "entries/tue-fullbody-hiit.json"
     },
     {
+      "id": "tue-fullbody-hiit-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Tue Main 1: Full-Body HIIT (17 min)",
+        "ja": "火曜メイン①: 全身HIIT（17分）"
+      },
+      "description": {
+        "en": "High-intensity full-body moves like mountain climbers and jump squats. Standalone menu version (free to get).",
+        "ja": "マウンテンクライマーやジャンピングスクワットなど全身を使う高強度種目のブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/tue-fullbody-hiit-main1.json"
+    },
+    {
+      "id": "tue-fullbody-hiit-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Tue Main 2: Core (13 min)",
+        "ja": "火曜メイン②: 体幹（13分）"
+      },
+      "description": {
+        "en": "Core-focused finisher with plank twists and leg raises. Standalone menu version (free to get).",
+        "ja": "プランクツイストなど体幹種目で締めくくるブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/tue-fullbody-hiit-main2.json"
+    },
+    {
       "id": "wed-back",
       "type": "routine",
       "minSchemaVersion": 6,
@@ -91,6 +219,46 @@
       "entryPath": "entries/wed-back.json"
     },
     {
+      "id": "wed-back-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Wed Main 1: Back Strengthening (17 min)",
+        "ja": "水曜メイン①: 背面強化（17分）"
+      },
+      "description": {
+        "en": "Back-strengthening moves like Superman and Y-raise. Standalone menu version (free to get).",
+        "ja": "スーパーマンやYレイズなど背面を鍛える種目のブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/wed-back-main1.json"
+    },
+    {
+      "id": "wed-back-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Wed Main 2: Lateral Core (13 min)",
+        "ja": "水曜メイン②: 体幹側面（13分）"
+      },
+      "description": {
+        "en": "Side planks to finish off lateral core strength. Standalone menu version (free to get).",
+        "ja": "サイドプランクで体幹側面を仕上げるブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/wed-back-main2.json"
+    },
+    {
       "id": "thu-chest-arms",
       "type": "routine",
       "minSchemaVersion": 6,
@@ -110,6 +278,46 @@
       "estimatedSeconds": 1800,
       "menuCount": 2,
       "entryPath": "entries/thu-chest-arms.json"
+    },
+    {
+      "id": "thu-chest-arms-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Thu Main 1: Push-up Variations (17 min)",
+        "ja": "木曜メイン①: プッシュアップ4種（17分）"
+      },
+      "description": {
+        "en": "Four push-up variations — normal, close-grip, decline, kneeling — for chest and arms. Standalone menu version (free to get).",
+        "ja": "ノーマル・クローズグリップ・デクライン・ニーリングの4種プッシュアップで胸と腕を鍛えるブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/thu-chest-arms-main1.json"
+    },
+    {
+      "id": "thu-chest-arms-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Thu Main 2: Lower Abs (13 min)",
+        "ja": "木曜メイン②: 下腹部（13分）"
+      },
+      "description": {
+        "en": "Crunch-variation work to finish off the lower abs. Standalone menu version (free to get).",
+        "ja": "クランチ系種目で下腹部を追い込むブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/thu-chest-arms-main2.json"
     },
     {
       "id": "fri-fullbody-core",
@@ -134,6 +342,48 @@
       "entryPath": "entries/fri-fullbody-core.json"
     },
     {
+      "id": "fri-fullbody-core-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Fri Main 1: Full-Body HIIT (17 min)",
+        "ja": "金曜メイン①: 全身HIIT（17分）"
+      },
+      "description": {
+        "en": "Heart-pumping full-body HIIT with mountain climbers and burpees. Standalone menu version (free to get).",
+        "ja": "マウンテンクライマーやバーピーで心拍を上げる全身HIITブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/fri-fullbody-core-main1.json"
+    },
+    {
+      "id": "fri-fullbody-core-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Fri Main 2: Core Hold (13 min)",
+        "ja": "金曜メイン②: 体幹保持（13分）"
+      },
+      "description": {
+        "en": "Core-holding work like hollow body hold and plank keep. Standalone menu version (free to get).",
+        "ja": "ホロウボディホールドなど体幹保持種目のブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/fri-fullbody-core-main2.json"
+    },
+    {
       "id": "sat-am-hill-bike",
       "type": "routine",
       "minSchemaVersion": 6,
@@ -154,6 +404,48 @@
       "estimatedSeconds": 1800,
       "menuCount": 2,
       "entryPath": "entries/sat-am-hill-bike.json"
+    },
+    {
+      "id": "sat-am-hill-bike-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sat AM Main 1: Hill Dash (17 min)",
+        "ja": "土曜午前メイン①: 坂道ダッシュ（17分）"
+      },
+      "description": {
+        "en": "High-intensity intervals of standing hill dashes with easy descents. Standalone menu version (free to get).",
+        "ja": "立ちこぎでの坂道ダッシュと下り・流しを繰り返す高強度インターバル。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "cycling",
+        "hiit"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/sat-am-hill-bike-main1.json"
+    },
+    {
+      "id": "sat-am-hill-bike-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sat AM Main 2: High-Resistance Seated (13 min)",
+        "ja": "土曜午前メイン②: 高負荷シッティング（13分）"
+      },
+      "description": {
+        "en": "High-resistance seated riding block. Standalone menu version (free to get).",
+        "ja": "シッティングでの高負荷走行ブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "cycling",
+        "hiit"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/sat-am-hill-bike-main2.json"
     },
     {
       "id": "sat-pm-recovery",
@@ -199,6 +491,48 @@
       "entryPath": "entries/sun-am-circuit.json"
     },
     {
+      "id": "sun-am-circuit-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sun AM Main 1: Full-Body Circuit (17 min)",
+        "ja": "日曜午前メイン①: 全身サーキット（17分）"
+      },
+      "description": {
+        "en": "Full-body circuit combining squats, push-ups, and lunges. Standalone menu version (free to get).",
+        "ja": "スクワットやプッシュアップ、ランジなど基本種目を組み合わせた全身サーキットブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/sun-am-circuit-main1.json"
+    },
+    {
+      "id": "sun-am-circuit-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sun AM Main 2: Core (13 min)",
+        "ja": "日曜午前メイン②: 体幹（13分）"
+      },
+      "description": {
+        "en": "Core-finisher with leg raises and bicycle crunches. Standalone menu version (free to get).",
+        "ja": "レッグレイズなど体幹種目で仕上げるブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/sun-am-circuit-main2.json"
+    },
+    {
       "id": "sun-pm-conditioning",
       "type": "routine",
       "minSchemaVersion": 6,
@@ -218,6 +552,46 @@
       "estimatedSeconds": 1800,
       "menuCount": 2,
       "entryPath": "entries/sun-pm-conditioning.json"
+    },
+    {
+      "id": "sun-pm-conditioning-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sun PM Main 1: Mobility Stretch (17 min)",
+        "ja": "日曜午後メイン①: モビリティストレッチ（17分）"
+      },
+      "description": {
+        "en": "Mobility stretches to open up the joints. Standalone menu version (free to get).",
+        "ja": "モビリティストレッチで関節の可動域を広げるブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 1020,
+      "entryPath": "entries/sun-pm-conditioning-main1.json"
+    },
+    {
+      "id": "sun-pm-conditioning-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sun PM Main 2: Core Stability (13 min)",
+        "ja": "日曜午後メイン②: コアスタビリティ（13分）"
+      },
+      "description": {
+        "en": "Core-stability plank holds. Standalone menu version (free to get).",
+        "ja": "プランクで体幹を整えるコアスタビリティブロック。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-21",
+      "estimatedSeconds": 780,
+      "entryPath": "entries/sun-pm-conditioning-main2.json"
     }
   ]
 }

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-bike-r1-en",
+    "name": "Bike Training (30 min)",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "items": [
+      {
+        "id": "cat-bike-r1-i1-en",
+        "orderIndex": 0,
+        "menuId": "cat-bike-m1-en",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i2-en",
+        "orderIndex": 1,
+        "menuId": "cat-bike-m2-en",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-bike-m1-en",
+      "name": "Main Block 1 (High-Intensity Pedaling)",
+      "sets": 8,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 240,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-23T00:00:00Z",
+      "updatedAt": "2026-07-23T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m1-s1-en",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "High-Intensity Pedaling",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m1-s2-en",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "Easy Spin",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-bike-m2-en",
+      "name": "Main Block 2 (Upper Body & Core Strengthening)",
+      "sets": 6,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 420,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-23T00:00:00Z",
+      "updatedAt": "2026-07-23T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m2-s1-en",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "Front Lift",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m2-s2-en",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

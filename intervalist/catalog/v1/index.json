@@ -28,6 +28,30 @@
       "entryPath": "entries/bike-training-30min.json"
     },
     {
+      "id": "bike-training-30min-en",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Training (30 min)"
+      },
+      "description": {
+        "en": "Warm-up, 8x high-intensity sprint intervals, recovery, 6x front-lift sets for upper body and core, and a long cool-down."
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-23",
+      "estimatedSeconds": 1800,
+      "menuCount": 2,
+      "language": "en",
+      "translationOf": "bike-training-30min",
+      "entryPath": "entries/bike-training-30min-en.json"
+    },
+    {
       "id": "bike-training-30min-main1",
       "type": "menu",
       "minSchemaVersion": 6,
@@ -52,6 +76,29 @@
       "entryPath": "entries/bike-training-30min-main1.json"
     },
     {
+      "id": "bike-training-30min-main1-en",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Main 1: High-Intensity Pedaling (17 min)"
+      },
+      "description": {
+        "en": "8 rounds of high-intensity pedaling intervals. Standalone menu version (free to get)."
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-23",
+      "estimatedSeconds": 1020,
+      "language": "en",
+      "translationOf": "bike-training-30min-main1",
+      "entryPath": "entries/bike-training-30min-main1-en.json"
+    },
+    {
       "id": "bike-training-30min-main2",
       "type": "menu",
       "minSchemaVersion": 6,
@@ -74,6 +121,29 @@
       "estimatedSeconds": 780,
       "language": "ja",
       "entryPath": "entries/bike-training-30min-main2.json"
+    },
+    {
+      "id": "bike-training-30min-main2-en",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Main 2: Upper Body & Core (13 min)"
+      },
+      "description": {
+        "en": "6 rounds of front-lift work for upper body and core. Standalone menu version (free to get)."
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-23",
+      "estimatedSeconds": 780,
+      "language": "en",
+      "translationOf": "bike-training-30min-main2",
+      "entryPath": "entries/bike-training-30min-main2-en.json"
     },
     {
       "id": "mon-chest-shoulders",

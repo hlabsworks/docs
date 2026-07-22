@@ -24,6 +24,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/bike-training-30min.json"
     },
     {
@@ -47,6 +48,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/bike-training-30min-main1.json"
     },
     {
@@ -70,6 +72,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/bike-training-30min-main2.json"
     },
     {
@@ -91,6 +94,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/mon-chest-shoulders.json"
     },
     {
@@ -111,6 +115,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-main1.json"
     },
     {
@@ -131,6 +136,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-main2.json"
     },
     {
@@ -153,6 +159,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit.json"
     },
     {
@@ -174,6 +181,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-main1.json"
     },
     {
@@ -195,6 +203,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-main2.json"
     },
     {
@@ -216,6 +225,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/wed-back.json"
     },
     {
@@ -236,6 +246,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/wed-back-main1.json"
     },
     {
@@ -256,6 +267,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/wed-back-main2.json"
     },
     {
@@ -277,6 +289,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/thu-chest-arms.json"
     },
     {
@@ -297,6 +310,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/thu-chest-arms-main1.json"
     },
     {
@@ -317,6 +331,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/thu-chest-arms-main2.json"
     },
     {
@@ -339,6 +354,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/fri-fullbody-core.json"
     },
     {
@@ -360,6 +376,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/fri-fullbody-core-main1.json"
     },
     {
@@ -381,6 +398,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/fri-fullbody-core-main2.json"
     },
     {
@@ -403,6 +421,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/sat-am-hill-bike.json"
     },
     {
@@ -424,6 +443,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/sat-am-hill-bike-main1.json"
     },
     {
@@ -445,6 +465,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/sat-am-hill-bike-main2.json"
     },
     {
@@ -466,6 +487,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
+      "language": "ja",
       "entryPath": "entries/sat-pm-recovery.json"
     },
     {
@@ -488,6 +510,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/sun-am-circuit.json"
     },
     {
@@ -509,6 +532,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/sun-am-circuit-main1.json"
     },
     {
@@ -530,6 +554,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/sun-am-circuit-main2.json"
     },
     {
@@ -551,6 +576,7 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1800,
       "menuCount": 2,
+      "language": "ja",
       "entryPath": "entries/sun-pm-conditioning.json"
     },
     {
@@ -571,6 +597,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 1020,
+      "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-main1.json"
     },
     {
@@ -591,6 +618,7 @@
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
       "estimatedSeconds": 780,
+      "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-main2.json"
     }
   ]

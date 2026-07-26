@@ -150,22 +150,44 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Monday: Chest & Shoulders + Lower Abs (30 min, home)",
-        "ja": "月曜: 胸・肩 & 下腹部（自宅30分）"
+        "en": "Monday: Chest & Shoulders + Lower Abs (33 min, home)",
+        "ja": "月曜: 胸・肩 & 下腹部（自宅33分）"
       },
       "description": {
-        "en": "A 30-minute home workout pairing four push-up variations for chest and shoulders with reverse-crunch style core work to finish.",
-        "ja": "プッシュアップ4種のインターバルで胸・肩を追い込み、リバースクランチ系の下腹部種目で仕上げる自宅30分メニュー。"
+        "en": "A 33-minute home workout pairing four push-up variations for chest and shoulders with reverse-crunch style core work to finish, now bookended by a dynamic warm-up and a DOMS-easing cooldown stretch.",
+        "ja": "プッシュアップ4種のインターバルで胸・肩を追い込み、リバースクランチ系の下腹部種目で仕上げる自宅メニュー。動的な準備運動と、翌日の筋肉痛を和らげるクールダウンストレッチを前後に組み込みました。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders.json"
+    },
+    {
+      "id": "mon-chest-shoulders-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Mon Warm-up: Dynamic Mobility (6 min)",
+        "ja": "月曜ウォームアップ: 動的モビリティ（6分）"
+      },
+      "description": {
+        "en": "Dynamic shoulder, chest and hip-flexor mobility work matched to Monday's push-up and core routine. Standalone menu version (free to get).",
+        "ja": "月曜メニュー（プッシュアップ・下腹部）に合わせた肩・胸・股関節前面の動的モビリティ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "ja",
+      "entryPath": "entries/mon-chest-shoulders-warmup.json"
     },
     {
       "id": "mon-chest-shoulders-main1",
@@ -208,6 +230,28 @@
       "estimatedSeconds": 780,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-main2.json"
+    },
+    {
+      "id": "mon-chest-shoulders-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Mon Cooldown: DOMS-Relief Stretch (8 min)",
+        "ja": "月曜クールダウン: 筋肉痛ケアストレッチ（8分）"
+      },
+      "description": {
+        "en": "Static chest, triceps, shoulder and core stretches to ease next-day soreness after Monday's push-up and core routine. Standalone menu version (free to get).",
+        "ja": "月曜メニュー（プッシュアップ・下腹部）後の筋肉痛を和らげる、胸・上腕三頭筋・肩・体幹の静的ストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/mon-chest-shoulders-stretch.json"
     },
     {
       "id": "tue-fullbody-hiit",

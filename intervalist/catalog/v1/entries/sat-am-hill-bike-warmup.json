@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-satam-m0-solo",
+    "name": "土曜午前ウォームアップ: 下肢のダイナミックモビリティ",
+    "sets": 1,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-satam-m0-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "股関節回し（大きく前後・左右に）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-satam-m0-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-satam-m0-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "ダイナミックカーフレイズ（かかと上げ下げ）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-satam-m0-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-satam-m0-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "グルートブリッジ（動的・お尻を引き締めて持ち上げる）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-satam-m0-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-satam-m0-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "レッグスイング（前後に振る・左右交互）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-satam-m0-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-satam-m0-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "ウォーキングランジ（その場で交互に踏み込む）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-satam-m0-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-satam-m0-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "手首・前腕ほぐし（グリップに備えて手首を回す）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-satam-m0-s12-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      }
+    ]
+  }
+}

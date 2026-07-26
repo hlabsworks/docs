@@ -4,23 +4,148 @@
     "id": "cat-tue-r1",
     "name": "火曜: 全身HIIT",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
     "items": [
       {
         "id": "cat-tue-r1-i1",
         "orderIndex": 0,
-        "menuId": "cat-tue-m1",
+        "menuId": "cat-tue-m0",
         "setsOverride": null
       },
       {
         "id": "cat-tue-r1-i2",
         "orderIndex": 1,
+        "menuId": "cat-tue-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-tue-r1-i3",
+        "orderIndex": 2,
         "menuId": "cat-tue-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-tue-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-tue-m3",
         "setsOverride": null
       }
     ]
   },
   "menus": [
+    {
+      "id": "cat-tue-m0",
+      "name": "準備運動（全身ダイナミックモビリティ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-tue-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "その場足踏み（軽く腕を振って全身を温める）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "ハイニー（軽いテンポで）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "バットキック（かかとをお尻に近づける）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "アームサークル（腕を大きく回す）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "ヒップサークル（腰を回す）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "ダイナミックランジ（交互に踏み込む）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m0-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
     {
       "id": "cat-tue-m1",
       "name": "メインブロック①（全身HIIT）",
@@ -31,10 +156,10 @@
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 240,
+      "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
       "segments": [
         {
           "id": "cat-tue-m1-s1",
@@ -176,10 +301,10 @@
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 420,
+      "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
       "segments": [
         {
           "id": "cat-tue-m2-s1",
@@ -275,6 +400,151 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-tue-m3",
+      "name": "ストレッチ（下肢・体幹ケアストレッチ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-tue-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "大腿四頭筋ストレッチ（右脚）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "大腿四頭筋ストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "ハムストリングストレッチ（右脚）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ハムストリングストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "腸腰筋ストレッチ（右脚・ランジ姿勢）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "腸腰筋ストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "体側伸ばし（腹斜筋・右側）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-tue-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "体側伸ばし（腹斜筋・左側）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-tue-m3-s16",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
           "type": 2
         }
       ]

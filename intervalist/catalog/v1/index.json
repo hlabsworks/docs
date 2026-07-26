@@ -7,12 +7,12 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Training (30 min)",
-        "ja": "自転車トレーニング（30分）"
+        "en": "Bike Training (33 min)",
+        "ja": "自転車トレーニング（33分）"
       },
       "description": {
-        "en": "Warm-up, 8x high-intensity sprint intervals, recovery, 6x front-lift sets for upper body and core, and a long cool-down.",
-        "ja": "ウォームアップ→高強度ペダリング8本→リカバリー→上半身・体幹のフロントアップ6本→クールダウンの30分構成。"
+        "en": "8x high-intensity sprint intervals, recovery, and 6x front-lift sets for upper body and core, now bookended by a dynamic leg warm-up and a leg-recovery cooldown stretch.",
+        "ja": "高強度ペダリング8本→リカバリー→上半身・体幹のフロントアップ6本の構成に、動的な下肢ウォームアップと脚全体をケアするクールダウンストレッチを前後に追加しました。"
       },
       "tags": [
         "hiit",
@@ -22,8 +22,8 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/bike-training-30min.json"
     },
@@ -32,10 +32,10 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Training (30 min)"
+        "en": "Bike Training (33 min)"
       },
       "description": {
-        "en": "Warm-up, 8x high-intensity sprint intervals, recovery, 6x front-lift sets for upper body and core, and a long cool-down."
+        "en": "8x high-intensity sprint intervals, recovery, and 6x front-lift sets for upper body and core, now bookended by a dynamic leg warm-up and a leg-recovery cooldown stretch."
       },
       "tags": [
         "hiit",
@@ -45,11 +45,60 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-23",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "en",
       "translationOf": "bike-training-30min",
       "entryPath": "entries/bike-training-30min-en.json"
+    },
+    {
+      "id": "bike-training-30min-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Warm-up: Dynamic Leg Mobility (6 min)",
+        "ja": "自転車ウォームアップ: 下肢のダイナミックモビリティ（6分）"
+      },
+      "description": {
+        "en": "Dynamic hip and full-leg warm-up matched to the bike routine's high-intensity pedaling and front-lift work. Standalone menu version (free to get).",
+        "ja": "自転車メニュー（高強度ペダリング・フロントアップ）に合わせた股関節・脚全体の動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "ja",
+      "entryPath": "entries/bike-training-30min-warmup.json"
+    },
+    {
+      "id": "bike-training-30min-warmup-en",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Warm-up: Dynamic Leg Mobility (6 min)"
+      },
+      "description": {
+        "en": "Dynamic hip and full-leg warm-up matched to the bike routine's high-intensity pedaling and front-lift work. Standalone menu version (free to get)."
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "en",
+      "translationOf": "bike-training-30min-warmup",
+      "entryPath": "entries/bike-training-30min-warmup-en.json"
     },
     {
       "id": "bike-training-30min-main1",
@@ -144,6 +193,55 @@
       "language": "en",
       "translationOf": "bike-training-30min-main2",
       "entryPath": "entries/bike-training-30min-main2-en.json"
+    },
+    {
+      "id": "bike-training-30min-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Cooldown: Leg-Recovery Stretch (8 min)",
+        "ja": "自転車クールダウン: 下肢ケアストレッチ（8分）"
+      },
+      "description": {
+        "en": "Static quad, hamstring, calf and glute stretches to ease leg tightness after the bike routine. Standalone menu version (free to get).",
+        "ja": "自転車メニュー後の脚全体の張りをケアする、大腿四頭筋・ハムストリング・カーフ・臀筋の静的ストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/bike-training-30min-stretch.json"
+    },
+    {
+      "id": "bike-training-30min-stretch-en",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Bike Cooldown: Leg-Recovery Stretch (8 min)"
+      },
+      "description": {
+        "en": "Static quad, hamstring, calf and glute stretches to ease leg tightness after the bike routine. Standalone menu version (free to get)."
+      },
+      "tags": [
+        "hiit",
+        "cycling",
+        "cardio",
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "en",
+      "translationOf": "bike-training-30min-stretch",
+      "entryPath": "entries/bike-training-30min-stretch-en.json"
     },
     {
       "id": "mon-chest-shoulders",
@@ -258,12 +356,12 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Tuesday: Full-Body HIIT (30 min, home)",
-        "ja": "火曜: 全身HIIT（自宅30分）"
+        "en": "Tuesday: Full-Body HIIT (33 min, home)",
+        "ja": "火曜: 全身HIIT（自宅33分）"
       },
       "description": {
-        "en": "A 30-minute full-body HIIT session with mountain climbers, jump squats, high knees and skater hops, finishing with core work.",
-        "ja": "マウンテンクライマーやジャンピングスクワットなど全身を使う高強度種目でカロリーを消費し、体幹種目で締めくくる30分HIIT。"
+        "en": "A 33-minute full-body HIIT session with mountain climbers, jump squats, high knees and skater hops, finishing with core work, now bookended by a dynamic full-body warm-up and a leg-and-core cooldown stretch.",
+        "ja": "マウンテンクライマーやジャンピングスクワットなど全身を使う高強度種目でカロリーを消費し、体幹種目で締めくくるHIIT。動的な全身ウォームアップと、脚・体幹をケアするクールダウンストレッチを前後に組み込みました。"
       },
       "tags": [
         "hiit",
@@ -271,10 +369,33 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit.json"
+    },
+    {
+      "id": "tue-fullbody-hiit-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Tue Warm-up: Full-Body Dynamic Mobility (6 min)",
+        "ja": "火曜ウォームアップ: 全身ダイナミックモビリティ（6分）"
+      },
+      "description": {
+        "en": "Dynamic full-body warm-up preparing for mountain climbers, jump squats and other high-intensity full-body moves. Standalone menu version (free to get).",
+        "ja": "マウンテンクライマーやジャンピングスクワットなど全身を使う高強度種目に備える動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "ja",
+      "entryPath": "entries/tue-fullbody-hiit-warmup.json"
     },
     {
       "id": "tue-fullbody-hiit-main1",
@@ -321,26 +442,71 @@
       "entryPath": "entries/tue-fullbody-hiit-main2.json"
     },
     {
+      "id": "tue-fullbody-hiit-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Tue Cooldown: Leg & Core Recovery Stretch (8 min)",
+        "ja": "火曜クールダウン: 下肢・体幹ケアストレッチ（8分）"
+      },
+      "description": {
+        "en": "Static stretches for the legs, hip flexors and obliques worked by the full-body HIIT and core moves. Standalone menu version (free to get).",
+        "ja": "全身HIITと体幹種目で疲労した脚・股関節・腹斜筋をケアする静的ストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/tue-fullbody-hiit-stretch.json"
+    },
+    {
       "id": "wed-back",
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Wednesday: Back (30 min, home)",
-        "ja": "水曜: 背中（自宅30分）"
+        "en": "Wednesday: Back (33 min, home)",
+        "ja": "水曜: 背中（自宅33分）"
       },
       "description": {
-        "en": "A 30-minute back-focused session (Superman, reverse snow angel, prone cobra, Y-raise) finished with side planks for lateral core strength.",
-        "ja": "スーパーマンやYレイズなど背面を鍛える種目で背中を強化し、サイドプランクで体幹側面も仕上げる30分メニュー。"
+        "en": "A 33-minute back-focused session (Superman, reverse snow angel, prone cobra, Y-raise) finished with side planks for lateral core strength, now bookended by a back-and-core dynamic warm-up and a back-recovery cooldown stretch.",
+        "ja": "スーパーマンやYレイズなど背面を鍛える種目で背中を強化し、サイドプランクで体幹側面も仕上げるメニュー。背中・体幹の動的ウォームアップと、背中をケアするクールダウンストレッチを前後に組み込みました。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/wed-back.json"
+    },
+    {
+      "id": "wed-back-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Wed Warm-up: Back & Core Dynamic Mobility (6 min)",
+        "ja": "水曜ウォームアップ: 背中・体幹の動的モビリティ（6分）"
+      },
+      "description": {
+        "en": "Dynamic back and thoracic-spine warm-up preparing for Superman, Y-raise and other back-strengthening moves. Standalone menu version (free to get).",
+        "ja": "スーパーマンやYレイズなど背面を鍛える種目に備える、背中・胸椎の動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "ja",
+      "entryPath": "entries/wed-back-warmup.json"
     },
     {
       "id": "wed-back-main1",
@@ -385,26 +551,70 @@
       "entryPath": "entries/wed-back-main2.json"
     },
     {
+      "id": "wed-back-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Wed Cooldown: Back-Recovery Stretch (8 min)",
+        "ja": "水曜クールダウン: 背中ケアストレッチ（8分）"
+      },
+      "description": {
+        "en": "Static stretches for the erector spinae, lats and traps worked by the back-strengthening moves and side planks. Standalone menu version (free to get).",
+        "ja": "背面種目とサイドプランクで疲労した脊柱起立筋・広背筋・僧帽筋をケアする静的ストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/wed-back-stretch.json"
+    },
+    {
       "id": "thu-chest-arms",
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Thursday: Chest & Arms (30 min, home)",
-        "ja": "木曜: 胸・腕（自宅30分）"
+        "en": "Thursday: Chest & Arms (33 min, home)",
+        "ja": "木曜: 胸・腕（自宅33分）"
       },
       "description": {
-        "en": "A 30-minute session of push-up variations for chest and arms, plus crunch variations for the lower abs.",
-        "ja": "プッシュアップのバリエーションで胸と腕を鍛え、クランチ系種目で下腹部も追い込む30分メニュー。"
+        "en": "A 33-minute session of push-up variations for chest and arms, plus crunch variations for the lower abs, now bookended by a chest-and-shoulder dynamic warm-up and a chest-and-arm cooldown stretch.",
+        "ja": "プッシュアップのバリエーションで胸と腕を鍛え、クランチ系種目で下腹部も追い込むメニュー。胸・肩の動的ウォームアップと、胸・腕をケアするクールダウンストレッチを前後に組み込みました。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/thu-chest-arms.json"
+    },
+    {
+      "id": "thu-chest-arms-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Thu Warm-up: Chest & Shoulder Dynamic Mobility (6 min)",
+        "ja": "木曜ウォームアップ: 胸・肩の動的モビリティ（6分）"
+      },
+      "description": {
+        "en": "Dynamic chest, shoulder and triceps warm-up preparing for the push-up variations. Standalone menu version (free to get).",
+        "ja": "プッシュアップのバリエーションに備える、胸・肩・三頭筋の動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "ja",
+      "entryPath": "entries/thu-chest-arms-warmup.json"
     },
     {
       "id": "thu-chest-arms-main1",
@@ -449,16 +659,38 @@
       "entryPath": "entries/thu-chest-arms-main2.json"
     },
     {
+      "id": "thu-chest-arms-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Thu Cooldown: Chest & Arm Recovery Stretch (8 min)",
+        "ja": "木曜クールダウン: 胸・腕ケアストレッチ（8分）"
+      },
+      "description": {
+        "en": "Static stretches for the chest, triceps, wrists and obliques worked by the push-up and crunch variations. Standalone menu version (free to get).",
+        "ja": "プッシュアップとクランチ系種目で疲労した胸・三頭筋・手首・腹斜筋をケアする静的ストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/thu-chest-arms-stretch.json"
+    },
+    {
       "id": "fri-fullbody-core",
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Friday: Full-Body Conditioning (30 min, home)",
-        "ja": "金曜: 全身コンディショニング（自宅30分）"
+        "en": "Friday: Full-Body Conditioning (33 min, home)",
+        "ja": "金曜: 全身コンディショニング（自宅33分）"
       },
       "description": {
-        "en": "A 30-minute mix of heart-pumping full-body HIIT (mountain climbers, burpees, high knees, skater hops) and core-holding work (hollow body, plank, Russian twist).",
-        "ja": "マウンテンクライマーやバーピーで心拍を上げる全身HIITと、ホロウボディホールドなど体幹保持種目を組み合わせた30分メニュー。"
+        "en": "A 33-minute mix of heart-pumping full-body HIIT (mountain climbers, burpees, high knees, skater hops) and core-holding work (hollow body, plank, Russian twist), now bookended by a dynamic full-body warm-up and a full-body-and-core cooldown stretch.",
+        "ja": "マウンテンクライマーやバーピーで心拍を上げる全身HIITと、ホロウボディホールドなど体幹保持種目を組み合わせたメニュー。動的な全身ウォームアップと、全身・体幹をケアするクールダウンストレッチを前後に組み込みました。"
       },
       "tags": [
         "hiit",
@@ -466,10 +698,33 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core.json"
+    },
+    {
+      "id": "fri-fullbody-core-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Fri Warm-up: Full-Body Dynamic Mobility (6 min)",
+        "ja": "金曜ウォームアップ: 全身ダイナミックモビリティ（6分）"
+      },
+      "description": {
+        "en": "Dynamic full-body warm-up preparing for mountain climbers, burpees and other full-body HIIT moves. Standalone menu version (free to get).",
+        "ja": "マウンテンクライマーやバーピーなど全身HIITに備える動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "ja",
+      "entryPath": "entries/fri-fullbody-core-warmup.json"
     },
     {
       "id": "fri-fullbody-core-main1",
@@ -516,16 +771,39 @@
       "entryPath": "entries/fri-fullbody-core-main2.json"
     },
     {
+      "id": "fri-fullbody-core-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Fri Cooldown: Full-Body & Core Recovery Stretch (8 min)",
+        "ja": "金曜クールダウン: 全身・体幹ケアストレッチ（8分）"
+      },
+      "description": {
+        "en": "Static stretches for the legs, chest and obliques worked by the full-body HIIT and core-holding moves (hollow body hold, Russian twist). Standalone menu version (free to get).",
+        "ja": "全身HIITとホロウボディホールドなど体幹保持種目で疲労した脚・胸・腹斜筋をケアする静的ストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/fri-fullbody-core-stretch.json"
+    },
+    {
       "id": "sat-am-hill-bike",
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Saturday AM: Hill Bike Training (30 min)",
-        "ja": "土曜午前: 坂道バイクトレーニング（30分）"
+        "en": "Saturday AM: Hill Bike Training (33 min)",
+        "ja": "土曜午前: 坂道バイクトレーニング（33分）"
       },
       "description": {
-        "en": "A 30-minute bike session alternating standing hill sprints with easy descents, finishing with a high-resistance seated block.",
-        "ja": "立ちこぎでの坂道ダッシュと下り・流しを繰り返す高強度インターバル、その後シッティングでの高負荷走行で仕上げる30分バイクメニュー。"
+        "en": "A 33-minute bike session alternating standing hill sprints with easy descents, finishing with a high-resistance seated block, now bookended by a dynamic leg warm-up and a leg-recovery cooldown stretch.",
+        "ja": "立ちこぎでの坂道ダッシュと下り・流しを繰り返す高強度インターバル、その後シッティングでの高負荷走行で仕上げるバイクメニュー。下肢の動的ウォームアップと、脚をケアするクールダウンストレッチを前後に組み込みました。"
       },
       "tags": [
         "cycling",
@@ -533,10 +811,33 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/sat-am-hill-bike.json"
+    },
+    {
+      "id": "sat-am-hill-bike-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sat AM Warm-up: Dynamic Leg Mobility (6 min)",
+        "ja": "土曜午前ウォームアップ: 下肢のダイナミックモビリティ（6分）"
+      },
+      "description": {
+        "en": "Dynamic hip, glute and grip warm-up preparing for the standing hill-dash intervals. Standalone menu version (free to get).",
+        "ja": "立ちこぎでの坂道ダッシュに備える、股関節・臀筋・グリップの動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "cycling",
+        "hiit",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "ja",
+      "entryPath": "entries/sat-am-hill-bike-warmup.json"
     },
     {
       "id": "sat-am-hill-bike-main1",
@@ -583,6 +884,29 @@
       "entryPath": "entries/sat-am-hill-bike-main2.json"
     },
     {
+      "id": "sat-am-hill-bike-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sat AM Cooldown: Leg-Recovery Stretch (8 min)",
+        "ja": "土曜午前クールダウン: 下肢ケアストレッチ（8分）"
+      },
+      "description": {
+        "en": "Static stretches for the quads, glutes, calves and hamstrings worked by the hill dashes and high-resistance seated riding. Standalone menu version (free to get).",
+        "ja": "坂道ダッシュと高負荷シッティングで疲労した大腿四頭筋・臀筋・カーフ・ハムストリングをケアする静的ストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "cycling",
+        "hiit",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/sat-am-hill-bike-stretch.json"
+    },
+    {
       "id": "sat-pm-recovery",
       "type": "menu",
       "minSchemaVersion": 6,
@@ -609,12 +933,12 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sunday AM: Full-Body Circuit (30 min, home)",
-        "ja": "日曜午前: 全身サーキット（自宅30分）"
+        "en": "Sunday AM: Full-Body Circuit (33 min, home)",
+        "ja": "日曜午前: 全身サーキット（自宅33分）"
       },
       "description": {
-        "en": "A 30-minute full-body circuit combining bodyweight squats, push-ups, lunges, and mountain climbers, finished with core work.",
-        "ja": "スクワットやプッシュアップ、ランジなど基本種目を組み合わせた全身サーキットで一週間を締めくくり、体幹種目で仕上げる30分。"
+        "en": "A 33-minute full-body circuit combining bodyweight squats, push-ups, lunges, and mountain climbers, finished with core work, now bookended by a dynamic full-body warm-up and a full-body cooldown stretch.",
+        "ja": "スクワットやプッシュアップ、ランジなど基本種目を組み合わせた全身サーキットで一週間を締めくくり、体幹種目で仕上げます。動的な全身ウォームアップと、全身をケアするクールダウンストレッチを前後に組み込みました。"
       },
       "tags": [
         "strength",
@@ -622,10 +946,33 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1980,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/sun-am-circuit.json"
+    },
+    {
+      "id": "sun-am-circuit-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sun AM Warm-up: Full-Body Dynamic Mobility (6 min)",
+        "ja": "日曜午前ウォームアップ: 全身ダイナミックモビリティ（6分）"
+      },
+      "description": {
+        "en": "Dynamic full-body warm-up preparing for the squat, push-up and lunge full-body circuit. Standalone menu version (free to get).",
+        "ja": "スクワット・プッシュアップ・ランジを組み合わせた全身サーキットに備える動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 360,
+      "language": "ja",
+      "entryPath": "entries/sun-am-circuit-warmup.json"
     },
     {
       "id": "sun-am-circuit-main1",
@@ -672,26 +1019,70 @@
       "entryPath": "entries/sun-am-circuit-main2.json"
     },
     {
+      "id": "sun-am-circuit-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sun AM Cooldown: Full-Body Recovery Stretch (8 min)",
+        "ja": "日曜午前クールダウン: 全身ケアストレッチ（8分）"
+      },
+      "description": {
+        "en": "Static stretches for the legs, chest and hip flexors worked by the full-body circuit and core finisher. Standalone menu version (free to get).",
+        "ja": "全身サーキットと体幹種目で疲労した脚・胸・股関節をケアする静的ストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "strength",
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/sun-am-circuit-stretch.json"
+    },
+    {
       "id": "sun-pm-conditioning",
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sunday PM: Mobility & Core Conditioning (30 min)",
-        "ja": "日曜午後: モビリティ&コアコンディショニング（30分）"
+        "en": "Sunday PM: Mobility & Core Conditioning (31 min)",
+        "ja": "日曜午後: モビリティ&コアコンディショニング（31分）"
       },
       "description": {
-        "en": "A 30-minute weekend wind-down of mobility stretches to open up the joints, followed by core-stability plank holds.",
-        "ja": "モビリティストレッチで関節の可動域を広げ、コアスタビリティ（プランク）で体幹を整える週末クールダウン30分。"
+        "en": "A 31-minute weekend wind-down of mobility stretches to open up the joints, followed by core-stability plank holds, now bookended by a gentle joint-loosening warm-up and a deep-relaxation cooldown stretch.",
+        "ja": "モビリティストレッチで関節の可動域を広げ、コアスタビリティ（プランク）で体幹を整える週末クールダウン。軽い関節ほぐしのウォームアップと、仕上げのディープリラックスストレッチを前後に組み込みました。"
       },
       "tags": [
         "mobility"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
-      "menuCount": 2,
+      "estimatedSeconds": 1860,
+      "menuCount": 4,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning.json"
+    },
+    {
+      "id": "sun-pm-conditioning-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sun PM Warm-up: Gentle Joint Loosener (4 min)",
+        "ja": "日曜午後ウォームアップ: 関節ほぐし（4分）"
+      },
+      "description": {
+        "en": "Gentle joint mobility to loosen the neck, wrists, shoulders and ankles before the main mobility stretches. Standalone menu version (free to get).",
+        "ja": "モビリティストレッチのメイン種目に入る前に関節をゆるめる、軽いジョイントモビリティ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 240,
+      "language": "ja",
+      "entryPath": "entries/sun-pm-conditioning-warmup.json"
     },
     {
       "id": "sun-pm-conditioning-main1",
@@ -734,6 +1125,27 @@
       "estimatedSeconds": 780,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-main2.json"
+    },
+    {
+      "id": "sun-pm-conditioning-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Sun PM Cooldown: Deep Relaxation Finisher (8 min)",
+        "ja": "日曜午後クールダウン: 仕上げのディープリラックス（8分）"
+      },
+      "description": {
+        "en": "A deep-relaxation finisher of supine stretches and breathing work to fully release the body after the mobility stretches and core-stability holds. Standalone menu version (free to get).",
+        "ja": "モビリティストレッチとコアスタビリティの後、呼吸を整えながら全身をゆるめる仕上げのディープリラックスストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-07-26",
+      "estimatedSeconds": 480,
+      "language": "ja",
+      "entryPath": "entries/sun-pm-conditioning-stretch.json"
     }
   ]
 }

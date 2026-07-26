@@ -4,23 +4,148 @@
     "id": "cat-wed-r1",
     "name": "水曜: 背中",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
     "items": [
       {
         "id": "cat-wed-r1-i1",
         "orderIndex": 0,
-        "menuId": "cat-wed-m1",
+        "menuId": "cat-wed-m0",
         "setsOverride": null
       },
       {
         "id": "cat-wed-r1-i2",
         "orderIndex": 1,
+        "menuId": "cat-wed-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-wed-r1-i3",
+        "orderIndex": 2,
         "menuId": "cat-wed-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-wed-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-wed-m3",
         "setsOverride": null
       }
     ]
   },
   "menus": [
+    {
+      "id": "cat-wed-m0",
+      "name": "準備運動（背中・体幹の動的モビリティ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-wed-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "キャット&カウ（背骨を丸めて反らす）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "肩甲骨引き寄せ（胸を開いて肩甲骨を寄せる）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "ソラシックローテーション（四つ這いで胸椎を捻る・右）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ソラシックローテーション（四つ這いで胸椎を捻る・左）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "バードドッグ（対角の手足を伸ばす・動的）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "ヒップサークル（腰を回す）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m0-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
     {
       "id": "cat-wed-m1",
       "name": "メインブロック①（背面強化）",
@@ -31,10 +156,10 @@
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 240,
+      "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
       "segments": [
         {
           "id": "cat-wed-m1-s1",
@@ -176,10 +301,10 @@
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 420,
+      "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
       "segments": [
         {
           "id": "cat-wed-m2-s1",
@@ -275,6 +400,151 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-wed-m3",
+      "name": "ストレッチ（背中ケアストレッチ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-wed-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "チャイルドポーズ（背中を伸ばして呼吸を深く）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "キャットストレッチ（背中を丸めて伸ばす）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "広背筋ストレッチ（右腕を伸ばして体側を倒す）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "広背筋ストレッチ（左腕を伸ばして体側を倒す）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "座位スパイナルツイスト（背骨を捻る・右）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "座位スパイナルツイスト（背骨を捻る・左）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "僧帽筋ストレッチ（首を横に倒す・右）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-wed-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "僧帽筋ストレッチ（首を横に倒す・左）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-wed-m3-s16",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
           "type": 2
         }
       ]

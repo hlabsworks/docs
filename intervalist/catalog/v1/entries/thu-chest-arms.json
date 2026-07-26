@@ -4,23 +4,148 @@
     "id": "cat-thu-r1",
     "name": "木曜: 胸・腕",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
     "items": [
       {
         "id": "cat-thu-r1-i1",
         "orderIndex": 0,
-        "menuId": "cat-thu-m1",
+        "menuId": "cat-thu-m0",
         "setsOverride": null
       },
       {
         "id": "cat-thu-r1-i2",
         "orderIndex": 1,
+        "menuId": "cat-thu-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-thu-r1-i3",
+        "orderIndex": 2,
         "menuId": "cat-thu-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-thu-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-thu-m3",
         "setsOverride": null
       }
     ]
   },
   "menus": [
+    {
+      "id": "cat-thu-m0",
+      "name": "準備運動（胸・肩の動的モビリティ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-thu-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "肩甲骨プッシュアップ（プランク姿勢で肩甲骨を出し入れ）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "動的チェストオープナー（胸を開いて閉じる）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "アームサークル（腕を大きく回す）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "トライセプスドロー（肘を曲げ伸ばしして三頭筋を温める）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "ニーリング・ヒップフレクサーストレッチ（動的・左右交互）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "キャット&カウ（背骨を丸めて反らす）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m0-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
     {
       "id": "cat-thu-m1",
       "name": "メインブロック①（プッシュアップ4種）",
@@ -31,10 +156,10 @@
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 240,
+      "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
       "segments": [
         {
           "id": "cat-thu-m1-s1",
@@ -176,10 +301,10 @@
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 420,
+      "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
       "segments": [
         {
           "id": "cat-thu-m2-s1",
@@ -275,6 +400,151 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-thu-m3",
+      "name": "ストレッチ（胸・腕ケアストレッチ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-thu-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "胸のドアフレームストレッチ（右腕・呼吸を意識）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "胸のドアフレームストレッチ（左腕・呼吸を意識）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "三頭筋オーバーヘッドストレッチ（右腕）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "三頭筋オーバーヘッドストレッチ（左腕）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "手首・前腕ストレッチ（右）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "手首・前腕ストレッチ（左）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "腹斜筋ストレッチ（体側を倒す・右）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-thu-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "腹斜筋ストレッチ（体側を倒す・左）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-thu-m3-s16",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
           "type": 2
         }
       ]

@@ -4,23 +4,148 @@
     "id": "cat-bike-r1-en",
     "name": "Bike Training (30 min)",
     "createdAt": "2026-07-23T00:00:00Z",
-    "updatedAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
     "items": [
       {
         "id": "cat-bike-r1-i1-en",
         "orderIndex": 0,
-        "menuId": "cat-bike-m1-en",
+        "menuId": "cat-bike-m0-en",
         "setsOverride": null
       },
       {
         "id": "cat-bike-r1-i2-en",
         "orderIndex": 1,
+        "menuId": "cat-bike-m1-en",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i3-en",
+        "orderIndex": 2,
         "menuId": "cat-bike-m2-en",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i4-en",
+        "orderIndex": 3,
+        "menuId": "cat-bike-m3-en",
         "setsOverride": null
       }
     ]
   },
   "menus": [
+    {
+      "id": "cat-bike-m0-en",
+      "name": "Warm-up (Dynamic Leg Mobility)",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m0-s1-en",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "Hip Circles (big, front-to-back and side-to-side)",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s2-en",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s3-en",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "Leg Swings (alternating front-to-back)",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s4-en",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s5-en",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "Ankle Hops (light in-place jumps)",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s6-en",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s7-en",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "Dynamic Calf Raises (heel up-down)",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s8-en",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s9-en",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "Walking Lunges (alternating in place)",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s10-en",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s11-en",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "Arm Circles (big circles)",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s12-en",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
     {
       "id": "cat-bike-m1-en",
       "name": "Main Block 1 (High-Intensity Pedaling)",
@@ -31,10 +156,10 @@
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 240,
+      "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-23T00:00:00Z",
-      "updatedAt": "2026-07-23T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
       "segments": [
         {
           "id": "cat-bike-m1-s1-en",
@@ -64,10 +189,10 @@
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 420,
+      "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-23T00:00:00Z",
-      "updatedAt": "2026-07-23T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
       "segments": [
         {
           "id": "cat-bike-m2-s1-en",
@@ -83,6 +208,151 @@
           "sourceTemplateId": null,
           "name": "Rest",
           "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-bike-m3-en",
+      "name": "Stretch (Leg-Recovery Stretch)",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m3-s1-en",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "Quad Stretch (right leg, standing, hold ankle)",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s2-en",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s3-en",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "Quad Stretch (left leg)",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s4-en",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s5-en",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "Hamstring Stretch (right leg, forward fold)",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s6-en",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s7-en",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "Hamstring Stretch (left leg)",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s8-en",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s9-en",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "Calf Stretch (right leg, hands on wall)",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s10-en",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s11-en",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "Calf Stretch (left leg)",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s12-en",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s13-en",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "Hip Flexor Stretch (right leg, lunge position)",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s14-en",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s15-en",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "Glute Stretch (seated figure-4, forward fold)",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s16-en",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "Rest",
+          "durationSeconds": 20,
           "type": 2
         }
       ]

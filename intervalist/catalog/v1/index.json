@@ -24,6 +24,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "bike-training-30min-warmup",
+        "bike-training-30min-main1",
+        "bike-training-30min-main2",
+        "bike-training-30min-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/bike-training-30min.json"
     },
@@ -47,6 +53,12 @@
       "publishedAt": "2026-07-23",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "bike-training-30min-warmup-en",
+        "bike-training-30min-main1-en",
+        "bike-training-30min-main2-en",
+        "bike-training-30min-stretch-en"
+      ],
       "language": "en",
       "translationOf": "bike-training-30min",
       "entryPath": "entries/bike-training-30min-en.json"
@@ -262,6 +274,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "mon-chest-shoulders-warmup",
+        "mon-chest-shoulders-main1",
+        "mon-chest-shoulders-main2",
+        "mon-chest-shoulders-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders.json"
     },
@@ -371,6 +389,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "tue-fullbody-hiit-warmup",
+        "tue-fullbody-hiit-main1",
+        "tue-fullbody-hiit-main2",
+        "tue-fullbody-hiit-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit.json"
     },
@@ -483,6 +507,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "wed-back-warmup",
+        "wed-back-main1",
+        "wed-back-main2",
+        "wed-back-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/wed-back.json"
     },
@@ -591,6 +621,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "thu-chest-arms-warmup",
+        "thu-chest-arms-main1",
+        "thu-chest-arms-main2",
+        "thu-chest-arms-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/thu-chest-arms.json"
     },
@@ -700,6 +736,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "fri-fullbody-core-warmup",
+        "fri-fullbody-core-main1",
+        "fri-fullbody-core-main2",
+        "fri-fullbody-core-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core.json"
     },
@@ -813,6 +855,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "sat-am-hill-bike-warmup",
+        "sat-am-hill-bike-main1",
+        "sat-am-hill-bike-main2",
+        "sat-am-hill-bike-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/sat-am-hill-bike.json"
     },
@@ -948,6 +996,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1980,
       "menuCount": 4,
+      "menuEntryIds": [
+        "sun-am-circuit-warmup",
+        "sun-am-circuit-main1",
+        "sun-am-circuit-main2",
+        "sun-am-circuit-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/sun-am-circuit.json"
     },
@@ -1060,6 +1114,12 @@
       "publishedAt": "2026-07-20",
       "estimatedSeconds": 1860,
       "menuCount": 4,
+      "menuEntryIds": [
+        "sun-pm-conditioning-warmup",
+        "sun-pm-conditioning-main1",
+        "sun-pm-conditioning-main2",
+        "sun-pm-conditioning-stretch"
+      ],
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning.json"
     },

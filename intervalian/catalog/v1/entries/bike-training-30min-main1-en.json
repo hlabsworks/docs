@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-bike-m1-solo-en",
+    "name": "Bike Main 1: High-Intensity Pedaling",
+    "sets": 8,
+    "prepareSeconds": 300,
+    "prepareCountdownSeconds": 5,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 240,
+    "cooldownCountdownSeconds": 5,
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-bike-m1-s1-solo-en",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "High-Intensity Pedaling",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m1-s2-solo-en",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "Easy Spin",
+        "durationSeconds": 20,
+        "type": 2
+      }
+    ]
+  }
+}

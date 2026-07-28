@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-bike-r1",
+    "name": "自転車トレーニング（30分）",
+    "createdAt": "2026-07-20T09:15:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "items": [
+      {
+        "id": "cat-bike-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-bike-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-bike-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-bike-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-bike-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-bike-m0",
+      "name": "準備運動（下肢のダイナミックモビリティ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "股関節回し（大きく前後・左右に）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "レッグスイング（前後に振る・左右交互）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "アンクルホップ（軽くその場でジャンプ）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ダイナミックカーフレイズ（かかと上げ下げ）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "ウォーキングランジ（その場で交互に踏み込む）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "アームサークル（腕を大きく回す）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m0-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-bike-m1",
+      "name": "メインブロック①（高強度ペダリング）",
+      "sets": 8,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "高強度ペダリング",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "流し",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-bike-m2",
+      "name": "メインブロック②（上半身・体幹強化）",
+      "sets": 6,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "フロントアップ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-bike-m3",
+      "name": "ストレッチ（下肢ケアストレッチ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "大腿四頭筋ストレッチ（右脚・立位で足首を持つ）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "大腿四頭筋ストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "ハムストリングストレッチ（右脚・前屈）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ハムストリングストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "カーフストレッチ（右脚・壁に手をつき伸ばす）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "カーフストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "ヒップフレクサーストレッチ（右脚・ランジ姿勢で伸ばす）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-bike-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "臀筋ストレッチ（座位で片脚を組んで前屈）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-bike-m3-s16",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

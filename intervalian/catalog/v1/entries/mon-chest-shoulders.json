@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-mon-r1",
+    "name": "月曜: 胸・肩 & 下腹部",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "items": [
+      {
+        "id": "cat-mon-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-mon-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-mon-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-mon-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-mon-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-mon-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-mon-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-mon-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-mon-m0",
+      "name": "準備運動（肩・胸・股関節の動的モビリティ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "肩回し（大きく前後に）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "アームサークル（腕を大きく回す）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "動的チェストオープナー（胸を開いて閉じる）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "肩甲骨プッシュアップ（プランク姿勢で肩甲骨を出し入れ）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "キャット&カウ（背骨を丸めて反らす）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "ニーリング・ヒップフレクサーストレッチ（動的・左右交互）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m0-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-mon-m1",
+      "name": "メインブロック①（プッシュアップ4種）",
+      "sets": 1,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "ワイドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "デクラインプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "パイクプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ダイヤモンドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s1-r2",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "ワイドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s2-r2",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s3-r2",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "デクラインプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s4-r2",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s5-r2",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "パイクプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s6-r2",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m1-s7-r2",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "ダイヤモンドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m1-s8-r2",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-mon-m2",
+      "name": "メインブロック②（下腹部）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "リバースクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m2-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "バイシクルクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m2-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "プランクニーイン",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m2-s1-r2",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "リバースクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s2-r2",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m2-s3-r2",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "バイシクルクランチ",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s4-r2",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m2-s5-r2",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "プランクニーイン",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m2-s6-r2",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-mon-m3",
+      "name": "ストレッチ（筋肉痛ケア・クールダウン）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "胸のドアフレームストレッチ（右腕・呼吸を意識）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "胸のドアフレームストレッチ（左腕・呼吸を意識）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "三頭筋オーバーヘッドストレッチ（右腕）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "三頭筋オーバーヘッドストレッチ（左腕）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "チャイルドポーズ（肩・体側を伸ばし呼吸を深く）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "コブラストレッチ（腹部・股関節前面を伸ばす）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "キャットストレッチ（呼吸を意識して背中を丸める）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-mon-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "仰向けニーハグ（腰・下腹部をリラックス）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-mon-m3-s16",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

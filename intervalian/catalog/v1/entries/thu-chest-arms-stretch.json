@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-08-01T09:00:00Z",
     "segments": [
       {
         "id": "cat-thu-m3-s1-solo",
@@ -21,7 +21,8 @@
         "sourceTemplateId": null,
         "name": "胸のドアフレームストレッチ（右腕・呼吸を意識）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "壁やドア枠に右前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす"
       },
       {
         "id": "cat-thu-m3-s2-solo",
@@ -29,7 +30,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-thu-m3-s3-solo",
@@ -37,7 +39,8 @@
         "sourceTemplateId": null,
         "name": "胸のドアフレームストレッチ（左腕・呼吸を意識）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "壁やドア枠に左前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす"
       },
       {
         "id": "cat-thu-m3-s4-solo",
@@ -45,7 +48,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-thu-m3-s5-solo",
@@ -53,7 +57,8 @@
         "sourceTemplateId": null,
         "name": "三頭筋オーバーヘッドストレッチ（右腕）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "右腕を頭の後ろに曲げ、左手で肘を軽く押して三頭筋を伸ばす"
       },
       {
         "id": "cat-thu-m3-s6-solo",
@@ -61,7 +66,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-thu-m3-s7-solo",
@@ -69,7 +75,8 @@
         "sourceTemplateId": null,
         "name": "三頭筋オーバーヘッドストレッチ（左腕）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "左腕を頭の後ろに曲げ、右手で肘を軽く押して三頭筋を伸ばす"
       },
       {
         "id": "cat-thu-m3-s8-solo",
@@ -77,7 +84,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-thu-m3-s9-solo",
@@ -85,7 +93,8 @@
         "sourceTemplateId": null,
         "name": "手首・前腕ストレッチ（右）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "右腕を伸ばして手のひらを反らし、前腕の筋肉をゆっくり伸ばす"
       },
       {
         "id": "cat-thu-m3-s10-solo",
@@ -93,7 +102,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-thu-m3-s11-solo",
@@ -101,7 +111,8 @@
         "sourceTemplateId": null,
         "name": "手首・前腕ストレッチ（左）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "左腕を伸ばして手のひらを反らし、前腕の筋肉をゆっくり伸ばす"
       },
       {
         "id": "cat-thu-m3-s12-solo",
@@ -109,7 +120,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-thu-m3-s13-solo",
@@ -117,7 +129,8 @@
         "sourceTemplateId": null,
         "name": "腹斜筋ストレッチ（体側を倒す・右）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "右腕を頭上に伸ばして体を左に倒し、腹斜筋を伸ばす"
       },
       {
         "id": "cat-thu-m3-s14-solo",
@@ -125,7 +138,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-thu-m3-s15-solo",
@@ -133,7 +147,8 @@
         "sourceTemplateId": null,
         "name": "腹斜筋ストレッチ（体側を倒す・左）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "左腕を頭上に伸ばして体を右に倒し、腹斜筋を伸ばす"
       },
       {
         "id": "cat-thu-m3-s16-solo",
@@ -141,8 +156,10 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       }
-    ]
+    ],
+    "description": "プッシュアップとクランチ系種目で疲労した胸・三頭筋・手首・腹斜筋を、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"
   }
 }

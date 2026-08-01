@@ -4,7 +4,7 @@
     "id": "cat-sunam-r1",
     "name": "日曜午前: 全身サーキット",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-08-01T09:00:00Z",
     "items": [
       {
         "id": "cat-sunam-r1-i1",
@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-01T09:00:00Z",
       "segments": [
         {
           "id": "cat-sunam-m0-s1",
@@ -54,7 +54,8 @@
           "sourceTemplateId": null,
           "name": "自重スクワット（軽いテンポで動的に）",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "軽いテンポで浅めのスクワットを繰り返し、下半身の血流を上げる"
         },
         {
           "id": "cat-sunam-m0-s2",
@@ -62,7 +63,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
         },
         {
           "id": "cat-sunam-m0-s3",
@@ -70,7 +72,8 @@
           "sourceTemplateId": null,
           "name": "ウォーキングランジ（その場で交互に踏み込む）",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "その場で前後に交互に踏み込み、太もも・お尻を温める"
         },
         {
           "id": "cat-sunam-m0-s4",
@@ -78,7 +81,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
         },
         {
           "id": "cat-sunam-m0-s5",
@@ -86,7 +90,8 @@
           "sourceTemplateId": null,
           "name": "肩甲骨プッシュアップ（プランク姿勢で肩甲骨を出し入れ）",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "プランク姿勢のまま肩甲骨を寄せて開くを繰り返し、体幹と肩の連動を高める"
         },
         {
           "id": "cat-sunam-m0-s6",
@@ -94,7 +99,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
         },
         {
           "id": "cat-sunam-m0-s7",
@@ -102,7 +108,8 @@
           "sourceTemplateId": null,
           "name": "アームサークル（腕を大きく回す）",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす"
         },
         {
           "id": "cat-sunam-m0-s8",
@@ -110,7 +117,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
         },
         {
           "id": "cat-sunam-m0-s9",
@@ -118,7 +126,8 @@
           "sourceTemplateId": null,
           "name": "ハイニー（軽いテンポで）",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "腿を高く上げながら軽いテンポでその場足踏みする。体幹を軽く締めて安定させる"
         },
         {
           "id": "cat-sunam-m0-s10",
@@ -126,7 +135,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
         },
         {
           "id": "cat-sunam-m0-s11",
@@ -134,7 +144,8 @@
           "sourceTemplateId": null,
           "name": "ヒップサークル（腰を回す）",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "骨盤を大きく回し、股関節まわりをほぐす"
         },
         {
           "id": "cat-sunam-m0-s12",
@@ -142,24 +153,26 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
         }
-      ]
+      ],
+      "description": "スクワット・ランジなど全身を軽く動かして温める動的ウォームアップ。消費カロリー目安: 約12〜24kcal"
     },
     {
       "id": "cat-sunam-m1",
       "name": "メインブロック①（全身サーキット）",
       "sets": 1,
-      "prepareSeconds": 300,
+      "prepareSeconds": 60,
       "prepareCountdownSeconds": 5,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 0,
+      "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-01T09:00:00Z",
       "segments": [
         {
           "id": "cat-sunam-m1-s1",
@@ -167,7 +180,8 @@
           "sourceTemplateId": null,
           "name": "自重スクワット",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "足を肩幅に開き、膝とつま先を同じ向きに曲げて腰を落とす"
         },
         {
           "id": "cat-sunam-m1-s2",
@@ -175,7 +189,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
         },
         {
           "id": "cat-sunam-m1-s3",
@@ -183,7 +198,8 @@
           "sourceTemplateId": null,
           "name": "ノーマルプッシュアップ",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "手幅は肩幅程度、体を一直線に保ったまま胸を床に近づけて押し上げる"
         },
         {
           "id": "cat-sunam-m1-s4",
@@ -191,7 +207,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
         },
         {
           "id": "cat-sunam-m1-s5",
@@ -199,7 +216,8 @@
           "sourceTemplateId": null,
           "name": "フロントランジ",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "前に大きく踏み込み、後ろ膝が床につく手前で戻る。太もも前面とお尻を使う"
         },
         {
           "id": "cat-sunam-m1-s6",
@@ -207,7 +225,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
         },
         {
           "id": "cat-sunam-m1-s7",
@@ -215,7 +234,8 @@
           "sourceTemplateId": null,
           "name": "マウンテンクライマー",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする"
         },
         {
           "id": "cat-sunam-m1-s8",
@@ -223,7 +243,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
         },
         {
           "id": "cat-sunam-m1-s1-r2",
@@ -231,7 +252,8 @@
           "sourceTemplateId": null,
           "name": "自重スクワット",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "足を肩幅に開き、膝とつま先を同じ向きに曲げて腰を落とす"
         },
         {
           "id": "cat-sunam-m1-s2-r2",
@@ -239,7 +261,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
         },
         {
           "id": "cat-sunam-m1-s3-r2",
@@ -247,7 +270,8 @@
           "sourceTemplateId": null,
           "name": "ノーマルプッシュアップ",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "手幅は肩幅程度、体を一直線に保ったまま胸を床に近づけて押し上げる"
         },
         {
           "id": "cat-sunam-m1-s4-r2",
@@ -255,7 +279,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
         },
         {
           "id": "cat-sunam-m1-s5-r2",
@@ -263,7 +288,8 @@
           "sourceTemplateId": null,
           "name": "フロントランジ",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "前に大きく踏み込み、後ろ膝が床につく手前で戻る。太もも前面とお尻を使う"
         },
         {
           "id": "cat-sunam-m1-s6-r2",
@@ -271,7 +297,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
         },
         {
           "id": "cat-sunam-m1-s7-r2",
@@ -279,7 +306,8 @@
           "sourceTemplateId": null,
           "name": "マウンテンクライマー",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする"
         },
         {
           "id": "cat-sunam-m1-s8-r2",
@@ -287,24 +315,26 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
         }
-      ]
+      ],
+      "description": "準備1分: 軽く足踏みしながら心拍を上げ、フォームを確認する。自重スクワット→ノーマルプッシュアップ→フロントランジ→マウンテンクライマーを40秒+休憩20秒で2周。クールダウン1分: 呼吸を整えて心拍を落ち着け、メイン②へ。消費カロリー目安: 約80〜120kcal(体重・強度による)"
     },
     {
       "id": "cat-sunam-m2",
       "name": "メインブロック②（体幹）",
       "sets": 1,
-      "prepareSeconds": 0,
-      "prepareCountdownSeconds": 0,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 0,
+      "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-01T09:00:00Z",
       "segments": [
         {
           "id": "cat-sunam-m2-s1",
@@ -312,7 +342,8 @@
           "sourceTemplateId": null,
           "name": "レッグレイズ",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
         },
         {
           "id": "cat-sunam-m2-s2",
@@ -320,7 +351,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
         },
         {
           "id": "cat-sunam-m2-s3",
@@ -328,7 +360,8 @@
           "sourceTemplateId": null,
           "name": "バイシクルクランチ",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する"
         },
         {
           "id": "cat-sunam-m2-s4",
@@ -336,7 +369,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
         },
         {
           "id": "cat-sunam-m2-s5",
@@ -344,7 +378,8 @@
           "sourceTemplateId": null,
           "name": "プランクニーイン",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "プランク姿勢から片膝を胸に引き寄せ、体幹を締めたまま戻す"
         },
         {
           "id": "cat-sunam-m2-s6",
@@ -352,7 +387,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
         },
         {
           "id": "cat-sunam-m2-s1-r2",
@@ -360,7 +396,8 @@
           "sourceTemplateId": null,
           "name": "レッグレイズ",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
         },
         {
           "id": "cat-sunam-m2-s2-r2",
@@ -368,7 +405,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
         },
         {
           "id": "cat-sunam-m2-s3-r2",
@@ -376,7 +414,8 @@
           "sourceTemplateId": null,
           "name": "バイシクルクランチ",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する"
         },
         {
           "id": "cat-sunam-m2-s4-r2",
@@ -384,7 +423,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
         },
         {
           "id": "cat-sunam-m2-s5-r2",
@@ -392,7 +432,8 @@
           "sourceTemplateId": null,
           "name": "プランクニーイン",
           "durationSeconds": 30,
-          "type": 1
+          "type": 1,
+          "description": "プランク姿勢から片膝を胸に引き寄せ、体幹を締めたまま戻す"
         },
         {
           "id": "cat-sunam-m2-s6-r2",
@@ -400,9 +441,29 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 30,
-          "type": 2
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-sunam-m2-s1-r3",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "レッグレイズ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
+        },
+        {
+          "id": "cat-sunam-m2-s2-r3",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
         }
-      ]
+      ],
+      "description": "準備1分: 仰向けで骨盤の位置を確認し、下腹部に軽く力を入れる準備をする。レッグレイズ→バイシクルクランチ→プランクニーインを30秒+休憩30秒で2周、仕上げにレッグレイズをもう1本追加。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約46〜72kcal(体重・強度による)"
     },
     {
       "id": "cat-sunam-m3",
@@ -417,7 +478,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-01T09:00:00Z",
       "segments": [
         {
           "id": "cat-sunam-m3-s1",
@@ -425,7 +486,8 @@
           "sourceTemplateId": null,
           "name": "大腿四頭筋ストレッチ（右脚）",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす"
         },
         {
           "id": "cat-sunam-m3-s2",
@@ -433,7 +495,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
         },
         {
           "id": "cat-sunam-m3-s3",
@@ -441,7 +504,8 @@
           "sourceTemplateId": null,
           "name": "大腿四頭筋ストレッチ（左脚）",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす（左脚）"
         },
         {
           "id": "cat-sunam-m3-s4",
@@ -449,7 +513,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
         },
         {
           "id": "cat-sunam-m3-s5",
@@ -457,7 +522,8 @@
           "sourceTemplateId": null,
           "name": "ハムストリングストレッチ（右脚）",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす"
         },
         {
           "id": "cat-sunam-m3-s6",
@@ -465,7 +531,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
         },
         {
           "id": "cat-sunam-m3-s7",
@@ -473,7 +540,8 @@
           "sourceTemplateId": null,
           "name": "ハムストリングストレッチ（左脚）",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）"
         },
         {
           "id": "cat-sunam-m3-s8",
@@ -481,7 +549,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
         },
         {
           "id": "cat-sunam-m3-s9",
@@ -489,7 +558,8 @@
           "sourceTemplateId": null,
           "name": "胸のドアフレームストレッチ（右腕）",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "壁やドア枠に右前腕を当て、体を前に少し倒して胸を伸ばす"
         },
         {
           "id": "cat-sunam-m3-s10",
@@ -497,7 +567,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
         },
         {
           "id": "cat-sunam-m3-s11",
@@ -505,7 +576,8 @@
           "sourceTemplateId": null,
           "name": "胸のドアフレームストレッチ（左腕）",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "壁やドア枠に左前腕を当て、体を前に少し倒して胸を伸ばす"
         },
         {
           "id": "cat-sunam-m3-s12",
@@ -513,7 +585,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
         },
         {
           "id": "cat-sunam-m3-s13",
@@ -521,7 +594,8 @@
           "sourceTemplateId": null,
           "name": "腸腰筋ストレッチ（右脚・ランジ姿勢）",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "右脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす"
         },
         {
           "id": "cat-sunam-m3-s14",
@@ -529,7 +603,8 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
         },
         {
           "id": "cat-sunam-m3-s15",
@@ -537,7 +612,8 @@
           "sourceTemplateId": null,
           "name": "腸腰筋ストレッチ（左脚）",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "左脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす"
         },
         {
           "id": "cat-sunam-m3-s16",
@@ -545,9 +621,11 @@
           "sourceTemplateId": null,
           "name": "休憩",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
         }
-      ]
+      ],
+      "description": "全身サーキットと体幹種目で疲労した脚・胸・股関節を、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"
     }
   ]
 }

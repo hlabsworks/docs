@@ -4,16 +4,16 @@
     "id": "cat-sunpm-m2-solo",
     "name": "日曜午後メイン②: コアスタビリティ",
     "sets": 1,
-    "prepareSeconds": 0,
-    "prepareCountdownSeconds": 0,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 5,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
     "workCountdownSeconds": 10,
     "restCountdownSeconds": 5,
-    "cooldownSeconds": 420,
+    "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-08-01T09:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m2-s1-solo",
@@ -21,7 +21,8 @@
         "sourceTemplateId": null,
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
       },
       {
         "id": "cat-sunpm-m2-s2-solo",
@@ -29,7 +30,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
       },
       {
         "id": "cat-sunpm-m2-s1-r2-solo",
@@ -37,7 +39,8 @@
         "sourceTemplateId": null,
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ"
       },
       {
         "id": "cat-sunpm-m2-s2-r2-solo",
@@ -45,7 +48,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
       },
       {
         "id": "cat-sunpm-m2-s1-r3-solo",
@@ -53,7 +57,8 @@
         "sourceTemplateId": null,
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする"
       },
       {
         "id": "cat-sunpm-m2-s2-r3-solo",
@@ -61,7 +66,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
       },
       {
         "id": "cat-sunpm-m2-s1-r4-solo",
@@ -69,7 +75,8 @@
         "sourceTemplateId": null,
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
       },
       {
         "id": "cat-sunpm-m2-s2-r4-solo",
@@ -77,7 +84,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
       },
       {
         "id": "cat-sunpm-m2-s1-r5-solo",
@@ -85,7 +93,8 @@
         "sourceTemplateId": null,
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ"
       },
       {
         "id": "cat-sunpm-m2-s2-r5-solo",
@@ -93,7 +102,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
       },
       {
         "id": "cat-sunpm-m2-s1-r6-solo",
@@ -101,7 +111,8 @@
         "sourceTemplateId": null,
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする"
       },
       {
         "id": "cat-sunpm-m2-s2-r6-solo",
@@ -109,8 +120,28 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
+      },
+      {
+        "id": "cat-sunpm-m2-s1-r7-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "コアスタビリティ（プランク）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
+      },
+      {
+        "id": "cat-sunpm-m2-s2-r7-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
       }
-    ]
+    ],
+    "description": "準備1分: プランク姿勢を軽く確認し、体幹に意識を向ける。コアスタビリティ(プランク)を30秒+休憩30秒で7本。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約36〜54kcal"
   }
 }

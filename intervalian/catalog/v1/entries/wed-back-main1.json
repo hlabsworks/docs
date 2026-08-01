@@ -4,16 +4,16 @@
     "id": "cat-wed-m1-solo",
     "name": "水曜メイン①: 背面強化",
     "sets": 1,
-    "prepareSeconds": 300,
+    "prepareSeconds": 60,
     "prepareCountdownSeconds": 5,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
     "workCountdownSeconds": 10,
     "restCountdownSeconds": 5,
-    "cooldownSeconds": 240,
+    "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-08-01T09:00:00Z",
     "segments": [
       {
         "id": "cat-wed-m1-s1-solo",
@@ -21,7 +21,8 @@
         "sourceTemplateId": null,
         "name": "スーパーマン",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "うつ伏せで手足を同時に持ち上げ、背中全体を収縮させる。反動は使わない"
       },
       {
         "id": "cat-wed-m1-s2-solo",
@@ -29,7 +30,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-wed-m1-s3-solo",
@@ -37,7 +39,8 @@
         "sourceTemplateId": null,
         "name": "リバーススノーエンジェル",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "うつ伏せで腕を体側から頭上へ弧を描くように動かし、背中と肩甲骨まわりを鍛える"
       },
       {
         "id": "cat-wed-m1-s4-solo",
@@ -45,7 +48,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-wed-m1-s5-solo",
@@ -53,7 +57,8 @@
         "sourceTemplateId": null,
         "name": "プローンコブラ",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "うつ伏せで上体を反らし、肩甲骨を寄せて背中上部を締める"
       },
       {
         "id": "cat-wed-m1-s6-solo",
@@ -61,7 +66,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-wed-m1-s7-solo",
@@ -69,7 +75,8 @@
         "sourceTemplateId": null,
         "name": "Yレイズ",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる"
       },
       {
         "id": "cat-wed-m1-s8-solo",
@@ -77,7 +84,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-wed-m1-s1-r2-solo",
@@ -85,7 +93,8 @@
         "sourceTemplateId": null,
         "name": "スーパーマン",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "うつ伏せで手足を同時に持ち上げ、背中全体を収縮させる。反動は使わない"
       },
       {
         "id": "cat-wed-m1-s2-r2-solo",
@@ -93,7 +102,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-wed-m1-s3-r2-solo",
@@ -101,7 +111,8 @@
         "sourceTemplateId": null,
         "name": "リバーススノーエンジェル",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "うつ伏せで腕を体側から頭上へ弧を描くように動かし、背中と肩甲骨まわりを鍛える"
       },
       {
         "id": "cat-wed-m1-s4-r2-solo",
@@ -109,7 +120,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-wed-m1-s5-r2-solo",
@@ -117,7 +129,8 @@
         "sourceTemplateId": null,
         "name": "プローンコブラ",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "うつ伏せで上体を反らし、肩甲骨を寄せて背中上部を締める"
       },
       {
         "id": "cat-wed-m1-s6-r2-solo",
@@ -125,7 +138,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-wed-m1-s7-r2-solo",
@@ -133,7 +147,8 @@
         "sourceTemplateId": null,
         "name": "Yレイズ",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる"
       },
       {
         "id": "cat-wed-m1-s8-r2-solo",
@@ -141,8 +156,10 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       }
-    ]
+    ],
+    "description": "準備1分: うつ伏せで肩甲骨を寄せる感覚を確認する。スーパーマン→リバーススノーエンジェル→プローンコブラ→Yレイズを40秒+休憩20秒で2周。クールダウン1分: 背中の力を抜いて息を整え、メイン②へ。消費カロリー目安: 約50〜80kcal(体重・強度による)"
   }
 }

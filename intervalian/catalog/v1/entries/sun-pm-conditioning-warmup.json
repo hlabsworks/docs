@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-08-01T09:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m0-s1-solo",
@@ -21,7 +21,8 @@
         "sourceTemplateId": null,
         "name": "首回し（ゆっくり左右に）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "首をゆっくり左右に倒し、力を抜いて回す"
       },
       {
         "id": "cat-sunpm-m0-s2-solo",
@@ -29,7 +30,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
       },
       {
         "id": "cat-sunpm-m0-s3-solo",
@@ -37,7 +39,8 @@
         "sourceTemplateId": null,
         "name": "手首・足首回し（座って軽く回す）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "座った姿勢で手首・足首をゆっくり回し、末端の血流を促す"
       },
       {
         "id": "cat-sunpm-m0-s4-solo",
@@ -45,7 +48,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
       },
       {
         "id": "cat-sunpm-m0-s5-solo",
@@ -53,7 +57,8 @@
         "sourceTemplateId": null,
         "name": "肩甲骨回し（軽く上下に動かす）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "肩をすくめて下げるを繰り返し、肩甲骨まわりをほぐす"
       },
       {
         "id": "cat-sunpm-m0-s6-solo",
@@ -61,7 +66,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
       },
       {
         "id": "cat-sunpm-m0-s7-solo",
@@ -69,7 +75,8 @@
         "sourceTemplateId": null,
         "name": "呼吸を整える（深呼吸をしながら軽く体を揺らす）",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "深呼吸をしながら体を軽く揺らし、リラックスして心拍を落ち着ける"
       },
       {
         "id": "cat-sunpm-m0-s8-solo",
@@ -77,8 +84,10 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
       }
-    ]
+    ],
+    "description": "首・手首・足首・肩甲骨を30秒ずつゆっくり動かして関節をゆるめる軽いウォームアップ。消費カロリー目安: 約8〜16kcal"
   }
 }

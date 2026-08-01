@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updatedAt": "2026-08-01T06:30:00Z",
+  "updatedAt": "2026-08-01T09:00:00Z",
   "entries": [
     {
       "id": "bike-training-30min",
@@ -264,8 +264,8 @@
         "ja": "月曜: 胸・肩 & 下腹部（自宅33分）"
       },
       "description": {
-        "en": "A 33-minute home workout pairing four push-up variations for chest and shoulders with reverse-crunch style core work to finish, now bookended by a dynamic warm-up and a DOMS-easing cooldown stretch.",
-        "ja": "プッシュアップ4種のインターバルで胸・肩を追い込み、リバースクランチ系の下腹部種目で仕上げる自宅メニュー。動的な準備運動と、翌日の筋肉痛を和らげるクールダウンストレッチを前後に組み込みました。"
+        "en": "A 33-minute home workout pairing four push-up variations for chest and shoulders with reverse-crunch style core work to finish, now bookended by a dynamic warm-up and a DOMS-easing cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
+        "ja": "プッシュアップ4種のインターバルで胸・肩を追い込み、リバースクランチ系の下腹部種目で仕上げる自宅メニュー。動的な準備運動と、翌日の筋肉痛を和らげるクールダウンストレッチを前後に組み込みました。メイン①②の準備・クールダウンは各1分に整理し、浮いた時間はアクションで補完。全ステップにやり方の説明付き。"
       },
       "tags": [
         "strength"
@@ -310,19 +310,19 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Mon Main 1: Push-up Variations (17 min)",
-        "ja": "月曜メイン①: プッシュアップ4種（17分）"
+        "en": "Mon Main 1: Push-up Variations (10 min)",
+        "ja": "月曜メイン①: プッシュアップ4種（10分）"
       },
       "description": {
         "en": "Four push-up variations — wide, decline, pike, diamond — for chest and shoulders. Standalone menu version (free to get).",
-        "ja": "ワイド・デクライン・パイク・ダイヤモンドの4種プッシュアップで胸・肩を追い込むブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→ワイド・デクライン・パイク・ダイヤモンドの4種プッシュアップ(40秒+休憩20秒)を2周→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-main1.json"
     },
@@ -331,19 +331,19 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Mon Main 2: Lower Abs (13 min)",
-        "ja": "月曜メイン②: 下腹部（13分）"
+        "en": "Mon Main 2: Lower Abs (9 min)",
+        "ja": "月曜メイン②: 下腹部（9分）"
       },
       "description": {
         "en": "Reverse-crunch style core work to finish off the lower abs. Standalone menu version (free to get).",
-        "ja": "リバースクランチ系種目で下腹部を仕上げるブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→リバースクランチ・バイシクルクランチ・プランクニーイン(30秒+休憩30秒)を2周+仕上げの1本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-main2.json"
     },
@@ -378,8 +378,8 @@
         "ja": "火曜: 全身HIIT（自宅33分）"
       },
       "description": {
-        "en": "A 33-minute full-body HIIT session with mountain climbers, jump squats, high knees and skater hops, finishing with core work, now bookended by a dynamic full-body warm-up and a leg-and-core cooldown stretch.",
-        "ja": "マウンテンクライマーやジャンピングスクワットなど全身を使う高強度種目でカロリーを消費し、体幹種目で締めくくるHIIT。動的な全身ウォームアップと、脚・体幹をケアするクールダウンストレッチを前後に組み込みました。"
+        "en": "A 33-minute full-body HIIT session with mountain climbers, jump squats, high knees and skater hops, finishing with core work, now bookended by a dynamic full-body warm-up and a leg-and-core cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
+        "ja": "マウンテンクライマーやジャンピングスクワットなど全身を使う高強度種目でカロリーを消費し、体幹種目で締めくくるHIIT。動的な全身ウォームアップと、脚・体幹をケアするクールダウンストレッチを前後に組み込みました。メイン①②の準備・クールダウンは各1分に整理し、浮いた時間はアクションで補完。全ステップにやり方の説明付き。"
       },
       "tags": [
         "hiit",
@@ -426,12 +426,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Tue Main 1: Full-Body HIIT (17 min)",
-        "ja": "火曜メイン①: 全身HIIT（17分）"
+        "en": "Tue Main 1: Full-Body HIIT (10 min)",
+        "ja": "火曜メイン①: 全身HIIT（10分）"
       },
       "description": {
         "en": "High-intensity full-body moves like mountain climbers and jump squats. Standalone menu version (free to get).",
-        "ja": "マウンテンクライマーやジャンピングスクワットなど全身を使う高強度種目のブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→マウンテンクライマー・ジャンピングスクワット・ハイニー・スケーターホップ(40秒+休憩20秒)を2周→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "hiit",
@@ -439,7 +439,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-main1.json"
     },
@@ -448,12 +448,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Tue Main 2: Core (13 min)",
-        "ja": "火曜メイン②: 体幹（13分）"
+        "en": "Tue Main 2: Core (9 min)",
+        "ja": "火曜メイン②: 体幹（9分）"
       },
       "description": {
         "en": "Core-focused finisher with plank twists and leg raises. Standalone menu version (free to get).",
-        "ja": "プランクツイストなど体幹種目で締めくくるブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→プランクツイスト・レッグレイズ・ニートゥーチェスト(30秒+休憩30秒)を2周+仕上げの1本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "hiit",
@@ -461,7 +461,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-main2.json"
     },
@@ -497,8 +497,8 @@
         "ja": "水曜: 背中（自宅33分）"
       },
       "description": {
-        "en": "A 33-minute back-focused session (Superman, reverse snow angel, prone cobra, Y-raise) finished with side planks for lateral core strength, now bookended by a back-and-core dynamic warm-up and a back-recovery cooldown stretch.",
-        "ja": "スーパーマンやYレイズなど背面を鍛える種目で背中を強化し、サイドプランクで体幹側面も仕上げるメニュー。背中・体幹の動的ウォームアップと、背中をケアするクールダウンストレッチを前後に組み込みました。"
+        "en": "A 33-minute back-focused session (Superman, reverse snow angel, prone cobra, Y-raise) finished with side planks for lateral core strength, now bookended by a back-and-core dynamic warm-up and a back-recovery cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
+        "ja": "スーパーマンやYレイズなど背面を鍛える種目で背中を強化し、サイドプランクで体幹側面も仕上げるメニュー。背中・体幹の動的ウォームアップと、背中をケアするクールダウンストレッチを前後に組み込みました。メイン①②の準備・クールダウンは各1分に整理し、浮いた時間はアクションで補完。全ステップにやり方の説明付き。"
       },
       "tags": [
         "strength"
@@ -543,19 +543,19 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Wed Main 1: Back Strengthening (17 min)",
-        "ja": "水曜メイン①: 背面強化（17分）"
+        "en": "Wed Main 1: Back Strengthening (10 min)",
+        "ja": "水曜メイン①: 背面強化（10分）"
       },
       "description": {
         "en": "Back-strengthening moves like Superman and Y-raise. Standalone menu version (free to get).",
-        "ja": "スーパーマンやYレイズなど背面を鍛える種目のブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→スーパーマン・リバーススノーエンジェル・プローンコブラ・Yレイズ(40秒+休憩20秒)を2周→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/wed-back-main1.json"
     },
@@ -564,19 +564,19 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Wed Main 2: Lateral Core (13 min)",
-        "ja": "水曜メイン②: 体幹側面（13分）"
+        "en": "Wed Main 2: Lateral Core (9 min)",
+        "ja": "水曜メイン②: 体幹側面（9分）"
       },
       "description": {
         "en": "Side planks to finish off lateral core strength. Standalone menu version (free to get).",
-        "ja": "サイドプランクで体幹側面を仕上げるブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→サイドプランク右・サイドプランク左・レッグレイズ(30秒+休憩30秒)を2周+仕上げの1本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/wed-back-main2.json"
     },
@@ -611,8 +611,8 @@
         "ja": "木曜: 胸・腕（自宅33分）"
       },
       "description": {
-        "en": "A 33-minute session of push-up variations for chest and arms, plus crunch variations for the lower abs, now bookended by a chest-and-shoulder dynamic warm-up and a chest-and-arm cooldown stretch.",
-        "ja": "プッシュアップのバリエーションで胸と腕を鍛え、クランチ系種目で下腹部も追い込むメニュー。胸・肩の動的ウォームアップと、胸・腕をケアするクールダウンストレッチを前後に組み込みました。"
+        "en": "A 33-minute session of push-up variations for chest and arms, plus crunch variations for the lower abs, now bookended by a chest-and-shoulder dynamic warm-up and a chest-and-arm cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
+        "ja": "プッシュアップのバリエーションで胸と腕を鍛え、クランチ系種目で下腹部も追い込むメニュー。胸・肩の動的ウォームアップと、胸・腕をケアするクールダウンストレッチを前後に組み込みました。メイン①②の準備・クールダウンは各1分に整理し、浮いた時間はアクションで補完。全ステップにやり方の説明付き。"
       },
       "tags": [
         "strength"
@@ -657,19 +657,19 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Thu Main 1: Push-up Variations (17 min)",
-        "ja": "木曜メイン①: プッシュアップ4種（17分）"
+        "en": "Thu Main 1: Push-up Variations (10 min)",
+        "ja": "木曜メイン①: プッシュアップ4種（10分）"
       },
       "description": {
         "en": "Four push-up variations — normal, close-grip, decline, kneeling — for chest and arms. Standalone menu version (free to get).",
-        "ja": "ノーマル・クローズグリップ・デクライン・ニーリングの4種プッシュアップで胸と腕を鍛えるブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→ノーマル・クローズグリップ・デクライン・ニーリングの4種プッシュアップ(40秒+休憩20秒)を2周→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/thu-chest-arms-main1.json"
     },
@@ -678,19 +678,19 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Thu Main 2: Lower Abs (13 min)",
-        "ja": "木曜メイン②: 下腹部（13分）"
+        "en": "Thu Main 2: Lower Abs (9 min)",
+        "ja": "木曜メイン②: 下腹部（9分）"
       },
       "description": {
         "en": "Crunch-variation work to finish off the lower abs. Standalone menu version (free to get).",
-        "ja": "クランチ系種目で下腹部を追い込むブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→トゥタッチクランチ・リバースクランチ・バイシクルクランチ(30秒+休憩30秒)を2周+仕上げの1本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "strength"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/thu-chest-arms-main2.json"
     },
@@ -725,8 +725,8 @@
         "ja": "金曜: 全身コンディショニング（自宅33分）"
       },
       "description": {
-        "en": "A 33-minute mix of heart-pumping full-body HIIT (mountain climbers, burpees, high knees, skater hops) and core-holding work (hollow body, plank, Russian twist), now bookended by a dynamic full-body warm-up and a full-body-and-core cooldown stretch.",
-        "ja": "マウンテンクライマーやバーピーで心拍を上げる全身HIITと、ホロウボディホールドなど体幹保持種目を組み合わせたメニュー。動的な全身ウォームアップと、全身・体幹をケアするクールダウンストレッチを前後に組み込みました。"
+        "en": "A 33-minute mix of heart-pumping full-body HIIT (mountain climbers, burpees, high knees, skater hops) and core-holding work (hollow body, plank, Russian twist), now bookended by a dynamic full-body warm-up and a full-body-and-core cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
+        "ja": "マウンテンクライマーやバーピーで心拍を上げる全身HIITと、ホロウボディホールドなど体幹保持種目を組み合わせたメニュー。動的な全身ウォームアップと、全身・体幹をケアするクールダウンストレッチを前後に組み込みました。メイン①②の準備・クールダウンは各1分に整理し、浮いた時間はアクションで補完。全ステップにやり方の説明付き。"
       },
       "tags": [
         "hiit",
@@ -773,12 +773,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Fri Main 1: Full-Body HIIT (17 min)",
-        "ja": "金曜メイン①: 全身HIIT（17分）"
+        "en": "Fri Main 1: Full-Body HIIT (10 min)",
+        "ja": "金曜メイン①: 全身HIIT（10分）"
       },
       "description": {
         "en": "Heart-pumping full-body HIIT with mountain climbers and burpees. Standalone menu version (free to get).",
-        "ja": "マウンテンクライマーやバーピーで心拍を上げる全身HIITブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→マウンテンクライマー・バーピー・ハイニー・スケーターホップ(40秒+休憩20秒)を2周→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "hiit",
@@ -786,7 +786,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core-main1.json"
     },
@@ -795,12 +795,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Fri Main 2: Core Hold (13 min)",
-        "ja": "金曜メイン②: 体幹保持（13分）"
+        "en": "Fri Main 2: Core Hold (9 min)",
+        "ja": "金曜メイン②: 体幹保持（9分）"
       },
       "description": {
         "en": "Core-holding work like hollow body hold and plank keep. Standalone menu version (free to get).",
-        "ja": "ホロウボディホールドなど体幹保持種目のブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→ホロウボディホールド・プランクキープ・ロシアンツイスト(30秒+休憩30秒)を2周+仕上げの1本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "hiit",
@@ -808,7 +808,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core-main2.json"
     },
@@ -844,8 +844,8 @@
         "ja": "土曜午前: 坂道バイクトレーニング（33分）"
       },
       "description": {
-        "en": "A 33-minute bike session alternating standing hill sprints with easy descents, finishing with a high-resistance seated block, now bookended by a dynamic leg warm-up and a leg-recovery cooldown stretch.",
-        "ja": "立ちこぎでの坂道ダッシュと下り・流しを繰り返す高強度インターバル、その後シッティングでの高負荷走行で仕上げるバイクメニュー。下肢の動的ウォームアップと、脚をケアするクールダウンストレッチを前後に組み込みました。"
+        "en": "A 33-minute bike session alternating standing hill sprints with easy descents, finishing with a high-resistance seated block, now bookended by a dynamic leg warm-up and a leg-recovery cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
+        "ja": "立ちこぎでの坂道ダッシュと下り・流しを繰り返す高強度インターバル、その後シッティングでの高負荷走行で仕上げるバイクメニュー。下肢の動的ウォームアップと、脚をケアするクールダウンストレッチを前後に組み込みました。メイン①②の準備・クールダウンは各1分に整理し、浮いた時間はアクションで補完。全ステップにやり方の説明付き。"
       },
       "tags": [
         "cycling",
@@ -892,12 +892,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sat AM Main 1: Hill Dash (17 min)",
-        "ja": "土曜午前メイン①: 坂道ダッシュ（17分）"
+        "en": "Sat AM Main 1: Hill Dash (10 min)",
+        "ja": "土曜午前メイン①: 坂道ダッシュ（10分）"
       },
       "description": {
         "en": "High-intensity intervals of standing hill dashes with easy descents. Standalone menu version (free to get).",
-        "ja": "立ちこぎでの坂道ダッシュと下り・流しを繰り返す高強度インターバル。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→坂道ダッシュ(40秒)+下り・流し(20秒)を8本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "cycling",
@@ -905,7 +905,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/sat-am-hill-bike-main1.json"
     },
@@ -914,12 +914,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sat AM Main 2: High-Resistance Seated (13 min)",
-        "ja": "土曜午前メイン②: 高負荷シッティング（13分）"
+        "en": "Sat AM Main 2: High-Resistance Seated (9 min)",
+        "ja": "土曜午前メイン②: 高負荷シッティング（9分）"
       },
       "description": {
         "en": "High-resistance seated riding block. Standalone menu version (free to get).",
-        "ja": "シッティングでの高負荷走行ブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→高負荷シッティング(30秒)+軽く回す(30秒)を7本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "cycling",
@@ -927,7 +927,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/sat-am-hill-bike-main2.json"
     },
@@ -964,7 +964,7 @@
       },
       "description": {
         "en": "A gentle 30-minute active-recovery session — an easy walk or cruise to keep the legs loose without adding fatigue.",
-        "ja": "軽い散歩・クルージング程度の強度で心拍を落ち着け、疲労を抜くための30分アクティブリカバリー。"
+        "ja": "会話ができる程度の軽い散歩・クルージングで心拍を落ち着け、疲労を抜くための30分アクティブリカバリー。準備・クールダウンを各1分に整理し、浮いた時間は歩行時間の延長に充てました。全区間にやり方の説明付き。"
       },
       "tags": [
         "cardio",
@@ -985,8 +985,8 @@
         "ja": "日曜午前: 全身サーキット（自宅33分）"
       },
       "description": {
-        "en": "A 33-minute full-body circuit combining bodyweight squats, push-ups, lunges, and mountain climbers, finished with core work, now bookended by a dynamic full-body warm-up and a full-body cooldown stretch.",
-        "ja": "スクワットやプッシュアップ、ランジなど基本種目を組み合わせた全身サーキットで一週間を締めくくり、体幹種目で仕上げます。動的な全身ウォームアップと、全身をケアするクールダウンストレッチを前後に組み込みました。"
+        "en": "A 33-minute full-body circuit combining bodyweight squats, push-ups, lunges, and mountain climbers, finished with core work, now bookended by a dynamic full-body warm-up and a full-body cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
+        "ja": "スクワットやプッシュアップ、ランジなど基本種目を組み合わせた全身サーキットで一週間を締めくくり、体幹種目で仕上げます。動的な全身ウォームアップと、全身をケアするクールダウンストレッチを前後に組み込みました。メイン①②の準備・クールダウンは各1分に整理し、浮いた時間はアクションで補完。全ステップにやり方の説明付き。"
       },
       "tags": [
         "strength",
@@ -1033,12 +1033,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sun AM Main 1: Full-Body Circuit (17 min)",
-        "ja": "日曜午前メイン①: 全身サーキット（17分）"
+        "en": "Sun AM Main 1: Full-Body Circuit (10 min)",
+        "ja": "日曜午前メイン①: 全身サーキット（10分）"
       },
       "description": {
         "en": "Full-body circuit combining squats, push-ups, and lunges. Standalone menu version (free to get).",
-        "ja": "スクワットやプッシュアップ、ランジなど基本種目を組み合わせた全身サーキットブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→自重スクワット・ノーマルプッシュアップ・フロントランジ・マウンテンクライマー(40秒+休憩20秒)を2周→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "strength",
@@ -1046,7 +1046,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/sun-am-circuit-main1.json"
     },
@@ -1055,12 +1055,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sun AM Main 2: Core (13 min)",
-        "ja": "日曜午前メイン②: 体幹（13分）"
+        "en": "Sun AM Main 2: Core (9 min)",
+        "ja": "日曜午前メイン②: 体幹（9分）"
       },
       "description": {
         "en": "Core-finisher with leg raises and bicycle crunches. Standalone menu version (free to get).",
-        "ja": "レッグレイズなど体幹種目で仕上げるブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→レッグレイズ・バイシクルクランチ・プランクニーイン(30秒+休憩30秒)を2周+仕上げの1本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "strength",
@@ -1068,7 +1068,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/sun-am-circuit-main2.json"
     },
@@ -1104,8 +1104,8 @@
         "ja": "日曜午後: モビリティ&コアコンディショニング（31分）"
       },
       "description": {
-        "en": "A 31-minute weekend wind-down of mobility stretches to open up the joints, followed by core-stability plank holds, now bookended by a gentle joint-loosening warm-up and a deep-relaxation cooldown stretch.",
-        "ja": "モビリティストレッチで関節の可動域を広げ、コアスタビリティ（プランク）で体幹を整える週末クールダウン。軽い関節ほぐしのウォームアップと、仕上げのディープリラックスストレッチを前後に組み込みました。"
+        "en": "A 31-minute weekend wind-down of mobility stretches to open up the joints, followed by core-stability plank holds, now bookended by a gentle joint-loosening warm-up and a deep-relaxation cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
+        "ja": "モビリティストレッチで関節の可動域を広げ、コアスタビリティ（プランク）で体幹を整える週末クールダウン。軽い関節ほぐしのウォームアップと、仕上げのディープリラックスストレッチを前後に組み込みました。メイン①②の準備・クールダウンは各1分に整理し、浮いた時間はアクションで補完。全ステップにやり方の説明付き。"
       },
       "tags": [
         "mobility"
@@ -1149,19 +1149,19 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sun PM Main 1: Mobility Stretch (17 min)",
-        "ja": "日曜午後メイン①: モビリティストレッチ（17分）"
+        "en": "Sun PM Main 1: Mobility Stretch (10 min)",
+        "ja": "日曜午後メイン①: モビリティストレッチ（10分）"
       },
       "description": {
         "en": "Mobility stretches to open up the joints. Standalone menu version (free to get).",
-        "ja": "モビリティストレッチで関節の可動域を広げるブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→肩・股関節・背骨・足首のモビリティストレッチ(40秒+休憩20秒)を8本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "mobility"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-main1.json"
     },
@@ -1170,19 +1170,19 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sun PM Main 2: Core Stability (13 min)",
-        "ja": "日曜午後メイン②: コアスタビリティ（13分）"
+        "en": "Sun PM Main 2: Core Stability (9 min)",
+        "ja": "日曜午後メイン②: コアスタビリティ（9分）"
       },
       "description": {
         "en": "Core-stability plank holds. Standalone menu version (free to get).",
-        "ja": "プランクで体幹を整えるコアスタビリティブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→コアスタビリティ(プランク、30秒+休憩30秒)を7本→クールダウン1分。単体メニュー版（無料で取得できます）。"
       },
       "tags": [
         "mobility"
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-main2.json"
     },

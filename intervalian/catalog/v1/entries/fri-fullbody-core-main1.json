@@ -4,16 +4,16 @@
     "id": "cat-fri-m1-solo",
     "name": "金曜メイン①: 全身HIIT",
     "sets": 1,
-    "prepareSeconds": 300,
+    "prepareSeconds": 60,
     "prepareCountdownSeconds": 5,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
     "workCountdownSeconds": 10,
     "restCountdownSeconds": 5,
-    "cooldownSeconds": 240,
+    "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-08-01T09:00:00Z",
     "segments": [
       {
         "id": "cat-fri-m1-s1-solo",
@@ -21,7 +21,8 @@
         "sourceTemplateId": null,
         "name": "マウンテンクライマー",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする"
       },
       {
         "id": "cat-fri-m1-s2-solo",
@@ -29,7 +30,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-fri-m1-s3-solo",
@@ -37,7 +39,8 @@
         "sourceTemplateId": null,
         "name": "バーピー",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "しゃがむ→キック→ジャンプの複合動作。体幹を締めて一連の流れをスムーズに"
       },
       {
         "id": "cat-fri-m1-s4-solo",
@@ -45,7 +48,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-fri-m1-s5-solo",
@@ -53,7 +57,8 @@
         "sourceTemplateId": null,
         "name": "ハイニー",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "腿を高く上げながらその場で走る。体幹を締めてリズムよく"
       },
       {
         "id": "cat-fri-m1-s6-solo",
@@ -61,7 +66,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-fri-m1-s7-solo",
@@ -69,7 +75,8 @@
         "sourceTemplateId": null,
         "name": "スケーターホップ",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う"
       },
       {
         "id": "cat-fri-m1-s8-solo",
@@ -77,7 +84,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-fri-m1-s1-r2-solo",
@@ -85,7 +93,8 @@
         "sourceTemplateId": null,
         "name": "マウンテンクライマー",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする"
       },
       {
         "id": "cat-fri-m1-s2-r2-solo",
@@ -93,7 +102,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-fri-m1-s3-r2-solo",
@@ -101,7 +111,8 @@
         "sourceTemplateId": null,
         "name": "バーピー",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "しゃがむ→キック→ジャンプの複合動作。体幹を締めて一連の流れをスムーズに"
       },
       {
         "id": "cat-fri-m1-s4-r2-solo",
@@ -109,7 +120,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-fri-m1-s5-r2-solo",
@@ -117,7 +129,8 @@
         "sourceTemplateId": null,
         "name": "ハイニー",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "腿を高く上げながらその場で走る。体幹を締めてリズムよく"
       },
       {
         "id": "cat-fri-m1-s6-r2-solo",
@@ -125,7 +138,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       },
       {
         "id": "cat-fri-m1-s7-r2-solo",
@@ -133,7 +147,8 @@
         "sourceTemplateId": null,
         "name": "スケーターホップ",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う"
       },
       {
         "id": "cat-fri-m1-s8-r2-solo",
@@ -141,8 +156,10 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
       }
-    ]
+    ],
+    "description": "準備1分: 軽く足踏みしながら心拍を上げ、着地の姿勢を確認する。マウンテンクライマー→バーピー→ハイニー→スケーターホップを40秒+休憩20秒で2周。クールダウン1分: 呼吸を整えて心拍を落ち着け、メイン②へ。消費カロリー目安: 約80〜120kcal(体重・強度による)"
   }
 }

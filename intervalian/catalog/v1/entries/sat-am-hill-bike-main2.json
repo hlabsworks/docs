@@ -3,17 +3,17 @@
   "menu": {
     "id": "cat-satam-m2-solo",
     "name": "土曜午前メイン②: 高負荷シッティング",
-    "sets": 6,
-    "prepareSeconds": 0,
-    "prepareCountdownSeconds": 0,
+    "sets": 7,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 5,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
     "workCountdownSeconds": 10,
     "restCountdownSeconds": 5,
-    "cooldownSeconds": 420,
+    "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-08-01T09:00:00Z",
     "segments": [
       {
         "id": "cat-satam-m2-s1-solo",
@@ -21,7 +21,8 @@
         "sourceTemplateId": null,
         "name": "高負荷シッティング",
         "durationSeconds": 30,
-        "type": 1
+        "type": 1,
+        "description": "座ったまま重いギアを踏み、お尻と太もも裏を意識してじっくり負荷をかける"
       },
       {
         "id": "cat-satam-m2-s2-solo",
@@ -29,8 +30,10 @@
         "sourceTemplateId": null,
         "name": "軽く回す",
         "durationSeconds": 30,
-        "type": 2
+        "type": 2,
+        "description": "軽いギアでゆっくり回し、脚の張りを抜く"
       }
-    ]
+    ],
+    "description": "準備1分: サドルに座り直し、ギアを重めに入れ替える。30秒高負荷シッティング+30秒軽く回すを7本。クールダウン1分: 脚の力を抜いて流し、仕上げのクールダウンへ。消費カロリー目安: 約60〜80kcal(体重・強度による)"
   }
 }

@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-08-01T09:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m3-s1-solo",
@@ -21,7 +21,8 @@
         "sourceTemplateId": null,
         "name": "仰向け脊柱ひねり（膝を倒してリラックス・右）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "仰向けで両膝を揃えて右に倒し、背骨をゆるめる"
       },
       {
         "id": "cat-sunpm-m3-s2-solo",
@@ -29,7 +30,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-sunpm-m3-s3-solo",
@@ -37,7 +39,8 @@
         "sourceTemplateId": null,
         "name": "仰向け脊柱ひねり（膝を倒してリラックス・左）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "仰向けで両膝を揃えて左に倒し、背骨をゆるめる"
       },
       {
         "id": "cat-sunpm-m3-s4-solo",
@@ -45,7 +48,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-sunpm-m3-s5-solo",
@@ -53,7 +57,8 @@
         "sourceTemplateId": null,
         "name": "レッグスアップウォール（壁に脚を上げてリラックス）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "壁に脚を上げて仰向けになり、脚の疲れを抜く"
       },
       {
         "id": "cat-sunpm-m3-s6-solo",
@@ -61,7 +66,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-sunpm-m3-s7-solo",
@@ -69,7 +75,8 @@
         "sourceTemplateId": null,
         "name": "ハッピーベイビーポーズ（仰向けで股関節を開いてリラックス）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "仰向けで両膝を抱え、足裏を持って股関節を開く"
       },
       {
         "id": "cat-sunpm-m3-s8-solo",
@@ -77,7 +84,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-sunpm-m3-s9-solo",
@@ -85,7 +93,8 @@
         "sourceTemplateId": null,
         "name": "仰向けニーハグ（腰・お尻をリラックス）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "仰向けで両膝を抱え、腰とお尻の力を抜く"
       },
       {
         "id": "cat-sunpm-m3-s10-solo",
@@ -93,7 +102,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-sunpm-m3-s11-solo",
@@ -101,7 +111,8 @@
         "sourceTemplateId": null,
         "name": "リクライニングバタフライ（仰向けで股関節を開き呼吸を深める）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "仰向けで足裏を合わせ、膝を開いて深呼吸する"
       },
       {
         "id": "cat-sunpm-m3-s12-solo",
@@ -109,7 +120,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-sunpm-m3-s13-solo",
@@ -117,7 +129,8 @@
         "sourceTemplateId": null,
         "name": "コープスポーズ（仰向けで全身の力を抜き深呼吸）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "仰向けで手足を投げ出し、全身の力を抜いて深呼吸する"
       },
       {
         "id": "cat-sunpm-m3-s14-solo",
@@ -125,7 +138,8 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       },
       {
         "id": "cat-sunpm-m3-s15-solo",
@@ -133,7 +147,8 @@
         "sourceTemplateId": null,
         "name": "コープスポーズ（呼吸を整えながら仕上げのリラックス）",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "仰向けで手足を投げ出したまま、呼吸を整えて仕上げのリラックスをする"
       },
       {
         "id": "cat-sunpm-m3-s16-solo",
@@ -141,8 +156,10 @@
         "sourceTemplateId": null,
         "name": "休憩",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
       }
-    ]
+    ],
+    "description": "モビリティストレッチとコアスタビリティの後、仰向けの姿勢で全身をゆるめる仕上げのディープリラックスストレッチ。消費カロリー目安: 約16〜32kcal"
   }
 }

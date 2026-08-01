@@ -1,18 +1,18 @@
 {
   "catalogVersion": 1,
-  "updatedAt": "2026-07-20T09:15:00Z",
+  "updatedAt": "2026-08-01T06:30:00Z",
   "entries": [
     {
       "id": "bike-training-30min",
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Training (33 min)",
-        "ja": "自転車トレーニング（33分）"
+        "ja": "自転車トレーニング(29分)",
+        "en": "Bike Training (29 min)"
       },
       "description": {
-        "en": "8x high-intensity sprint intervals, recovery, and 6x front-lift sets for upper body and core, now bookended by a dynamic leg warm-up and a leg-recovery cooldown stretch.",
-        "ja": "高強度ペダリング8本→リカバリー→上半身・体幹のフロントアップ6本の構成に、動的な下肢ウォームアップと脚全体をケアするクールダウンストレッチを前後に追加しました。"
+        "ja": "全編乗車のまま行える29分ルーティン。乗車ウォームアップ→高強度ペダリング8本→上半身・体幹7本→乗車クールダウン。準備・クールダウンは各1分以内に凝縮し、アクション中心の構成に刷新。各ステップにやり方の説明付き。",
+        "en": "A 29-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
       },
       "tags": [
         "hiit",
@@ -22,7 +22,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 1740,
       "menuCount": 4,
       "menuEntryIds": [
         "bike-training-30min-warmup",
@@ -38,10 +38,10 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Training (33 min)"
+        "en": "Bike Training (29 min)"
       },
       "description": {
-        "en": "8x high-intensity sprint intervals, recovery, and 6x front-lift sets for upper body and core, now bookended by a dynamic leg warm-up and a leg-recovery cooldown stretch."
+        "en": "A 29-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
       },
       "tags": [
         "hiit",
@@ -51,7 +51,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-23",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 1740,
       "menuCount": 4,
       "menuEntryIds": [
         "bike-training-30min-warmup-en",
@@ -68,12 +68,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Warm-up: Dynamic Leg Mobility (6 min)",
-        "ja": "自転車ウォームアップ: 下肢のダイナミックモビリティ（6分）"
+        "ja": "自転車ウォームアップ: 乗車のまま5分",
+        "en": "Bike Warm-up: On-the-Bike 5 min"
       },
       "description": {
-        "en": "Dynamic hip and full-leg warm-up matched to the bike routine's high-intensity pedaling and front-lift work. Standalone menu version (free to get).",
-        "ja": "自転車メニュー（高強度ペダリング・フロントアップ）に合わせた股関節・脚全体の動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+        "ja": "自転車に乗ったまま行う段階的ウォームアップ。軽いギアから高回転ドリルまで5分でメインに備える。単体メニュー版(無料で取得できます)。",
+        "en": "A progressive warm-up done entirely on the bike - from easy spinning to a high-cadence drill in 5 minutes. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -84,7 +84,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 300,
       "language": "ja",
       "entryPath": "entries/bike-training-30min-warmup.json"
     },
@@ -93,10 +93,10 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Warm-up: Dynamic Leg Mobility (6 min)"
+        "en": "Bike Warm-up: On-the-Bike 5 min"
       },
       "description": {
-        "en": "Dynamic hip and full-leg warm-up matched to the bike routine's high-intensity pedaling and front-lift work. Standalone menu version (free to get)."
+        "en": "A progressive warm-up done entirely on the bike - from easy spinning to a high-cadence drill in 5 minutes. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -107,7 +107,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 300,
       "language": "en",
       "translationOf": "bike-training-30min-warmup",
       "entryPath": "entries/bike-training-30min-warmup-en.json"
@@ -117,12 +117,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Main 1: High-Intensity Pedaling (17 min)",
-        "ja": "自転車メイン①: 高強度ペダリング（17分）"
+        "ja": "自転車メイン①: 高強度ペダリング(10分)",
+        "en": "Bike Main 1: High-Intensity Pedaling (10 min)"
       },
       "description": {
-        "en": "8 rounds of high-intensity pedaling intervals. Standalone menu version (free to get).",
-        "ja": "高強度ペダリングを8本繰り返すインターバル走行。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→40秒全力+20秒流し×8本→クールダウン1分。単体メニュー版(無料で取得できます)。",
+        "en": "1-min prep, 8 reps of 40s hard + 20s easy, 1-min cooldown. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -132,7 +132,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "ja",
       "entryPath": "entries/bike-training-30min-main1.json"
     },
@@ -141,10 +141,10 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Main 1: High-Intensity Pedaling (17 min)"
+        "en": "Bike Main 1: High-Intensity Pedaling (10 min)"
       },
       "description": {
-        "en": "8 rounds of high-intensity pedaling intervals. Standalone menu version (free to get)."
+        "en": "1-min prep, 8 reps of 40s hard + 20s easy, 1-min cooldown. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -154,7 +154,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-23",
-      "estimatedSeconds": 1020,
+      "estimatedSeconds": 600,
       "language": "en",
       "translationOf": "bike-training-30min-main1",
       "entryPath": "entries/bike-training-30min-main1-en.json"
@@ -164,12 +164,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Main 2: Upper Body & Core (13 min)",
-        "ja": "自転車メイン②: 上半身・体幹強化（13分）"
+        "ja": "自転車メイン②: 上半身・体幹強化(9分)",
+        "en": "Bike Main 2: Upper Body & Core (9 min)"
       },
       "description": {
-        "en": "6 rounds of front-lift work for upper body and core. Standalone menu version (free to get).",
-        "ja": "フロントアップなど上半身・体幹を鍛える種目を6本繰り返すブロック。単体メニュー版（無料で取得できます）。"
+        "ja": "準備1分→フロントアップ40秒+流し20秒×7本→クールダウン1分。単体メニュー版(無料で取得できます)。",
+        "en": "1-min prep, 7 reps of 40s front-lift work + 20s easy, 1-min cooldown. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -179,7 +179,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "ja",
       "entryPath": "entries/bike-training-30min-main2.json"
     },
@@ -188,10 +188,10 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Main 2: Upper Body & Core (13 min)"
+        "en": "Bike Main 2: Upper Body & Core (9 min)"
       },
       "description": {
-        "en": "6 rounds of front-lift work for upper body and core. Standalone menu version (free to get)."
+        "en": "1-min prep, 7 reps of 40s front-lift work + 20s easy, 1-min cooldown. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -201,7 +201,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-23",
-      "estimatedSeconds": 780,
+      "estimatedSeconds": 540,
       "language": "en",
       "translationOf": "bike-training-30min-main2",
       "entryPath": "entries/bike-training-30min-main2-en.json"
@@ -211,12 +211,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Cooldown: Leg-Recovery Stretch (8 min)",
-        "ja": "自転車クールダウン: 下肢ケアストレッチ（8分）"
+        "ja": "自転車クールダウン: 乗車のまま5分",
+        "en": "Bike Cooldown: On-the-Bike 5 min"
       },
       "description": {
-        "en": "Static quad, hamstring, calf and glute stretches to ease leg tightness after the bike routine. Standalone menu version (free to get).",
-        "ja": "自転車メニュー後の脚全体の張りをケアする、大腿四頭筋・ハムストリング・カーフ・臀筋の静的ストレッチ。単体メニュー版（無料で取得できます）。"
+        "ja": "使った脚・ふくらはぎ・肩まわりを乗車のままケアする5分。単体メニュー版(無料で取得できます)。",
+        "en": "Five on-the-bike minutes caring for the legs, calves and shoulders you just used. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -227,7 +227,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 300,
       "language": "ja",
       "entryPath": "entries/bike-training-30min-stretch.json"
     },
@@ -236,10 +236,10 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Cooldown: Leg-Recovery Stretch (8 min)"
+        "en": "Bike Cooldown: On-the-Bike 5 min"
       },
       "description": {
-        "en": "Static quad, hamstring, calf and glute stretches to ease leg tightness after the bike routine. Standalone menu version (free to get)."
+        "en": "Five on-the-bike minutes caring for the legs, calves and shoulders you just used. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -250,7 +250,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 300,
       "language": "en",
       "translationOf": "bike-training-30min-stretch",
       "entryPath": "entries/bike-training-30min-stretch-en.json"

@@ -2,40 +2,40 @@
   "schemaVersion": 6,
   "routine": {
     "id": "cat-bike-r1-en",
-    "name": "Bike Training (30 min)",
-    "createdAt": "2026-07-23T00:00:00Z",
-    "updatedAt": "2026-07-26T00:00:00Z",
+    "name": "Bike Training (29 min)",
+    "createdAt": "2026-07-20T09:15:00Z",
+    "updatedAt": "2026-08-01T06:30:00Z",
     "items": [
       {
-        "id": "cat-bike-r1-i1-en",
+        "id": "cat-bike-r1-i1",
         "orderIndex": 0,
-        "menuId": "cat-bike-m0-en",
+        "menuId": "cat-bike-m0",
         "setsOverride": null
       },
       {
-        "id": "cat-bike-r1-i2-en",
+        "id": "cat-bike-r1-i2",
         "orderIndex": 1,
-        "menuId": "cat-bike-m1-en",
+        "menuId": "cat-bike-m1",
         "setsOverride": null
       },
       {
-        "id": "cat-bike-r1-i3-en",
+        "id": "cat-bike-r1-i3",
         "orderIndex": 2,
-        "menuId": "cat-bike-m2-en",
+        "menuId": "cat-bike-m2",
         "setsOverride": null
       },
       {
-        "id": "cat-bike-r1-i4-en",
+        "id": "cat-bike-r1-i4",
         "orderIndex": 3,
-        "menuId": "cat-bike-m3-en",
+        "menuId": "cat-bike-m3",
         "setsOverride": null
       }
     ]
   },
   "menus": [
     {
-      "id": "cat-bike-m0-en",
-      "name": "Warm-up (Dynamic Leg Mobility)",
+      "id": "cat-bike-m0",
+      "name": "Bike Warm-up: On-the-Bike 5 min",
       "sets": 1,
       "prepareSeconds": 0,
       "prepareCountdownSeconds": 0,
@@ -45,176 +45,141 @@
       "restCountdownSeconds": 5,
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
-      "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-07-26T00:00:00Z",
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-08-01T06:30:00Z",
       "segments": [
         {
-          "id": "cat-bike-m0-s1-en",
+          "id": "cat-bike-m0-s1",
           "orderIndex": 0,
           "sourceTemplateId": null,
-          "name": "Hip Circles (big, front-to-back and side-to-side)",
-          "durationSeconds": 30,
-          "type": 1
+          "name": "Easy spin",
+          "durationSeconds": 60,
+          "type": 1,
+          "description": "Spin slowly in your lightest gear to wake up the legs and heart rate"
         },
         {
-          "id": "cat-bike-m0-s2-en",
+          "id": "cat-bike-m0-s2",
           "orderIndex": 1,
           "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 30,
-          "type": 2
+          "name": "Cadence build",
+          "durationSeconds": 60,
+          "type": 1,
+          "description": "Keep the gear light and raise cadence (target ~90rpm). Relax the upper body"
         },
         {
-          "id": "cat-bike-m0-s3-en",
+          "id": "cat-bike-m0-s3",
           "orderIndex": 2,
           "sourceTemplateId": null,
-          "name": "Leg Swings (alternating front-to-back)",
-          "durationSeconds": 30,
-          "type": 1
+          "name": "Shift up and cruise",
+          "durationSeconds": 60,
+          "type": 1,
+          "description": "Shift 1-2 gears harder and cruise at a pace where breathing quickens slightly"
         },
         {
-          "id": "cat-bike-m0-s4-en",
+          "id": "cat-bike-m0-s4",
           "orderIndex": 3,
           "sourceTemplateId": null,
-          "name": "Rest",
+          "name": "High-cadence drill",
           "durationSeconds": 30,
-          "type": 2
+          "type": 1,
+          "description": "30 seconds of high cadence (~100rpm) in a light gear. Stay smooth in the saddle"
         },
         {
-          "id": "cat-bike-m0-s5-en",
+          "id": "cat-bike-m0-s5",
           "orderIndex": 4,
           "sourceTemplateId": null,
-          "name": "Ankle Hops (light in-place jumps)",
+          "name": "Soft pedal",
           "durationSeconds": 30,
-          "type": 1
+          "type": 2,
+          "description": "Pedal lightly and settle your breathing"
         },
         {
-          "id": "cat-bike-m0-s6-en",
+          "id": "cat-bike-m0-s6",
           "orderIndex": 5,
           "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 30,
-          "type": 2
-        },
-        {
-          "id": "cat-bike-m0-s7-en",
-          "orderIndex": 6,
-          "sourceTemplateId": null,
-          "name": "Dynamic Calf Raises (heel up-down)",
-          "durationSeconds": 30,
-          "type": 1
-        },
-        {
-          "id": "cat-bike-m0-s8-en",
-          "orderIndex": 7,
-          "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 30,
-          "type": 2
-        },
-        {
-          "id": "cat-bike-m0-s9-en",
-          "orderIndex": 8,
-          "sourceTemplateId": null,
-          "name": "Walking Lunges (alternating in place)",
-          "durationSeconds": 30,
-          "type": 1
-        },
-        {
-          "id": "cat-bike-m0-s10-en",
-          "orderIndex": 9,
-          "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 30,
-          "type": 2
-        },
-        {
-          "id": "cat-bike-m0-s11-en",
-          "orderIndex": 10,
-          "sourceTemplateId": null,
-          "name": "Arm Circles (big circles)",
-          "durationSeconds": 30,
-          "type": 1
-        },
-        {
-          "id": "cat-bike-m0-s12-en",
-          "orderIndex": 11,
-          "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 30,
-          "type": 2
+          "name": "Build-up",
+          "durationSeconds": 60,
+          "type": 1,
+          "description": "Build to about 80% effort to be ready for Main 1"
         }
-      ]
+      ],
+      "description": "A warm-up done entirely on the bike. Build gradually from your lightest gear and finish ready for Main 1. Approx. calories: 25-35 kcal"
     },
     {
-      "id": "cat-bike-m1-en",
-      "name": "Main Block 1 (High-Intensity Pedaling)",
+      "id": "cat-bike-m1",
+      "name": "Bike Main 1: High-Intensity Pedaling",
       "sets": 8,
-      "prepareSeconds": 300,
+      "prepareSeconds": 60,
       "prepareCountdownSeconds": 5,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 0,
+      "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
-      "createdAt": "2026-07-23T00:00:00Z",
-      "updatedAt": "2026-07-26T00:00:00Z",
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-08-01T06:30:00Z",
       "segments": [
         {
-          "id": "cat-bike-m1-s1-en",
+          "id": "cat-bike-m1-s1",
           "orderIndex": 0,
           "sourceTemplateId": null,
-          "name": "High-Intensity Pedaling",
+          "name": "High-intensity pedaling",
           "durationSeconds": 40,
-          "type": 1
+          "type": 1,
+          "description": "Push at 80-90% effort in a harder gear. Stay seated with a stable upper body"
         },
         {
-          "id": "cat-bike-m1-s2-en",
+          "id": "cat-bike-m1-s2",
           "orderIndex": 1,
           "sourceTemplateId": null,
-          "name": "Easy Spin",
+          "name": "Recovery spin",
           "durationSeconds": 20,
-          "type": 2
+          "type": 2,
+          "description": "Spin easy in a light gear, recover your breathing for the next rep"
         }
-      ]
+      ],
+      "description": "Prep (1 min): spin in a light gear, settle breathing, check the road ahead. 8 reps of 40s hard + 20s easy. Cooldown (1 min): shift light and loosen the legs before Main 2. Approx. calories: 100-140 kcal (varies with weight/intensity)"
     },
     {
-      "id": "cat-bike-m2-en",
-      "name": "Main Block 2 (Upper Body & Core Strengthening)",
-      "sets": 6,
-      "prepareSeconds": 0,
-      "prepareCountdownSeconds": 0,
+      "id": "cat-bike-m2",
+      "name": "Bike Main 2: Upper Body & Core",
+      "sets": 7,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
       "workCountdownSeconds": 10,
       "restCountdownSeconds": 5,
-      "cooldownSeconds": 0,
+      "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
-      "createdAt": "2026-07-23T00:00:00Z",
-      "updatedAt": "2026-07-26T00:00:00Z",
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-08-01T06:30:00Z",
       "segments": [
         {
-          "id": "cat-bike-m2-s1-en",
+          "id": "cat-bike-m2-s1",
           "orderIndex": 0,
           "sourceTemplateId": null,
-          "name": "Front Lift",
-          "durationSeconds": 30,
-          "type": 1
+          "name": "Front lift",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "On a safe straight at low speed: draw the bars in lightly and hold your torso with the core, not the arms"
         },
         {
-          "id": "cat-bike-m2-s2-en",
+          "id": "cat-bike-m2-s2",
           "orderIndex": 1,
           "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 30,
-          "type": 2
+          "name": "Soft pedal",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "Pedal lightly and release tension in shoulders and arms"
         }
-      ]
+      ],
+      "description": "Prep (1 min): shift light and check bar pressure and core engagement. 7 reps of 40s work + 20s easy. Cooldown (1 min): relax the upper body and roll into the final cooldown. Approx. calories: 60-80 kcal"
     },
     {
-      "id": "cat-bike-m3-en",
-      "name": "Stretch (Leg-Recovery Stretch)",
+      "id": "cat-bike-m3",
+      "name": "Bike Cooldown: On-the-Bike 5 min",
       "sets": 1,
       "prepareSeconds": 0,
       "prepareCountdownSeconds": 0,
@@ -224,138 +189,65 @@
       "restCountdownSeconds": 5,
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
-      "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-07-26T00:00:00Z",
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-08-01T06:30:00Z",
       "segments": [
         {
-          "id": "cat-bike-m3-s1-en",
+          "id": "cat-bike-m3-s1",
           "orderIndex": 0,
           "sourceTemplateId": null,
-          "name": "Quad Stretch (right leg, standing, hold ankle)",
-          "durationSeconds": 40,
-          "type": 1
+          "name": "Easy spin-down",
+          "durationSeconds": 90,
+          "type": 1,
+          "description": "Light gear at ~60rpm to bring the heart rate down"
         },
         {
-          "id": "cat-bike-m3-s2-en",
+          "id": "cat-bike-m3-s2",
           "orderIndex": 1,
           "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 20,
-          "type": 2
+          "name": "Calf release (right)",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "On a safe straight, stand on the pedals and drop the right heel to stretch the calf"
         },
         {
-          "id": "cat-bike-m3-s3-en",
+          "id": "cat-bike-m3-s3",
           "orderIndex": 2,
           "sourceTemplateId": null,
-          "name": "Quad Stretch (left leg)",
-          "durationSeconds": 40,
-          "type": 1
+          "name": "Calf release (left)",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "Repeat with the left heel dropped deep"
         },
         {
-          "id": "cat-bike-m3-s4-en",
+          "id": "cat-bike-m3-s4",
           "orderIndex": 3,
           "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 20,
-          "type": 2
+          "name": "Shoulder & neck reset",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "While stopped or somewhere safe, release one hand at a time and roll the shoulders to loosen the neck and traps"
         },
         {
-          "id": "cat-bike-m3-s5-en",
+          "id": "cat-bike-m3-s5",
           "orderIndex": 4,
           "sourceTemplateId": null,
-          "name": "Hamstring Stretch (right leg, forward fold)",
-          "durationSeconds": 40,
-          "type": 1
+          "name": "Back & pelvis reset",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "Alternate rounding and gently arching the back to release the posture held during riding"
         },
         {
-          "id": "cat-bike-m3-s6-en",
+          "id": "cat-bike-m3-s6",
           "orderIndex": 5,
           "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 20,
-          "type": 2
-        },
-        {
-          "id": "cat-bike-m3-s7-en",
-          "orderIndex": 6,
-          "sourceTemplateId": null,
-          "name": "Hamstring Stretch (left leg)",
-          "durationSeconds": 40,
-          "type": 1
-        },
-        {
-          "id": "cat-bike-m3-s8-en",
-          "orderIndex": 7,
-          "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 20,
-          "type": 2
-        },
-        {
-          "id": "cat-bike-m3-s9-en",
-          "orderIndex": 8,
-          "sourceTemplateId": null,
-          "name": "Calf Stretch (right leg, hands on wall)",
-          "durationSeconds": 40,
-          "type": 1
-        },
-        {
-          "id": "cat-bike-m3-s10-en",
-          "orderIndex": 9,
-          "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 20,
-          "type": 2
-        },
-        {
-          "id": "cat-bike-m3-s11-en",
-          "orderIndex": 10,
-          "sourceTemplateId": null,
-          "name": "Calf Stretch (left leg)",
-          "durationSeconds": 40,
-          "type": 1
-        },
-        {
-          "id": "cat-bike-m3-s12-en",
-          "orderIndex": 11,
-          "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 20,
-          "type": 2
-        },
-        {
-          "id": "cat-bike-m3-s13-en",
-          "orderIndex": 12,
-          "sourceTemplateId": null,
-          "name": "Hip Flexor Stretch (right leg, lunge position)",
-          "durationSeconds": 40,
-          "type": 1
-        },
-        {
-          "id": "cat-bike-m3-s14-en",
-          "orderIndex": 13,
-          "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 20,
-          "type": 2
-        },
-        {
-          "id": "cat-bike-m3-s15-en",
-          "orderIndex": 14,
-          "sourceTemplateId": null,
-          "name": "Glute Stretch (seated figure-4, forward fold)",
-          "durationSeconds": 40,
-          "type": 1
-        },
-        {
-          "id": "cat-bike-m3-s16-en",
-          "orderIndex": 15,
-          "sourceTemplateId": null,
-          "name": "Rest",
-          "durationSeconds": 20,
-          "type": 2
+          "name": "Final easy spin",
+          "durationSeconds": 90,
+          "type": 1,
+          "description": "Spin gently until breathing is fully settled, then finish"
         }
-      ]
+      ],
+      "description": "An on-the-bike cooldown for the legs, calves and shoulders used through Warm-up, Main 1 and Main 2. Approx. calories: 20-30 kcal"
     }
   ]
 }

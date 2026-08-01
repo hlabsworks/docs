@@ -3,34 +3,37 @@
   "menu": {
     "id": "cat-bike-m2-solo",
     "name": "自転車メイン②: 上半身・体幹強化",
-    "sets": 6,
-    "prepareSeconds": 0,
-    "prepareCountdownSeconds": 0,
+    "sets": 7,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 5,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
     "workCountdownSeconds": 10,
     "restCountdownSeconds": 5,
-    "cooldownSeconds": 420,
+    "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
-    "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-07-21T00:00:00Z",
+    "createdAt": "2026-07-20T09:15:00Z",
+    "updatedAt": "2026-08-01T06:30:00Z",
     "segments": [
       {
-        "id": "cat-bike-m2-s1-solo",
+        "id": "cat-bike-m2-solo-s1",
         "orderIndex": 0,
         "sourceTemplateId": null,
         "name": "フロントアップ",
-        "durationSeconds": 30,
-        "type": 1
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "安全な直線・低速で。ハンドルを軽く引き付け、腕ではなく体幹で上体を支える"
       },
       {
-        "id": "cat-bike-m2-s2-solo",
+        "id": "cat-bike-m2-solo-s2",
         "orderIndex": 1,
         "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 30,
-        "type": 2
+        "name": "流し",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "軽く回して肩と腕の力を抜く"
       }
-    ]
+    ],
+    "description": "準備1分: ギアを軽くし、ハンドル荷重と体幹の意識を確認。40秒+流し20秒を7本。クールダウン1分: 上半身の力を抜いて流し、仕上げのクールダウンへ。消費カロリー目安: 約60〜80kcal"
   }
 }

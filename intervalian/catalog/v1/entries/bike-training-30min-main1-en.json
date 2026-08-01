@@ -1,36 +1,39 @@
 {
   "schemaVersion": 6,
   "menu": {
-    "id": "cat-bike-m1-solo-en",
+    "id": "cat-bike-m1-solo",
     "name": "Bike Main 1: High-Intensity Pedaling",
     "sets": 8,
-    "prepareSeconds": 300,
+    "prepareSeconds": 60,
     "prepareCountdownSeconds": 5,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
     "workCountdownSeconds": 10,
     "restCountdownSeconds": 5,
-    "cooldownSeconds": 240,
+    "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
-    "createdAt": "2026-07-23T00:00:00Z",
-    "updatedAt": "2026-07-23T00:00:00Z",
+    "createdAt": "2026-07-20T09:15:00Z",
+    "updatedAt": "2026-08-01T06:30:00Z",
     "segments": [
       {
-        "id": "cat-bike-m1-s1-solo-en",
+        "id": "cat-bike-m1-solo-s1",
         "orderIndex": 0,
         "sourceTemplateId": null,
-        "name": "High-Intensity Pedaling",
+        "name": "High-intensity pedaling",
         "durationSeconds": 40,
-        "type": 1
+        "type": 1,
+        "description": "Push at 80-90% effort in a harder gear. Stay seated with a stable upper body"
       },
       {
-        "id": "cat-bike-m1-s2-solo-en",
+        "id": "cat-bike-m1-solo-s2",
         "orderIndex": 1,
         "sourceTemplateId": null,
-        "name": "Easy Spin",
+        "name": "Recovery spin",
         "durationSeconds": 20,
-        "type": 2
+        "type": 2,
+        "description": "Spin easy in a light gear, recover your breathing for the next rep"
       }
-    ]
+    ],
+    "description": "Prep (1 min): spin in a light gear, settle breathing, check the road ahead. 8 reps of 40s hard + 20s easy. Cooldown (1 min): shift light and loosen the legs before Main 2. Approx. calories: 100-140 kcal (varies with weight/intensity)"
   }
 }

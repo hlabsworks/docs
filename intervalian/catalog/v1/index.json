@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updatedAt": "2026-08-06T10:00:00Z",
+  "updatedAt": "2026-08-06T12:00:00Z",
   "entries": [
     {
       "id": "bike-training-30min",
@@ -22,7 +22,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1740,
+      "estimatedSeconds": 1800,
       "menuCount": 4,
       "menuEntryIds": [
         "bike-training-30min-warmup",
@@ -51,7 +51,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-23",
-      "estimatedSeconds": 1740,
+      "estimatedSeconds": 1800,
       "menuCount": 4,
       "menuEntryIds": [
         "bike-training-30min-warmup-en",
@@ -84,7 +84,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 300,
+      "estimatedSeconds": 360,
       "language": "ja",
       "entryPath": "entries/bike-training-30min-warmup.json"
     },
@@ -107,7 +107,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 300,
+      "estimatedSeconds": 360,
       "language": "en",
       "translationOf": "bike-training-30min-warmup",
       "entryPath": "entries/bike-training-30min-warmup-en.json"
@@ -272,7 +272,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 2040,
       "menuCount": 4,
       "menuEntryIds": [
         "mon-chest-shoulders-warmup",
@@ -301,7 +301,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 420,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-warmup.json"
     },
@@ -387,7 +387,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 2040,
       "menuCount": 4,
       "menuEntryIds": [
         "tue-fullbody-hiit-warmup",
@@ -417,7 +417,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 420,
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-warmup.json"
     },
@@ -505,7 +505,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 2040,
       "menuCount": 4,
       "menuEntryIds": [
         "wed-back-warmup",
@@ -534,7 +534,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 420,
       "language": "ja",
       "entryPath": "entries/wed-back-warmup.json"
     },
@@ -619,7 +619,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 2040,
       "menuCount": 4,
       "menuEntryIds": [
         "thu-chest-arms-warmup",
@@ -648,7 +648,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 420,
       "language": "ja",
       "entryPath": "entries/thu-chest-arms-warmup.json"
     },
@@ -734,7 +734,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 2040,
       "menuCount": 4,
       "menuEntryIds": [
         "fri-fullbody-core-warmup",
@@ -764,7 +764,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 420,
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core-warmup.json"
     },
@@ -853,7 +853,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 2040,
       "menuCount": 4,
       "menuEntryIds": [
         "sat-am-hill-bike-warmup",
@@ -883,7 +883,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 420,
       "language": "ja",
       "entryPath": "entries/sat-am-hill-bike-warmup.json"
     },
@@ -994,7 +994,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1980,
+      "estimatedSeconds": 2040,
       "menuCount": 4,
       "menuEntryIds": [
         "sun-am-circuit-warmup",
@@ -1024,7 +1024,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 360,
+      "estimatedSeconds": 420,
       "language": "ja",
       "entryPath": "entries/sun-am-circuit-warmup.json"
     },
@@ -1112,7 +1112,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1860,
+      "estimatedSeconds": 1920,
       "menuCount": 4,
       "menuEntryIds": [
         "sun-pm-conditioning-warmup",
@@ -1140,7 +1140,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 240,
+      "estimatedSeconds": 300,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-warmup.json"
     },

@@ -1,18 +1,18 @@
 {
   "catalogVersion": 1,
-  "updatedAt": "2026-08-01T09:00:00Z",
+  "updatedAt": "2026-08-06T10:00:00Z",
   "entries": [
     {
       "id": "bike-training-30min",
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "ja": "自転車トレーニング(29分)",
-        "en": "Bike Training (29 min)"
+        "ja": "自転車トレーニング(30分)",
+        "en": "Bike Training (30 min)"
       },
       "description": {
-        "ja": "全編乗車のまま行える29分ルーティン。乗車ウォームアップ→高強度ペダリング8本→上半身・体幹7本→乗車クールダウン。準備・クールダウンは各1分以内に凝縮し、アクション中心の構成に刷新。各ステップにやり方の説明付き。",
-        "en": "A 29-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
+        "ja": "全編乗車のまま行える30分ルーティン。乗車ウォームアップ→高強度ペダリング8本→上半身・体幹7本→乗車クールダウン。準備・クールダウンは各1分以内に凝縮し、アクション中心の構成に刷新。各ステップにやり方の説明付き。",
+        "en": "A 30-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
       },
       "tags": [
         "hiit",
@@ -38,10 +38,10 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Training (29 min)"
+        "en": "Bike Training (30 min)"
       },
       "description": {
-        "en": "A 29-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
+        "en": "A 30-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
       },
       "tags": [
         "hiit",
@@ -68,12 +68,12 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "ja": "自転車ウォームアップ: 乗車のまま5分",
-        "en": "Bike Warm-up: On-the-Bike 5 min"
+        "ja": "自転車ウォームアップ: 乗車のまま6分",
+        "en": "Bike Warm-up: On-the-Bike 6 min"
       },
       "description": {
-        "ja": "自転車に乗ったまま行う段階的ウォームアップ。軽いギアから高回転ドリルまで5分でメインに備える。単体メニュー版(無料で取得できます)。",
-        "en": "A progressive warm-up done entirely on the bike - from easy spinning to a high-cadence drill in 5 minutes. Standalone menu version (free to get)."
+        "ja": "自転車に乗ったまま行う段階的ウォームアップ。軽いギアから高回転ドリルまで6分でメインに備える。単体メニュー版(無料で取得できます)。",
+        "en": "A progressive warm-up done entirely on the bike - from easy spinning to a high-cadence drill in 6 minutes. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -93,10 +93,10 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Warm-up: On-the-Bike 5 min"
+        "en": "Bike Warm-up: On-the-Bike 6 min"
       },
       "description": {
-        "en": "A progressive warm-up done entirely on the bike - from easy spinning to a high-cadence drill in 5 minutes. Standalone menu version (free to get)."
+        "en": "A progressive warm-up done entirely on the bike - from easy spinning to a high-cadence drill in 6 minutes. Standalone menu version (free to get)."
       },
       "tags": [
         "hiit",
@@ -260,8 +260,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Monday: Chest & Shoulders + Lower Abs (33 min, home)",
-        "ja": "月曜: 胸・肩 & 下腹部（自宅33分）"
+        "en": "Monday: Chest & Shoulders + Lower Abs (34 min, home)",
+        "ja": "月曜: 胸・肩 & 下腹部（自宅34分）"
       },
       "description": {
         "en": "A 33-minute home workout pairing four push-up variations for chest and shoulders with reverse-crunch style core work to finish, now bookended by a dynamic warm-up and a DOMS-easing cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -288,8 +288,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Mon Warm-up: Dynamic Mobility (6 min)",
-        "ja": "月曜ウォームアップ: 動的モビリティ（6分）"
+        "en": "Mon Warm-up: Dynamic Mobility (7 min)",
+        "ja": "月曜ウォームアップ: 動的モビリティ（7分）"
       },
       "description": {
         "en": "Dynamic shoulder, chest and hip-flexor mobility work matched to Monday's push-up and core routine. Standalone menu version (free to get).",
@@ -374,8 +374,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Tuesday: Full-Body HIIT (33 min, home)",
-        "ja": "火曜: 全身HIIT（自宅33分）"
+        "en": "Tuesday: Full-Body HIIT (34 min, home)",
+        "ja": "火曜: 全身HIIT（自宅34分）"
       },
       "description": {
         "en": "A 33-minute full-body HIIT session with mountain climbers, jump squats, high knees and skater hops, finishing with core work, now bookended by a dynamic full-body warm-up and a leg-and-core cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -403,8 +403,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Tue Warm-up: Full-Body Dynamic Mobility (6 min)",
-        "ja": "火曜ウォームアップ: 全身ダイナミックモビリティ（6分）"
+        "en": "Tue Warm-up: Full-Body Dynamic Mobility (7 min)",
+        "ja": "火曜ウォームアップ: 全身ダイナミックモビリティ（7分）"
       },
       "description": {
         "en": "Dynamic full-body warm-up preparing for mountain climbers, jump squats and other high-intensity full-body moves. Standalone menu version (free to get).",
@@ -493,8 +493,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Wednesday: Back (33 min, home)",
-        "ja": "水曜: 背中（自宅33分）"
+        "en": "Wednesday: Back (34 min, home)",
+        "ja": "水曜: 背中（自宅34分）"
       },
       "description": {
         "en": "A 33-minute back-focused session (Superman, reverse snow angel, prone cobra, Y-raise) finished with side planks for lateral core strength, now bookended by a back-and-core dynamic warm-up and a back-recovery cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -521,8 +521,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Wed Warm-up: Back & Core Dynamic Mobility (6 min)",
-        "ja": "水曜ウォームアップ: 背中・体幹の動的モビリティ（6分）"
+        "en": "Wed Warm-up: Back & Core Dynamic Mobility (7 min)",
+        "ja": "水曜ウォームアップ: 背中・体幹の動的モビリティ（7分）"
       },
       "description": {
         "en": "Dynamic back and thoracic-spine warm-up preparing for Superman, Y-raise and other back-strengthening moves. Standalone menu version (free to get).",
@@ -607,8 +607,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Thursday: Chest & Arms (33 min, home)",
-        "ja": "木曜: 胸・腕（自宅33分）"
+        "en": "Thursday: Chest & Arms (34 min, home)",
+        "ja": "木曜: 胸・腕（自宅34分）"
       },
       "description": {
         "en": "A 33-minute session of push-up variations for chest and arms, plus crunch variations for the lower abs, now bookended by a chest-and-shoulder dynamic warm-up and a chest-and-arm cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -635,8 +635,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Thu Warm-up: Chest & Shoulder Dynamic Mobility (6 min)",
-        "ja": "木曜ウォームアップ: 胸・肩の動的モビリティ（6分）"
+        "en": "Thu Warm-up: Chest & Shoulder Dynamic Mobility (7 min)",
+        "ja": "木曜ウォームアップ: 胸・肩の動的モビリティ（7分）"
       },
       "description": {
         "en": "Dynamic chest, shoulder and triceps warm-up preparing for the push-up variations. Standalone menu version (free to get).",
@@ -721,8 +721,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Friday: Full-Body Conditioning (33 min, home)",
-        "ja": "金曜: 全身コンディショニング（自宅33分）"
+        "en": "Friday: Full-Body Conditioning (34 min, home)",
+        "ja": "金曜: 全身コンディショニング（自宅34分）"
       },
       "description": {
         "en": "A 33-minute mix of heart-pumping full-body HIIT (mountain climbers, burpees, high knees, skater hops) and core-holding work (hollow body, plank, Russian twist), now bookended by a dynamic full-body warm-up and a full-body-and-core cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -750,8 +750,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Fri Warm-up: Full-Body Dynamic Mobility (6 min)",
-        "ja": "金曜ウォームアップ: 全身ダイナミックモビリティ（6分）"
+        "en": "Fri Warm-up: Full-Body Dynamic Mobility (7 min)",
+        "ja": "金曜ウォームアップ: 全身ダイナミックモビリティ（7分）"
       },
       "description": {
         "en": "Dynamic full-body warm-up preparing for mountain climbers, burpees and other full-body HIIT moves. Standalone menu version (free to get).",
@@ -840,8 +840,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Saturday AM: Hill Bike Training (33 min)",
-        "ja": "土曜午前: 坂道バイクトレーニング（33分）"
+        "en": "Saturday AM: Hill Bike Training (34 min)",
+        "ja": "土曜午前: 坂道バイクトレーニング（34分）"
       },
       "description": {
         "en": "A 33-minute bike session alternating standing hill sprints with easy descents, finishing with a high-resistance seated block, now bookended by a dynamic leg warm-up and a leg-recovery cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -869,8 +869,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sat AM Warm-up: Dynamic Leg Mobility (6 min)",
-        "ja": "土曜午前ウォームアップ: 下肢のダイナミックモビリティ（6分）"
+        "en": "Sat AM Warm-up: Dynamic Leg Mobility (7 min)",
+        "ja": "土曜午前ウォームアップ: 下肢のダイナミックモビリティ（7分）"
       },
       "description": {
         "en": "Dynamic hip, glute and grip warm-up preparing for the standing hill-dash intervals. Standalone menu version (free to get).",
@@ -981,8 +981,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sunday AM: Full-Body Circuit (33 min, home)",
-        "ja": "日曜午前: 全身サーキット（自宅33分）"
+        "en": "Sunday AM: Full-Body Circuit (34 min, home)",
+        "ja": "日曜午前: 全身サーキット（自宅34分）"
       },
       "description": {
         "en": "A 33-minute full-body circuit combining bodyweight squats, push-ups, lunges, and mountain climbers, finished with core work, now bookended by a dynamic full-body warm-up and a full-body cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -1010,8 +1010,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sun AM Warm-up: Full-Body Dynamic Mobility (6 min)",
-        "ja": "日曜午前ウォームアップ: 全身ダイナミックモビリティ（6分）"
+        "en": "Sun AM Warm-up: Full-Body Dynamic Mobility (7 min)",
+        "ja": "日曜午前ウォームアップ: 全身ダイナミックモビリティ（7分）"
       },
       "description": {
         "en": "Dynamic full-body warm-up preparing for the squat, push-up and lunge full-body circuit. Standalone menu version (free to get).",
@@ -1100,8 +1100,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sunday PM: Mobility & Core Conditioning (31 min)",
-        "ja": "日曜午後: モビリティ&コアコンディショニング（31分）"
+        "en": "Sunday PM: Mobility & Core Conditioning (32 min)",
+        "ja": "日曜午後: モビリティ&コアコンディショニング（32分）"
       },
       "description": {
         "en": "A 31-minute weekend wind-down of mobility stretches to open up the joints, followed by core-stability plank holds, now bookended by a gentle joint-loosening warm-up and a deep-relaxation cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -1128,8 +1128,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sun PM Warm-up: Gentle Joint Loosener (4 min)",
-        "ja": "日曜午後ウォームアップ: 関節ほぐし（4分）"
+        "en": "Sun PM Warm-up: Gentle Joint Loosener (5 min)",
+        "ja": "日曜午後ウォームアップ: 関節ほぐし（5分）"
       },
       "description": {
         "en": "Gentle joint mobility to loosen the neck, wrists, shoulders and ankles before the main mobility stretches. Standalone menu version (free to get).",

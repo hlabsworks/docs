@@ -4,7 +4,7 @@
     "id": "cat-sunpm-r1",
     "name": "日曜午後: モビリティ&コアコンディショニング",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T10:00:00Z",
     "items": [
       {
         "id": "cat-sunpm-r1-i1",
@@ -37,7 +37,7 @@
       "id": "cat-sunpm-m0",
       "name": "準備運動（関節ほぐし）",
       "sets": 1,
-      "prepareSeconds": 0,
+      "prepareSeconds": 60,
       "prepareCountdownSeconds": 0,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T10:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m0-s1",

@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-thu-m0-s1-solo",
@@ -22,7 +22,8 @@
         "name": "肩甲骨プッシュアップ（プランク姿勢で肩甲骨を出し入れ）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "プランク姿勢のまま肩甲骨を寄せて開くを繰り返し、体幹と肩の連動を高める"
+        "description": "プランク姿勢のまま肩甲骨を寄せて開くを繰り返し、体幹と肩の連動を高める",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-thu-m0-s2-solo",
@@ -40,7 +41,8 @@
         "name": "動的チェストオープナー（胸を開いて閉じる）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "両腕を前で交差させてから大きく開くを繰り返し、胸筋を温める"
+        "description": "両腕を前で交差させてから大きく開くを繰り返し、胸筋を温める",
+        "illustrationId": "thoracic-rotation-quadruped"
       },
       {
         "id": "cat-thu-m0-s4-solo",
@@ -58,7 +60,8 @@
         "name": "アームサークル（腕を大きく回す）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす"
+        "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす",
+        "illustrationId": "arm-circles-standing"
       },
       {
         "id": "cat-thu-m0-s6-solo",
@@ -76,7 +79,8 @@
         "name": "トライセプスドロー（肘を曲げ伸ばしして三頭筋を温める）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腕を頭上に上げ、肘を曲げ伸ばして三頭筋を温める"
+        "description": "腕を頭上に上げ、肘を曲げ伸ばして三頭筋を温める",
+        "illustrationId": "y-raise-prone"
       },
       {
         "id": "cat-thu-m0-s8-solo",
@@ -94,7 +98,8 @@
         "name": "ニーリング・ヒップフレクサーストレッチ（動的・左右交互）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "片膝立ちで骨盤を前に押し出し、股関節前面を動的に伸ばす。左右交互に行う"
+        "description": "片膝立ちで骨盤を前に押し出し、股関節前面を動的に伸ばす。左右交互に行う",
+        "illustrationId": "hip-flexor-stretch-kneeling"
       },
       {
         "id": "cat-thu-m0-s10-solo",
@@ -112,7 +117,8 @@
         "name": "キャット&カウ（背骨を丸めて反らす）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす"
+        "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす",
+        "illustrationId": "cat-cow-quadruped"
       },
       {
         "id": "cat-thu-m0-s12-solo",

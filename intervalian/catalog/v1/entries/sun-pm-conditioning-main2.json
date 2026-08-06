@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m2-s1-solo",
@@ -22,7 +22,8 @@
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
+        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+        "illustrationId": "plank-forearm"
       },
       {
         "id": "cat-sunpm-m2-s2-solo",
@@ -40,7 +41,8 @@
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ"
+        "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ",
+        "illustrationId": "plank-forearm"
       },
       {
         "id": "cat-sunpm-m2-s2-r2-solo",
@@ -58,7 +60,8 @@
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする"
+        "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする",
+        "illustrationId": "plank-forearm"
       },
       {
         "id": "cat-sunpm-m2-s2-r3-solo",
@@ -76,7 +79,8 @@
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
+        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+        "illustrationId": "plank-forearm"
       },
       {
         "id": "cat-sunpm-m2-s2-r4-solo",
@@ -94,7 +98,8 @@
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ"
+        "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ",
+        "illustrationId": "plank-forearm"
       },
       {
         "id": "cat-sunpm-m2-s2-r5-solo",
@@ -112,7 +117,8 @@
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする"
+        "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする",
+        "illustrationId": "plank-forearm"
       },
       {
         "id": "cat-sunpm-m2-s2-r6-solo",
@@ -130,7 +136,8 @@
         "name": "コアスタビリティ（プランク）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
+        "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+        "illustrationId": "plank-forearm"
       },
       {
         "id": "cat-sunpm-m2-s2-r7-solo",

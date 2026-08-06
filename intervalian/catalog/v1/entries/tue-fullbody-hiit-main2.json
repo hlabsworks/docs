@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-tue-m2-s1-solo",
@@ -22,7 +22,8 @@
         "name": "プランクツイスト",
         "durationSeconds": 30,
         "type": 1,
-        "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける"
+        "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける",
+        "illustrationId": "side-plank"
       },
       {
         "id": "cat-tue-m2-s2-solo",
@@ -40,7 +41,8 @@
         "name": "レッグレイズ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
+        "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす",
+        "illustrationId": "leg-raise-supine"
       },
       {
         "id": "cat-tue-m2-s4-solo",
@@ -58,7 +60,8 @@
         "name": "ニートゥーチェスト",
         "durationSeconds": 30,
         "type": 1,
-        "description": "座った姿勢で上体を後傾させ、膝を胸に引き寄せて下腹部を収縮させる"
+        "description": "座った姿勢で上体を後傾させ、膝を胸に引き寄せて下腹部を収縮させる",
+        "illustrationId": "knee-hug-supine"
       },
       {
         "id": "cat-tue-m2-s6-solo",
@@ -76,7 +79,8 @@
         "name": "プランクツイスト",
         "durationSeconds": 30,
         "type": 1,
-        "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける"
+        "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける",
+        "illustrationId": "side-plank"
       },
       {
         "id": "cat-tue-m2-s2-r2-solo",
@@ -94,7 +98,8 @@
         "name": "レッグレイズ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
+        "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす",
+        "illustrationId": "leg-raise-supine"
       },
       {
         "id": "cat-tue-m2-s4-r2-solo",
@@ -112,7 +117,8 @@
         "name": "ニートゥーチェスト",
         "durationSeconds": 30,
         "type": 1,
-        "description": "座った姿勢で上体を後傾させ、膝を胸に引き寄せて下腹部を収縮させる"
+        "description": "座った姿勢で上体を後傾させ、膝を胸に引き寄せて下腹部を収縮させる",
+        "illustrationId": "knee-hug-supine"
       },
       {
         "id": "cat-tue-m2-s6-r2-solo",
@@ -130,7 +136,8 @@
         "name": "プランクツイスト",
         "durationSeconds": 30,
         "type": 1,
-        "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける"
+        "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける",
+        "illustrationId": "side-plank"
       },
       {
         "id": "cat-tue-m2-s2-r3-solo",

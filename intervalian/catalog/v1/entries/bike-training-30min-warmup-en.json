@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-20T09:15:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-bike-m0-solo-s1",
@@ -22,7 +22,8 @@
         "name": "Easy spin",
         "durationSeconds": 60,
         "type": 1,
-        "description": "Spin slowly in your lightest gear to wake up the legs and heart rate"
+        "description": "Spin slowly in your lightest gear to wake up the legs and heart rate",
+        "illustrationId": "cycling-riding"
       },
       {
         "id": "cat-bike-m0-solo-s2",
@@ -31,7 +32,8 @@
         "name": "Cadence build",
         "durationSeconds": 60,
         "type": 1,
-        "description": "Keep the gear light and raise cadence (target ~90rpm). Relax the upper body"
+        "description": "Keep the gear light and raise cadence (target ~90rpm). Relax the upper body",
+        "illustrationId": "cycling-riding"
       },
       {
         "id": "cat-bike-m0-solo-s3",
@@ -40,7 +42,8 @@
         "name": "Shift up and cruise",
         "durationSeconds": 60,
         "type": 1,
-        "description": "Shift 1-2 gears harder and cruise at a pace where breathing quickens slightly"
+        "description": "Shift 1-2 gears harder and cruise at a pace where breathing quickens slightly",
+        "illustrationId": "cycling-riding"
       },
       {
         "id": "cat-bike-m0-solo-s4",
@@ -49,7 +52,8 @@
         "name": "High-cadence drill",
         "durationSeconds": 30,
         "type": 1,
-        "description": "30 seconds of high cadence (~100rpm) in a light gear. Stay smooth in the saddle"
+        "description": "30 seconds of high cadence (~100rpm) in a light gear. Stay smooth in the saddle",
+        "illustrationId": "cycling-riding"
       },
       {
         "id": "cat-bike-m0-solo-s5",
@@ -67,7 +71,8 @@
         "name": "Build-up",
         "durationSeconds": 60,
         "type": 1,
-        "description": "Build to about 80% effort to be ready for Main 1"
+        "description": "Build to about 80% effort to be ready for Main 1",
+        "illustrationId": "cycling-riding"
       }
     ],
     "description": "A warm-up done entirely on the bike. Build gradually from your lightest gear and finish ready for Main 1. Approx. calories: 25-35 kcal"

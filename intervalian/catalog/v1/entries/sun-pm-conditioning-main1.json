@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m1-s1-solo",
@@ -22,7 +22,8 @@
         "name": "モビリティストレッチ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる"
+        "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる",
+        "illustrationId": "arm-circles-standing"
       },
       {
         "id": "cat-sunpm-m1-s2-solo",
@@ -40,7 +41,8 @@
         "name": "モビリティストレッチ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす"
+        "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす",
+        "illustrationId": "hip-circle-standing"
       },
       {
         "id": "cat-sunpm-m1-s2-r2-solo",
@@ -58,7 +60,8 @@
         "name": "モビリティストレッチ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる"
+        "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる",
+        "illustrationId": "cat-cow-quadruped"
       },
       {
         "id": "cat-sunpm-m1-s2-r3-solo",
@@ -76,7 +79,8 @@
         "name": "モビリティストレッチ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる"
+        "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
+        "illustrationId": "calf-stretch-wall"
       },
       {
         "id": "cat-sunpm-m1-s2-r4-solo",
@@ -94,7 +98,8 @@
         "name": "モビリティストレッチ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる"
+        "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる",
+        "illustrationId": "arm-circles-standing"
       },
       {
         "id": "cat-sunpm-m1-s2-r5-solo",
@@ -112,7 +117,8 @@
         "name": "モビリティストレッチ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす"
+        "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす",
+        "illustrationId": "hip-circle-standing"
       },
       {
         "id": "cat-sunpm-m1-s2-r6-solo",
@@ -130,7 +136,8 @@
         "name": "モビリティストレッチ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる"
+        "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる",
+        "illustrationId": "cat-cow-quadruped"
       },
       {
         "id": "cat-sunpm-m1-s2-r7-solo",
@@ -148,7 +155,8 @@
         "name": "モビリティストレッチ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる"
+        "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
+        "illustrationId": "calf-stretch-wall"
       },
       {
         "id": "cat-sunpm-m1-s2-r8-solo",

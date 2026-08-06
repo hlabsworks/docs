@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m0-s1-solo",
@@ -22,7 +22,8 @@
         "name": "首回し（ゆっくり左右に）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "首をゆっくり左右に倒し、力を抜いて回す"
+        "description": "首をゆっくり左右に倒し、力を抜いて回す",
+        "illustrationId": "neck-side-stretch"
       },
       {
         "id": "cat-sunpm-m0-s2-solo",
@@ -40,7 +41,8 @@
         "name": "手首・足首回し（座って軽く回す）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "座った姿勢で手首・足首をゆっくり回し、末端の血流を促す"
+        "description": "座った姿勢で手首・足首をゆっくり回し、末端の血流を促す",
+        "illustrationId": "wrist-forearm-stretch"
       },
       {
         "id": "cat-sunpm-m0-s4-solo",
@@ -58,7 +60,8 @@
         "name": "肩甲骨回し（軽く上下に動かす）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "肩をすくめて下げるを繰り返し、肩甲骨まわりをほぐす"
+        "description": "肩をすくめて下げるを繰り返し、肩甲骨まわりをほぐす",
+        "illustrationId": "arm-circles-standing"
       },
       {
         "id": "cat-sunpm-m0-s6-solo",
@@ -76,7 +79,8 @@
         "name": "呼吸を整える（深呼吸をしながら軽く体を揺らす）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "深呼吸をしながら体を軽く揺らし、リラックスして心拍を落ち着ける"
+        "description": "深呼吸をしながら体を軽く揺らし、リラックスして心拍を落ち着ける",
+        "illustrationId": "corpse-pose-supine"
       },
       {
         "id": "cat-sunpm-m0-s8-solo",

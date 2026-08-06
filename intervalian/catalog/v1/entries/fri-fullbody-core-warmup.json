@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-fri-m0-s1-solo",
@@ -22,7 +22,8 @@
         "name": "プランクトゥスタンド（前屈からプランク姿勢を経由して立ち上がる）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "前屈からプランクを経由し、手を階段状に歩かせて立ち上がる。全身を大きく使う"
+        "description": "前屈からプランクを経由し、手を階段状に歩かせて立ち上がる。全身を大きく使う",
+        "illustrationId": "plank-to-stand"
       },
       {
         "id": "cat-fri-m0-s2-solo",
@@ -40,7 +41,8 @@
         "name": "スケーターホップ（左右に軽くジャンプ）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "左右に軽くジャンプして着地し、股関節と外側の筋肉を温める"
+        "description": "左右に軽くジャンプして着地し、股関節と外側の筋肉を温める",
+        "illustrationId": "skater-hop"
       },
       {
         "id": "cat-fri-m0-s4-solo",
@@ -58,7 +60,8 @@
         "name": "アームサークル（腕を大きく回す）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす"
+        "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす",
+        "illustrationId": "arm-circles-standing"
       },
       {
         "id": "cat-fri-m0-s6-solo",
@@ -76,7 +79,8 @@
         "name": "ハイニー（軽いテンポで）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腿を高く上げながら軽いテンポでその場足踏みする。体幹を軽く締めて安定させる"
+        "description": "腿を高く上げながら軽いテンポでその場足踏みする。体幹を軽く締めて安定させる",
+        "illustrationId": "high-knees-run"
       },
       {
         "id": "cat-fri-m0-s8-solo",
@@ -94,7 +98,8 @@
         "name": "ヒップサークル（腰を回す）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "骨盤を大きく回し、股関節まわりをほぐす"
+        "description": "骨盤を大きく回し、股関節まわりをほぐす",
+        "illustrationId": "hip-circle-standing"
       },
       {
         "id": "cat-fri-m0-s10-solo",
@@ -112,7 +117,8 @@
         "name": "ワールドグレイテストストレッチ（股関節・胸椎の可動域出し）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "ランジ姿勢から胸を大きく捻り開く複合ストレッチ。股関節と胸椎を同時にほぐす"
+        "description": "ランジ姿勢から胸を大きく捻り開く複合ストレッチ。股関節と胸椎を同時にほぐす",
+        "illustrationId": "thoracic-rotation-quadruped"
       },
       {
         "id": "cat-fri-m0-s12-solo",

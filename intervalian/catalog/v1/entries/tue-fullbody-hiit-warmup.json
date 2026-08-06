@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-tue-m0-s1-solo",
@@ -22,7 +22,8 @@
         "name": "その場足踏み（軽く腕を振って全身を温める）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腿を軽く上げながらその場で足踏みし、腕も振って全身の血流を上げる"
+        "description": "腿を軽く上げながらその場で足踏みし、腕も振って全身の血流を上げる",
+        "illustrationId": "high-knees-run"
       },
       {
         "id": "cat-tue-m0-s2-solo",
@@ -40,7 +41,8 @@
         "name": "ハイニー（軽いテンポで）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腿を高く上げながら軽いテンポでその場足踏みする。体幹を軽く締めて安定させる"
+        "description": "腿を高く上げながら軽いテンポでその場足踏みする。体幹を軽く締めて安定させる",
+        "illustrationId": "high-knees-run"
       },
       {
         "id": "cat-tue-m0-s4-solo",
@@ -58,7 +60,8 @@
         "name": "バットキック（かかとをお尻に近づける）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "かかとをお尻に近づけるように軽く跳ね、ハムストリングを温める"
+        "description": "かかとをお尻に近づけるように軽く跳ね、ハムストリングを温める",
+        "illustrationId": "high-knees-run"
       },
       {
         "id": "cat-tue-m0-s6-solo",
@@ -76,7 +79,8 @@
         "name": "アームサークル（腕を大きく回す）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす"
+        "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす",
+        "illustrationId": "arm-circles-standing"
       },
       {
         "id": "cat-tue-m0-s8-solo",
@@ -94,7 +98,8 @@
         "name": "ヒップサークル（腰を回す）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "骨盤を大きく回し、股関節まわりをほぐす"
+        "description": "骨盤を大きく回し、股関節まわりをほぐす",
+        "illustrationId": "hip-circle-standing"
       },
       {
         "id": "cat-tue-m0-s10-solo",
@@ -112,7 +117,8 @@
         "name": "ダイナミックランジ（交互に踏み込む）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "前後に交互に踏み込み、股関節と太もも前面を動的に伸ばす"
+        "description": "前後に交互に踏み込み、股関節と太もも前面を動的に伸ばす",
+        "illustrationId": "lunge-forward"
       },
       {
         "id": "cat-tue-m0-s12-solo",

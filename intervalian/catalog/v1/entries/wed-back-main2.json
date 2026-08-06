@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-wed-m2-s1-solo",
@@ -22,7 +22,8 @@
         "name": "サイドプランク右",
         "durationSeconds": 30,
         "type": 1,
-        "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ"
+        "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+        "illustrationId": "side-plank"
       },
       {
         "id": "cat-wed-m2-s2-solo",
@@ -40,7 +41,8 @@
         "name": "サイドプランク左",
         "durationSeconds": 30,
         "type": 1,
-        "description": "左肘と足の側面で体を支え、体幹側面を締めて一直線を保つ"
+        "description": "左肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+        "illustrationId": "side-plank"
       },
       {
         "id": "cat-wed-m2-s4-solo",
@@ -58,7 +60,8 @@
         "name": "レッグレイズ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
+        "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす",
+        "illustrationId": "leg-raise-supine"
       },
       {
         "id": "cat-wed-m2-s6-solo",
@@ -76,7 +79,8 @@
         "name": "サイドプランク右",
         "durationSeconds": 30,
         "type": 1,
-        "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ"
+        "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+        "illustrationId": "side-plank"
       },
       {
         "id": "cat-wed-m2-s2-r2-solo",
@@ -94,7 +98,8 @@
         "name": "サイドプランク左",
         "durationSeconds": 30,
         "type": 1,
-        "description": "左肘と足の側面で体を支え、体幹側面を締めて一直線を保つ"
+        "description": "左肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+        "illustrationId": "side-plank"
       },
       {
         "id": "cat-wed-m2-s4-r2-solo",
@@ -112,7 +117,8 @@
         "name": "レッグレイズ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
+        "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす",
+        "illustrationId": "leg-raise-supine"
       },
       {
         "id": "cat-wed-m2-s6-r2-solo",
@@ -130,7 +136,8 @@
         "name": "サイドプランク右",
         "durationSeconds": 30,
         "type": 1,
-        "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ"
+        "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+        "illustrationId": "side-plank"
       },
       {
         "id": "cat-wed-m2-s2-r3-solo",

@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunam-m3-s1-solo",
@@ -22,7 +22,8 @@
         "name": "大腿四頭筋ストレッチ（右脚）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす"
+        "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす",
+        "illustrationId": "quad-stretch-standing"
       },
       {
         "id": "cat-sunam-m3-s2-solo",
@@ -40,7 +41,8 @@
         "name": "大腿四頭筋ストレッチ（左脚）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす（左脚）"
+        "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす（左脚）",
+        "illustrationId": "quad-stretch-standing"
       },
       {
         "id": "cat-sunam-m3-s4-solo",
@@ -58,7 +60,8 @@
         "name": "ハムストリングストレッチ（右脚）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす"
+        "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす",
+        "illustrationId": "hamstring-fold-standing"
       },
       {
         "id": "cat-sunam-m3-s6-solo",
@@ -76,7 +79,8 @@
         "name": "ハムストリングストレッチ（左脚）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）"
+        "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）",
+        "illustrationId": "hamstring-fold-standing"
       },
       {
         "id": "cat-sunam-m3-s8-solo",
@@ -94,7 +98,8 @@
         "name": "胸のドアフレームストレッチ（右腕）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁やドア枠に右前腕を当て、体を前に少し倒して胸を伸ばす"
+        "description": "壁やドア枠に右前腕を当て、体を前に少し倒して胸を伸ばす",
+        "illustrationId": "chest-stretch-doorway"
       },
       {
         "id": "cat-sunam-m3-s10-solo",
@@ -112,7 +117,8 @@
         "name": "胸のドアフレームストレッチ（左腕）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁やドア枠に左前腕を当て、体を前に少し倒して胸を伸ばす"
+        "description": "壁やドア枠に左前腕を当て、体を前に少し倒して胸を伸ばす",
+        "illustrationId": "chest-stretch-doorway"
       },
       {
         "id": "cat-sunam-m3-s12-solo",
@@ -130,7 +136,8 @@
         "name": "腸腰筋ストレッチ（右脚・ランジ姿勢）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "右脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす"
+        "description": "右脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす",
+        "illustrationId": "hip-flexor-stretch-kneeling"
       },
       {
         "id": "cat-sunam-m3-s14-solo",
@@ -148,7 +155,8 @@
         "name": "腸腰筋ストレッチ（左脚）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "左脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす"
+        "description": "左脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす",
+        "illustrationId": "hip-flexor-stretch-kneeling"
       },
       {
         "id": "cat-sunam-m3-s16-solo",

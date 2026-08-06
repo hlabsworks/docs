@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T10:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-mon-m0-s1",
@@ -55,7 +55,8 @@
           "name": "肩回し（大きく前後に）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "腕を伸ばしたまま肩関節を大きく前後に回し、肩まわりの可動域を広げる"
+          "description": "腕を伸ばしたまま肩関節を大きく前後に回し、肩まわりの可動域を広げる",
+          "illustrationId": "arm-circles-standing"
         },
         {
           "id": "cat-mon-m0-s2",
@@ -73,7 +74,8 @@
           "name": "アームサークル（腕を大きく回す）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす"
+          "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす",
+          "illustrationId": "arm-circles-standing"
         },
         {
           "id": "cat-mon-m0-s4",
@@ -91,7 +93,8 @@
           "name": "動的チェストオープナー（胸を開いて閉じる）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "両腕を前で交差させてから大きく開くを繰り返し、胸筋を温める"
+          "description": "両腕を前で交差させてから大きく開くを繰り返し、胸筋を温める",
+          "illustrationId": "thoracic-rotation-quadruped"
         },
         {
           "id": "cat-mon-m0-s6",
@@ -109,7 +112,8 @@
           "name": "肩甲骨プッシュアップ（プランク姿勢で肩甲骨を出し入れ）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "プランク姿勢のまま肩甲骨を寄せて開くを繰り返し、体幹と肩の連動を高める"
+          "description": "プランク姿勢のまま肩甲骨を寄せて開くを繰り返し、体幹と肩の連動を高める",
+          "illustrationId": "push-up-prone"
         },
         {
           "id": "cat-mon-m0-s8",
@@ -127,7 +131,8 @@
           "name": "キャット&カウ（背骨を丸めて反らす）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす"
+          "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす",
+          "illustrationId": "cat-cow-quadruped"
         },
         {
           "id": "cat-mon-m0-s10",
@@ -145,7 +150,8 @@
           "name": "ニーリング・ヒップフレクサーストレッチ（動的・左右交互）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "片膝立ちで骨盤を前に押し出し、股関節前面を動的に伸ばす。左右交互に行う"
+          "description": "片膝立ちで骨盤を前に押し出し、股関節前面を動的に伸ばす。左右交互に行う",
+          "illustrationId": "hip-flexor-stretch-kneeling"
         },
         {
           "id": "cat-mon-m0-s12",
@@ -172,7 +178,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-mon-m1-s1",
@@ -181,7 +187,8 @@
           "name": "ワイドプッシュアップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない"
+          "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない",
+          "illustrationId": "push-up-prone"
         },
         {
           "id": "cat-mon-m1-s2",
@@ -199,7 +206,8 @@
           "name": "デクラインプッシュアップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる"
+          "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる",
+          "illustrationId": "push-up-prone"
         },
         {
           "id": "cat-mon-m1-s4",
@@ -217,7 +225,8 @@
           "name": "パイクプッシュアップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる"
+          "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる",
+          "illustrationId": "pike-push-up"
         },
         {
           "id": "cat-mon-m1-s6",
@@ -235,7 +244,8 @@
           "name": "ダイヤモンドプッシュアップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる"
+          "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる",
+          "illustrationId": "push-up-prone"
         },
         {
           "id": "cat-mon-m1-s8",
@@ -253,7 +263,8 @@
           "name": "ワイドプッシュアップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない"
+          "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない",
+          "illustrationId": "push-up-prone"
         },
         {
           "id": "cat-mon-m1-s2-r2",
@@ -271,7 +282,8 @@
           "name": "デクラインプッシュアップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる"
+          "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる",
+          "illustrationId": "push-up-prone"
         },
         {
           "id": "cat-mon-m1-s4-r2",
@@ -289,7 +301,8 @@
           "name": "パイクプッシュアップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる"
+          "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる",
+          "illustrationId": "pike-push-up"
         },
         {
           "id": "cat-mon-m1-s6-r2",
@@ -307,7 +320,8 @@
           "name": "ダイヤモンドプッシュアップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる"
+          "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる",
+          "illustrationId": "push-up-prone"
         },
         {
           "id": "cat-mon-m1-s8-r2",
@@ -334,7 +348,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-mon-m2-s1",
@@ -343,7 +357,8 @@
           "name": "リバースクランチ",
           "durationSeconds": 30,
           "type": 1,
-          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる"
+          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる",
+          "illustrationId": "reverse-crunch-supine"
         },
         {
           "id": "cat-mon-m2-s2",
@@ -361,7 +376,8 @@
           "name": "バイシクルクランチ",
           "durationSeconds": 30,
           "type": 1,
-          "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する"
+          "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する",
+          "illustrationId": "bicycle-crunch-supine"
         },
         {
           "id": "cat-mon-m2-s4",
@@ -379,7 +395,8 @@
           "name": "プランクニーイン",
           "durationSeconds": 30,
           "type": 1,
-          "description": "プランク姿勢から片膝を胸に引き寄せ、体幹を締めたまま戻す"
+          "description": "プランク姿勢から片膝を胸に引き寄せ、体幹を締めたまま戻す",
+          "illustrationId": "mountain-climber-plank"
         },
         {
           "id": "cat-mon-m2-s6",
@@ -397,7 +414,8 @@
           "name": "リバースクランチ",
           "durationSeconds": 30,
           "type": 1,
-          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる"
+          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる",
+          "illustrationId": "reverse-crunch-supine"
         },
         {
           "id": "cat-mon-m2-s2-r2",
@@ -415,7 +433,8 @@
           "name": "バイシクルクランチ",
           "durationSeconds": 30,
           "type": 1,
-          "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する"
+          "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する",
+          "illustrationId": "bicycle-crunch-supine"
         },
         {
           "id": "cat-mon-m2-s4-r2",
@@ -433,7 +452,8 @@
           "name": "プランクニーイン",
           "durationSeconds": 30,
           "type": 1,
-          "description": "プランク姿勢から片膝を胸に引き寄せ、体幹を締めたまま戻す"
+          "description": "プランク姿勢から片膝を胸に引き寄せ、体幹を締めたまま戻す",
+          "illustrationId": "mountain-climber-plank"
         },
         {
           "id": "cat-mon-m2-s6-r2",
@@ -451,7 +471,8 @@
           "name": "リバースクランチ",
           "durationSeconds": 30,
           "type": 1,
-          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる"
+          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる",
+          "illustrationId": "reverse-crunch-supine"
         },
         {
           "id": "cat-mon-m2-s2-r3",
@@ -478,7 +499,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-mon-m3-s1",
@@ -487,7 +508,8 @@
           "name": "胸のドアフレームストレッチ（右腕・呼吸を意識）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "壁やドア枠に右前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす"
+          "description": "壁やドア枠に右前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす",
+          "illustrationId": "chest-stretch-doorway"
         },
         {
           "id": "cat-mon-m3-s2",
@@ -505,7 +527,8 @@
           "name": "胸のドアフレームストレッチ（左腕・呼吸を意識）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "壁やドア枠に左前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす"
+          "description": "壁やドア枠に左前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす",
+          "illustrationId": "chest-stretch-doorway"
         },
         {
           "id": "cat-mon-m3-s4",
@@ -523,7 +546,8 @@
           "name": "三頭筋オーバーヘッドストレッチ（右腕）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "右腕を頭の後ろに曲げ、左手で肘を軽く押して三頭筋を伸ばす"
+          "description": "右腕を頭の後ろに曲げ、左手で肘を軽く押して三頭筋を伸ばす",
+          "illustrationId": "triceps-overhead-stretch"
         },
         {
           "id": "cat-mon-m3-s6",
@@ -541,7 +565,8 @@
           "name": "三頭筋オーバーヘッドストレッチ（左腕）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "左腕を頭の後ろに曲げ、右手で肘を軽く押して三頭筋を伸ばす"
+          "description": "左腕を頭の後ろに曲げ、右手で肘を軽く押して三頭筋を伸ばす",
+          "illustrationId": "triceps-overhead-stretch"
         },
         {
           "id": "cat-mon-m3-s8",
@@ -559,7 +584,8 @@
           "name": "チャイルドポーズ（肩・体側を伸ばし呼吸を深く）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して肩・体側を伸ばす"
+          "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して肩・体側を伸ばす",
+          "illustrationId": "child-pose"
         },
         {
           "id": "cat-mon-m3-s10",
@@ -577,7 +603,8 @@
           "name": "コブラストレッチ（腹部・股関節前面を伸ばす）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "うつ伏せから上体をゆっくり起こし、腹部と股関節前面を伸ばす"
+          "description": "うつ伏せから上体をゆっくり起こし、腹部と股関節前面を伸ばす",
+          "illustrationId": "cobra-prone"
         },
         {
           "id": "cat-mon-m3-s12",
@@ -595,7 +622,8 @@
           "name": "キャットストレッチ（呼吸を意識して背中を丸める）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "四つ這いで背中を丸め、呼吸に合わせてゆっくり伸ばす"
+          "description": "四つ這いで背中を丸め、呼吸に合わせてゆっくり伸ばす",
+          "illustrationId": "cat-cow-quadruped"
         },
         {
           "id": "cat-mon-m3-s14",
@@ -613,7 +641,8 @@
           "name": "仰向けニーハグ（腰・下腹部をリラックス）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "仰向けで両膝を抱え、腰と下腹部の力を抜く"
+          "description": "仰向けで両膝を抱え、腰と下腹部の力を抜く",
+          "illustrationId": "knee-hug-supine"
         },
         {
           "id": "cat-mon-m3-s16",

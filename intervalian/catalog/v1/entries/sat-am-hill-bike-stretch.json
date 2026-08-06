@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-satam-m3-s1-solo",
@@ -22,7 +22,8 @@
         "name": "大腿四頭筋ストレッチ（右脚・立位で足首を持つ）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "立ったまま右足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす"
+        "description": "立ったまま右足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす",
+        "illustrationId": "quad-stretch-standing"
       },
       {
         "id": "cat-satam-m3-s2-solo",
@@ -40,7 +41,8 @@
         "name": "大腿四頭筋ストレッチ（左脚）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす（左脚）"
+        "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす（左脚）",
+        "illustrationId": "quad-stretch-standing"
       },
       {
         "id": "cat-satam-m3-s4-solo",
@@ -58,7 +60,8 @@
         "name": "臀筋ストレッチ（座位で片脚を組んで前屈・右）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "座って右脚を組み、上体を前に倒してお尻を伸ばす"
+        "description": "座って右脚を組み、上体を前に倒してお尻を伸ばす",
+        "illustrationId": "glute-stretch-figure4"
       },
       {
         "id": "cat-satam-m3-s6-solo",
@@ -76,7 +79,8 @@
         "name": "臀筋ストレッチ（座位で片脚を組んで前屈・左）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "座って左脚を組み、上体を前に倒してお尻を伸ばす"
+        "description": "座って左脚を組み、上体を前に倒してお尻を伸ばす",
+        "illustrationId": "glute-stretch-figure4"
       },
       {
         "id": "cat-satam-m3-s8-solo",
@@ -94,7 +98,8 @@
         "name": "カーフストレッチ（右脚・壁に手をつき伸ばす）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁に手をつき、後ろに引いた右脚のかかとを床につけたままふくらはぎを伸ばす"
+        "description": "壁に手をつき、後ろに引いた右脚のかかとを床につけたままふくらはぎを伸ばす",
+        "illustrationId": "calf-stretch-wall"
       },
       {
         "id": "cat-satam-m3-s10-solo",
@@ -112,7 +117,8 @@
         "name": "カーフストレッチ（左脚）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁に手をつき、後ろに引いた左脚のかかとを床につけたままふくらはぎを伸ばす"
+        "description": "壁に手をつき、後ろに引いた左脚のかかとを床につけたままふくらはぎを伸ばす",
+        "illustrationId": "calf-stretch-wall"
       },
       {
         "id": "cat-satam-m3-s12-solo",
@@ -130,7 +136,8 @@
         "name": "ハムストリングストレッチ（右脚・前屈）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "右脚を前に伸ばして座り、股関節から上体を前屈させて太もも裏を伸ばす"
+        "description": "右脚を前に伸ばして座り、股関節から上体を前屈させて太もも裏を伸ばす",
+        "illustrationId": "hamstring-fold-standing"
       },
       {
         "id": "cat-satam-m3-s14-solo",
@@ -148,7 +155,8 @@
         "name": "ハムストリングストレッチ（左脚）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）"
+        "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）",
+        "illustrationId": "hamstring-fold-standing"
       },
       {
         "id": "cat-satam-m3-s16-solo",

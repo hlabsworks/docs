@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-satam-m1-s1-solo",
@@ -22,7 +22,8 @@
         "name": "坂道ダッシュ（立ちこぎ）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "重めのギアで立ちこぎし、坂を駆け上がるイメージで全力に近い強度で踏む"
+        "description": "重めのギアで立ちこぎし、坂を駆け上がるイメージで全力に近い強度で踏む",
+        "illustrationId": "cycling-riding"
       },
       {
         "id": "cat-satam-m1-s2-solo",

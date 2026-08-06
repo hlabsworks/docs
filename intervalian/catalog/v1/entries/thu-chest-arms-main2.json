@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-thu-m2-s1-solo",
@@ -22,7 +22,8 @@
         "name": "トゥタッチクランチ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで脚を天井に伸ばし、上体を丸めてつま先にタッチする"
+        "description": "仰向けで脚を天井に伸ばし、上体を丸めてつま先にタッチする",
+        "illustrationId": "crunch-supine"
       },
       {
         "id": "cat-thu-m2-s2-solo",
@@ -40,7 +41,8 @@
         "name": "リバースクランチ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる"
+        "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる",
+        "illustrationId": "reverse-crunch-supine"
       },
       {
         "id": "cat-thu-m2-s4-solo",
@@ -58,7 +60,8 @@
         "name": "バイシクルクランチ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する"
+        "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する",
+        "illustrationId": "bicycle-crunch-supine"
       },
       {
         "id": "cat-thu-m2-s6-solo",
@@ -76,7 +79,8 @@
         "name": "トゥタッチクランチ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで脚を天井に伸ばし、上体を丸めてつま先にタッチする"
+        "description": "仰向けで脚を天井に伸ばし、上体を丸めてつま先にタッチする",
+        "illustrationId": "crunch-supine"
       },
       {
         "id": "cat-thu-m2-s2-r2-solo",
@@ -94,7 +98,8 @@
         "name": "リバースクランチ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる"
+        "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる",
+        "illustrationId": "reverse-crunch-supine"
       },
       {
         "id": "cat-thu-m2-s4-r2-solo",
@@ -112,7 +117,8 @@
         "name": "バイシクルクランチ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する"
+        "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する",
+        "illustrationId": "bicycle-crunch-supine"
       },
       {
         "id": "cat-thu-m2-s6-r2-solo",
@@ -130,7 +136,8 @@
         "name": "トゥタッチクランチ",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで脚を天井に伸ばし、上体を丸めてつま先にタッチする"
+        "description": "仰向けで脚を天井に伸ばし、上体を丸めてつま先にタッチする",
+        "illustrationId": "crunch-supine"
       },
       {
         "id": "cat-thu-m2-s2-r3-solo",

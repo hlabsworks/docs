@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-satam-m2-s1-solo",
@@ -22,7 +22,8 @@
         "name": "高負荷シッティング",
         "durationSeconds": 30,
         "type": 1,
-        "description": "座ったまま重いギアを踏み、お尻と太もも裏を意識してじっくり負荷をかける"
+        "description": "座ったまま重いギアを踏み、お尻と太もも裏を意識してじっくり負荷をかける",
+        "illustrationId": "cycling-riding"
       },
       {
         "id": "cat-satam-m2-s2-solo",

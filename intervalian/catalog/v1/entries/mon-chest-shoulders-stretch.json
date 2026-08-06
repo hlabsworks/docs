@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-mon-m3-s1-solo",
@@ -22,7 +22,8 @@
         "name": "胸のドアフレームストレッチ（右腕・呼吸を意識）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁やドア枠に右前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす"
+        "description": "壁やドア枠に右前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす",
+        "illustrationId": "chest-stretch-doorway"
       },
       {
         "id": "cat-mon-m3-s2-solo",
@@ -40,7 +41,8 @@
         "name": "胸のドアフレームストレッチ（左腕・呼吸を意識）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁やドア枠に左前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす"
+        "description": "壁やドア枠に左前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす",
+        "illustrationId": "chest-stretch-doorway"
       },
       {
         "id": "cat-mon-m3-s4-solo",
@@ -58,7 +60,8 @@
         "name": "三頭筋オーバーヘッドストレッチ（右腕）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "右腕を頭の後ろに曲げ、左手で肘を軽く押して三頭筋を伸ばす"
+        "description": "右腕を頭の後ろに曲げ、左手で肘を軽く押して三頭筋を伸ばす",
+        "illustrationId": "triceps-overhead-stretch"
       },
       {
         "id": "cat-mon-m3-s6-solo",
@@ -76,7 +79,8 @@
         "name": "三頭筋オーバーヘッドストレッチ（左腕）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "左腕を頭の後ろに曲げ、右手で肘を軽く押して三頭筋を伸ばす"
+        "description": "左腕を頭の後ろに曲げ、右手で肘を軽く押して三頭筋を伸ばす",
+        "illustrationId": "triceps-overhead-stretch"
       },
       {
         "id": "cat-mon-m3-s8-solo",
@@ -94,7 +98,8 @@
         "name": "チャイルドポーズ（肩・体側を伸ばし呼吸を深く）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して肩・体側を伸ばす"
+        "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して肩・体側を伸ばす",
+        "illustrationId": "child-pose"
       },
       {
         "id": "cat-mon-m3-s10-solo",
@@ -112,7 +117,8 @@
         "name": "コブラストレッチ（腹部・股関節前面を伸ばす）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せから上体をゆっくり起こし、腹部と股関節前面を伸ばす"
+        "description": "うつ伏せから上体をゆっくり起こし、腹部と股関節前面を伸ばす",
+        "illustrationId": "cobra-prone"
       },
       {
         "id": "cat-mon-m3-s12-solo",
@@ -130,7 +136,8 @@
         "name": "キャットストレッチ（呼吸を意識して背中を丸める）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "四つ這いで背中を丸め、呼吸に合わせてゆっくり伸ばす"
+        "description": "四つ這いで背中を丸め、呼吸に合わせてゆっくり伸ばす",
+        "illustrationId": "cat-cow-quadruped"
       },
       {
         "id": "cat-mon-m3-s14-solo",
@@ -148,7 +155,8 @@
         "name": "仰向けニーハグ（腰・下腹部をリラックス）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "仰向けで両膝を抱え、腰と下腹部の力を抜く"
+        "description": "仰向けで両膝を抱え、腰と下腹部の力を抜く",
+        "illustrationId": "knee-hug-supine"
       },
       {
         "id": "cat-mon-m3-s16-solo",

@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-wed-m1-s1-solo",
@@ -22,7 +22,8 @@
         "name": "スーパーマン",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せで手足を同時に持ち上げ、背中全体を収縮させる。反動は使わない"
+        "description": "うつ伏せで手足を同時に持ち上げ、背中全体を収縮させる。反動は使わない",
+        "illustrationId": "superman-prone"
       },
       {
         "id": "cat-wed-m1-s2-solo",
@@ -40,7 +41,8 @@
         "name": "リバーススノーエンジェル",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せで腕を体側から頭上へ弧を描くように動かし、背中と肩甲骨まわりを鍛える"
+        "description": "うつ伏せで腕を体側から頭上へ弧を描くように動かし、背中と肩甲骨まわりを鍛える",
+        "illustrationId": "y-raise-prone"
       },
       {
         "id": "cat-wed-m1-s4-solo",
@@ -58,7 +60,8 @@
         "name": "プローンコブラ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せで上体を反らし、肩甲骨を寄せて背中上部を締める"
+        "description": "うつ伏せで上体を反らし、肩甲骨を寄せて背中上部を締める",
+        "illustrationId": "cobra-prone"
       },
       {
         "id": "cat-wed-m1-s6-solo",
@@ -76,7 +79,8 @@
         "name": "Yレイズ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる"
+        "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる",
+        "illustrationId": "y-raise-prone"
       },
       {
         "id": "cat-wed-m1-s8-solo",
@@ -94,7 +98,8 @@
         "name": "スーパーマン",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せで手足を同時に持ち上げ、背中全体を収縮させる。反動は使わない"
+        "description": "うつ伏せで手足を同時に持ち上げ、背中全体を収縮させる。反動は使わない",
+        "illustrationId": "superman-prone"
       },
       {
         "id": "cat-wed-m1-s2-r2-solo",
@@ -112,7 +117,8 @@
         "name": "リバーススノーエンジェル",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せで腕を体側から頭上へ弧を描くように動かし、背中と肩甲骨まわりを鍛える"
+        "description": "うつ伏せで腕を体側から頭上へ弧を描くように動かし、背中と肩甲骨まわりを鍛える",
+        "illustrationId": "y-raise-prone"
       },
       {
         "id": "cat-wed-m1-s4-r2-solo",
@@ -130,7 +136,8 @@
         "name": "プローンコブラ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せで上体を反らし、肩甲骨を寄せて背中上部を締める"
+        "description": "うつ伏せで上体を反らし、肩甲骨を寄せて背中上部を締める",
+        "illustrationId": "cobra-prone"
       },
       {
         "id": "cat-wed-m1-s6-r2-solo",
@@ -148,7 +155,8 @@
         "name": "Yレイズ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる"
+        "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる",
+        "illustrationId": "y-raise-prone"
       },
       {
         "id": "cat-wed-m1-s8-r2-solo",

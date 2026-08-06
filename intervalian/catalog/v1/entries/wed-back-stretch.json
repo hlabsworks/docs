@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-wed-m3-s1-solo",
@@ -22,7 +22,8 @@
         "name": "チャイルドポーズ（背中を伸ばして呼吸を深く）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して背中を伸ばす"
+        "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して背中を伸ばす",
+        "illustrationId": "child-pose"
       },
       {
         "id": "cat-wed-m3-s2-solo",
@@ -40,7 +41,8 @@
         "name": "キャットストレッチ（背中を丸めて伸ばす）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "四つ這いで背中を丸め、肩甲骨の間を開くように伸ばす"
+        "description": "四つ這いで背中を丸め、肩甲骨の間を開くように伸ばす",
+        "illustrationId": "cat-cow-quadruped"
       },
       {
         "id": "cat-wed-m3-s4-solo",
@@ -58,7 +60,8 @@
         "name": "広背筋ストレッチ（右腕を伸ばして体側を倒す）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "右腕を頭上に伸ばして体側に倒し、広背筋を伸ばす"
+        "description": "右腕を頭上に伸ばして体側に倒し、広背筋を伸ばす",
+        "illustrationId": "side-bend-standing"
       },
       {
         "id": "cat-wed-m3-s6-solo",
@@ -76,7 +79,8 @@
         "name": "広背筋ストレッチ（左腕を伸ばして体側を倒す）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "左腕を頭上に伸ばして体側に倒し、広背筋を伸ばす"
+        "description": "左腕を頭上に伸ばして体側に倒し、広背筋を伸ばす",
+        "illustrationId": "side-bend-standing"
       },
       {
         "id": "cat-wed-m3-s8-solo",
@@ -94,7 +98,8 @@
         "name": "座位スパイナルツイスト（背骨を捻る・右）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "座った姿勢で右手を後ろにつき、上体を右に大きくひねって背骨をほぐす"
+        "description": "座った姿勢で右手を後ろにつき、上体を右に大きくひねって背骨をほぐす",
+        "illustrationId": "russian-twist-seated"
       },
       {
         "id": "cat-wed-m3-s10-solo",
@@ -112,7 +117,8 @@
         "name": "座位スパイナルツイスト（背骨を捻る・左）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "座った姿勢で左手を後ろにつき、上体を左に大きくひねって背骨をほぐす"
+        "description": "座った姿勢で左手を後ろにつき、上体を左に大きくひねって背骨をほぐす",
+        "illustrationId": "russian-twist-seated"
       },
       {
         "id": "cat-wed-m3-s12-solo",
@@ -130,7 +136,8 @@
         "name": "僧帽筋ストレッチ（首を横に倒す・右）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "頭を右に軽く倒し、左の僧帽筋上部を伸ばす"
+        "description": "頭を右に軽く倒し、左の僧帽筋上部を伸ばす",
+        "illustrationId": "neck-side-stretch"
       },
       {
         "id": "cat-wed-m3-s14-solo",
@@ -148,7 +155,8 @@
         "name": "僧帽筋ストレッチ（首を横に倒す・左）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "頭を左に軽く倒し、右の僧帽筋上部を伸ばす"
+        "description": "頭を左に軽く倒し、右の僧帽筋上部を伸ばす",
+        "illustrationId": "neck-side-stretch"
       },
       {
         "id": "cat-wed-m3-s16-solo",

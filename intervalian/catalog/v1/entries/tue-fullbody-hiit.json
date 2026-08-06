@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T10:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-tue-m0-s1",
@@ -55,7 +55,8 @@
           "name": "その場足踏み（軽く腕を振って全身を温める）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "腿を軽く上げながらその場で足踏みし、腕も振って全身の血流を上げる"
+          "description": "腿を軽く上げながらその場で足踏みし、腕も振って全身の血流を上げる",
+          "illustrationId": "high-knees-run"
         },
         {
           "id": "cat-tue-m0-s2",
@@ -73,7 +74,8 @@
           "name": "ハイニー（軽いテンポで）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "腿を高く上げながら軽いテンポでその場足踏みする。体幹を軽く締めて安定させる"
+          "description": "腿を高く上げながら軽いテンポでその場足踏みする。体幹を軽く締めて安定させる",
+          "illustrationId": "high-knees-run"
         },
         {
           "id": "cat-tue-m0-s4",
@@ -91,7 +93,8 @@
           "name": "バットキック（かかとをお尻に近づける）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "かかとをお尻に近づけるように軽く跳ね、ハムストリングを温める"
+          "description": "かかとをお尻に近づけるように軽く跳ね、ハムストリングを温める",
+          "illustrationId": "high-knees-run"
         },
         {
           "id": "cat-tue-m0-s6",
@@ -109,7 +112,8 @@
           "name": "アームサークル（腕を大きく回す）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす"
+          "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす",
+          "illustrationId": "arm-circles-standing"
         },
         {
           "id": "cat-tue-m0-s8",
@@ -127,7 +131,8 @@
           "name": "ヒップサークル（腰を回す）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "骨盤を大きく回し、股関節まわりをほぐす"
+          "description": "骨盤を大きく回し、股関節まわりをほぐす",
+          "illustrationId": "hip-circle-standing"
         },
         {
           "id": "cat-tue-m0-s10",
@@ -145,7 +150,8 @@
           "name": "ダイナミックランジ（交互に踏み込む）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "前後に交互に踏み込み、股関節と太もも前面を動的に伸ばす"
+          "description": "前後に交互に踏み込み、股関節と太もも前面を動的に伸ばす",
+          "illustrationId": "lunge-forward"
         },
         {
           "id": "cat-tue-m0-s12",
@@ -172,7 +178,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-tue-m1-s1",
@@ -181,7 +187,8 @@
           "name": "マウンテンクライマー",
           "durationSeconds": 40,
           "type": 1,
-          "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする"
+          "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする",
+          "illustrationId": "mountain-climber-plank"
         },
         {
           "id": "cat-tue-m1-s2",
@@ -199,7 +206,8 @@
           "name": "ジャンピングスクワット",
           "durationSeconds": 40,
           "type": 1,
-          "description": "スクワットの底から力強くジャンプし、着地は膝を軽く曲げて衝撃を吸収する"
+          "description": "スクワットの底から力強くジャンプし、着地は膝を軽く曲げて衝撃を吸収する",
+          "illustrationId": "squat-jump"
         },
         {
           "id": "cat-tue-m1-s4",
@@ -217,7 +225,8 @@
           "name": "ハイニー",
           "durationSeconds": 40,
           "type": 1,
-          "description": "腿を高く上げながらその場で走る。体幹を締めてリズムよく"
+          "description": "腿を高く上げながらその場で走る。体幹を締めてリズムよく",
+          "illustrationId": "high-knees-run"
         },
         {
           "id": "cat-tue-m1-s6",
@@ -235,7 +244,8 @@
           "name": "スケーターホップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う"
+          "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う",
+          "illustrationId": "skater-hop"
         },
         {
           "id": "cat-tue-m1-s8",
@@ -253,7 +263,8 @@
           "name": "マウンテンクライマー",
           "durationSeconds": 40,
           "type": 1,
-          "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする"
+          "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする",
+          "illustrationId": "mountain-climber-plank"
         },
         {
           "id": "cat-tue-m1-s2-r2",
@@ -271,7 +282,8 @@
           "name": "ジャンピングスクワット",
           "durationSeconds": 40,
           "type": 1,
-          "description": "スクワットの底から力強くジャンプし、着地は膝を軽く曲げて衝撃を吸収する"
+          "description": "スクワットの底から力強くジャンプし、着地は膝を軽く曲げて衝撃を吸収する",
+          "illustrationId": "squat-jump"
         },
         {
           "id": "cat-tue-m1-s4-r2",
@@ -289,7 +301,8 @@
           "name": "ハイニー",
           "durationSeconds": 40,
           "type": 1,
-          "description": "腿を高く上げながらその場で走る。体幹を締めてリズムよく"
+          "description": "腿を高く上げながらその場で走る。体幹を締めてリズムよく",
+          "illustrationId": "high-knees-run"
         },
         {
           "id": "cat-tue-m1-s6-r2",
@@ -307,7 +320,8 @@
           "name": "スケーターホップ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う"
+          "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う",
+          "illustrationId": "skater-hop"
         },
         {
           "id": "cat-tue-m1-s8-r2",
@@ -334,7 +348,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-tue-m2-s1",
@@ -343,7 +357,8 @@
           "name": "プランクツイスト",
           "durationSeconds": 30,
           "type": 1,
-          "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける"
+          "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける",
+          "illustrationId": "side-plank"
         },
         {
           "id": "cat-tue-m2-s2",
@@ -361,7 +376,8 @@
           "name": "レッグレイズ",
           "durationSeconds": 30,
           "type": 1,
-          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
+          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす",
+          "illustrationId": "leg-raise-supine"
         },
         {
           "id": "cat-tue-m2-s4",
@@ -379,7 +395,8 @@
           "name": "ニートゥーチェスト",
           "durationSeconds": 30,
           "type": 1,
-          "description": "座った姿勢で上体を後傾させ、膝を胸に引き寄せて下腹部を収縮させる"
+          "description": "座った姿勢で上体を後傾させ、膝を胸に引き寄せて下腹部を収縮させる",
+          "illustrationId": "knee-hug-supine"
         },
         {
           "id": "cat-tue-m2-s6",
@@ -397,7 +414,8 @@
           "name": "プランクツイスト",
           "durationSeconds": 30,
           "type": 1,
-          "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける"
+          "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける",
+          "illustrationId": "side-plank"
         },
         {
           "id": "cat-tue-m2-s2-r2",
@@ -415,7 +433,8 @@
           "name": "レッグレイズ",
           "durationSeconds": 30,
           "type": 1,
-          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす"
+          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす",
+          "illustrationId": "leg-raise-supine"
         },
         {
           "id": "cat-tue-m2-s4-r2",
@@ -433,7 +452,8 @@
           "name": "ニートゥーチェスト",
           "durationSeconds": 30,
           "type": 1,
-          "description": "座った姿勢で上体を後傾させ、膝を胸に引き寄せて下腹部を収縮させる"
+          "description": "座った姿勢で上体を後傾させ、膝を胸に引き寄せて下腹部を収縮させる",
+          "illustrationId": "knee-hug-supine"
         },
         {
           "id": "cat-tue-m2-s6-r2",
@@ -451,7 +471,8 @@
           "name": "プランクツイスト",
           "durationSeconds": 30,
           "type": 1,
-          "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける"
+          "description": "プランク姿勢で腰を左右にひねり、脇腹を意識して床に近づける",
+          "illustrationId": "side-plank"
         },
         {
           "id": "cat-tue-m2-s2-r3",
@@ -478,7 +499,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-tue-m3-s1",
@@ -487,7 +508,8 @@
           "name": "大腿四頭筋ストレッチ（右脚）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす"
+          "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす",
+          "illustrationId": "quad-stretch-standing"
         },
         {
           "id": "cat-tue-m3-s2",
@@ -505,7 +527,8 @@
           "name": "大腿四頭筋ストレッチ（左脚）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす（左脚）"
+          "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす（左脚）",
+          "illustrationId": "quad-stretch-standing"
         },
         {
           "id": "cat-tue-m3-s4",
@@ -523,7 +546,8 @@
           "name": "ハムストリングストレッチ（右脚）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす"
+          "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす",
+          "illustrationId": "hamstring-fold-standing"
         },
         {
           "id": "cat-tue-m3-s6",
@@ -541,7 +565,8 @@
           "name": "ハムストリングストレッチ（左脚）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）"
+          "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）",
+          "illustrationId": "hamstring-fold-standing"
         },
         {
           "id": "cat-tue-m3-s8",
@@ -559,7 +584,8 @@
           "name": "腸腰筋ストレッチ（右脚・ランジ姿勢）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "右脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす"
+          "description": "右脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす",
+          "illustrationId": "hip-flexor-stretch-kneeling"
         },
         {
           "id": "cat-tue-m3-s10",
@@ -577,7 +603,8 @@
           "name": "腸腰筋ストレッチ（左脚）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "左脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす"
+          "description": "左脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす",
+          "illustrationId": "hip-flexor-stretch-kneeling"
         },
         {
           "id": "cat-tue-m3-s12",
@@ -595,7 +622,8 @@
           "name": "体側伸ばし（腹斜筋・右側）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "右腕を頭上に伸ばして体を左に倒し、右の脇腹を伸ばす"
+          "description": "右腕を頭上に伸ばして体を左に倒し、右の脇腹を伸ばす",
+          "illustrationId": "side-bend-standing"
         },
         {
           "id": "cat-tue-m3-s14",
@@ -613,7 +641,8 @@
           "name": "体側伸ばし（腹斜筋・左側）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "左腕を頭上に伸ばして体を右に倒し、左の脇腹を伸ばす"
+          "description": "左腕を頭上に伸ばして体を右に倒し、左の脇腹を伸ばす",
+          "illustrationId": "side-bend-standing"
         },
         {
           "id": "cat-tue-m3-s16",

@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m3-s1-solo",
@@ -22,7 +22,8 @@
         "name": "仰向け脊柱ひねり（膝を倒してリラックス・右）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "仰向けで両膝を揃えて右に倒し、背骨をゆるめる"
+        "description": "仰向けで両膝を揃えて右に倒し、背骨をゆるめる",
+        "illustrationId": "supine-twist"
       },
       {
         "id": "cat-sunpm-m3-s2-solo",
@@ -40,7 +41,8 @@
         "name": "仰向け脊柱ひねり（膝を倒してリラックス・左）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "仰向けで両膝を揃えて左に倒し、背骨をゆるめる"
+        "description": "仰向けで両膝を揃えて左に倒し、背骨をゆるめる",
+        "illustrationId": "supine-twist"
       },
       {
         "id": "cat-sunpm-m3-s4-solo",
@@ -58,7 +60,8 @@
         "name": "レッグスアップウォール（壁に脚を上げてリラックス）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁に脚を上げて仰向けになり、脚の疲れを抜く"
+        "description": "壁に脚を上げて仰向けになり、脚の疲れを抜く",
+        "illustrationId": "legs-up-wall"
       },
       {
         "id": "cat-sunpm-m3-s6-solo",
@@ -76,7 +79,8 @@
         "name": "ハッピーベイビーポーズ（仰向けで股関節を開いてリラックス）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "仰向けで両膝を抱え、足裏を持って股関節を開く"
+        "description": "仰向けで両膝を抱え、足裏を持って股関節を開く",
+        "illustrationId": "glute-stretch-figure4"
       },
       {
         "id": "cat-sunpm-m3-s8-solo",
@@ -94,7 +98,8 @@
         "name": "仰向けニーハグ（腰・お尻をリラックス）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "仰向けで両膝を抱え、腰とお尻の力を抜く"
+        "description": "仰向けで両膝を抱え、腰とお尻の力を抜く",
+        "illustrationId": "knee-hug-supine"
       },
       {
         "id": "cat-sunpm-m3-s10-solo",
@@ -112,7 +117,8 @@
         "name": "リクライニングバタフライ（仰向けで股関節を開き呼吸を深める）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "仰向けで足裏を合わせ、膝を開いて深呼吸する"
+        "description": "仰向けで足裏を合わせ、膝を開いて深呼吸する",
+        "illustrationId": "glute-stretch-figure4"
       },
       {
         "id": "cat-sunpm-m3-s12-solo",
@@ -130,7 +136,8 @@
         "name": "コープスポーズ（仰向けで全身の力を抜き深呼吸）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "仰向けで手足を投げ出し、全身の力を抜いて深呼吸する"
+        "description": "仰向けで手足を投げ出し、全身の力を抜いて深呼吸する",
+        "illustrationId": "corpse-pose-supine"
       },
       {
         "id": "cat-sunpm-m3-s14-solo",
@@ -148,7 +155,8 @@
         "name": "コープスポーズ（呼吸を整えながら仕上げのリラックス）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "仰向けで手足を投げ出したまま、呼吸を整えて仕上げのリラックスをする"
+        "description": "仰向けで手足を投げ出したまま、呼吸を整えて仕上げのリラックスをする",
+        "illustrationId": "corpse-pose-supine"
       },
       {
         "id": "cat-sunpm-m3-s16-solo",

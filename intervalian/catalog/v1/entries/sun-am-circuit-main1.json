@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunam-m1-s1-solo",
@@ -22,7 +22,8 @@
         "name": "自重スクワット",
         "durationSeconds": 40,
         "type": 1,
-        "description": "足を肩幅に開き、膝とつま先を同じ向きに曲げて腰を落とす"
+        "description": "足を肩幅に開き、膝とつま先を同じ向きに曲げて腰を落とす",
+        "illustrationId": "squat-bodyweight"
       },
       {
         "id": "cat-sunam-m1-s2-solo",
@@ -40,7 +41,8 @@
         "name": "ノーマルプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "手幅は肩幅程度、体を一直線に保ったまま胸を床に近づけて押し上げる"
+        "description": "手幅は肩幅程度、体を一直線に保ったまま胸を床に近づけて押し上げる",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-sunam-m1-s4-solo",
@@ -58,7 +60,8 @@
         "name": "フロントランジ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "前に大きく踏み込み、後ろ膝が床につく手前で戻る。太もも前面とお尻を使う"
+        "description": "前に大きく踏み込み、後ろ膝が床につく手前で戻る。太もも前面とお尻を使う",
+        "illustrationId": "lunge-forward"
       },
       {
         "id": "cat-sunam-m1-s6-solo",
@@ -76,7 +79,8 @@
         "name": "マウンテンクライマー",
         "durationSeconds": 40,
         "type": 1,
-        "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする"
+        "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする",
+        "illustrationId": "mountain-climber-plank"
       },
       {
         "id": "cat-sunam-m1-s8-solo",
@@ -94,7 +98,8 @@
         "name": "自重スクワット",
         "durationSeconds": 40,
         "type": 1,
-        "description": "足を肩幅に開き、膝とつま先を同じ向きに曲げて腰を落とす"
+        "description": "足を肩幅に開き、膝とつま先を同じ向きに曲げて腰を落とす",
+        "illustrationId": "squat-bodyweight"
       },
       {
         "id": "cat-sunam-m1-s2-r2-solo",
@@ -112,7 +117,8 @@
         "name": "ノーマルプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "手幅は肩幅程度、体を一直線に保ったまま胸を床に近づけて押し上げる"
+        "description": "手幅は肩幅程度、体を一直線に保ったまま胸を床に近づけて押し上げる",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-sunam-m1-s4-r2-solo",
@@ -130,7 +136,8 @@
         "name": "フロントランジ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "前に大きく踏み込み、後ろ膝が床につく手前で戻る。太もも前面とお尻を使う"
+        "description": "前に大きく踏み込み、後ろ膝が床につく手前で戻る。太もも前面とお尻を使う",
+        "illustrationId": "lunge-forward"
       },
       {
         "id": "cat-sunam-m1-s6-r2-solo",
@@ -148,7 +155,8 @@
         "name": "マウンテンクライマー",
         "durationSeconds": 40,
         "type": 1,
-        "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする"
+        "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする",
+        "illustrationId": "mountain-climber-plank"
       },
       {
         "id": "cat-sunam-m1-s8-r2-solo",

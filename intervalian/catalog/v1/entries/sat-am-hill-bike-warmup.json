@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-satam-m0-s1-solo",
@@ -22,7 +22,8 @@
         "name": "股関節回し（大きく前後・左右に）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "片脚立ちで膝を大きく回し、股関節の可動域を広げる"
+        "description": "片脚立ちで膝を大きく回し、股関節の可動域を広げる",
+        "illustrationId": "hip-circle-standing"
       },
       {
         "id": "cat-satam-m0-s2-solo",
@@ -40,7 +41,8 @@
         "name": "ダイナミックカーフレイズ（かかと上げ下げ）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "かかとを大きく上げ下げし、ふくらはぎとアキレス腱を温める"
+        "description": "かかとを大きく上げ下げし、ふくらはぎとアキレス腱を温める",
+        "illustrationId": "calf-stretch-wall"
       },
       {
         "id": "cat-satam-m0-s4-solo",
@@ -58,7 +60,8 @@
         "name": "グルートブリッジ（動的・お尻を引き締めて持ち上げる）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "仰向けで骨盤を持ち上げ下げを繰り返し、お尻とハムストリングを目覚めさせる"
+        "description": "仰向けで骨盤を持ち上げ下げを繰り返し、お尻とハムストリングを目覚めさせる",
+        "illustrationId": "glute-bridge-supine"
       },
       {
         "id": "cat-satam-m0-s6-solo",
@@ -76,7 +79,8 @@
         "name": "レッグスイング（前後に振る・左右交互）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "壁などに手を添え、片脚を前後に振って股関節の可動域を広げる。左右交互に"
+        "description": "壁などに手を添え、片脚を前後に振って股関節の可動域を広げる。左右交互に",
+        "illustrationId": "high-knees-run"
       },
       {
         "id": "cat-satam-m0-s8-solo",
@@ -94,7 +98,8 @@
         "name": "ウォーキングランジ（その場で交互に踏み込む）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "その場で前後に交互に踏み込み、太もも・お尻を温める"
+        "description": "その場で前後に交互に踏み込み、太もも・お尻を温める",
+        "illustrationId": "lunge-forward"
       },
       {
         "id": "cat-satam-m0-s10-solo",
@@ -112,7 +117,8 @@
         "name": "手首・前腕ほぐし（グリップに備えて手首を回す）",
         "durationSeconds": 30,
         "type": 1,
-        "description": "手首を大きく回し、ハンドル荷重に備えて前腕をほぐす"
+        "description": "手首を大きく回し、ハンドル荷重に備えて前腕をほぐす",
+        "illustrationId": "wrist-forearm-stretch"
       },
       {
         "id": "cat-satam-m0-s12-solo",

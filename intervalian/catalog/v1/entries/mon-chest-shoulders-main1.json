@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-mon-m1-s1-solo",
@@ -22,7 +22,8 @@
         "name": "ワイドプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない"
+        "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-mon-m1-s2-solo",
@@ -40,7 +41,8 @@
         "name": "デクラインプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる"
+        "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-mon-m1-s4-solo",
@@ -58,7 +60,8 @@
         "name": "パイクプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる"
+        "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる",
+        "illustrationId": "pike-push-up"
       },
       {
         "id": "cat-mon-m1-s6-solo",
@@ -76,7 +79,8 @@
         "name": "ダイヤモンドプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる"
+        "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-mon-m1-s8-solo",
@@ -94,7 +98,8 @@
         "name": "ワイドプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない"
+        "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-mon-m1-s2-r2-solo",
@@ -112,7 +117,8 @@
         "name": "デクラインプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる"
+        "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-mon-m1-s4-r2-solo",
@@ -130,7 +136,8 @@
         "name": "パイクプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる"
+        "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる",
+        "illustrationId": "pike-push-up"
       },
       {
         "id": "cat-mon-m1-s6-r2-solo",
@@ -148,7 +155,8 @@
         "name": "ダイヤモンドプッシュアップ",
         "durationSeconds": 40,
         "type": 1,
-        "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる"
+        "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる",
+        "illustrationId": "push-up-prone"
       },
       {
         "id": "cat-mon-m1-s8-r2-solo",

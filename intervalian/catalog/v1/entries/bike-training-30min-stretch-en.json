@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-20T09:15:00Z",
-    "updatedAt": "2026-08-01T06:30:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-bike-m3-solo-s1",
@@ -22,7 +22,8 @@
         "name": "Easy spin-down",
         "durationSeconds": 90,
         "type": 1,
-        "description": "Light gear at ~60rpm to bring the heart rate down"
+        "description": "Light gear at ~60rpm to bring the heart rate down",
+        "illustrationId": "cycling-riding"
       },
       {
         "id": "cat-bike-m3-solo-s2",
@@ -31,7 +32,8 @@
         "name": "Calf release (right)",
         "durationSeconds": 30,
         "type": 1,
-        "description": "On a safe straight, stand on the pedals and drop the right heel to stretch the calf"
+        "description": "On a safe straight, stand on the pedals and drop the right heel to stretch the calf",
+        "illustrationId": "calf-stretch-wall"
       },
       {
         "id": "cat-bike-m3-solo-s3",
@@ -40,7 +42,8 @@
         "name": "Calf release (left)",
         "durationSeconds": 30,
         "type": 1,
-        "description": "Repeat with the left heel dropped deep"
+        "description": "Repeat with the left heel dropped deep",
+        "illustrationId": "calf-stretch-wall"
       },
       {
         "id": "cat-bike-m3-solo-s4",
@@ -49,7 +52,8 @@
         "name": "Shoulder & neck reset",
         "durationSeconds": 30,
         "type": 1,
-        "description": "While stopped or somewhere safe, release one hand at a time and roll the shoulders to loosen the neck and traps"
+        "description": "While stopped or somewhere safe, release one hand at a time and roll the shoulders to loosen the neck and traps",
+        "illustrationId": "neck-side-stretch"
       },
       {
         "id": "cat-bike-m3-solo-s5",
@@ -58,7 +62,8 @@
         "name": "Back & pelvis reset",
         "durationSeconds": 30,
         "type": 1,
-        "description": "Alternate rounding and gently arching the back to release the posture held during riding"
+        "description": "Alternate rounding and gently arching the back to release the posture held during riding",
+        "illustrationId": "cat-cow-quadruped"
       },
       {
         "id": "cat-bike-m3-solo-s6",
@@ -67,7 +72,8 @@
         "name": "Final easy spin",
         "durationSeconds": 90,
         "type": 1,
-        "description": "Spin gently until breathing is fully settled, then finish"
+        "description": "Spin gently until breathing is fully settled, then finish",
+        "illustrationId": "cycling-riding"
       }
     ],
     "description": "An on-the-bike cooldown for the legs, calves and shoulders used through Warm-up, Main 1 and Main 2. Approx. calories: 20-30 kcal"

@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-satpm-m1-s1",
@@ -22,7 +22,8 @@
         "name": "軽い散歩・クルージング",
         "durationSeconds": 1680,
         "type": 1,
-        "description": "会話ができる程度のゆったりしたペースで歩く、または軽く自転車を漕ぐ。疲労を抜くことが目的なので強度は上げない"
+        "description": "会話ができる程度のゆったりしたペースで歩く、または軽く自転車を漕ぐ。疲労を抜くことが目的なので強度は上げない",
+        "illustrationId": "cycling-riding"
       }
     ],
     "description": "準備1分: 呼吸を整え、歩き出しのペースを確認する。会話ができる強度で28分歩く(または軽く自転車を漕ぐ)。クールダウン1分: ペースを落として呼吸を整え、心拍を落ち着ける。消費カロリー目安: 約110〜140kcal(体重・強度による)"

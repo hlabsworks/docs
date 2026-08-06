@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T10:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m0-s1",
@@ -55,7 +55,8 @@
           "name": "首回し（ゆっくり左右に）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "首をゆっくり左右に倒し、力を抜いて回す"
+          "description": "首をゆっくり左右に倒し、力を抜いて回す",
+          "illustrationId": "neck-side-stretch"
         },
         {
           "id": "cat-sunpm-m0-s2",
@@ -73,7 +74,8 @@
           "name": "手首・足首回し（座って軽く回す）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "座った姿勢で手首・足首をゆっくり回し、末端の血流を促す"
+          "description": "座った姿勢で手首・足首をゆっくり回し、末端の血流を促す",
+          "illustrationId": "wrist-forearm-stretch"
         },
         {
           "id": "cat-sunpm-m0-s4",
@@ -91,7 +93,8 @@
           "name": "肩甲骨回し（軽く上下に動かす）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "肩をすくめて下げるを繰り返し、肩甲骨まわりをほぐす"
+          "description": "肩をすくめて下げるを繰り返し、肩甲骨まわりをほぐす",
+          "illustrationId": "arm-circles-standing"
         },
         {
           "id": "cat-sunpm-m0-s6",
@@ -109,7 +112,8 @@
           "name": "呼吸を整える（深呼吸をしながら軽く体を揺らす）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "深呼吸をしながら体を軽く揺らし、リラックスして心拍を落ち着ける"
+          "description": "深呼吸をしながら体を軽く揺らし、リラックスして心拍を落ち着ける",
+          "illustrationId": "corpse-pose-supine"
         },
         {
           "id": "cat-sunpm-m0-s8",
@@ -136,7 +140,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m1-s1",
@@ -145,7 +149,8 @@
           "name": "モビリティストレッチ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる"
+          "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる",
+          "illustrationId": "arm-circles-standing"
         },
         {
           "id": "cat-sunpm-m1-s2",
@@ -163,7 +168,8 @@
           "name": "モビリティストレッチ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす"
+          "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす",
+          "illustrationId": "hip-circle-standing"
         },
         {
           "id": "cat-sunpm-m1-s2-r2",
@@ -181,7 +187,8 @@
           "name": "モビリティストレッチ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる"
+          "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる",
+          "illustrationId": "cat-cow-quadruped"
         },
         {
           "id": "cat-sunpm-m1-s2-r3",
@@ -199,7 +206,8 @@
           "name": "モビリティストレッチ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる"
+          "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
+          "illustrationId": "calf-stretch-wall"
         },
         {
           "id": "cat-sunpm-m1-s2-r4",
@@ -217,7 +225,8 @@
           "name": "モビリティストレッチ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる"
+          "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる",
+          "illustrationId": "arm-circles-standing"
         },
         {
           "id": "cat-sunpm-m1-s2-r5",
@@ -235,7 +244,8 @@
           "name": "モビリティストレッチ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす"
+          "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす",
+          "illustrationId": "hip-circle-standing"
         },
         {
           "id": "cat-sunpm-m1-s2-r6",
@@ -253,7 +263,8 @@
           "name": "モビリティストレッチ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる"
+          "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる",
+          "illustrationId": "cat-cow-quadruped"
         },
         {
           "id": "cat-sunpm-m1-s2-r7",
@@ -271,7 +282,8 @@
           "name": "モビリティストレッチ",
           "durationSeconds": 40,
           "type": 1,
-          "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる"
+          "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
+          "illustrationId": "calf-stretch-wall"
         },
         {
           "id": "cat-sunpm-m1-s2-r8",
@@ -298,7 +310,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m2-s1",
@@ -307,7 +319,8 @@
           "name": "コアスタビリティ（プランク）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
+          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+          "illustrationId": "plank-forearm"
         },
         {
           "id": "cat-sunpm-m2-s2",
@@ -325,7 +338,8 @@
           "name": "コアスタビリティ（プランク）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ"
+          "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ",
+          "illustrationId": "plank-forearm"
         },
         {
           "id": "cat-sunpm-m2-s2-r2",
@@ -343,7 +357,8 @@
           "name": "コアスタビリティ（プランク）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする"
+          "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする",
+          "illustrationId": "plank-forearm"
         },
         {
           "id": "cat-sunpm-m2-s2-r3",
@@ -361,7 +376,8 @@
           "name": "コアスタビリティ（プランク）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
+          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+          "illustrationId": "plank-forearm"
         },
         {
           "id": "cat-sunpm-m2-s2-r4",
@@ -379,7 +395,8 @@
           "name": "コアスタビリティ（プランク）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ"
+          "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ",
+          "illustrationId": "plank-forearm"
         },
         {
           "id": "cat-sunpm-m2-s2-r5",
@@ -397,7 +414,8 @@
           "name": "コアスタビリティ（プランク）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする"
+          "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする",
+          "illustrationId": "plank-forearm"
         },
         {
           "id": "cat-sunpm-m2-s2-r6",
@@ -415,7 +433,8 @@
           "name": "コアスタビリティ（プランク）",
           "durationSeconds": 30,
           "type": 1,
-          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける"
+          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+          "illustrationId": "plank-forearm"
         },
         {
           "id": "cat-sunpm-m2-s2-r7",
@@ -442,7 +461,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m3-s1",
@@ -451,7 +470,8 @@
           "name": "仰向け脊柱ひねり（膝を倒してリラックス・右）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "仰向けで両膝を揃えて右に倒し、背骨をゆるめる"
+          "description": "仰向けで両膝を揃えて右に倒し、背骨をゆるめる",
+          "illustrationId": "supine-twist"
         },
         {
           "id": "cat-sunpm-m3-s2",
@@ -469,7 +489,8 @@
           "name": "仰向け脊柱ひねり（膝を倒してリラックス・左）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "仰向けで両膝を揃えて左に倒し、背骨をゆるめる"
+          "description": "仰向けで両膝を揃えて左に倒し、背骨をゆるめる",
+          "illustrationId": "supine-twist"
         },
         {
           "id": "cat-sunpm-m3-s4",
@@ -487,7 +508,8 @@
           "name": "レッグスアップウォール（壁に脚を上げてリラックス）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "壁に脚を上げて仰向けになり、脚の疲れを抜く"
+          "description": "壁に脚を上げて仰向けになり、脚の疲れを抜く",
+          "illustrationId": "legs-up-wall"
         },
         {
           "id": "cat-sunpm-m3-s6",
@@ -505,7 +527,8 @@
           "name": "ハッピーベイビーポーズ（仰向けで股関節を開いてリラックス）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "仰向けで両膝を抱え、足裏を持って股関節を開く"
+          "description": "仰向けで両膝を抱え、足裏を持って股関節を開く",
+          "illustrationId": "glute-stretch-figure4"
         },
         {
           "id": "cat-sunpm-m3-s8",
@@ -523,7 +546,8 @@
           "name": "仰向けニーハグ（腰・お尻をリラックス）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "仰向けで両膝を抱え、腰とお尻の力を抜く"
+          "description": "仰向けで両膝を抱え、腰とお尻の力を抜く",
+          "illustrationId": "knee-hug-supine"
         },
         {
           "id": "cat-sunpm-m3-s10",
@@ -541,7 +565,8 @@
           "name": "リクライニングバタフライ（仰向けで股関節を開き呼吸を深める）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "仰向けで足裏を合わせ、膝を開いて深呼吸する"
+          "description": "仰向けで足裏を合わせ、膝を開いて深呼吸する",
+          "illustrationId": "glute-stretch-figure4"
         },
         {
           "id": "cat-sunpm-m3-s12",
@@ -559,7 +584,8 @@
           "name": "コープスポーズ（仰向けで全身の力を抜き深呼吸）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "仰向けで手足を投げ出し、全身の力を抜いて深呼吸する"
+          "description": "仰向けで手足を投げ出し、全身の力を抜いて深呼吸する",
+          "illustrationId": "corpse-pose-supine"
         },
         {
           "id": "cat-sunpm-m3-s14",
@@ -577,7 +603,8 @@
           "name": "コープスポーズ（呼吸を整えながら仕上げのリラックス）",
           "durationSeconds": 40,
           "type": 1,
-          "description": "仰向けで手足を投げ出したまま、呼吸を整えて仕上げのリラックスをする"
+          "description": "仰向けで手足を投げ出したまま、呼吸を整えて仕上げのリラックスをする",
+          "illustrationId": "corpse-pose-supine"
         },
         {
           "id": "cat-sunpm-m3-s16",

@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-01T09:00:00Z",
+    "updatedAt": "2026-08-06T13:00:00Z",
     "segments": [
       {
         "id": "cat-thu-m3-s1-solo",
@@ -22,7 +22,8 @@
         "name": "胸のドアフレームストレッチ（右腕・呼吸を意識）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁やドア枠に右前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす"
+        "description": "壁やドア枠に右前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす",
+        "illustrationId": "chest-stretch-doorway"
       },
       {
         "id": "cat-thu-m3-s2-solo",
@@ -40,7 +41,8 @@
         "name": "胸のドアフレームストレッチ（左腕・呼吸を意識）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "壁やドア枠に左前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす"
+        "description": "壁やドア枠に左前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす",
+        "illustrationId": "chest-stretch-doorway"
       },
       {
         "id": "cat-thu-m3-s4-solo",
@@ -58,7 +60,8 @@
         "name": "三頭筋オーバーヘッドストレッチ（右腕）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "右腕を頭の後ろに曲げ、左手で肘を軽く押して三頭筋を伸ばす"
+        "description": "右腕を頭の後ろに曲げ、左手で肘を軽く押して三頭筋を伸ばす",
+        "illustrationId": "triceps-overhead-stretch"
       },
       {
         "id": "cat-thu-m3-s6-solo",
@@ -76,7 +79,8 @@
         "name": "三頭筋オーバーヘッドストレッチ（左腕）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "左腕を頭の後ろに曲げ、右手で肘を軽く押して三頭筋を伸ばす"
+        "description": "左腕を頭の後ろに曲げ、右手で肘を軽く押して三頭筋を伸ばす",
+        "illustrationId": "triceps-overhead-stretch"
       },
       {
         "id": "cat-thu-m3-s8-solo",
@@ -94,7 +98,8 @@
         "name": "手首・前腕ストレッチ（右）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "右腕を伸ばして手のひらを反らし、前腕の筋肉をゆっくり伸ばす"
+        "description": "右腕を伸ばして手のひらを反らし、前腕の筋肉をゆっくり伸ばす",
+        "illustrationId": "wrist-forearm-stretch"
       },
       {
         "id": "cat-thu-m3-s10-solo",
@@ -112,7 +117,8 @@
         "name": "手首・前腕ストレッチ（左）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "左腕を伸ばして手のひらを反らし、前腕の筋肉をゆっくり伸ばす"
+        "description": "左腕を伸ばして手のひらを反らし、前腕の筋肉をゆっくり伸ばす",
+        "illustrationId": "wrist-forearm-stretch"
       },
       {
         "id": "cat-thu-m3-s12-solo",
@@ -130,7 +136,8 @@
         "name": "腹斜筋ストレッチ（体側を倒す・右）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "右腕を頭上に伸ばして体を左に倒し、腹斜筋を伸ばす"
+        "description": "右腕を頭上に伸ばして体を左に倒し、腹斜筋を伸ばす",
+        "illustrationId": "side-bend-standing"
       },
       {
         "id": "cat-thu-m3-s14-solo",
@@ -148,7 +155,8 @@
         "name": "腹斜筋ストレッチ（体側を倒す・左）",
         "durationSeconds": 40,
         "type": 1,
-        "description": "左腕を頭上に伸ばして体を右に倒し、腹斜筋を伸ばす"
+        "description": "左腕を頭上に伸ばして体を右に倒し、腹斜筋を伸ばす",
+        "illustrationId": "side-bend-standing"
       },
       {
         "id": "cat-thu-m3-s16-solo",

@@ -1,18 +1,18 @@
 {
   "catalogVersion": 1,
-  "updatedAt": "2026-08-06T12:00:00Z",
+  "updatedAt": "2026-08-08T13:00:00Z",
   "entries": [
     {
       "id": "bike-training-30min",
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "ja": "自転車トレーニング(30分)",
-        "en": "Bike Training (30 min)"
+        "ja": "自転車トレーニング(31分)",
+        "en": "Bike Training (31 min)"
       },
       "description": {
-        "ja": "全編乗車のまま行える30分ルーティン。乗車ウォームアップ→高強度ペダリング8本→上半身・体幹7本→乗車クールダウン。準備・クールダウンは各1分以内に凝縮し、アクション中心の構成に刷新。各ステップにやり方の説明付き。",
-        "en": "A 30-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
+        "ja": "全編乗車のまま行える31分ルーティン。乗車ウォームアップ→高強度ペダリング8本→上半身・体幹7本→乗車クールダウン。準備・クールダウンは各1分以内に凝縮し、アクション中心の構成に刷新。各ステップにやり方の説明付き。",
+        "en": "A 31-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
       },
       "tags": [
         "hiit",
@@ -22,7 +22,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1800,
+      "estimatedSeconds": 1860,
       "menuCount": 4,
       "menuEntryIds": [
         "bike-training-30min-warmup",
@@ -38,10 +38,10 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Training (30 min)"
+        "en": "Bike Training (31 min)"
       },
       "description": {
-        "en": "A 30-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
+        "en": "A 31-minute routine done entirely on the bike: on-bike warm-up, 8 high-intensity intervals, 7 upper-body/core reps, and an on-bike cooldown. Prep and cooldown are trimmed to 1 minute each for an action-first structure, with how-to notes on every step."
       },
       "tags": [
         "hiit",
@@ -51,7 +51,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-23",
-      "estimatedSeconds": 1800,
+      "estimatedSeconds": 1860,
       "menuCount": 4,
       "menuEntryIds": [
         "bike-training-30min-warmup-en",
@@ -211,8 +211,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "ja": "自転車クールダウン: 乗車のまま5分",
-        "en": "Bike Cooldown: On-the-Bike 5 min"
+        "ja": "自転車クールダウン: 乗車のまま6分",
+        "en": "Bike Cooldown: On-the-Bike 6 min"
       },
       "description": {
         "ja": "使った脚・ふくらはぎ・肩まわりを乗車のままケアする5分。単体メニュー版(無料で取得できます)。",
@@ -227,7 +227,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 300,
+      "estimatedSeconds": 360,
       "language": "ja",
       "entryPath": "entries/bike-training-30min-stretch.json"
     },
@@ -236,7 +236,7 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Bike Cooldown: On-the-Bike 5 min"
+        "en": "Bike Cooldown: On-the-Bike 6 min"
       },
       "description": {
         "en": "Five on-the-bike minutes caring for the legs, calves and shoulders you just used. Standalone menu version (free to get)."
@@ -250,7 +250,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 300,
+      "estimatedSeconds": 360,
       "language": "en",
       "translationOf": "bike-training-30min-stretch",
       "entryPath": "entries/bike-training-30min-stretch-en.json"
@@ -260,8 +260,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Monday: Chest & Shoulders + Lower Abs (34 min, home)",
-        "ja": "月曜: 胸・肩 & 下腹部（自宅34分）"
+        "en": "Monday: Chest & Shoulders + Lower Abs (33 min, home)",
+        "ja": "月曜: 胸・肩 & 下腹部（自宅33分）"
       },
       "description": {
         "en": "A 33-minute home workout pairing four push-up variations for chest and shoulders with reverse-crunch style core work to finish, now bookended by a dynamic warm-up and a DOMS-easing cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -272,7 +272,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 2040,
+      "estimatedSeconds": 2000,
       "menuCount": 4,
       "menuEntryIds": [
         "mon-chest-shoulders-warmup",
@@ -301,7 +301,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 420,
+      "estimatedSeconds": 390,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-warmup.json"
     },
@@ -322,7 +322,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 600,
+      "estimatedSeconds": 580,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-main1.json"
     },
@@ -343,7 +343,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 540,
+      "estimatedSeconds": 510,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-main2.json"
     },
@@ -352,8 +352,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Mon Cooldown: DOMS-Relief Stretch (8 min)",
-        "ja": "月曜クールダウン: 筋肉痛ケアストレッチ（8分）"
+        "en": "Mon Cooldown: DOMS-Relief Stretch (9 min)",
+        "ja": "月曜クールダウン: 筋肉痛ケアストレッチ（9分）"
       },
       "description": {
         "en": "Static chest, triceps, shoulder and core stretches to ease next-day soreness after Monday's push-up and core routine. Standalone menu version (free to get).",
@@ -365,7 +365,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/mon-chest-shoulders-stretch.json"
     },
@@ -374,8 +374,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Tuesday: Full-Body HIIT (34 min, home)",
-        "ja": "火曜: 全身HIIT（自宅34分）"
+        "en": "Tuesday: Full-Body HIIT (33 min, home)",
+        "ja": "火曜: 全身HIIT（自宅33分）"
       },
       "description": {
         "en": "A 33-minute full-body HIIT session with mountain climbers, jump squats, high knees and skater hops, finishing with core work, now bookended by a dynamic full-body warm-up and a leg-and-core cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -387,7 +387,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 2040,
+      "estimatedSeconds": 2000,
       "menuCount": 4,
       "menuEntryIds": [
         "tue-fullbody-hiit-warmup",
@@ -417,7 +417,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 420,
+      "estimatedSeconds": 390,
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-warmup.json"
     },
@@ -439,7 +439,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 600,
+      "estimatedSeconds": 580,
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-main1.json"
     },
@@ -461,7 +461,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 540,
+      "estimatedSeconds": 510,
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-main2.json"
     },
@@ -470,8 +470,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Tue Cooldown: Leg & Core Recovery Stretch (8 min)",
-        "ja": "火曜クールダウン: 下肢・体幹ケアストレッチ（8分）"
+        "en": "Tue Cooldown: Leg & Core Recovery Stretch (9 min)",
+        "ja": "火曜クールダウン: 下肢・体幹ケアストレッチ（9分）"
       },
       "description": {
         "en": "Static stretches for the legs, hip flexors and obliques worked by the full-body HIIT and core moves. Standalone menu version (free to get).",
@@ -484,7 +484,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/tue-fullbody-hiit-stretch.json"
     },
@@ -493,8 +493,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Wednesday: Back (34 min, home)",
-        "ja": "水曜: 背中（自宅34分）"
+        "en": "Wednesday: Back (33 min, home)",
+        "ja": "水曜: 背中（自宅33分）"
       },
       "description": {
         "en": "A 33-minute back-focused session (Superman, reverse snow angel, prone cobra, Y-raise) finished with side planks for lateral core strength, now bookended by a back-and-core dynamic warm-up and a back-recovery cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -505,7 +505,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 2040,
+      "estimatedSeconds": 2000,
       "menuCount": 4,
       "menuEntryIds": [
         "wed-back-warmup",
@@ -534,7 +534,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 420,
+      "estimatedSeconds": 390,
       "language": "ja",
       "entryPath": "entries/wed-back-warmup.json"
     },
@@ -555,7 +555,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 600,
+      "estimatedSeconds": 580,
       "language": "ja",
       "entryPath": "entries/wed-back-main1.json"
     },
@@ -576,7 +576,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 540,
+      "estimatedSeconds": 510,
       "language": "ja",
       "entryPath": "entries/wed-back-main2.json"
     },
@@ -585,8 +585,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Wed Cooldown: Back-Recovery Stretch (8 min)",
-        "ja": "水曜クールダウン: 背中ケアストレッチ（8分）"
+        "en": "Wed Cooldown: Back-Recovery Stretch (9 min)",
+        "ja": "水曜クールダウン: 背中ケアストレッチ（9分）"
       },
       "description": {
         "en": "Static stretches for the erector spinae, lats and traps worked by the back-strengthening moves and side planks. Standalone menu version (free to get).",
@@ -598,7 +598,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/wed-back-stretch.json"
     },
@@ -607,8 +607,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Thursday: Chest & Arms (34 min, home)",
-        "ja": "木曜: 胸・腕（自宅34分）"
+        "en": "Thursday: Chest & Arms (33 min, home)",
+        "ja": "木曜: 胸・腕（自宅33分）"
       },
       "description": {
         "en": "A 33-minute session of push-up variations for chest and arms, plus crunch variations for the lower abs, now bookended by a chest-and-shoulder dynamic warm-up and a chest-and-arm cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -619,7 +619,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 2040,
+      "estimatedSeconds": 2000,
       "menuCount": 4,
       "menuEntryIds": [
         "thu-chest-arms-warmup",
@@ -648,7 +648,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 420,
+      "estimatedSeconds": 390,
       "language": "ja",
       "entryPath": "entries/thu-chest-arms-warmup.json"
     },
@@ -669,7 +669,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 600,
+      "estimatedSeconds": 580,
       "language": "ja",
       "entryPath": "entries/thu-chest-arms-main1.json"
     },
@@ -690,7 +690,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 540,
+      "estimatedSeconds": 510,
       "language": "ja",
       "entryPath": "entries/thu-chest-arms-main2.json"
     },
@@ -699,8 +699,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Thu Cooldown: Chest & Arm Recovery Stretch (8 min)",
-        "ja": "木曜クールダウン: 胸・腕ケアストレッチ（8分）"
+        "en": "Thu Cooldown: Chest & Arm Recovery Stretch (9 min)",
+        "ja": "木曜クールダウン: 胸・腕ケアストレッチ（9分）"
       },
       "description": {
         "en": "Static stretches for the chest, triceps, wrists and obliques worked by the push-up and crunch variations. Standalone menu version (free to get).",
@@ -712,7 +712,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/thu-chest-arms-stretch.json"
     },
@@ -721,8 +721,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Friday: Full-Body Conditioning (34 min, home)",
-        "ja": "金曜: 全身コンディショニング（自宅34分）"
+        "en": "Friday: Full-Body Conditioning (33 min, home)",
+        "ja": "金曜: 全身コンディショニング（自宅33分）"
       },
       "description": {
         "en": "A 33-minute mix of heart-pumping full-body HIIT (mountain climbers, burpees, high knees, skater hops) and core-holding work (hollow body, plank, Russian twist), now bookended by a dynamic full-body warm-up and a full-body-and-core cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -734,7 +734,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 2040,
+      "estimatedSeconds": 2000,
       "menuCount": 4,
       "menuEntryIds": [
         "fri-fullbody-core-warmup",
@@ -764,7 +764,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 420,
+      "estimatedSeconds": 390,
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core-warmup.json"
     },
@@ -786,7 +786,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 600,
+      "estimatedSeconds": 580,
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core-main1.json"
     },
@@ -808,7 +808,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 540,
+      "estimatedSeconds": 510,
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core-main2.json"
     },
@@ -817,8 +817,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Fri Cooldown: Full-Body & Core Recovery Stretch (8 min)",
-        "ja": "金曜クールダウン: 全身・体幹ケアストレッチ（8分）"
+        "en": "Fri Cooldown: Full-Body & Core Recovery Stretch (9 min)",
+        "ja": "金曜クールダウン: 全身・体幹ケアストレッチ（9分）"
       },
       "description": {
         "en": "Static stretches for the legs, chest and obliques worked by the full-body HIIT and core-holding moves (hollow body hold, Russian twist). Standalone menu version (free to get).",
@@ -831,7 +831,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/fri-fullbody-core-stretch.json"
     },
@@ -853,7 +853,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 2040,
+      "estimatedSeconds": 2050,
       "menuCount": 4,
       "menuEntryIds": [
         "sat-am-hill-bike-warmup",
@@ -883,7 +883,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 420,
+      "estimatedSeconds": 390,
       "language": "ja",
       "entryPath": "entries/sat-am-hill-bike-warmup.json"
     },
@@ -936,8 +936,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sat AM Cooldown: Leg-Recovery Stretch (8 min)",
-        "ja": "土曜午前クールダウン: 下肢ケアストレッチ（8分）"
+        "en": "Sat AM Cooldown: Leg-Recovery Stretch (9 min)",
+        "ja": "土曜午前クールダウン: 下肢ケアストレッチ（9分）"
       },
       "description": {
         "en": "Static stretches for the quads, glutes, calves and hamstrings worked by the hill dashes and high-resistance seated riding. Standalone menu version (free to get).",
@@ -950,7 +950,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/sat-am-hill-bike-stretch.json"
     },
@@ -981,8 +981,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sunday AM: Full-Body Circuit (34 min, home)",
-        "ja": "日曜午前: 全身サーキット（自宅34分）"
+        "en": "Sunday AM: Full-Body Circuit (33 min, home)",
+        "ja": "日曜午前: 全身サーキット（自宅33分）"
       },
       "description": {
         "en": "A 33-minute full-body circuit combining bodyweight squats, push-ups, lunges, and mountain climbers, finished with core work, now bookended by a dynamic full-body warm-up and a full-body cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -994,7 +994,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 2040,
+      "estimatedSeconds": 2000,
       "menuCount": 4,
       "menuEntryIds": [
         "sun-am-circuit-warmup",
@@ -1024,7 +1024,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 420,
+      "estimatedSeconds": 390,
       "language": "ja",
       "entryPath": "entries/sun-am-circuit-warmup.json"
     },
@@ -1046,7 +1046,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 600,
+      "estimatedSeconds": 580,
       "language": "ja",
       "entryPath": "entries/sun-am-circuit-main1.json"
     },
@@ -1068,7 +1068,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 540,
+      "estimatedSeconds": 510,
       "language": "ja",
       "entryPath": "entries/sun-am-circuit-main2.json"
     },
@@ -1077,8 +1077,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sun AM Cooldown: Full-Body Recovery Stretch (8 min)",
-        "ja": "日曜午前クールダウン: 全身ケアストレッチ（8分）"
+        "en": "Sun AM Cooldown: Full-Body Recovery Stretch (9 min)",
+        "ja": "日曜午前クールダウン: 全身ケアストレッチ（9分）"
       },
       "description": {
         "en": "Static stretches for the legs, chest and hip flexors worked by the full-body circuit and core finisher. Standalone menu version (free to get).",
@@ -1091,7 +1091,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/sun-am-circuit-stretch.json"
     },
@@ -1100,8 +1100,8 @@
       "type": "routine",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sunday PM: Mobility & Core Conditioning (32 min)",
-        "ja": "日曜午後: モビリティ&コアコンディショニング（32分）"
+        "en": "Sunday PM: Mobility & Core Conditioning (31 min)",
+        "ja": "日曜午後: モビリティ&コアコンディショニング（31分）"
       },
       "description": {
         "en": "A 31-minute weekend wind-down of mobility stretches to open up the joints, followed by core-stability plank holds, now bookended by a gentle joint-loosening warm-up and a deep-relaxation cooldown stretch. Main 1/2 prep and cooldown are now trimmed to 1 minute each, with the freed time replaced by extra action rather than rest, and every step now has a how-to note.",
@@ -1112,7 +1112,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-20",
-      "estimatedSeconds": 1920,
+      "estimatedSeconds": 1880,
       "menuCount": 4,
       "menuEntryIds": [
         "sun-pm-conditioning-warmup",
@@ -1140,7 +1140,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 300,
+      "estimatedSeconds": 270,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-warmup.json"
     },
@@ -1161,7 +1161,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 600,
+      "estimatedSeconds": 580,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-main1.json"
     },
@@ -1182,7 +1182,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-21",
-      "estimatedSeconds": 540,
+      "estimatedSeconds": 510,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-main2.json"
     },
@@ -1191,8 +1191,8 @@
       "type": "menu",
       "minSchemaVersion": 6,
       "title": {
-        "en": "Sun PM Cooldown: Deep Relaxation Finisher (8 min)",
-        "ja": "日曜午後クールダウン: 仕上げのディープリラックス（8分）"
+        "en": "Sun PM Cooldown: Deep Relaxation Finisher (9 min)",
+        "ja": "日曜午後クールダウン: 仕上げのディープリラックス（9分）"
       },
       "description": {
         "en": "A deep-relaxation finisher of supine stretches and breathing work to fully release the body after the mobility stretches and core-stability holds. Standalone menu version (free to get).",
@@ -1203,7 +1203,7 @@
       ],
       "author": "hlabsworks",
       "publishedAt": "2026-07-26",
-      "estimatedSeconds": 480,
+      "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-stretch.json"
     }

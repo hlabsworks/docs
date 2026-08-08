@@ -4,7 +4,7 @@
     "id": "cat-sunam-m3-solo",
     "name": "日曜午前クールダウン: 全身ケアストレッチ",
     "sets": 1,
-    "prepareSeconds": 0,
+    "prepareSeconds": 60,
     "prepareCountdownSeconds": 0,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunam-m3-s1-solo",
@@ -157,15 +157,6 @@
         "type": 1,
         "description": "左脚を前に出したランジ姿勢から骨盤を前に押し出し、股関節前面を伸ばす",
         "illustrationId": "hip-flexor-stretch-kneeling"
-      },
-      {
-        "id": "cat-sunam-m3-s16-solo",
-        "orderIndex": 15,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 20,
-        "type": 2,
-        "description": "深呼吸をして体の力を抜く"
       }
     ],
     "description": "全身サーキットと体幹種目で疲労した脚・胸・股関節を、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"

@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m0-s1-solo",
@@ -81,15 +81,6 @@
         "type": 1,
         "description": "深呼吸をしながら体を軽く揺らし、リラックスして心拍を落ち着ける",
         "illustrationId": "corpse-pose-supine"
-      },
-      {
-        "id": "cat-sunpm-m0-s8-solo",
-        "orderIndex": 7,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 30,
-        "type": 2,
-        "description": "軽く体を揺すりながら次の動きに備える"
       }
     ],
     "description": "首・手首・足首・肩甲骨を30秒ずつゆっくり動かして関節をゆるめる軽いウォームアップ。消費カロリー目安: 約8〜16kcal"

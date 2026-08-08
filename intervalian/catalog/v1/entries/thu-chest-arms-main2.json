@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-thu-m2-s1-solo",
@@ -138,15 +138,6 @@
         "type": 1,
         "description": "仰向けで脚を天井に伸ばし、上体を丸めてつま先にタッチする",
         "illustrationId": "crunch-supine"
-      },
-      {
-        "id": "cat-thu-m2-s2-r3-solo",
-        "orderIndex": 13,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 30,
-        "type": 2,
-        "description": "力を抜いて次の種目に備える"
       }
     ],
     "description": "準備1分: 仰向けで骨盤の位置を確認し、下腹部に軽く力を入れる準備をする。トゥタッチクランチ→リバースクランチ→バイシクルクランチを30秒+休憩30秒で2周、仕上げにトゥタッチクランチをもう1本追加。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約46〜72kcal(体重・強度による)"

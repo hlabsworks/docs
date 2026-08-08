@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-mon-m1-s1-solo",
@@ -157,15 +157,6 @@
         "type": 1,
         "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる",
         "illustrationId": "push-up-prone"
-      },
-      {
-        "id": "cat-mon-m1-s8-r2-solo",
-        "orderIndex": 15,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 20,
-        "type": 2,
-        "description": "呼吸を整え、次のセットに備える"
       }
     ],
     "description": "準備1分: 手首・肩を軽く回して押す動作に備える。ワイド→デクライン→パイク→ダイヤモンドの4種プッシュアップを40秒+休憩20秒で2周。クールダウン1分: 肩と胸の力を抜いて息を整え、メイン②へ。消費カロリー目安: 約50〜80kcal(体重・強度による)"

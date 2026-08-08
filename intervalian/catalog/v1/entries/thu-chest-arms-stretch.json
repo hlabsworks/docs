@@ -4,7 +4,7 @@
     "id": "cat-thu-m3-solo",
     "name": "木曜クールダウン: 胸・腕ケアストレッチ",
     "sets": 1,
-    "prepareSeconds": 0,
+    "prepareSeconds": 60,
     "prepareCountdownSeconds": 0,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-thu-m3-s1-solo",
@@ -157,15 +157,6 @@
         "type": 1,
         "description": "左腕を頭上に伸ばして体を右に倒し、腹斜筋を伸ばす",
         "illustrationId": "side-bend-standing"
-      },
-      {
-        "id": "cat-thu-m3-s16-solo",
-        "orderIndex": 15,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 20,
-        "type": 2,
-        "description": "深呼吸をして体の力を抜く"
       }
     ],
     "description": "プッシュアップとクランチ系種目で疲労した胸・三頭筋・手首・腹斜筋を、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"

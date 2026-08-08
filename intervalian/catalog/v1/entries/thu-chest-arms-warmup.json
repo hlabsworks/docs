@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-thu-m0-s1-solo",
@@ -119,15 +119,6 @@
         "type": 1,
         "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす",
         "illustrationId": "cat-cow-quadruped"
-      },
-      {
-        "id": "cat-thu-m0-s12-solo",
-        "orderIndex": 11,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 30,
-        "type": 2,
-        "description": "軽く体を揺すりながら次の動きに備える"
       }
     ],
     "description": "胸・肩・三頭筋を30秒ずつ動かして温める動的ウォームアップ。消費カロリー目安: 約12〜24kcal"

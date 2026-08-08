@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-wed-m1-s1-solo",
@@ -157,15 +157,6 @@
         "type": 1,
         "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる",
         "illustrationId": "y-raise-prone"
-      },
-      {
-        "id": "cat-wed-m1-s8-r2-solo",
-        "orderIndex": 15,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 20,
-        "type": 2,
-        "description": "呼吸を整え、次のセットに備える"
       }
     ],
     "description": "準備1分: うつ伏せで肩甲骨を寄せる感覚を確認する。スーパーマン→リバーススノーエンジェル→プローンコブラ→Yレイズを40秒+休憩20秒で2周。クールダウン1分: 背中の力を抜いて息を整え、メイン②へ。消費カロリー目安: 約50〜80kcal(体重・強度による)"

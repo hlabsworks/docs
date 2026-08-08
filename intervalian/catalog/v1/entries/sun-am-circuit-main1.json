@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunam-m1-s1-solo",
@@ -157,15 +157,6 @@
         "type": 1,
         "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする",
         "illustrationId": "mountain-climber-plank"
-      },
-      {
-        "id": "cat-sunam-m1-s8-r2-solo",
-        "orderIndex": 15,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 20,
-        "type": 2,
-        "description": "呼吸を整え、次のセットに備える"
       }
     ],
     "description": "準備1分: 軽く足踏みしながら心拍を上げ、フォームを確認する。自重スクワット→ノーマルプッシュアップ→フロントランジ→マウンテンクライマーを40秒+休憩20秒で2周。クールダウン1分: 呼吸を整えて心拍を落ち着け、メイン②へ。消費カロリー目安: 約80〜120kcal(体重・強度による)"

@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m1-s1-solo",
@@ -157,15 +157,6 @@
         "type": 1,
         "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
         "illustrationId": "calf-stretch-wall"
-      },
-      {
-        "id": "cat-sunpm-m1-s2-r8-solo",
-        "orderIndex": 15,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 20,
-        "type": 2,
-        "description": "呼吸を整え、次のセットに備える"
       }
     ],
     "description": "準備1分: 呼吸を整え、動かす関節を確認する。肩→股関節→背骨→足首の順にモビリティストレッチを40秒+休憩20秒で8本。クールダウン1分: 深呼吸をして体を落ち着け、メイン②へ。消費カロリー目安: 約20〜40kcal"

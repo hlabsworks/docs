@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-satam-m0-s1-solo",
@@ -119,15 +119,6 @@
         "type": 1,
         "description": "手首を大きく回し、ハンドル荷重に備えて前腕をほぐす",
         "illustrationId": "wrist-forearm-stretch"
-      },
-      {
-        "id": "cat-satam-m0-s12-solo",
-        "orderIndex": 11,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 30,
-        "type": 2,
-        "description": "軽く体を揺すりながら次の動きに備える"
       }
     ],
     "description": "股関節・カーフ・グリップを30秒ずつ動かして温める、乗車前の動的ウォームアップ。消費カロリー目安: 約30〜42kcal"

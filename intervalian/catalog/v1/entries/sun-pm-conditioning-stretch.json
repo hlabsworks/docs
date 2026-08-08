@@ -4,7 +4,7 @@
     "id": "cat-sunpm-m3-solo",
     "name": "日曜午後クールダウン: 仕上げのディープリラックス",
     "sets": 1,
-    "prepareSeconds": 0,
+    "prepareSeconds": 60,
     "prepareCountdownSeconds": 0,
     "restBetweenSetsSeconds": 0,
     "restBetweenSetsCountdownSeconds": 0,
@@ -13,7 +13,7 @@
     "cooldownSeconds": 0,
     "cooldownCountdownSeconds": 0,
     "createdAt": "2026-07-26T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-sunpm-m3-s1-solo",
@@ -157,15 +157,6 @@
         "type": 1,
         "description": "仰向けで手足を投げ出したまま、呼吸を整えて仕上げのリラックスをする",
         "illustrationId": "corpse-pose-supine"
-      },
-      {
-        "id": "cat-sunpm-m3-s16-solo",
-        "orderIndex": 15,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 20,
-        "type": 2,
-        "description": "深呼吸をして体の力を抜く"
       }
     ],
     "description": "モビリティストレッチとコアスタビリティの後、仰向けの姿勢で全身をゆるめる仕上げのディープリラックスストレッチ。消費カロリー目安: 約16〜32kcal"

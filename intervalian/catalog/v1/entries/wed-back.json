@@ -4,7 +4,7 @@
     "id": "cat-wed-r1",
     "name": "水曜: 背中",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "items": [
       {
         "id": "cat-wed-r1-i1",
@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-wed-m0-s1",
@@ -152,15 +152,6 @@
           "type": 1,
           "description": "骨盤を大きく回し、股関節まわりをほぐす",
           "illustrationId": "hip-circle-standing"
-        },
-        {
-          "id": "cat-wed-m0-s12",
-          "orderIndex": 11,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 30,
-          "type": 2,
-          "description": "軽く体を揺すりながら次の動きに備える"
         }
       ],
       "description": "背中・胸椎・股関節を30秒ずつ動かして温める動的ウォームアップ。消費カロリー目安: 約12〜24kcal"
@@ -178,7 +169,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-wed-m1-s1",
@@ -322,15 +313,6 @@
           "type": 1,
           "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる",
           "illustrationId": "y-raise-prone"
-        },
-        {
-          "id": "cat-wed-m1-s8-r2",
-          "orderIndex": 15,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 20,
-          "type": 2,
-          "description": "呼吸を整え、次のセットに備える"
         }
       ],
       "description": "準備1分: うつ伏せで肩甲骨を寄せる感覚を確認する。スーパーマン→リバーススノーエンジェル→プローンコブラ→Yレイズを40秒+休憩20秒で2周。クールダウン1分: 背中の力を抜いて息を整え、メイン②へ。消費カロリー目安: 約50〜80kcal(体重・強度による)"
@@ -348,7 +330,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-wed-m2-s1",
@@ -473,15 +455,6 @@
           "type": 1,
           "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
           "illustrationId": "side-plank"
-        },
-        {
-          "id": "cat-wed-m2-s2-r3",
-          "orderIndex": 13,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 30,
-          "type": 2,
-          "description": "力を抜いて次の種目に備える"
         }
       ],
       "description": "準備1分: サイドプランクの姿勢を軽く確認する。サイドプランク右→サイドプランク左→レッグレイズを30秒+休憩30秒で2周、仕上げにサイドプランク右をもう1本追加。クールダウン1分: 体側を伸ばして呼吸を整える。消費カロリー目安: 約46〜72kcal(体重・強度による)"
@@ -490,7 +463,7 @@
       "id": "cat-wed-m3",
       "name": "ストレッチ（背中ケアストレッチ）",
       "sets": 1,
-      "prepareSeconds": 0,
+      "prepareSeconds": 60,
       "prepareCountdownSeconds": 0,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
@@ -499,7 +472,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-wed-m3-s1",
@@ -643,15 +616,6 @@
           "type": 1,
           "description": "頭を左に軽く倒し、右の僧帽筋上部を伸ばす",
           "illustrationId": "neck-side-stretch"
-        },
-        {
-          "id": "cat-wed-m3-s16",
-          "orderIndex": 15,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 20,
-          "type": 2,
-          "description": "深呼吸をして体の力を抜く"
         }
       ],
       "description": "背面種目とサイドプランクで疲労した脊柱起立筋・広背筋・僧帽筋を、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"

@@ -4,7 +4,7 @@
     "id": "cat-thu-r1",
     "name": "木曜: 胸・腕",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "items": [
       {
         "id": "cat-thu-r1-i1",
@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-thu-m0-s1",
@@ -152,15 +152,6 @@
           "type": 1,
           "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす",
           "illustrationId": "cat-cow-quadruped"
-        },
-        {
-          "id": "cat-thu-m0-s12",
-          "orderIndex": 11,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 30,
-          "type": 2,
-          "description": "軽く体を揺すりながら次の動きに備える"
         }
       ],
       "description": "胸・肩・三頭筋を30秒ずつ動かして温める動的ウォームアップ。消費カロリー目安: 約12〜24kcal"
@@ -178,7 +169,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-thu-m1-s1",
@@ -322,15 +313,6 @@
           "type": 1,
           "description": "膝をついて負荷を落とし、上体を一直線に保って胸を鍛える",
           "illustrationId": "push-up-prone"
-        },
-        {
-          "id": "cat-thu-m1-s8-r2",
-          "orderIndex": 15,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 20,
-          "type": 2,
-          "description": "呼吸を整え、次のセットに備える"
         }
       ],
       "description": "準備1分: 手首・肩を軽く回して押す動作に備える。ノーマル→クローズグリップ→デクライン→ニーリングの4種プッシュアップを40秒+休憩20秒で2周。クールダウン1分: 肩と胸の力を抜いて息を整え、メイン②へ。消費カロリー目安: 約50〜80kcal(体重・強度による)"
@@ -348,7 +330,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-thu-m2-s1",
@@ -473,15 +455,6 @@
           "type": 1,
           "description": "仰向けで脚を天井に伸ばし、上体を丸めてつま先にタッチする",
           "illustrationId": "crunch-supine"
-        },
-        {
-          "id": "cat-thu-m2-s2-r3",
-          "orderIndex": 13,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 30,
-          "type": 2,
-          "description": "力を抜いて次の種目に備える"
         }
       ],
       "description": "準備1分: 仰向けで骨盤の位置を確認し、下腹部に軽く力を入れる準備をする。トゥタッチクランチ→リバースクランチ→バイシクルクランチを30秒+休憩30秒で2周、仕上げにトゥタッチクランチをもう1本追加。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約46〜72kcal(体重・強度による)"
@@ -490,7 +463,7 @@
       "id": "cat-thu-m3",
       "name": "ストレッチ（胸・腕ケアストレッチ）",
       "sets": 1,
-      "prepareSeconds": 0,
+      "prepareSeconds": 60,
       "prepareCountdownSeconds": 0,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
@@ -499,7 +472,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-thu-m3-s1",
@@ -643,15 +616,6 @@
           "type": 1,
           "description": "左腕を頭上に伸ばして体を右に倒し、腹斜筋を伸ばす",
           "illustrationId": "side-bend-standing"
-        },
-        {
-          "id": "cat-thu-m3-s16",
-          "orderIndex": 15,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 20,
-          "type": 2,
-          "description": "深呼吸をして体の力を抜く"
         }
       ],
       "description": "プッシュアップとクランチ系種目で疲労した胸・三頭筋・手首・腹斜筋を、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"

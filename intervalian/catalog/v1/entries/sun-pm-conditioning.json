@@ -4,7 +4,7 @@
     "id": "cat-sunpm-r1",
     "name": "日曜午後: モビリティ&コアコンディショニング",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "items": [
       {
         "id": "cat-sunpm-r1-i1",
@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m0-s1",
@@ -114,15 +114,6 @@
           "type": 1,
           "description": "深呼吸をしながら体を軽く揺らし、リラックスして心拍を落ち着ける",
           "illustrationId": "corpse-pose-supine"
-        },
-        {
-          "id": "cat-sunpm-m0-s8",
-          "orderIndex": 7,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 30,
-          "type": 2,
-          "description": "軽く体を揺すりながら次の動きに備える"
         }
       ],
       "description": "首・手首・足首・肩甲骨を30秒ずつゆっくり動かして関節をゆるめる軽いウォームアップ。消費カロリー目安: 約8〜16kcal"
@@ -140,7 +131,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m1-s1",
@@ -284,15 +275,6 @@
           "type": 1,
           "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
           "illustrationId": "calf-stretch-wall"
-        },
-        {
-          "id": "cat-sunpm-m1-s2-r8",
-          "orderIndex": 15,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 20,
-          "type": 2,
-          "description": "呼吸を整え、次のセットに備える"
         }
       ],
       "description": "準備1分: 呼吸を整え、動かす関節を確認する。肩→股関節→背骨→足首の順にモビリティストレッチを40秒+休憩20秒で8本。クールダウン1分: 深呼吸をして体を落ち着け、メイン②へ。消費カロリー目安: 約20〜40kcal"
@@ -310,7 +292,7 @@
       "cooldownSeconds": 60,
       "cooldownCountdownSeconds": 5,
       "createdAt": "2026-07-20T15:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m2-s1",
@@ -435,15 +417,6 @@
           "type": 1,
           "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
           "illustrationId": "plank-forearm"
-        },
-        {
-          "id": "cat-sunpm-m2-s2-r7",
-          "orderIndex": 13,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 30,
-          "type": 2,
-          "description": "力を抜いて次の種目に備える"
         }
       ],
       "description": "準備1分: プランク姿勢を軽く確認し、体幹に意識を向ける。コアスタビリティ(プランク)を30秒+休憩30秒で7本。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約36〜54kcal"
@@ -452,7 +425,7 @@
       "id": "cat-sunpm-m3",
       "name": "ストレッチ（仕上げのディープリラックス）",
       "sets": 1,
-      "prepareSeconds": 0,
+      "prepareSeconds": 60,
       "prepareCountdownSeconds": 0,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
@@ -461,7 +434,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-sunpm-m3-s1",
@@ -605,15 +578,6 @@
           "type": 1,
           "description": "仰向けで手足を投げ出したまま、呼吸を整えて仕上げのリラックスをする",
           "illustrationId": "corpse-pose-supine"
-        },
-        {
-          "id": "cat-sunpm-m3-s16",
-          "orderIndex": 15,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 20,
-          "type": 2,
-          "description": "深呼吸をして体の力を抜く"
         }
       ],
       "description": "モビリティストレッチとコアスタビリティの後、仰向けの姿勢で全身をゆるめる仕上げのディープリラックスストレッチ。消費カロリー目安: 約16〜32kcal"

@@ -13,7 +13,7 @@
     "cooldownSeconds": 60,
     "cooldownCountdownSeconds": 5,
     "createdAt": "2026-07-21T00:00:00Z",
-    "updatedAt": "2026-08-06T13:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "segments": [
       {
         "id": "cat-fri-m1-s1-solo",
@@ -157,15 +157,6 @@
         "type": 1,
         "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う",
         "illustrationId": "skater-hop"
-      },
-      {
-        "id": "cat-fri-m1-s8-r2-solo",
-        "orderIndex": 15,
-        "sourceTemplateId": null,
-        "name": "休憩",
-        "durationSeconds": 20,
-        "type": 2,
-        "description": "呼吸を整え、次のセットに備える"
       }
     ],
     "description": "準備1分: 軽く足踏みしながら心拍を上げ、着地の姿勢を確認する。マウンテンクライマー→バーピー→ハイニー→スケーターホップを40秒+休憩20秒で2周。クールダウン1分: 呼吸を整えて心拍を落ち着け、メイン②へ。消費カロリー目安: 約80〜120kcal(体重・強度による)"

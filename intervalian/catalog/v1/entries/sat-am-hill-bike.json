@@ -4,7 +4,7 @@
     "id": "cat-satam-r1",
     "name": "土曜午前: 坂道バイクトレーニング",
     "createdAt": "2026-07-20T15:00:00Z",
-    "updatedAt": "2026-08-06T10:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
     "items": [
       {
         "id": "cat-satam-r1-i1",
@@ -46,7 +46,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-satam-m0-s1",
@@ -152,15 +152,6 @@
           "type": 1,
           "description": "手首を大きく回し、ハンドル荷重に備えて前腕をほぐす",
           "illustrationId": "wrist-forearm-stretch"
-        },
-        {
-          "id": "cat-satam-m0-s12",
-          "orderIndex": 11,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 30,
-          "type": 2,
-          "description": "軽く体を揺すりながら次の動きに備える"
         }
       ],
       "description": "股関節・カーフ・グリップを30秒ずつ動かして温める、乗車前の動的ウォームアップ。消費カロリー目安: 約30〜42kcal"
@@ -243,7 +234,7 @@
       "id": "cat-satam-m3",
       "name": "ストレッチ（下肢ケアストレッチ）",
       "sets": 1,
-      "prepareSeconds": 0,
+      "prepareSeconds": 60,
       "prepareCountdownSeconds": 0,
       "restBetweenSetsSeconds": 0,
       "restBetweenSetsCountdownSeconds": 0,
@@ -252,7 +243,7 @@
       "cooldownSeconds": 0,
       "cooldownCountdownSeconds": 0,
       "createdAt": "2026-07-26T00:00:00Z",
-      "updatedAt": "2026-08-06T13:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
       "segments": [
         {
           "id": "cat-satam-m3-s1",
@@ -396,15 +387,6 @@
           "type": 1,
           "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）",
           "illustrationId": "hamstring-fold-standing"
-        },
-        {
-          "id": "cat-satam-m3-s16",
-          "orderIndex": 15,
-          "sourceTemplateId": null,
-          "name": "休憩",
-          "durationSeconds": 20,
-          "type": 2,
-          "description": "深呼吸をして体の力を抜く"
         }
       ],
       "description": "坂道ダッシュと高負荷シッティングで使った太もも・お尻・カーフ・ハムストリングを、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約32〜48kcal"

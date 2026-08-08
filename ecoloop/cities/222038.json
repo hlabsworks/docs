@@ -2,8 +2,8 @@
   "schema_version": 1,
   "city_code": "222038",
   "city_name": "沼津市",
-  "etag": "W/\"numazu-guidebook-20260715-drybattery\"",
-  "updated_at": "2026-07-15",
+  "etag": "W/\"numazu-guidebook-20260808-collectiondates\"",
+  "updated_at": "2026-08-08",
   "source_root_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/index.htm",
   "categories": [
     {
@@ -13130,7 +13130,89 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/1.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "旭町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "宮町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "下河原東部": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "下河原南部": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "下河原西町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "下河原団地": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "港湾区": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "千本常盤町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "千本緑町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "本町一丁目": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "（通横町の一部）": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "本町二丁目": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "（東宮後町、大門町の一部）": {
+          "burnable": "火・土",
+          "plastic": "木"
+        }
+      },
+      "recycle_days": [
+        "4/6",
+        "5/2",
+        "6/1",
+        "7/6",
+        "8/3",
+        "9/7",
+        "10/5",
+        "11/2",
+        "12/7",
+        "1/9",
+        "2/1",
+        "3/1"
+      ],
+      "landfill_days": [
+        "4/20",
+        "5/18",
+        "6/15",
+        "7/27",
+        "8/17",
+        "9/19",
+        "10/26",
+        "11/16",
+        "12/21",
+        "1/18",
+        "2/15",
+        "3/15"
+      ]
     },
     {
       "id": "plan_02",
@@ -13165,7 +13247,77 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/2.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "市道町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "松下町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "東間門": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "西間門": {
+          "burnable": "月・木",
+          "plastic": "火"
+        },
+        "西浜町": {
+          "burnable": "月・木",
+          "plastic": "火"
+        },
+        "真砂町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "錦丸子": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "幸町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "白銀町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "西条町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        }
+      },
+      "recycle_days": [
+        "4/7",
+        "5/9",
+        "6/2",
+        "7/7",
+        "8/4",
+        "9/1",
+        "10/6",
+        "11/10",
+        "12/1",
+        "1/5",
+        "2/2",
+        "3/2"
+      ],
+      "landfill_days": [
+        "4/21",
+        "5/19",
+        "6/16",
+        "7/21",
+        "8/25",
+        "9/15",
+        "10/20",
+        "11/24",
+        "12/15",
+        "1/19",
+        "2/16",
+        "3/16"
+      ]
     },
     {
       "id": "plan_03",
@@ -13201,7 +13353,81 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/3.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "根古屋": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "東井出": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "西井出": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "平沼": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "石川": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "荒久": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "柳沢": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "ニュータウン原": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "県営原町中団地": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "市営原町中団地": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "原町中": {
+          "burnable": "火・金",
+          "plastic": "木"
+        }
+      },
+      "recycle_days": [
+        "4/1",
+        "5/13",
+        "6/3",
+        "7/1",
+        "8/5",
+        "9/2",
+        "10/7",
+        "11/4",
+        "12/2",
+        "1/6",
+        "2/3",
+        "3/3"
+      ],
+      "landfill_days": [
+        "4/15",
+        "5/27",
+        "6/17",
+        "7/15",
+        "8/19",
+        "9/16",
+        "10/21",
+        "11/18",
+        "12/16",
+        "1/20",
+        "2/17",
+        "3/17"
+      ]
     },
     {
       "id": "plan_04",
@@ -13237,7 +13463,81 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/4.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "三本松": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "大塚新田": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "大塚本田": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "原東町一区": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "原東町二区": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "原東町三区": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "市営原団地": {
+          "burnable": "火・金",
+          "plastic": "水"
+        },
+        "県営原団地": {
+          "burnable": "火・金",
+          "plastic": "水"
+        },
+        "ビレッジハウス原": {
+          "burnable": "火・金",
+          "plastic": "水"
+        },
+        "公団中央": {
+          "burnable": "火・金",
+          "plastic": "水"
+        },
+        "原東沖": {
+          "burnable": "火・金",
+          "plastic": "水"
+        }
+      },
+      "recycle_days": [
+        "4/2",
+        "5/7",
+        "6/4",
+        "7/2",
+        "8/6",
+        "9/3",
+        "10/1",
+        "11/5",
+        "12/3",
+        "1/7",
+        "2/4",
+        "3/4"
+      ],
+      "landfill_days": [
+        "4/16",
+        "5/21",
+        "6/18",
+        "7/16",
+        "8/20",
+        "9/17",
+        "10/15",
+        "11/19",
+        "12/17",
+        "1/21",
+        "2/18",
+        "3/18"
+      ]
     },
     {
       "id": "plan_05",
@@ -13293,7 +13593,141 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/5.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "自由ヶ丘（一区、二区、三区、五区）": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "弥生町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "竹ノ岬": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "杉崎町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "杉崎町の一部": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "日の出町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "緑ヶ丘": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "太田町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "青葉町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "泉町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "大岡高田": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "三枚橋町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "三枚橋町の一部": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "平町一丁目": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "平町二丁目": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "三芳町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "富士見町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "山王台": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "山王前": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "コーポラス三枚橋": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "シティラック沼津": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "シティコープ平町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "花園町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "宮前町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "ファインスクエア沼津泉町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "メゾン河野": {
+          "burnable": "火・金",
+          "plastic": "月"
+        }
+      },
+      "recycle_days": [
+        "4/3",
+        "5/1",
+        "6/5",
+        "7/3",
+        "8/7",
+        "9/4",
+        "10/2",
+        "11/6",
+        "12/4",
+        "1/8",
+        "2/5",
+        "3/5"
+      ],
+      "landfill_days": [
+        "4/17",
+        "5/15",
+        "6/19",
+        "7/17",
+        "8/21",
+        "9/18",
+        "10/16",
+        "11/20",
+        "12/18",
+        "1/22",
+        "2/19",
+        "3/19"
+      ]
     },
     {
       "id": "plan_06",
@@ -13336,7 +13770,97 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/6.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "我入道江川町": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "我入道東町": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "我入道一本松町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "我入道津島町": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "我入道浜町": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "我入道林町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "我入道稲荷町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "我入道秋葉町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "我入道南条寺町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "牛臥": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "東八間町": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "八間町": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "塩場": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "西島町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "三貫地": {
+          "burnable": "火・土",
+          "plastic": "木"
+        }
+      },
+      "recycle_days": [
+        "4/13",
+        "5/11",
+        "6/8",
+        "7/13",
+        "8/10",
+        "9/14",
+        "10/19",
+        "11/9",
+        "12/14",
+        "1/16",
+        "2/8",
+        "3/8"
+      ],
+      "landfill_days": [
+        "4/27",
+        "5/25",
+        "6/22",
+        "7/29",
+        "8/24",
+        "9/28",
+        "10/29",
+        "11/30",
+        "12/28",
+        "1/25",
+        "2/22",
+        "3/29"
+      ]
     },
     {
       "id": "plan_07",
@@ -13377,7 +13901,81 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/7.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "岡一色": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "岡宮": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "門池町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "池上町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "御堂林町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "北園町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "東名町": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "足高拓南": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "グランドール": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "天神ヶ尾": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "共栄町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        }
+      },
+      "recycle_days": [
+        "4/14",
+        "5/12",
+        "6/9",
+        "7/14",
+        "8/18",
+        "9/8",
+        "10/13",
+        "11/17",
+        "12/8",
+        "1/12",
+        "2/9",
+        "3/9"
+      ],
+      "landfill_days": [
+        "4/28",
+        "5/26",
+        "6/23",
+        "7/28",
+        "8/31",
+        "9/29",
+        "10/27",
+        "11/28",
+        "12/22",
+        "1/26",
+        "2/27",
+        "3/23"
+      ]
     },
     {
       "id": "plan_08",
@@ -13439,7 +14037,137 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/8.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "芝原町": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "堤山": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "大久望町": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "松見台": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "鷹根台": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "つばきヶ丘": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "桜台": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "目黒身": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "赤坂": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "大林": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "東原ニュータウン": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "東椎路小屋敷": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "東椎路中東": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "東椎路久保": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "東椎路中尾": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "小屋敷台": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "東原": {
+          "burnable": "月・木",
+          "plastic": "火"
+        },
+        "西椎路": {
+          "burnable": "月・木",
+          "plastic": "火"
+        },
+        "大諏訪線北": {
+          "burnable": "月・木",
+          "plastic": "火"
+        },
+        "鳥谷": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "愛鷹宮本": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "椎の木": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "エンゼルハイム西椎路": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "春ノ木": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "ビューテラス愛鷹": {
+          "burnable": "水・土",
+          "plastic": "金"
+        }
+      },
+      "recycle_days": [
+        "4/8",
+        "5/20",
+        "6/10",
+        "7/8",
+        "8/12",
+        "9/9",
+        "10/14",
+        "11/11",
+        "12/9",
+        "1/13",
+        "2/10",
+        "3/10"
+      ],
+      "landfill_days": [
+        "4/22",
+        "5/29",
+        "6/24",
+        "7/22",
+        "8/26",
+        "9/30",
+        "10/28",
+        "11/25",
+        "12/23",
+        "1/27",
+        "2/24",
+        "3/24"
+      ]
     },
     {
       "id": "plan_09",
@@ -13473,7 +14201,69 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/9.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "六軒町": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "（西添の全部）": {
+          "burnable": "月・木",
+          "plastic": "金"
+        },
+        "原新田": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "原一本松": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "桃里": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "植田": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "西町一区": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "西町二区": {
+          "burnable": "水・土",
+          "plastic": "金"
+        }
+      },
+      "recycle_days": [
+        "4/9",
+        "5/14",
+        "6/11",
+        "7/9",
+        "8/13",
+        "9/10",
+        "10/8",
+        "11/12",
+        "12/10",
+        "1/14",
+        "2/13",
+        "3/11"
+      ],
+      "landfill_days": [
+        "4/23",
+        "5/28",
+        "6/25",
+        "7/23",
+        "8/27",
+        "9/24",
+        "10/22",
+        "11/26",
+        "12/24",
+        "1/28",
+        "2/25",
+        "3/25"
+      ]
     },
     {
       "id": "plan_10",
@@ -13507,7 +14297,73 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/10.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "大諏訪": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "松長": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "今沢市営団地": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "今沢県住": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "ビレッジハウス今沢": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "北今沢": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "中今沢": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "小諏訪": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "県営片浜団地": {
+          "burnable": "月・木",
+          "plastic": "水"
+        }
+      },
+      "recycle_days": [
+        "4/10",
+        "5/8",
+        "6/12",
+        "7/10",
+        "8/14",
+        "9/11",
+        "10/9",
+        "11/13",
+        "12/11",
+        "1/15",
+        "2/12",
+        "3/12"
+      ],
+      "landfill_days": [
+        "4/24",
+        "5/22",
+        "6/26",
+        "7/24",
+        "8/28",
+        "9/25",
+        "10/23",
+        "11/27",
+        "12/25",
+        "1/29",
+        "2/26",
+        "3/26"
+      ]
     },
     {
       "id": "plan_11",
@@ -13569,7 +14425,125 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/11.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "西村町": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "宮本町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "神明町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "馬場町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "第一宮脇": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "第一宮脇の一部": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "第二宮脇": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "石原": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "楊原": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "塩満": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "塩満の一部": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "木の宮": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "西木の宮": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "東桃郷": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "八重": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "八重坂": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "外原": {
+          "burnable": "火・土",
+          "plastic": "水"
+        },
+        "東八重": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "藤井原": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "香貫台": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "宮原町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "香貫が丘": {
+          "burnable": "火・金",
+          "plastic": "木"
+        }
+      },
+      "recycle_days": [
+        "4/20",
+        "5/18",
+        "6/15",
+        "7/27",
+        "8/17",
+        "9/19",
+        "10/26",
+        "11/16",
+        "12/21",
+        "1/18",
+        "2/15",
+        "3/15"
+      ],
+      "landfill_days": [
+        "4/6",
+        "5/2",
+        "6/1",
+        "7/6",
+        "8/3",
+        "9/7",
+        "10/5",
+        "11/2",
+        "12/7",
+        "1/9",
+        "2/1",
+        "3/1"
+      ]
     },
     {
       "id": "plan_12",
@@ -13620,7 +14594,93 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/12.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "重寺": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "小海": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "三津": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "長浜": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "重須": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "木負": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "河内": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "久連": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "平沢": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "立保": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "古宇": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "足保": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "久料": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "江梨": {
+          "burnable": "月・木",
+          "plastic": "水"
+        }
+      },
+      "recycle_days": [
+        "4/21",
+        "5/19",
+        "6/16",
+        "7/21",
+        "8/25",
+        "9/15",
+        "10/20",
+        "11/24",
+        "12/15",
+        "1/19",
+        "2/16",
+        "3/16"
+      ],
+      "landfill_days": [
+        "4/7",
+        "5/9",
+        "6/2",
+        "7/7",
+        "8/4",
+        "9/1",
+        "10/6",
+        "11/10",
+        "12/1",
+        "1/5",
+        "2/2",
+        "3/2"
+      ]
     },
     {
       "id": "plan_13",
@@ -13653,7 +14713,69 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/13.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "志下（山側中通り）": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "志下（国道と海岸通路）": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "馬込": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "獅子浜": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "江浦": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "多比": {
+          "burnable": "火・金",
+          "plastic": "水"
+        },
+        "口野": {
+          "burnable": "火・金",
+          "plastic": "水"
+        },
+        "島郷": {
+          "burnable": "火・金",
+          "plastic": "木"
+        }
+      },
+      "recycle_days": [
+        "4/15",
+        "5/27",
+        "6/17",
+        "7/15",
+        "8/19",
+        "9/16",
+        "10/21",
+        "11/18",
+        "12/16",
+        "1/20",
+        "2/17",
+        "3/17"
+      ],
+      "landfill_days": [
+        "4/1",
+        "5/13",
+        "6/3",
+        "7/1",
+        "8/5",
+        "9/2",
+        "10/7",
+        "11/4",
+        "12/2",
+        "1/6",
+        "2/3",
+        "3/3"
+      ]
     },
     {
       "id": "plan_14",
@@ -13704,7 +14826,117 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/14.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "中住町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "住吉町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "中瀬町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "黒瀬町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "中原町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "東豊栄町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "西豊栄町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "二瀬川": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "久保町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "南本郷町西": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "南本郷町東": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "山下町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "玉江町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "御幸町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "三園町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "槇島北町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "市場町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "通吉田町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "永代川瀬町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "吉田町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        }
+      },
+      "recycle_days": [
+        "4/16",
+        "5/21",
+        "6/18",
+        "7/16",
+        "8/20",
+        "9/17",
+        "10/15",
+        "11/19",
+        "12/17",
+        "1/21",
+        "2/18",
+        "3/18"
+      ],
+      "landfill_days": [
+        "4/2",
+        "5/7",
+        "6/4",
+        "7/2",
+        "8/6",
+        "9/3",
+        "10/1",
+        "11/5",
+        "12/3",
+        "1/7",
+        "2/4",
+        "3/4"
+      ]
     },
     {
       "id": "plan_15",
@@ -13742,7 +14974,85 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/15.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "東沢田": {
+          "burnable": "水・土",
+          "plastic": "月"
+        },
+        "中沢田": {
+          "burnable": "水・土",
+          "plastic": "月"
+        },
+        "西沢田": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "西沢田緑ヶ丘": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "沢田町": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "ウィスティリア沢田": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "新沢田": {
+          "burnable": "水・土",
+          "plastic": "月"
+        },
+        "若葉町": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "長塚町": {
+          "burnable": "水・土",
+          "plastic": "月"
+        },
+        "沼北町": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "寿町": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "竹の花": {
+          "burnable": "月・木",
+          "plastic": "水"
+        }
+      },
+      "recycle_days": [
+        "4/17",
+        "5/15",
+        "6/19",
+        "7/17",
+        "8/21",
+        "9/18",
+        "10/16",
+        "11/20",
+        "12/18",
+        "1/22",
+        "2/19",
+        "3/19"
+      ],
+      "landfill_days": [
+        "4/3",
+        "5/1",
+        "6/5",
+        "7/3",
+        "8/7",
+        "9/4",
+        "10/2",
+        "11/6",
+        "12/4",
+        "1/8",
+        "2/5",
+        "3/5"
+      ]
     },
     {
       "id": "plan_16",
@@ -13786,7 +15096,85 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/16.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "大岡造り道": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "富岳町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "沼平町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "大岡駅前町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "大岡団地": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "日吉": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "伝馬町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "北小林": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "南小林": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "小林団地": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "南小林団地": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "柏葉尾": {
+          "burnable": "水・土",
+          "plastic": "火"
+        }
+      },
+      "recycle_days": [
+        "4/27",
+        "5/25",
+        "6/22",
+        "7/29",
+        "8/24",
+        "9/28",
+        "10/29",
+        "11/30",
+        "12/28",
+        "1/25",
+        "2/22",
+        "3/29"
+      ],
+      "landfill_days": [
+        "4/13",
+        "5/11",
+        "6/8",
+        "7/13",
+        "8/10",
+        "9/14",
+        "10/19",
+        "11/9",
+        "12/14",
+        "1/16",
+        "2/8",
+        "3/8"
+      ]
     },
     {
       "id": "plan_17",
@@ -13828,7 +15216,97 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/17.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "雲雀台": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "神田町": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "西熊堂": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "東熊堂": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "柳町": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "明電町": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "江原町": {
+          "burnable": "水・土",
+          "plastic": "木"
+        },
+        "駿河台": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "新宿町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "高尾台": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "豊町": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "松沢町": {
+          "burnable": "火・金",
+          "plastic": "木"
+        },
+        "五月町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "筒井町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "北神明町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        }
+      },
+      "recycle_days": [
+        "4/28",
+        "5/26",
+        "6/23",
+        "7/28",
+        "8/31",
+        "9/29",
+        "10/27",
+        "11/28",
+        "12/22",
+        "1/26",
+        "2/27",
+        "3/23"
+      ],
+      "landfill_days": [
+        "4/14",
+        "5/12",
+        "6/9",
+        "7/14",
+        "8/18",
+        "9/8",
+        "10/13",
+        "11/17",
+        "12/8",
+        "1/12",
+        "2/9",
+        "3/9"
+      ]
     },
     {
       "id": "plan_18",
@@ -13866,7 +15344,93 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/18.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "高沢町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "本田町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "双葉町南": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "双葉町北": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "高島本町西": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "高島町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "高島町西": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "北高島町": {
+          "burnable": "水・土",
+          "plastic": "金"
+        },
+        "北高島町の一部": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "北新町": {
+          "burnable": "水・土",
+          "plastic": "火"
+        },
+        "庄栄町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "庄栄町南": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "庄栄町北": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "米山町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        }
+      },
+      "recycle_days": [
+        "4/22",
+        "5/29",
+        "6/24",
+        "7/22",
+        "8/26",
+        "9/30",
+        "10/28",
+        "11/25",
+        "12/23",
+        "1/27",
+        "2/24",
+        "3/24"
+      ],
+      "landfill_days": [
+        "4/8",
+        "5/20",
+        "6/10",
+        "7/8",
+        "8/12",
+        "9/9",
+        "10/14",
+        "11/11",
+        "12/9",
+        "1/13",
+        "2/10",
+        "3/10"
+      ]
     },
     {
       "id": "plan_19",
@@ -13900,7 +15464,61 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/19.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "木瀬川": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "平和郷": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "富士町": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "中石田": {
+          "burnable": "火・金",
+          "plastic": "月"
+        },
+        "下石田": {
+          "burnable": "月・木",
+          "plastic": "水"
+        },
+        "上石田": {
+          "burnable": "水・土",
+          "plastic": "火"
+        }
+      },
+      "recycle_days": [
+        "4/23",
+        "5/28",
+        "6/25",
+        "7/23",
+        "8/27",
+        "9/24",
+        "10/22",
+        "11/26",
+        "12/24",
+        "1/28",
+        "2/25",
+        "3/25"
+      ],
+      "landfill_days": [
+        "4/9",
+        "5/14",
+        "6/11",
+        "7/9",
+        "8/13",
+        "9/10",
+        "10/8",
+        "11/12",
+        "12/10",
+        "1/14",
+        "2/13",
+        "3/11"
+      ]
     },
     {
       "id": "plan_20",
@@ -13937,7 +15555,81 @@
         "landfill_fluorescent": "月1回（埋め立てごみの日）"
       },
       "schedule_pdf_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/dashikata/keikaku2026_pdf/20.pdf",
-      "schedule_complete": true
+      "schedule_complete": true,
+      "area_schedules": {
+        "大手町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "上土町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "町方町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "町方町の一部": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "志多町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "川廓町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "上本通町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "八幡町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "添地町": {
+          "burnable": "月・金",
+          "plastic": "水"
+        },
+        "末広町": {
+          "burnable": "火・土",
+          "plastic": "木"
+        },
+        "大平全区": {
+          "burnable": "水・土",
+          "plastic": "木"
+        }
+      },
+      "recycle_days": [
+        "4/24",
+        "5/22",
+        "6/26",
+        "7/24",
+        "8/28",
+        "9/25",
+        "10/23",
+        "11/27",
+        "12/25",
+        "1/29",
+        "2/26",
+        "3/26"
+      ],
+      "landfill_days": [
+        "4/10",
+        "5/8",
+        "6/12",
+        "7/10",
+        "8/14",
+        "9/11",
+        "10/9",
+        "11/13",
+        "12/11",
+        "1/15",
+        "2/12",
+        "3/12"
+      ]
     },
     {
       "id": "plan_21",

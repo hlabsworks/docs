@@ -2,7 +2,7 @@
   "schema_version": 1,
   "city_code": "222038",
   "city_name": "沼津市",
-  "etag": "W/\"numazu-guidebook-20260808-collectiondates\"",
+  "etag": "W/\"numazu-guidebook-20260809-clipclasskeywords\"",
   "updated_at": "2026-08-08",
   "source_root_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/index.htm",
   "categories": [
@@ -4162,7 +4162,8 @@
       "id": "j_ku_0273",
       "label": "クッション",
       "keywords": [
-        "クッション"
+        "クッション",
+        "cushion"
       ],
       "category_id": "landfill_2",
       "notes": [],
@@ -9030,7 +9031,8 @@
       "id": "j_to_0661",
       "label": "トースター",
       "keywords": [
-        "トースター"
+        "トースター",
+        "toaster"
       ],
       "category_id": "recycle_metal",
       "notes": [
@@ -12792,7 +12794,9 @@
       "id": "j_ri_0965",
       "label": "リモコン",
       "keywords": [
-        "リモコン"
+        "リモコン",
+        "remote_control",
+        "remote control"
       ],
       "category_id": "landfill_3",
       "notes": [

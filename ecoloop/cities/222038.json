@@ -2,7 +2,7 @@
   "schema_version": 1,
   "city_code": "222038",
   "city_name": "沼津市",
-  "etag": "W/\"numazu-guidebook-20260823-clip6clock\"",
+  "etag": "W/\"numazu-guidebook-20260823-mouse\"",
   "updated_at": "2026-08-23",
   "source_root_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/index.htm",
   "categories": [
@@ -13096,6 +13096,24 @@
       "notes": [],
       "reusable": false,
       "source_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/jiten/wa.htm"
+    },
+    {
+      "id": "fw_mouse",
+      "label": "マウス（パソコン機器）",
+      "keywords": [
+        "マウス（パソコン機器）",
+        "マウス",
+        "mouse",
+        "computer mouse",
+        "パソコンのマウス"
+      ],
+      "category_id": "landfill_3",
+      "notes": [
+        "公式辞典に項目が無いため「キーボード（パソコン機器）」と同じ扱いと推定 (2026-08-23 利用者報告)",
+        "コードは器具から切り離し、束ねて「資源回収の日：缶類」無線式は電池を取り外す"
+      ],
+      "reusable": false,
+      "source_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/jiten/ki.htm"
     }
   ],
   "districts": [

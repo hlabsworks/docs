@@ -2,8 +2,8 @@
   "schema_version": 1,
   "city_code": "222038",
   "city_name": "沼津市",
-  "etag": "W/\"numazu-guidebook-20260809-clipclasskeywords\"",
-  "updated_at": "2026-08-08",
+  "etag": "W/\"numazu-guidebook-20260823-clip6clock\"",
+  "updated_at": "2026-08-23",
   "source_root_url": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/index.htm",
   "categories": [
     {
@@ -9045,7 +9045,11 @@
       "id": "j_to_0662",
       "label": "時計【置時計・掛時計】",
       "keywords": [
-        "時計【置時計・掛時計】"
+        "時計【置時計・掛時計】",
+        "clock",
+        "置時計",
+        "置き時計",
+        "掛け時計"
       ],
       "category_id": "landfill_3",
       "notes": [

@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-sunpm-r1",
+    "name": "日曜午後: モビリティ&コアコンディショニング",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "items": [
+      {
+        "id": "cat-sunpm-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-sunpm-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-sunpm-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-sunpm-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-sunpm-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-sunpm-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-sunpm-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-sunpm-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-sunpm-m0",
+      "name": "準備運動（関節ほぐし）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "首回し（ゆっくり左右に）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "手首・足首回し（座って軽く回す）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "肩甲骨回し（軽く上下に動かす）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "呼吸を整える（深呼吸をしながら軽く体を揺らす）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-sunpm-m1",
+      "name": "メインブロック①（モビリティストレッチ）",
+      "sets": 1,
+      "prepareSeconds": 300,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r2",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r2",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r3",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r3",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r4",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r4",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r5",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r5",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r6",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r6",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r7",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r7",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r8",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r8",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-sunpm-m2",
+      "name": "メインブロック②（コアスタビリティ）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r2",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r2",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r3",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r3",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r4",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r4",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r5",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r5",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r6",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r6",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2
+        }
+      ]
+    },
+    {
+      "id": "cat-sunpm-m3",
+      "name": "ストレッチ（仕上げのディープリラックス）",
+      "sets": 1,
+      "prepareSeconds": 0,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-07-26T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "仰向け脊柱ひねり（膝を倒してリラックス・右）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "仰向け脊柱ひねり（膝を倒してリラックス・左）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "レッグスアップウォール（壁に脚を上げてリラックス）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ハッピーベイビーポーズ（仰向けで股関節を開いてリラックス）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "仰向けニーハグ（腰・お尻をリラックス）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "リクライニングバタフライ（仰向けで股関節を開き呼吸を深める）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "コープスポーズ（仰向けで全身の力を抜き深呼吸）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        },
+        {
+          "id": "cat-sunpm-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "コープスポーズ（呼吸を整えながら仕上げのリラックス）",
+          "durationSeconds": 40,
+          "type": 1
+        },
+        {
+          "id": "cat-sunpm-m3-s16",
+          "orderIndex": 15,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-thu-m1-solo",
+    "name": "木曜メイン①: プッシュアップ4種",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 5,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 60,
+    "cooldownCountdownSeconds": 5,
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "segments": [
+      {
+        "id": "cat-thu-m1-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "ノーマルプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "手幅は肩幅程度、体を一直線に保ったまま胸を床に近づけて押し上げる",
+        "illustrationId": "push-up-prone"
+      },
+      {
+        "id": "cat-thu-m1-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-thu-m1-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "クローズグリッププッシュアップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "手幅を肩幅より狭くし、肘を体側に沿わせて三頭筋を強く使う",
+        "illustrationId": "push-up-prone"
+      },
+      {
+        "id": "cat-thu-m1-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-thu-m1-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "デクラインプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる",
+        "illustrationId": "push-up-prone"
+      },
+      {
+        "id": "cat-thu-m1-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-thu-m1-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "ニーリングプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "膝をついて負荷を落とし、上体を一直線に保って胸を鍛える",
+        "illustrationId": "push-up-prone"
+      },
+      {
+        "id": "cat-thu-m1-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-thu-m1-s1-r2-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "ノーマルプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "手幅は肩幅程度、体を一直線に保ったまま胸を床に近づけて押し上げる",
+        "illustrationId": "push-up-prone"
+      },
+      {
+        "id": "cat-thu-m1-s2-r2-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-thu-m1-s3-r2-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "クローズグリッププッシュアップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "手幅を肩幅より狭くし、肘を体側に沿わせて三頭筋を強く使う",
+        "illustrationId": "push-up-prone"
+      },
+      {
+        "id": "cat-thu-m1-s4-r2-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-thu-m1-s5-r2-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "デクラインプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる",
+        "illustrationId": "push-up-prone"
+      },
+      {
+        "id": "cat-thu-m1-s6-r2-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-thu-m1-s7-r2-solo",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "ニーリングプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "膝をついて負荷を落とし、上体を一直線に保って胸を鍛える",
+        "illustrationId": "push-up-prone"
+      }
+    ],
+    "description": "準備1分: 手首・肩を軽く回して押す動作に備える。ノーマル→クローズグリップ→デクライン→ニーリングの4種プッシュアップを40秒+休憩20秒で2周。クールダウン1分: 肩と胸の力を抜いて息を整え、メイン②へ。消費カロリー目安: 約50〜80kcal(体重・強度による)"
+  }
+}

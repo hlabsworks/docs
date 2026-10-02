@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-thu-m1-solo",
+    "name": "木曜メイン①: プッシュアップ4種",
+    "sets": 1,
+    "prepareSeconds": 300,
+    "prepareCountdownSeconds": 5,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 240,
+    "cooldownCountdownSeconds": 5,
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-thu-m1-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "ノーマルプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-thu-m1-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-thu-m1-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "クローズグリッププッシュアップ",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-thu-m1-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-thu-m1-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "デクラインプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-thu-m1-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-thu-m1-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "ニーリングプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-thu-m1-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-thu-m1-s1-r2-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "ノーマルプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-thu-m1-s2-r2-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-thu-m1-s3-r2-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "クローズグリッププッシュアップ",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-thu-m1-s4-r2-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-thu-m1-s5-r2-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "デクラインプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-thu-m1-s6-r2-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-thu-m1-s7-r2-solo",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "ニーリングプッシュアップ",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-thu-m1-s8-r2-solo",
+        "orderIndex": 15,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      }
+    ]
+  }
+}

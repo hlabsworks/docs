@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-mon-m3-solo",
+    "name": "月曜クールダウン: 筋肉痛ケアストレッチ",
+    "sets": 1,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-mon-m3-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "胸のドアフレームストレッチ（右腕・呼吸を意識）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m3-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m3-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "胸のドアフレームストレッチ（左腕・呼吸を意識）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m3-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m3-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "三頭筋オーバーヘッドストレッチ（右腕）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m3-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m3-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "三頭筋オーバーヘッドストレッチ（左腕）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m3-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m3-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "チャイルドポーズ（肩・体側を伸ばし呼吸を深く）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m3-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m3-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "コブラストレッチ（腹部・股関節前面を伸ばす）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m3-s12-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m3-s13-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "キャットストレッチ（呼吸を意識して背中を丸める）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m3-s14-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m3-s15-solo",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "仰向けニーハグ（腰・下腹部をリラックス）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m3-s16-solo",
+        "orderIndex": 15,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      }
+    ]
+  }
+}

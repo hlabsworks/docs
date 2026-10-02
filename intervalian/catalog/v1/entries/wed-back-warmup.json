@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-wed-m0-solo",
+    "name": "水曜ウォームアップ: 背中・体幹の動的モビリティ",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "segments": [
+      {
+        "id": "cat-wed-m0-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "キャット&カウ（背骨を丸めて反らす）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす",
+        "illustrationId": "cat-cow-quadruped"
+      },
+      {
+        "id": "cat-wed-m0-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-wed-m0-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "肩甲骨引き寄せ（胸を開いて肩甲骨を寄せる）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "肩甲骨を背骨に寄せるように胸を開き、背中の意識を高める",
+        "illustrationId": "y-raise-prone"
+      },
+      {
+        "id": "cat-wed-m0-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-wed-m0-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "ソラシックローテーション（四つ這いで胸椎を捻る・右）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "四つ這いで右手を天井に向けて開き、腰は動かさず胸椎から捻る",
+        "illustrationId": "thoracic-rotation-quadruped"
+      },
+      {
+        "id": "cat-wed-m0-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-wed-m0-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "ソラシックローテーション（四つ這いで胸椎を捻る・左）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "四つ這いで左手を天井に向けて開き、腰は動かさず胸椎から捻る",
+        "illustrationId": "thoracic-rotation-quadruped"
+      },
+      {
+        "id": "cat-wed-m0-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-wed-m0-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "バードドッグ（対角の手足を伸ばす・動的）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "四つ這いから対角の手足を伸ばし、体幹を安定させながらゆっくり戻す",
+        "illustrationId": "bird-dog-quadruped"
+      },
+      {
+        "id": "cat-wed-m0-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-wed-m0-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "ヒップサークル（腰を回す）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "骨盤を大きく回し、股関節まわりをほぐす",
+        "illustrationId": "hip-circle-standing"
+      }
+    ],
+    "description": "背中・胸椎・股関節を30秒ずつ動かして温める動的ウォームアップ。消費カロリー目安: 約12〜24kcal"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-satpm-m1",
+    "name": "リカバリーライド",
+    "sets": 1,
+    "prepareSeconds": 180,
+    "prepareCountdownSeconds": 5,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 420,
+    "cooldownCountdownSeconds": 5,
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-07-20T15:00:00Z",
+    "segments": [
+      {
+        "id": "cat-satpm-m1-s1",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "軽い散歩・クルージング",
+        "durationSeconds": 1200,
+        "type": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-tue-m1-solo",
+    "name": "火曜メイン①: 全身HIIT",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 5,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 60,
+    "cooldownCountdownSeconds": 5,
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "segments": [
+      {
+        "id": "cat-tue-m1-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "マウンテンクライマー",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする",
+        "illustrationId": "mountain-climber-plank"
+      },
+      {
+        "id": "cat-tue-m1-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-tue-m1-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "ジャンピングスクワット",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "スクワットの底から力強くジャンプし、着地は膝を軽く曲げて衝撃を吸収する",
+        "illustrationId": "squat-jump"
+      },
+      {
+        "id": "cat-tue-m1-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-tue-m1-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "ハイニー",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "腿を高く上げながらその場で走る。体幹を締めてリズムよく",
+        "illustrationId": "high-knees-run"
+      },
+      {
+        "id": "cat-tue-m1-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-tue-m1-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "スケーターホップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う",
+        "illustrationId": "skater-hop"
+      },
+      {
+        "id": "cat-tue-m1-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-tue-m1-s1-r2-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "マウンテンクライマー",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "プランク姿勢から膝を交互に胸へ引き寄せる。体幹を締めて腰が落ちないようにする",
+        "illustrationId": "mountain-climber-plank"
+      },
+      {
+        "id": "cat-tue-m1-s2-r2-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-tue-m1-s3-r2-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "ジャンピングスクワット",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "スクワットの底から力強くジャンプし、着地は膝を軽く曲げて衝撃を吸収する",
+        "illustrationId": "squat-jump"
+      },
+      {
+        "id": "cat-tue-m1-s4-r2-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-tue-m1-s5-r2-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "ハイニー",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "腿を高く上げながらその場で走る。体幹を締めてリズムよく",
+        "illustrationId": "high-knees-run"
+      },
+      {
+        "id": "cat-tue-m1-s6-r2-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-tue-m1-s7-r2-solo",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "スケーターホップ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "横に大きくジャンプして片脚で着地し、バランスを取る。反対側も交互に行う",
+        "illustrationId": "skater-hop"
+      }
+    ],
+    "description": "準備1分: 軽く足踏みしながら心拍を上げ、着地の姿勢を確認する。マウンテンクライマー→ジャンピングスクワット→ハイニー→スケーターホップを40秒+休憩20秒で2周。クールダウン1分: 呼吸を整えて心拍を落ち着け、メイン②へ。消費カロリー目安: 約80〜120kcal(体重・強度による)"
+  }
+}

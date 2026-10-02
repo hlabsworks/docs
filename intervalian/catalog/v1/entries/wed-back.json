@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-wed-r1",
+    "name": "水曜: 背中",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "items": [
+      {
+        "id": "cat-wed-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-wed-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-wed-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-wed-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-wed-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-wed-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-wed-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-wed-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-wed-m0",
+      "name": "準備運動（背中・体幹の動的モビリティ）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-wed-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "キャット&カウ（背骨を丸めて反らす）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす",
+          "illustrationId": "cat-cow-quadruped"
+        },
+        {
+          "id": "cat-wed-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-wed-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "肩甲骨引き寄せ（胸を開いて肩甲骨を寄せる）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "肩甲骨を背骨に寄せるように胸を開き、背中の意識を高める",
+          "illustrationId": "y-raise-prone"
+        },
+        {
+          "id": "cat-wed-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-wed-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "ソラシックローテーション（四つ這いで胸椎を捻る・右）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "四つ這いで右手を天井に向けて開き、腰は動かさず胸椎から捻る",
+          "illustrationId": "thoracic-rotation-quadruped"
+        },
+        {
+          "id": "cat-wed-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-wed-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ソラシックローテーション（四つ這いで胸椎を捻る・左）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "四つ這いで左手を天井に向けて開き、腰は動かさず胸椎から捻る",
+          "illustrationId": "thoracic-rotation-quadruped"
+        },
+        {
+          "id": "cat-wed-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-wed-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "バードドッグ（対角の手足を伸ばす・動的）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "四つ這いから対角の手足を伸ばし、体幹を安定させながらゆっくり戻す",
+          "illustrationId": "bird-dog-quadruped"
+        },
+        {
+          "id": "cat-wed-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-wed-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "ヒップサークル（腰を回す）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "骨盤を大きく回し、股関節まわりをほぐす",
+          "illustrationId": "hip-circle-standing"
+        }
+      ],
+      "description": "背中・胸椎・股関節を30秒ずつ動かして温める動的ウォームアップ。消費カロリー目安: 約12〜24kcal"
+    },
+    {
+      "id": "cat-wed-m1",
+      "name": "メインブロック①（背面強化）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-wed-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "スーパーマン",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せで手足を同時に持ち上げ、背中全体を収縮させる。反動は使わない",
+          "illustrationId": "superman-prone"
+        },
+        {
+          "id": "cat-wed-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-wed-m1-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "リバーススノーエンジェル",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せで腕を体側から頭上へ弧を描くように動かし、背中と肩甲骨まわりを鍛える",
+          "illustrationId": "y-raise-prone"
+        },
+        {
+          "id": "cat-wed-m1-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-wed-m1-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "プローンコブラ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せで上体を反らし、肩甲骨を寄せて背中上部を締める",
+          "illustrationId": "cobra-prone"
+        },
+        {
+          "id": "cat-wed-m1-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-wed-m1-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "Yレイズ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる",
+          "illustrationId": "y-raise-prone"
+        },
+        {
+          "id": "cat-wed-m1-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-wed-m1-s1-r2",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "スーパーマン",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せで手足を同時に持ち上げ、背中全体を収縮させる。反動は使わない",
+          "illustrationId": "superman-prone"
+        },
+        {
+          "id": "cat-wed-m1-s2-r2",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-wed-m1-s3-r2",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "リバーススノーエンジェル",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せで腕を体側から頭上へ弧を描くように動かし、背中と肩甲骨まわりを鍛える",
+          "illustrationId": "y-raise-prone"
+        },
+        {
+          "id": "cat-wed-m1-s4-r2",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-wed-m1-s5-r2",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "プローンコブラ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せで上体を反らし、肩甲骨を寄せて背中上部を締める",
+          "illustrationId": "cobra-prone"
+        },
+        {
+          "id": "cat-wed-m1-s6-r2",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-wed-m1-s7-r2",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "Yレイズ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せで腕をYの字に上げ、僧帽筋下部を意識して肩甲骨を寄せる",
+          "illustrationId": "y-raise-prone"
+        }
+      ],
+      "description": "準備1分: うつ伏せで肩甲骨を寄せる感覚を確認する。スーパーマン→リバーススノーエンジェル→プローンコブラ→Yレイズを40秒+休憩20秒で2周。クールダウン1分: 背中の力を抜いて息を整え、メイン②へ。消費カロリー目安: 約50〜80kcal(体重・強度による)"
+    },
+    {
+      "id": "cat-wed-m2",
+      "name": "メインブロック②（体幹側面）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-wed-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "サイドプランク右",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+          "illustrationId": "side-plank"
+        },
+        {
+          "id": "cat-wed-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-wed-m2-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "サイドプランク左",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "左肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+          "illustrationId": "side-plank"
+        },
+        {
+          "id": "cat-wed-m2-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-wed-m2-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "レッグレイズ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす",
+          "illustrationId": "leg-raise-supine"
+        },
+        {
+          "id": "cat-wed-m2-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-wed-m2-s1-r2",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "サイドプランク右",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+          "illustrationId": "side-plank"
+        },
+        {
+          "id": "cat-wed-m2-s2-r2",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-wed-m2-s3-r2",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "サイドプランク左",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "左肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+          "illustrationId": "side-plank"
+        },
+        {
+          "id": "cat-wed-m2-s4-r2",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-wed-m2-s5-r2",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "レッグレイズ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで脚を天井方向へ持ち上げ、下腹部を意識してゆっくり下ろす",
+          "illustrationId": "leg-raise-supine"
+        },
+        {
+          "id": "cat-wed-m2-s6-r2",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-wed-m2-s1-r3",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "サイドプランク右",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "右肘と足の側面で体を支え、体幹側面を締めて一直線を保つ",
+          "illustrationId": "side-plank"
+        }
+      ],
+      "description": "準備1分: サイドプランクの姿勢を軽く確認する。サイドプランク右→サイドプランク左→レッグレイズを30秒+休憩30秒で2周、仕上げにサイドプランク右をもう1本追加。クールダウン1分: 体側を伸ばして呼吸を整える。消費カロリー目安: 約46〜72kcal(体重・強度による)"
+    },
+    {
+      "id": "cat-wed-m3",
+      "name": "ストレッチ（背中ケアストレッチ）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-wed-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "チャイルドポーズ（背中を伸ばして呼吸を深く）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して背中を伸ばす",
+          "illustrationId": "child-pose"
+        },
+        {
+          "id": "cat-wed-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-wed-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "キャットストレッチ（背中を丸めて伸ばす）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "四つ這いで背中を丸め、肩甲骨の間を開くように伸ばす",
+          "illustrationId": "cat-cow-quadruped"
+        },
+        {
+          "id": "cat-wed-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-wed-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "広背筋ストレッチ（右腕を伸ばして体側を倒す）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "右腕を頭上に伸ばして体側に倒し、広背筋を伸ばす",
+          "illustrationId": "side-bend-standing"
+        },
+        {
+          "id": "cat-wed-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-wed-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "広背筋ストレッチ（左腕を伸ばして体側を倒す）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "左腕を頭上に伸ばして体側に倒し、広背筋を伸ばす",
+          "illustrationId": "side-bend-standing"
+        },
+        {
+          "id": "cat-wed-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-wed-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "座位スパイナルツイスト（背骨を捻る・右）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "座った姿勢で右手を後ろにつき、上体を右に大きくひねって背骨をほぐす",
+          "illustrationId": "russian-twist-seated"
+        },
+        {
+          "id": "cat-wed-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-wed-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "座位スパイナルツイスト（背骨を捻る・左）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "座った姿勢で左手を後ろにつき、上体を左に大きくひねって背骨をほぐす",
+          "illustrationId": "russian-twist-seated"
+        },
+        {
+          "id": "cat-wed-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-wed-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "僧帽筋ストレッチ（首を横に倒す・右）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "頭を右に軽く倒し、左の僧帽筋上部を伸ばす",
+          "illustrationId": "neck-side-stretch"
+        },
+        {
+          "id": "cat-wed-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-wed-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "僧帽筋ストレッチ（首を横に倒す・左）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "頭を左に軽く倒し、右の僧帽筋上部を伸ばす",
+          "illustrationId": "neck-side-stretch"
+        }
+      ],
+      "description": "背面種目とサイドプランクで疲労した脊柱起立筋・広背筋・僧帽筋を、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-bike-r1",
+    "name": "自転車トレーニング(31分)",
+    "createdAt": "2026-07-20T09:15:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "items": [
+      {
+        "id": "cat-bike-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-bike-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-bike-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-bike-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-bike-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-bike-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-bike-m0",
+      "name": "自転車ウォームアップ: 乗車のまま6分",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "ゆるゆるペダリング",
+          "durationSeconds": 60,
+          "type": 1,
+          "description": "一番軽いギアでゆっくり回し、脚と心拍を目覚めさせる",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-bike-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "ケイデンスアップ",
+          "durationSeconds": 60,
+          "type": 1,
+          "description": "ギアは軽いまま回転数を上げる(目安90rpm)。上体はリラックス",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-bike-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "ギアを上げて巡航",
+          "durationSeconds": 60,
+          "type": 1,
+          "description": "1〜2段重くして、呼吸が少し弾む強度で巡航",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-bike-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "高回転ドリル",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "軽いギアで30秒だけ高回転(100rpm前後)。お尻が跳ねない範囲で",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-bike-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "流し",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く回して呼吸を整える"
+        },
+        {
+          "id": "cat-bike-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "ビルドアップ",
+          "durationSeconds": 60,
+          "type": 1,
+          "description": "メイン①に向けて8割程度まで強度を上げて準備完了",
+          "illustrationId": "cycling-riding"
+        }
+      ],
+      "description": "すべて自転車に乗ったまま行うウォームアップ。軽いギアから段階的に上げ、最後にメイン①へつなげる。消費カロリー目安: 約25〜35kcal"
+    },
+    {
+      "id": "cat-bike-m1",
+      "name": "自転車メイン①: 高強度ペダリング",
+      "sets": 8,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "高強度ペダリング",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "重めのギアで全力の8〜9割。サドルに座ったまま上体を安定させて踏む",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-bike-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "流し(リカバリー)",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "軽いギアでゆっくり回し、呼吸を戻して次の1本に備える"
+        }
+      ],
+      "description": "準備1分: 軽いギアで回しながら呼吸を整え、前方の安全を確認。40秒全力+20秒流しを8本。クールダウン1分: ギアを軽くして脚をゆるめ、メイン②へ。消費カロリー目安: 約100〜140kcal(体重・強度による)"
+    },
+    {
+      "id": "cat-bike-m2",
+      "name": "自転車メイン②: 上半身・体幹強化",
+      "sets": 7,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "フロントアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "安全な直線・低速で。ハンドルを軽く引き付け、腕ではなく体幹で上体を支える",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-bike-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "流し",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "軽く回して肩と腕の力を抜く"
+        }
+      ],
+      "description": "準備1分: ギアを軽くし、ハンドル荷重と体幹の意識を確認。40秒+流し20秒を7本。クールダウン1分: 上半身の力を抜いて流し、仕上げのクールダウンへ。消費カロリー目安: 約60〜80kcal"
+    },
+    {
+      "id": "cat-bike-m3",
+      "name": "自転車クールダウン: 乗車のまま6分",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-20T09:15:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-bike-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "流しペダリング",
+          "durationSeconds": 90,
+          "type": 1,
+          "description": "軽いギア・ケイデンス60前後で心拍を落ち着かせる",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-bike-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "カーフリリース(右)",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "安全な直線で立ちこぎ姿勢になり、右かかとを深く下げてふくらはぎを伸ばす",
+          "illustrationId": "calf-stretch-wall"
+        },
+        {
+          "id": "cat-bike-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "カーフリリース(左)",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "左かかとも同様に深く下げて伸ばす",
+          "illustrationId": "calf-stretch-wall"
+        },
+        {
+          "id": "cat-bike-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "肩・首リセット",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "停車中か安全な場所で片手ずつハンドルを離し、肩を回して高強度で強張った首・肩をゆるめる",
+          "illustrationId": "neck-side-stretch"
+        },
+        {
+          "id": "cat-bike-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "背中・骨盤リセット",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "背中を丸める→軽く反らすを繰り返し、前傾で固まった背面をほぐし骨盤を立て直す",
+          "illustrationId": "cat-cow-quadruped"
+        },
+        {
+          "id": "cat-bike-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "イージースピン",
+          "durationSeconds": 90,
+          "type": 1,
+          "description": "呼吸が完全に整うまでゆっくり回して終了",
+          "illustrationId": "cycling-riding"
+        }
+      ],
+      "description": "ウォームアップ→メイン①→メイン②で使った脚・ふくらはぎ・肩まわりを、自転車に乗ったままケアするクールダウン。消費カロリー目安: 約20〜30kcal"
+    }
+  ]
+}

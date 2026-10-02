@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-sunpm-m1-solo",
+    "name": "日曜午後メイン①: モビリティストレッチ",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 5,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 60,
+    "cooldownCountdownSeconds": 5,
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "segments": [
+      {
+        "id": "cat-sunpm-m1-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "モビリティストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる",
+        "illustrationId": "arm-circles-standing"
+      },
+      {
+        "id": "cat-sunpm-m1-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-sunpm-m1-s1-r2-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "モビリティストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす",
+        "illustrationId": "hip-circle-standing"
+      },
+      {
+        "id": "cat-sunpm-m1-s2-r2-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-sunpm-m1-s1-r3-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "モビリティストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる",
+        "illustrationId": "cat-cow-quadruped"
+      },
+      {
+        "id": "cat-sunpm-m1-s2-r3-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-sunpm-m1-s1-r4-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "モビリティストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
+        "illustrationId": "calf-stretch-wall"
+      },
+      {
+        "id": "cat-sunpm-m1-s2-r4-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-sunpm-m1-s1-r5-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "モビリティストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる",
+        "illustrationId": "arm-circles-standing"
+      },
+      {
+        "id": "cat-sunpm-m1-s2-r5-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-sunpm-m1-s1-r6-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "モビリティストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす",
+        "illustrationId": "hip-circle-standing"
+      },
+      {
+        "id": "cat-sunpm-m1-s2-r6-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-sunpm-m1-s1-r7-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "モビリティストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる",
+        "illustrationId": "cat-cow-quadruped"
+      },
+      {
+        "id": "cat-sunpm-m1-s2-r7-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "呼吸を整え、次のセットに備える"
+      },
+      {
+        "id": "cat-sunpm-m1-s1-r8-solo",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "モビリティストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
+        "illustrationId": "calf-stretch-wall"
+      }
+    ],
+    "description": "準備1分: 呼吸を整え、動かす関節を確認する。肩→股関節→背骨→足首の順にモビリティストレッチを40秒+休憩20秒で8本。クールダウン1分: 深呼吸をして体を落ち着け、メイン②へ。消費カロリー目安: 約20〜40kcal"
+  }
+}

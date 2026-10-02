@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-satam-m0-solo",
+    "name": "土曜午前ウォームアップ: 下肢のダイナミックモビリティ",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "segments": [
+      {
+        "id": "cat-satam-m0-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "股関節回し（大きく前後・左右に）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "片脚立ちで膝を大きく回し、股関節の可動域を広げる",
+        "illustrationId": "hip-circle-standing"
+      },
+      {
+        "id": "cat-satam-m0-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-satam-m0-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "ダイナミックカーフレイズ（かかと上げ下げ）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "かかとを大きく上げ下げし、ふくらはぎとアキレス腱を温める",
+        "illustrationId": "calf-stretch-wall"
+      },
+      {
+        "id": "cat-satam-m0-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-satam-m0-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "グルートブリッジ（動的・お尻を引き締めて持ち上げる）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "仰向けで骨盤を持ち上げ下げを繰り返し、お尻とハムストリングを目覚めさせる",
+        "illustrationId": "glute-bridge-supine"
+      },
+      {
+        "id": "cat-satam-m0-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-satam-m0-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "レッグスイング（前後に振る・左右交互）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "壁などに手を添え、片脚を前後に振って股関節の可動域を広げる。左右交互に",
+        "illustrationId": "high-knees-run"
+      },
+      {
+        "id": "cat-satam-m0-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-satam-m0-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "ウォーキングランジ（その場で交互に踏み込む）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "その場で前後に交互に踏み込み、太もも・お尻を温める",
+        "illustrationId": "lunge-forward"
+      },
+      {
+        "id": "cat-satam-m0-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-satam-m0-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "手首・前腕ほぐし（グリップに備えて手首を回す）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "手首を大きく回し、ハンドル荷重に備えて前腕をほぐす",
+        "illustrationId": "wrist-forearm-stretch"
+      }
+    ],
+    "description": "股関節・カーフ・グリップを30秒ずつ動かして温める、乗車前の動的ウォームアップ。消費カロリー目安: 約30〜42kcal"
+  }
+}

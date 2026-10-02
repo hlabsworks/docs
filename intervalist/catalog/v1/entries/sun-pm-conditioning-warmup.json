@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-sunpm-m0-solo",
+    "name": "日曜午後ウォームアップ: 関節ほぐし",
+    "sets": 1,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-sunpm-m0-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "首回し（ゆっくり左右に）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-sunpm-m0-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-sunpm-m0-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "手首・足首回し（座って軽く回す）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-sunpm-m0-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-sunpm-m0-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "肩甲骨回し（軽く上下に動かす）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-sunpm-m0-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-sunpm-m0-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "呼吸を整える（深呼吸をしながら軽く体を揺らす）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-sunpm-m0-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      }
+    ]
+  }
+}

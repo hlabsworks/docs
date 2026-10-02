@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-satam-m2-solo",
+    "name": "土曜午前メイン②: 高負荷シッティング",
+    "sets": 6,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 420,
+    "cooldownCountdownSeconds": 5,
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-satam-m2-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "高負荷シッティング",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-satam-m2-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "軽く回す",
+        "durationSeconds": 30,
+        "type": 2
+      }
+    ]
+  }
+}

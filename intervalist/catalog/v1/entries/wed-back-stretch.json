@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-wed-m3-solo",
+    "name": "水曜クールダウン: 背中ケアストレッチ",
+    "sets": 1,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-wed-m3-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "チャイルドポーズ（背中を伸ばして呼吸を深く）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-wed-m3-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-wed-m3-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "キャットストレッチ（背中を丸めて伸ばす）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-wed-m3-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-wed-m3-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "広背筋ストレッチ（右腕を伸ばして体側を倒す）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-wed-m3-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-wed-m3-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "広背筋ストレッチ（左腕を伸ばして体側を倒す）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-wed-m3-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-wed-m3-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "座位スパイナルツイスト（背骨を捻る・右）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-wed-m3-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-wed-m3-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "座位スパイナルツイスト（背骨を捻る・左）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-wed-m3-s12-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-wed-m3-s13-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "僧帽筋ストレッチ（首を横に倒す・右）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-wed-m3-s14-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-wed-m3-s15-solo",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "僧帽筋ストレッチ（首を横に倒す・左）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-wed-m3-s16-solo",
+        "orderIndex": 15,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      }
+    ]
+  }
+}

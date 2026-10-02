@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-mon-m0-solo",
+    "name": "月曜ウォームアップ: 動的モビリティ",
+    "sets": 1,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-mon-m0-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "肩回し（大きく前後に）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m0-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m0-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "アームサークル（腕を大きく回す）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m0-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m0-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "動的チェストオープナー（胸を開いて閉じる）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m0-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m0-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "肩甲骨プッシュアップ（プランク姿勢で肩甲骨を出し入れ）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m0-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m0-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "キャット&カウ（背骨を丸めて反らす）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m0-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-mon-m0-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "ニーリング・ヒップフレクサーストレッチ（動的・左右交互）",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-mon-m0-s12-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-fri-m3-solo",
+    "name": "金曜クールダウン: 全身・体幹ケアストレッチ",
+    "sets": 1,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-fri-m3-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "大腿四頭筋ストレッチ（右脚）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-fri-m3-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-fri-m3-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "大腿四頭筋ストレッチ（左脚）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-fri-m3-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-fri-m3-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "腸腰筋ストレッチ（右脚・ランジ姿勢）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-fri-m3-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-fri-m3-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "腸腰筋ストレッチ（左脚）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-fri-m3-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-fri-m3-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "胸のドアフレームストレッチ（右腕）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-fri-m3-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-fri-m3-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "胸のドアフレームストレッチ（左腕）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-fri-m3-s12-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-fri-m3-s13-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "体側伸ばし（腹斜筋・右側）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-fri-m3-s14-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-fri-m3-s15-solo",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "体側伸ばし（腹斜筋・左側）",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-fri-m3-s16-solo",
+        "orderIndex": 15,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2
+      }
+    ]
+  }
+}

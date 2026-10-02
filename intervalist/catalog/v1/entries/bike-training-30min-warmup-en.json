@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-bike-m0-solo-en",
+    "name": "Bike Warm-up: Dynamic Leg Mobility",
+    "sets": 1,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-bike-m0-s1-solo-en",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "Hip Circles (big, front-to-back and side-to-side)",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m0-s2-solo-en",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m0-s3-solo-en",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "Leg Swings (alternating front-to-back)",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m0-s4-solo-en",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m0-s5-solo-en",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "Ankle Hops (light in-place jumps)",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m0-s6-solo-en",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m0-s7-solo-en",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "Dynamic Calf Raises (heel up-down)",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m0-s8-solo-en",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m0-s9-solo-en",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "Walking Lunges (alternating in place)",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m0-s10-solo-en",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 30,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m0-s11-solo-en",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "Arm Circles (big circles)",
+        "durationSeconds": 30,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m0-s12-solo-en",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 30,
+        "type": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-bike-m3-solo-en",
+    "name": "Bike Cooldown: Leg-Recovery Stretch",
+    "sets": 1,
+    "prepareSeconds": 0,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-07-26T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-bike-m3-s1-solo-en",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "Quad Stretch (right leg, standing, hold ankle)",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m3-s2-solo-en",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m3-s3-solo-en",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "Quad Stretch (left leg)",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m3-s4-solo-en",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m3-s5-solo-en",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "Hamstring Stretch (right leg, forward fold)",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m3-s6-solo-en",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m3-s7-solo-en",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "Hamstring Stretch (left leg)",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m3-s8-solo-en",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m3-s9-solo-en",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "Calf Stretch (right leg, hands on wall)",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m3-s10-solo-en",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m3-s11-solo-en",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "Calf Stretch (left leg)",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m3-s12-solo-en",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m3-s13-solo-en",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "Hip Flexor Stretch (right leg, lunge position)",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m3-s14-solo-en",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 20,
+        "type": 2
+      },
+      {
+        "id": "cat-bike-m3-s15-solo-en",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "Glute Stretch (seated figure-4, forward fold)",
+        "durationSeconds": 40,
+        "type": 1
+      },
+      {
+        "id": "cat-bike-m3-s16-solo-en",
+        "orderIndex": 15,
+        "sourceTemplateId": null,
+        "name": "Rest",
+        "durationSeconds": 20,
+        "type": 2
+      }
+    ]
+  }
+}

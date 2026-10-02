@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-sunpm-r1",
+    "name": "日曜午後: モビリティ&コアコンディショニング",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "items": [
+      {
+        "id": "cat-sunpm-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-sunpm-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-sunpm-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-sunpm-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-sunpm-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-sunpm-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-sunpm-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-sunpm-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-sunpm-m0",
+      "name": "準備運動（関節ほぐし）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "首回し（ゆっくり左右に）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "首をゆっくり左右に倒し、力を抜いて回す",
+          "illustrationId": "neck-side-stretch"
+        },
+        {
+          "id": "cat-sunpm-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-sunpm-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "手首・足首回し（座って軽く回す）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "座った姿勢で手首・足首をゆっくり回し、末端の血流を促す",
+          "illustrationId": "wrist-forearm-stretch"
+        },
+        {
+          "id": "cat-sunpm-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-sunpm-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "肩甲骨回し（軽く上下に動かす）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "肩をすくめて下げるを繰り返し、肩甲骨まわりをほぐす",
+          "illustrationId": "arm-circles-standing"
+        },
+        {
+          "id": "cat-sunpm-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-sunpm-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "呼吸を整える（深呼吸をしながら軽く体を揺らす）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "深呼吸をしながら体を軽く揺らし、リラックスして心拍を落ち着ける",
+          "illustrationId": "corpse-pose-supine"
+        }
+      ],
+      "description": "首・手首・足首・肩甲骨を30秒ずつゆっくり動かして関節をゆるめる軽いウォームアップ。消費カロリー目安: 約8〜16kcal"
+    },
+    {
+      "id": "cat-sunpm-m1",
+      "name": "メインブロック①（モビリティストレッチ）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる",
+          "illustrationId": "arm-circles-standing"
+        },
+        {
+          "id": "cat-sunpm-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r2",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす",
+          "illustrationId": "hip-circle-standing"
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r2",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r3",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる",
+          "illustrationId": "cat-cow-quadruped"
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r3",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r4",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
+          "illustrationId": "calf-stretch-wall"
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r4",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r5",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "肩を大きく回し、肩甲骨まわりの可動域を広げる",
+          "illustrationId": "arm-circles-standing"
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r5",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r6",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "股関節を前後・左右に大きく動かし、骨盤まわりをほぐす",
+          "illustrationId": "hip-circle-standing"
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r6",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r7",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "四つ這いで背骨を丸める→反らすを繰り返し、背中全体をゆるめる",
+          "illustrationId": "cat-cow-quadruped"
+        },
+        {
+          "id": "cat-sunpm-m1-s2-r7",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-sunpm-m1-s1-r8",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "モビリティストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "足首・ふくらはぎを大きく動かし、下腿の可動域を広げる",
+          "illustrationId": "calf-stretch-wall"
+        }
+      ],
+      "description": "準備1分: 呼吸を整え、動かす関節を確認する。肩→股関節→背骨→足首の順にモビリティストレッチを40秒+休憩20秒で8本。クールダウン1分: 深呼吸をして体を落ち着け、メイン②へ。消費カロリー目安: 約20〜40kcal"
+    },
+    {
+      "id": "cat-sunpm-m2",
+      "name": "メインブロック②（コアスタビリティ）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+          "illustrationId": "plank-forearm"
+        },
+        {
+          "id": "cat-sunpm-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r2",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ",
+          "illustrationId": "plank-forearm"
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r2",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r3",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする",
+          "illustrationId": "plank-forearm"
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r3",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r4",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+          "illustrationId": "plank-forearm"
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r4",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r5",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "腰が反らないよう下腹部に力を入れ、プランク姿勢を静かに保つ",
+          "illustrationId": "plank-forearm"
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r5",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r6",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "肩の真下に肘を置き、体幹全体で姿勢をキープする",
+          "illustrationId": "plank-forearm"
+        },
+        {
+          "id": "cat-sunpm-m2-s2-r6",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-sunpm-m2-s1-r7",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "コアスタビリティ（プランク）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "肘とつま先で体を一直線に支え、呼吸を止めずに体幹を締め続ける",
+          "illustrationId": "plank-forearm"
+        }
+      ],
+      "description": "準備1分: プランク姿勢を軽く確認し、体幹に意識を向ける。コアスタビリティ(プランク)を30秒+休憩30秒で7本。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約36〜54kcal"
+    },
+    {
+      "id": "cat-sunpm-m3",
+      "name": "ストレッチ（仕上げのディープリラックス）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-sunpm-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "仰向け脊柱ひねり（膝を倒してリラックス・右）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "仰向けで両膝を揃えて右に倒し、背骨をゆるめる",
+          "illustrationId": "supine-twist"
+        },
+        {
+          "id": "cat-sunpm-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-sunpm-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "仰向け脊柱ひねり（膝を倒してリラックス・左）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "仰向けで両膝を揃えて左に倒し、背骨をゆるめる",
+          "illustrationId": "supine-twist"
+        },
+        {
+          "id": "cat-sunpm-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-sunpm-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "レッグスアップウォール（壁に脚を上げてリラックス）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "壁に脚を上げて仰向けになり、脚の疲れを抜く",
+          "illustrationId": "legs-up-wall"
+        },
+        {
+          "id": "cat-sunpm-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-sunpm-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ハッピーベイビーポーズ（仰向けで股関節を開いてリラックス）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "仰向けで両膝を抱え、足裏を持って股関節を開く",
+          "illustrationId": "glute-stretch-figure4"
+        },
+        {
+          "id": "cat-sunpm-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-sunpm-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "仰向けニーハグ（腰・お尻をリラックス）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "仰向けで両膝を抱え、腰とお尻の力を抜く",
+          "illustrationId": "knee-hug-supine"
+        },
+        {
+          "id": "cat-sunpm-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-sunpm-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "リクライニングバタフライ（仰向けで股関節を開き呼吸を深める）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "仰向けで足裏を合わせ、膝を開いて深呼吸する",
+          "illustrationId": "glute-stretch-figure4"
+        },
+        {
+          "id": "cat-sunpm-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-sunpm-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "コープスポーズ（仰向けで全身の力を抜き深呼吸）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "仰向けで手足を投げ出し、全身の力を抜いて深呼吸する",
+          "illustrationId": "corpse-pose-supine"
+        },
+        {
+          "id": "cat-sunpm-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-sunpm-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "コープスポーズ（呼吸を整えながら仕上げのリラックス）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "仰向けで手足を投げ出したまま、呼吸を整えて仕上げのリラックスをする",
+          "illustrationId": "corpse-pose-supine"
+        }
+      ],
+      "description": "モビリティストレッチとコアスタビリティの後、仰向けの姿勢で全身をゆるめる仕上げのディープリラックスストレッチ。消費カロリー目安: 約16〜32kcal"
+    }
+  ]
+}

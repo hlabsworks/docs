@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-wed-m3-solo",
+    "name": "水曜クールダウン: 背中ケアストレッチ",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-07-26T00:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "segments": [
+      {
+        "id": "cat-wed-m3-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "チャイルドポーズ（背中を伸ばして呼吸を深く）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して背中を伸ばす",
+        "illustrationId": "child-pose"
+      },
+      {
+        "id": "cat-wed-m3-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-wed-m3-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "キャットストレッチ（背中を丸めて伸ばす）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "四つ這いで背中を丸め、肩甲骨の間を開くように伸ばす",
+        "illustrationId": "cat-cow-quadruped"
+      },
+      {
+        "id": "cat-wed-m3-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-wed-m3-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "広背筋ストレッチ（右腕を伸ばして体側を倒す）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "右腕を頭上に伸ばして体側に倒し、広背筋を伸ばす",
+        "illustrationId": "side-bend-standing"
+      },
+      {
+        "id": "cat-wed-m3-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-wed-m3-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "広背筋ストレッチ（左腕を伸ばして体側を倒す）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "左腕を頭上に伸ばして体側に倒し、広背筋を伸ばす",
+        "illustrationId": "side-bend-standing"
+      },
+      {
+        "id": "cat-wed-m3-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-wed-m3-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "座位スパイナルツイスト（背骨を捻る・右）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "座った姿勢で右手を後ろにつき、上体を右に大きくひねって背骨をほぐす",
+        "illustrationId": "russian-twist-seated"
+      },
+      {
+        "id": "cat-wed-m3-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-wed-m3-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "座位スパイナルツイスト（背骨を捻る・左）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "座った姿勢で左手を後ろにつき、上体を左に大きくひねって背骨をほぐす",
+        "illustrationId": "russian-twist-seated"
+      },
+      {
+        "id": "cat-wed-m3-s12-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-wed-m3-s13-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "僧帽筋ストレッチ（首を横に倒す・右）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "頭を右に軽く倒し、左の僧帽筋上部を伸ばす",
+        "illustrationId": "neck-side-stretch"
+      },
+      {
+        "id": "cat-wed-m3-s14-solo",
+        "orderIndex": 13,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-wed-m3-s15-solo",
+        "orderIndex": 14,
+        "sourceTemplateId": null,
+        "name": "僧帽筋ストレッチ（首を横に倒す・左）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "頭を左に軽く倒し、右の僧帽筋上部を伸ばす",
+        "illustrationId": "neck-side-stretch"
+      }
+    ],
+    "description": "背面種目とサイドプランクで疲労した脊柱起立筋・広背筋・僧帽筋を、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"
+  }
+}

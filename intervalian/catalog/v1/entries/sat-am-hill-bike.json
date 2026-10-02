@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-satam-r1",
+    "name": "土曜午前: 坂道バイクトレーニング",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "items": [
+      {
+        "id": "cat-satam-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-satam-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-satam-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-satam-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-satam-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-satam-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-satam-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-satam-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-satam-m0",
+      "name": "準備運動（下肢のダイナミックモビリティ）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-satam-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "股関節回し（大きく前後・左右に）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "片脚立ちで膝を大きく回し、股関節の可動域を広げる",
+          "illustrationId": "hip-circle-standing"
+        },
+        {
+          "id": "cat-satam-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-satam-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "ダイナミックカーフレイズ（かかと上げ下げ）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "かかとを大きく上げ下げし、ふくらはぎとアキレス腱を温める",
+          "illustrationId": "calf-stretch-wall"
+        },
+        {
+          "id": "cat-satam-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-satam-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "グルートブリッジ（動的・お尻を引き締めて持ち上げる）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで骨盤を持ち上げ下げを繰り返し、お尻とハムストリングを目覚めさせる",
+          "illustrationId": "glute-bridge-supine"
+        },
+        {
+          "id": "cat-satam-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-satam-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "レッグスイング（前後に振る・左右交互）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "壁などに手を添え、片脚を前後に振って股関節の可動域を広げる。左右交互に",
+          "illustrationId": "high-knees-run"
+        },
+        {
+          "id": "cat-satam-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-satam-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "ウォーキングランジ（その場で交互に踏み込む）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "その場で前後に交互に踏み込み、太もも・お尻を温める",
+          "illustrationId": "lunge-forward"
+        },
+        {
+          "id": "cat-satam-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-satam-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "手首・前腕ほぐし（グリップに備えて手首を回す）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "手首を大きく回し、ハンドル荷重に備えて前腕をほぐす",
+          "illustrationId": "wrist-forearm-stretch"
+        }
+      ],
+      "description": "股関節・カーフ・グリップを30秒ずつ動かして温める、乗車前の動的ウォームアップ。消費カロリー目安: 約30〜42kcal"
+    },
+    {
+      "id": "cat-satam-m1",
+      "name": "メインブロック①（坂道ダッシュ）",
+      "sets": 8,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-satam-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "坂道ダッシュ（立ちこぎ）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "重めのギアで立ちこぎし、坂を駆け上がるイメージで全力に近い強度で踏む",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-satam-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "下り・流し",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "軽いギアに落として呼吸を整え、次のダッシュに備える"
+        }
+      ],
+      "description": "準備1分: 軽いギアで回しながら呼吸を整え、前方の安全を確認する。40秒立ちこぎダッシュ+20秒下り・流しを8本。クールダウン1分: ギアを軽くして脚をゆるめ、メイン②へ。消費カロリー目安: 約100〜140kcal(体重・強度による)"
+    },
+    {
+      "id": "cat-satam-m2",
+      "name": "メインブロック②（高負荷シッティング）",
+      "sets": 7,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-08-06T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-satam-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "高負荷シッティング",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "座ったまま重いギアを踏み、お尻と太もも裏を意識してじっくり負荷をかける",
+          "illustrationId": "cycling-riding"
+        },
+        {
+          "id": "cat-satam-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "軽く回す",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽いギアでゆっくり回し、脚の張りを抜く"
+        }
+      ],
+      "description": "準備1分: サドルに座り直し、ギアを重めに入れ替える。30秒高負荷シッティング+30秒軽く回すを7本。クールダウン1分: 脚の力を抜いて流し、仕上げのクールダウンへ。消費カロリー目安: 約60〜80kcal(体重・強度による)"
+    },
+    {
+      "id": "cat-satam-m3",
+      "name": "ストレッチ（下肢ケアストレッチ）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-satam-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "大腿四頭筋ストレッチ（右脚・立位で足首を持つ）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "立ったまま右足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす",
+          "illustrationId": "quad-stretch-standing"
+        },
+        {
+          "id": "cat-satam-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-satam-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "大腿四頭筋ストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "片脚立ちで足首を持ち、かかとをお尻に近づけて太もも前面を伸ばす（左脚）",
+          "illustrationId": "quad-stretch-standing"
+        },
+        {
+          "id": "cat-satam-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-satam-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "臀筋ストレッチ（座位で片脚を組んで前屈・右）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "座って右脚を組み、上体を前に倒してお尻を伸ばす",
+          "illustrationId": "glute-stretch-figure4"
+        },
+        {
+          "id": "cat-satam-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-satam-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "臀筋ストレッチ（座位で片脚を組んで前屈・左）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "座って左脚を組み、上体を前に倒してお尻を伸ばす",
+          "illustrationId": "glute-stretch-figure4"
+        },
+        {
+          "id": "cat-satam-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-satam-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "カーフストレッチ（右脚・壁に手をつき伸ばす）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "壁に手をつき、後ろに引いた右脚のかかとを床につけたままふくらはぎを伸ばす",
+          "illustrationId": "calf-stretch-wall"
+        },
+        {
+          "id": "cat-satam-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-satam-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "カーフストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "壁に手をつき、後ろに引いた左脚のかかとを床につけたままふくらはぎを伸ばす",
+          "illustrationId": "calf-stretch-wall"
+        },
+        {
+          "id": "cat-satam-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-satam-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "ハムストリングストレッチ（右脚・前屈）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "右脚を前に伸ばして座り、股関節から上体を前屈させて太もも裏を伸ばす",
+          "illustrationId": "hamstring-fold-standing"
+        },
+        {
+          "id": "cat-satam-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-satam-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "ハムストリングストレッチ（左脚）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "脚を前に伸ばし、股関節から上体を倒して太もも裏を伸ばす（左脚）",
+          "illustrationId": "hamstring-fold-standing"
+        }
+      ],
+      "description": "坂道ダッシュと高負荷シッティングで使った太もも・お尻・カーフ・ハムストリングを、40秒+休憩20秒のペースでケアするクールダウンストレッチ。消費カロリー目安: 約32〜48kcal"
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-mon-r1",
+    "name": "月曜: 胸・肩 & 下腹部",
+    "createdAt": "2026-07-20T15:00:00Z",
+    "updatedAt": "2026-08-08T13:00:00Z",
+    "items": [
+      {
+        "id": "cat-mon-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-mon-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-mon-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-mon-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-mon-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-mon-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-mon-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-mon-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-mon-m0",
+      "name": "準備運動（肩・胸・股関節の動的モビリティ）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "肩回し（大きく前後に）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "腕を伸ばしたまま肩関節を大きく前後に回し、肩まわりの可動域を広げる",
+          "illustrationId": "arm-circles-standing"
+        },
+        {
+          "id": "cat-mon-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-mon-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "アームサークル（腕を大きく回す）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "腕を大きく円を描くように回し、肩甲骨まわりをほぐす",
+          "illustrationId": "arm-circles-standing"
+        },
+        {
+          "id": "cat-mon-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-mon-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "動的チェストオープナー（胸を開いて閉じる）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "両腕を前で交差させてから大きく開くを繰り返し、胸筋を温める",
+          "illustrationId": "thoracic-rotation-quadruped"
+        },
+        {
+          "id": "cat-mon-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-mon-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "肩甲骨プッシュアップ（プランク姿勢で肩甲骨を出し入れ）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "プランク姿勢のまま肩甲骨を寄せて開くを繰り返し、体幹と肩の連動を高める",
+          "illustrationId": "push-up-prone"
+        },
+        {
+          "id": "cat-mon-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-mon-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "キャット&カウ（背骨を丸めて反らす）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "四つ這いで背中を丸める→反らすをゆっくり繰り返し、背骨全体をほぐす",
+          "illustrationId": "cat-cow-quadruped"
+        },
+        {
+          "id": "cat-mon-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-mon-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "ニーリング・ヒップフレクサーストレッチ（動的・左右交互）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "片膝立ちで骨盤を前に押し出し、股関節前面を動的に伸ばす。左右交互に行う",
+          "illustrationId": "hip-flexor-stretch-kneeling"
+        }
+      ],
+      "description": "肩・胸・股関節前面を30秒ずつ動かして温める動的ウォームアップ。消費カロリー目安: 約12〜24kcal"
+    },
+    {
+      "id": "cat-mon-m1",
+      "name": "メインブロック①（プッシュアップ4種）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "ワイドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない",
+          "illustrationId": "push-up-prone"
+        },
+        {
+          "id": "cat-mon-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-mon-m1-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "デクラインプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる",
+          "illustrationId": "push-up-prone"
+        },
+        {
+          "id": "cat-mon-m1-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-mon-m1-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "パイクプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる",
+          "illustrationId": "pike-push-up"
+        },
+        {
+          "id": "cat-mon-m1-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-mon-m1-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ダイヤモンドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる",
+          "illustrationId": "push-up-prone"
+        },
+        {
+          "id": "cat-mon-m1-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-mon-m1-s1-r2",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "ワイドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "手幅を肩幅より広く取り、胸を大きく使って押し上げる。肘は開きすぎない",
+          "illustrationId": "push-up-prone"
+        },
+        {
+          "id": "cat-mon-m1-s2-r2",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-mon-m1-s3-r2",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "デクラインプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "足を台に乗せて上半身を押し上げ、胸上部と肩に負荷を集中させる",
+          "illustrationId": "push-up-prone"
+        },
+        {
+          "id": "cat-mon-m1-s4-r2",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-mon-m1-s5-r2",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "パイクプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "お尻を高く上げた逆V字姿勢から頭を床に近づけ、肩を中心に押し上げる",
+          "illustrationId": "pike-push-up"
+        },
+        {
+          "id": "cat-mon-m1-s6-r2",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-mon-m1-s7-r2",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "ダイヤモンドプッシュアップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "手を体の中心でダイヤモンド型に組み、三頭筋を意識して押し上げる",
+          "illustrationId": "push-up-prone"
+        }
+      ],
+      "description": "準備1分: 手首・肩を軽く回して押す動作に備える。ワイド→デクライン→パイク→ダイヤモンドの4種プッシュアップを40秒+休憩20秒で2周。クールダウン1分: 肩と胸の力を抜いて息を整え、メイン②へ。消費カロリー目安: 約50〜80kcal(体重・強度による)"
+    },
+    {
+      "id": "cat-mon-m2",
+      "name": "メインブロック②（下腹部）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-07-20T15:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "リバースクランチ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる",
+          "illustrationId": "reverse-crunch-supine"
+        },
+        {
+          "id": "cat-mon-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-mon-m2-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "バイシクルクランチ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する",
+          "illustrationId": "bicycle-crunch-supine"
+        },
+        {
+          "id": "cat-mon-m2-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-mon-m2-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "プランクニーイン",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "プランク姿勢から片膝を胸に引き寄せ、体幹を締めたまま戻す",
+          "illustrationId": "mountain-climber-plank"
+        },
+        {
+          "id": "cat-mon-m2-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-mon-m2-s1-r2",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "リバースクランチ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる",
+          "illustrationId": "reverse-crunch-supine"
+        },
+        {
+          "id": "cat-mon-m2-s2-r2",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-mon-m2-s3-r2",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "バイシクルクランチ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで自転車を漕ぐように肘とひざを交互にタッチさせ、腹斜筋を意識する",
+          "illustrationId": "bicycle-crunch-supine"
+        },
+        {
+          "id": "cat-mon-m2-s4-r2",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-mon-m2-s5-r2",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "プランクニーイン",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "プランク姿勢から片膝を胸に引き寄せ、体幹を締めたまま戻す",
+          "illustrationId": "mountain-climber-plank"
+        },
+        {
+          "id": "cat-mon-m2-s6-r2",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-mon-m2-s1-r3",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "リバースクランチ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "仰向けで膝を胸に引き寄せ、骨盤を丸めて下腹部を収縮させる",
+          "illustrationId": "reverse-crunch-supine"
+        }
+      ],
+      "description": "準備1分: 仰向けで骨盤の位置を確認し、下腹部に軽く力を入れる準備をする。リバースクランチ→バイシクルクランチ→プランクニーインを30秒+休憩30秒で2周、仕上げにリバースクランチをもう1本追加。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約46〜72kcal(体重・強度による)"
+    },
+    {
+      "id": "cat-mon-m3",
+      "name": "ストレッチ（筋肉痛ケア・クールダウン）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-07-26T00:00:00Z",
+      "updatedAt": "2026-08-08T13:00:00Z",
+      "segments": [
+        {
+          "id": "cat-mon-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "胸のドアフレームストレッチ（右腕・呼吸を意識）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "壁やドア枠に右前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす",
+          "illustrationId": "chest-stretch-doorway"
+        },
+        {
+          "id": "cat-mon-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-mon-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "胸のドアフレームストレッチ（左腕・呼吸を意識）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "壁やドア枠に左前腕を当て、深呼吸しながら体を前に倒して胸を伸ばす",
+          "illustrationId": "chest-stretch-doorway"
+        },
+        {
+          "id": "cat-mon-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-mon-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "三頭筋オーバーヘッドストレッチ（右腕）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "右腕を頭の後ろに曲げ、左手で肘を軽く押して三頭筋を伸ばす",
+          "illustrationId": "triceps-overhead-stretch"
+        },
+        {
+          "id": "cat-mon-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-mon-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "三頭筋オーバーヘッドストレッチ（左腕）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "左腕を頭の後ろに曲げ、右手で肘を軽く押して三頭筋を伸ばす",
+          "illustrationId": "triceps-overhead-stretch"
+        },
+        {
+          "id": "cat-mon-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-mon-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "チャイルドポーズ（肩・体側を伸ばし呼吸を深く）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "膝立ちから前に伸び、腕を伸ばしたまま深呼吸して肩・体側を伸ばす",
+          "illustrationId": "child-pose"
+        },
+        {
+          "id": "cat-mon-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-mon-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "コブラストレッチ（腹部・股関節前面を伸ばす）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "うつ伏せから上体をゆっくり起こし、腹部と股関節前面を伸ばす",
+          "illustrationId": "cobra-prone"
+        },
+        {
+          "id": "cat-mon-m3-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-mon-m3-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "キャットストレッチ（呼吸を意識して背中を丸める）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "四つ這いで背中を丸め、呼吸に合わせてゆっくり伸ばす",
+          "illustrationId": "cat-cow-quadruped"
+        },
+        {
+          "id": "cat-mon-m3-s14",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-mon-m3-s15",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "仰向けニーハグ（腰・下腹部をリラックス）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "仰向けで両膝を抱え、腰と下腹部の力を抜く",
+          "illustrationId": "knee-hug-supine"
+        }
+      ],
+      "description": "プッシュアップ・下腹部種目で使った胸・三頭筋・肩・体幹を、40秒+休憩20秒のペースで一つずつケアするクールダウンストレッチ。消費カロリー目安: 約16〜32kcal"
+    }
+  ]
+}

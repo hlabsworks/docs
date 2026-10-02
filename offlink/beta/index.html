@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OffLink Beta Testing</title>
+  <script>
+    (function(){
+      var map = {
+        'ja':'ja','en':'en','ar':'ar','de':'de','es':'es','fr':'fr',
+        'hi':'hi','id':'id','it':'it','ko':'ko','my':'my','pt':'pt',
+        'ru':'ru','sw':'sw','th':'th','vi':'vi','zh':'zh'
+      };
+      var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+      if (lang === 'zh-cn' || lang === 'zh-hans') { window.location.replace('zh_Hans.html'); return; }
+      if (lang === 'zh-tw' || lang === 'zh-hant') { window.location.replace('zh_Hant.html'); return; }
+      var base = lang.split('-')[0];
+      var target = map[lang] || map[base] || 'en';
+      window.location.replace(target + '.html');
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to your language... <a href="en.html">Click here if not redirected.</a></p>
+</body>
+</html>

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-belly-m3-solo",
+    "name": "お腹まわりクールダウン: 背中・腰・体幹ほぐし",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-11-14T00:00:00Z",
+    "updatedAt": "2026-11-14T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-belly-m3-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "コブラ（お腹の前側を伸ばす）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "腰が痛ければ低めに。胸を起こしてお腹の前側を伸ばす",
+        "illustrationId": "cobra-prone"
+      },
+      {
+        "id": "cat-belly-m3-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-belly-m3-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "チャイルドポーズ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "正座から上体を倒し、腕を伸ばして背中と腰をゆるめる",
+        "illustrationId": "child-pose"
+      },
+      {
+        "id": "cat-belly-m3-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-belly-m3-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "仰向けツイスト（左へ倒す）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "両膝を立てて左へ倒し、顔は右へ向けて腰と脇腹を伸ばす",
+        "illustrationId": "supine-twist"
+      },
+      {
+        "id": "cat-belly-m3-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-belly-m3-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "仰向けツイスト（右へ倒す）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "両膝を立てて右へ倒し、顔は左へ向けて腰と脇腹を伸ばす",
+        "illustrationId": "supine-twist"
+      },
+      {
+        "id": "cat-belly-m3-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-belly-m3-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "膝抱えストレッチ",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "両膝を抱えて胸に引き寄せ、腰をゆるめる",
+        "illustrationId": "knee-hug-supine"
+      },
+      {
+        "id": "cat-belly-m3-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 20,
+        "type": 2,
+        "description": "深呼吸をして体の力を抜く"
+      },
+      {
+        "id": "cat-belly-m3-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "深呼吸（仰向けで脱力）",
+        "durationSeconds": 40,
+        "type": 1,
+        "description": "全身の力を抜き、鼻から吸って口からゆっくり吐く",
+        "illustrationId": "corpse-pose-supine"
+      }
+    ],
+    "description": "腹筋と体幹で疲れたお腹・腰まわりを、40秒+休憩20秒のペースでゆるめるクールダウンストレッチ。消費カロリー目安: 約12〜24kcal"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-belly-m0-solo",
+    "name": "お腹まわりウォームアップ: 全身ダイナミックモビリティ",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 0,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 0,
+    "cooldownCountdownSeconds": 0,
+    "createdAt": "2026-11-14T00:00:00Z",
+    "updatedAt": "2026-11-14T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-belly-m0-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "その場足踏み（腕を振って心拍を上げる）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "腿を軽く上げて足踏みし、腕を大きく振って全身を温める",
+        "illustrationId": "high-knees-run"
+      },
+      {
+        "id": "cat-belly-m0-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-belly-m0-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "ヒップサークル（腰を回す）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "骨盤で大きな円を描くように回し、股関節まわりをほぐす",
+        "illustrationId": "hip-circle-standing"
+      },
+      {
+        "id": "cat-belly-m0-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-belly-m0-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "スクワット（ゆっくり）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "足を肩幅に開き、背すじを伸ばして股関節から腰を落とす",
+        "illustrationId": "squat-bodyweight"
+      },
+      {
+        "id": "cat-belly-m0-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-belly-m0-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "キャット&カウ（背骨を丸めて反らす）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "四つ這いで息を吐いて背中を丸め、吸いながら反らす",
+        "illustrationId": "cat-cow-quadruped"
+      },
+      {
+        "id": "cat-belly-m0-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-belly-m0-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "胸椎ひねり（右）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "四つ這いから右腕を天井へ開き、胸ごと上体をひねる",
+        "illustrationId": "thoracic-rotation-quadruped"
+      },
+      {
+        "id": "cat-belly-m0-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "軽く体を揺すりながら次の動きに備える"
+      },
+      {
+        "id": "cat-belly-m0-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "胸椎ひねり（左）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "四つ這いから左腕を天井へ開き、胸ごと上体をひねる",
+        "illustrationId": "thoracic-rotation-quadruped"
+      }
+    ],
+    "description": "足踏みや股関節・背骨の動きで心拍を上げ、体幹まわりを動かす動的ウォームアップ。30秒+休憩30秒。消費カロリー目安: 約12〜24kcal"
+  }
+}

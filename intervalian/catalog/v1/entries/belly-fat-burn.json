@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 6,
+  "routine": {
+    "id": "cat-belly-r1",
+    "name": "脂肪燃焼HIIT＋お腹まわり集中",
+    "createdAt": "2026-11-14T00:00:00Z",
+    "updatedAt": "2026-11-14T00:00:00Z",
+    "items": [
+      {
+        "id": "cat-belly-r1-i1",
+        "orderIndex": 0,
+        "menuId": "cat-belly-m0",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-belly-r1-i2",
+        "orderIndex": 1,
+        "menuId": "cat-belly-m1",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-belly-r1-i3",
+        "orderIndex": 2,
+        "menuId": "cat-belly-m2",
+        "setsOverride": null
+      },
+      {
+        "id": "cat-belly-r1-i4",
+        "orderIndex": 3,
+        "menuId": "cat-belly-m3",
+        "setsOverride": null
+      }
+    ]
+  },
+  "menus": [
+    {
+      "id": "cat-belly-m0",
+      "name": "準備運動（全身ダイナミックモビリティ）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-11-14T00:00:00Z",
+      "updatedAt": "2026-11-14T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-belly-m0-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "その場足踏み（腕を振って心拍を上げる）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "腿を軽く上げて足踏みし、腕を大きく振って全身を温める",
+          "illustrationId": "high-knees-run"
+        },
+        {
+          "id": "cat-belly-m0-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-belly-m0-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "ヒップサークル（腰を回す）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "骨盤で大きな円を描くように回し、股関節まわりをほぐす",
+          "illustrationId": "hip-circle-standing"
+        },
+        {
+          "id": "cat-belly-m0-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-belly-m0-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "スクワット（ゆっくり）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "足を肩幅に開き、背すじを伸ばして股関節から腰を落とす",
+          "illustrationId": "squat-bodyweight"
+        },
+        {
+          "id": "cat-belly-m0-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-belly-m0-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "キャット&カウ（背骨を丸めて反らす）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "四つ這いで息を吐いて背中を丸め、吸いながら反らす",
+          "illustrationId": "cat-cow-quadruped"
+        },
+        {
+          "id": "cat-belly-m0-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-belly-m0-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "胸椎ひねり（右）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "四つ這いから右腕を天井へ開き、胸ごと上体をひねる",
+          "illustrationId": "thoracic-rotation-quadruped"
+        },
+        {
+          "id": "cat-belly-m0-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "軽く体を揺すりながら次の動きに備える"
+        },
+        {
+          "id": "cat-belly-m0-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "胸椎ひねり（左）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "四つ這いから左腕を天井へ開き、胸ごと上体をひねる",
+          "illustrationId": "thoracic-rotation-quadruped"
+        }
+      ],
+      "description": "足踏みや股関節・背骨の動きで心拍を上げ、体幹まわりを動かす動的ウォームアップ。30秒+休憩30秒。消費カロリー目安: 約12〜24kcal"
+    },
+    {
+      "id": "cat-belly-m1",
+      "name": "メインブロック①（全身脂肪燃焼HIIT）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-11-14T00:00:00Z",
+      "updatedAt": "2026-11-14T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-belly-m1-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "マウンテンクライマー",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "ゆっくりでもOK。プランクから膝を交互に胸へ、腰は落とさない",
+          "illustrationId": "mountain-climber-plank"
+        },
+        {
+          "id": "cat-belly-m1-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-belly-m1-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "ジャンピングスクワット",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "ジャンプなしでもOK。底から跳び、膝を曲げて静かに着地",
+          "illustrationId": "squat-jump"
+        },
+        {
+          "id": "cat-belly-m1-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-belly-m1-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "ハイニー（反対の肘へ）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "跳ばない足踏みでもOK。腿を上げ、膝と反対の肘を近づける",
+          "illustrationId": "high-knees-run"
+        },
+        {
+          "id": "cat-belly-m1-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-belly-m1-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "スケーターホップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "横へのステップでもOK。横に跳び、片脚で着地して反対へ",
+          "illustrationId": "skater-hop"
+        },
+        {
+          "id": "cat-belly-m1-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-belly-m1-s1-r2",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "マウンテンクライマー",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "ゆっくりでもOK。プランクから膝を交互に胸へ、腰は落とさない",
+          "illustrationId": "mountain-climber-plank"
+        },
+        {
+          "id": "cat-belly-m1-s2-r2",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-belly-m1-s3-r2",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "ジャンピングスクワット",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "ジャンプなしでもOK。底から跳び、膝を曲げて静かに着地",
+          "illustrationId": "squat-jump"
+        },
+        {
+          "id": "cat-belly-m1-s4-r2",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-belly-m1-s5-r2",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "ハイニー（反対の肘へ）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "跳ばない足踏みでもOK。腿を上げ、膝と反対の肘を近づける",
+          "illustrationId": "high-knees-run"
+        },
+        {
+          "id": "cat-belly-m1-s6-r2",
+          "orderIndex": 13,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "呼吸を整え、次のセットに備える"
+        },
+        {
+          "id": "cat-belly-m1-s7-r2",
+          "orderIndex": 14,
+          "sourceTemplateId": null,
+          "name": "スケーターホップ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "横へのステップでもOK。横に跳び、片脚で着地して反対へ",
+          "illustrationId": "skater-hop"
+        }
+      ],
+      "description": "準備1分: 軽く足踏みしながら心拍を上げ、着地の姿勢を確認する。マウンテンクライマー→ジャンピングスクワット→ハイニー→スケーターホップを40秒+休憩20秒で2周。ジャンプが難しいときは低衝撃アレンジで。手首がつらいときはマウンテンクライマーを椅子やソファの座面に手をついて行う。クールダウン1分: 呼吸を整えて心拍を落ち着け、メイン②へ。消費カロリー目安: 約80〜120kcal(体重・強度による)。痛みや体調不良を感じたらすぐに中止してください。"
+    },
+    {
+      "id": "cat-belly-m2",
+      "name": "メインブロック②（腹筋・体幹）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 5,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 60,
+      "cooldownCountdownSeconds": 5,
+      "createdAt": "2026-11-14T00:00:00Z",
+      "updatedAt": "2026-11-14T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-belly-m2-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "クランチ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "息を吐きながら肩甲骨が浮くまで上体を丸める。首は手で引かない",
+          "illustrationId": "crunch-supine"
+        },
+        {
+          "id": "cat-belly-m2-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-belly-m2-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "バイシクルクランチ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "腰が浮くなら小さく。脚をこぎ、反対の肘と膝を近づける",
+          "illustrationId": "bicycle-crunch-supine"
+        },
+        {
+          "id": "cat-belly-m2-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-belly-m2-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "レッグレイズ",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "腰が反るなら膝を曲げて。脚を上げ、ゆっくり下ろす",
+          "illustrationId": "leg-raise-supine"
+        },
+        {
+          "id": "cat-belly-m2-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-belly-m2-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "ロシアンツイスト",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "きついときは足を床に。上体を少し倒して左右にひねる",
+          "illustrationId": "russian-twist-seated"
+        },
+        {
+          "id": "cat-belly-m2-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-belly-m2-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "フォアアームプランク",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "きついときは膝をつく。肘は肩の真下、頭からかかとまで一直線",
+          "illustrationId": "plank-forearm"
+        },
+        {
+          "id": "cat-belly-m2-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-belly-m2-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "サイドプランク（右）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "きついときは膝をつく。右手を肩の真下につき体を一直線に",
+          "illustrationId": "side-plank"
+        },
+        {
+          "id": "cat-belly-m2-s12",
+          "orderIndex": 11,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 30,
+          "type": 2,
+          "description": "力を抜いて次の種目に備える"
+        },
+        {
+          "id": "cat-belly-m2-s13",
+          "orderIndex": 12,
+          "sourceTemplateId": null,
+          "name": "サイドプランク（左）",
+          "durationSeconds": 30,
+          "type": 1,
+          "description": "きついときは膝をつく。左手を肩の真下につき体を一直線に",
+          "illustrationId": "side-plank"
+        }
+      ],
+      "description": "準備1分: 床に仰向けになり、お腹に意識を向ける。クランチ→バイシクルクランチ→レッグレイズ→ロシアンツイスト→フォアアームプランク→サイドプランク(左右)を30秒+休憩30秒で1周。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約40〜65kcal(体重・強度による)。痛みや体調不良を感じたらすぐに中止してください。"
+    },
+    {
+      "id": "cat-belly-m3",
+      "name": "ストレッチ（背中・腰・体幹ほぐし）",
+      "sets": 1,
+      "prepareSeconds": 60,
+      "prepareCountdownSeconds": 0,
+      "restBetweenSetsSeconds": 0,
+      "restBetweenSetsCountdownSeconds": 0,
+      "workCountdownSeconds": 10,
+      "restCountdownSeconds": 5,
+      "cooldownSeconds": 0,
+      "cooldownCountdownSeconds": 0,
+      "createdAt": "2026-11-14T00:00:00Z",
+      "updatedAt": "2026-11-14T00:00:00Z",
+      "segments": [
+        {
+          "id": "cat-belly-m3-s1",
+          "orderIndex": 0,
+          "sourceTemplateId": null,
+          "name": "コブラ（お腹の前側を伸ばす）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "腰が痛ければ低めに。胸を起こしてお腹の前側を伸ばす",
+          "illustrationId": "cobra-prone"
+        },
+        {
+          "id": "cat-belly-m3-s2",
+          "orderIndex": 1,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-belly-m3-s3",
+          "orderIndex": 2,
+          "sourceTemplateId": null,
+          "name": "チャイルドポーズ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "正座から上体を倒し、腕を伸ばして背中と腰をゆるめる",
+          "illustrationId": "child-pose"
+        },
+        {
+          "id": "cat-belly-m3-s4",
+          "orderIndex": 3,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-belly-m3-s5",
+          "orderIndex": 4,
+          "sourceTemplateId": null,
+          "name": "仰向けツイスト（左へ倒す）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "両膝を立てて左へ倒し、顔は右へ向けて腰と脇腹を伸ばす",
+          "illustrationId": "supine-twist"
+        },
+        {
+          "id": "cat-belly-m3-s6",
+          "orderIndex": 5,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-belly-m3-s7",
+          "orderIndex": 6,
+          "sourceTemplateId": null,
+          "name": "仰向けツイスト（右へ倒す）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "両膝を立てて右へ倒し、顔は左へ向けて腰と脇腹を伸ばす",
+          "illustrationId": "supine-twist"
+        },
+        {
+          "id": "cat-belly-m3-s8",
+          "orderIndex": 7,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-belly-m3-s9",
+          "orderIndex": 8,
+          "sourceTemplateId": null,
+          "name": "膝抱えストレッチ",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "両膝を抱えて胸に引き寄せ、腰をゆるめる",
+          "illustrationId": "knee-hug-supine"
+        },
+        {
+          "id": "cat-belly-m3-s10",
+          "orderIndex": 9,
+          "sourceTemplateId": null,
+          "name": "休憩",
+          "durationSeconds": 20,
+          "type": 2,
+          "description": "深呼吸をして体の力を抜く"
+        },
+        {
+          "id": "cat-belly-m3-s11",
+          "orderIndex": 10,
+          "sourceTemplateId": null,
+          "name": "深呼吸（仰向けで脱力）",
+          "durationSeconds": 40,
+          "type": 1,
+          "description": "全身の力を抜き、鼻から吸って口からゆっくり吐く",
+          "illustrationId": "corpse-pose-supine"
+        }
+      ],
+      "description": "腹筋と体幹で疲れたお腹・腰まわりを、40秒+休憩20秒のペースでゆるめるクールダウンストレッチ。消費カロリー目安: 約12〜24kcal"
+    }
+  ]
+}

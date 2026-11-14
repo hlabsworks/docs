@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updatedAt": "2026-08-08T13:00:00Z",
+  "updatedAt": "2026-11-14T00:00:00Z",
   "entries": [
     {
       "id": "bike-training-30min",
@@ -1206,6 +1206,125 @@
       "estimatedSeconds": 520,
       "language": "ja",
       "entryPath": "entries/sun-pm-conditioning-stretch.json"
+    },
+    {
+      "id": "belly-fat-burn",
+      "type": "routine",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Fat-Burn HIIT + Abs & Core Focus (31 min, home)",
+        "ja": "脂肪燃焼HIIT＋お腹まわり集中（自宅31分）"
+      },
+      "description": {
+        "en": "You can't burn fat from just one spot, so this 31-minute routine pairs whole-body intervals with abs and core strengthening. It runs from a dynamic warm-up through a whole-body fat-burning HIIT block and an abs-and-core block to a cooldown that eases the back and core. Jumping moves come with low-impact options for apartments, and every step has a how-to note. Stop right away if you feel pain or unwell.",
+        "ja": "脂肪は部分的に落とせないため、全身を使うインターバルでエネルギーを消費しつつ、お腹まわりの腹筋・体幹を鍛える31分ルーティン。動的ウォームアップ→全身脂肪燃焼HIIT→腹筋・体幹→背中と腰をゆるめるクールダウンの流れ。ジャンプ種目には集合住宅向けの低衝撃アレンジ付き。全ステップにやり方の説明付き。痛みや体調不良を感じたらすぐに中止してください。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-11-14",
+      "estimatedSeconds": 1880,
+      "menuCount": 4,
+      "menuEntryIds": [
+        "belly-fat-burn-warmup",
+        "belly-fat-burn-main1",
+        "belly-fat-burn-main2",
+        "belly-fat-burn-stretch"
+      ],
+      "language": "ja",
+      "entryPath": "entries/belly-fat-burn.json"
+    },
+    {
+      "id": "belly-fat-burn-warmup",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Belly-Area Warm-up: Full-Body Dynamic Mobility (7 min)",
+        "ja": "お腹まわりウォームアップ: 全身ダイナミックモビリティ（7分）"
+      },
+      "description": {
+        "en": "Dynamic warm-up that raises your heart rate and loosens the hips and spine before the fat-burning HIIT. Standalone menu version (free to get).",
+        "ja": "心拍を上げながら股関節と背骨をほぐし、脂肪燃焼HIITに備える動的ウォームアップ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-11-14",
+      "estimatedSeconds": 390,
+      "language": "ja",
+      "entryPath": "entries/belly-fat-burn-warmup.json"
+    },
+    {
+      "id": "belly-fat-burn-main1",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Belly-Area Main 1: Fat-Burning HIIT (10 min)",
+        "ja": "お腹まわりメイン①: 全身脂肪燃焼HIIT（10分）"
+      },
+      "description": {
+        "en": "Whole-body intervals with mountain climbers, jump squats, high knees and skater hops, each with a low-impact option. If your wrists bother you, do the mountain climbers with your hands on a chair seat or sofa edge. Standalone menu version (free to get).",
+        "ja": "準備1分→マウンテンクライマー・ジャンピングスクワット・ハイニー・スケーターホップ(40秒+休憩20秒)を2周→クールダウン1分。低衝撃アレンジ付き。手首がつらいときはマウンテンクライマーを椅子やソファの座面に手をついて。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-11-14",
+      "estimatedSeconds": 580,
+      "language": "ja",
+      "entryPath": "entries/belly-fat-burn-main1.json"
+    },
+    {
+      "id": "belly-fat-burn-main2",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Belly-Area Main 2: Abs & Core (9 min)",
+        "ja": "お腹まわりメイン②: 腹筋・体幹（9分）"
+      },
+      "description": {
+        "en": "Abs and core work with crunches, bicycle crunches, leg raises, Russian twists, forearm plank and side planks. Standalone menu version (free to get).",
+        "ja": "準備1分→クランチ・バイシクルクランチ・レッグレイズ・ロシアンツイスト・フォアアームプランク・サイドプランク左右(30秒+休憩30秒)を1周→クールダウン1分。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-11-14",
+      "estimatedSeconds": 510,
+      "language": "ja",
+      "entryPath": "entries/belly-fat-burn-main2.json"
+    },
+    {
+      "id": "belly-fat-burn-stretch",
+      "type": "menu",
+      "minSchemaVersion": 6,
+      "title": {
+        "en": "Belly-Area Cooldown: Back & Core Release (7 min)",
+        "ja": "お腹まわりクールダウン: 背中・腰・体幹ほぐし（7分）"
+      },
+      "description": {
+        "en": "Cobra, child's pose, supine twists and knee hugs to ease the abs and lower back after the core work. Standalone menu version (free to get).",
+        "ja": "腹筋・体幹で疲れたお腹と腰まわりをゆるめる、コブラ・チャイルドポーズ・仰向けツイスト・膝抱えのストレッチ。単体メニュー版（無料で取得できます）。"
+      },
+      "tags": [
+        "hiit",
+        "cardio",
+        "mobility"
+      ],
+      "author": "hlabsworks",
+      "publishedAt": "2026-11-14",
+      "estimatedSeconds": 400,
+      "language": "ja",
+      "entryPath": "entries/belly-fat-burn-stretch.json"
     }
   ]
 }

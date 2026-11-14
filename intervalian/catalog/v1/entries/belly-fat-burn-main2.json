@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 6,
+  "menu": {
+    "id": "cat-belly-m2-solo",
+    "name": "お腹まわりメイン②: 腹筋・体幹",
+    "sets": 1,
+    "prepareSeconds": 60,
+    "prepareCountdownSeconds": 5,
+    "restBetweenSetsSeconds": 0,
+    "restBetweenSetsCountdownSeconds": 0,
+    "workCountdownSeconds": 10,
+    "restCountdownSeconds": 5,
+    "cooldownSeconds": 60,
+    "cooldownCountdownSeconds": 5,
+    "createdAt": "2026-11-14T00:00:00Z",
+    "updatedAt": "2026-11-14T00:00:00Z",
+    "segments": [
+      {
+        "id": "cat-belly-m2-s1-solo",
+        "orderIndex": 0,
+        "sourceTemplateId": null,
+        "name": "クランチ",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "息を吐きながら肩甲骨が浮くまで上体を丸める。首は手で引かない",
+        "illustrationId": "crunch-supine"
+      },
+      {
+        "id": "cat-belly-m2-s2-solo",
+        "orderIndex": 1,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
+      },
+      {
+        "id": "cat-belly-m2-s3-solo",
+        "orderIndex": 2,
+        "sourceTemplateId": null,
+        "name": "バイシクルクランチ",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "腰が浮くなら小さく。脚をこぎ、反対の肘と膝を近づける",
+        "illustrationId": "bicycle-crunch-supine"
+      },
+      {
+        "id": "cat-belly-m2-s4-solo",
+        "orderIndex": 3,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
+      },
+      {
+        "id": "cat-belly-m2-s5-solo",
+        "orderIndex": 4,
+        "sourceTemplateId": null,
+        "name": "レッグレイズ",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "腰が反るなら膝を曲げて。脚を上げ、ゆっくり下ろす",
+        "illustrationId": "leg-raise-supine"
+      },
+      {
+        "id": "cat-belly-m2-s6-solo",
+        "orderIndex": 5,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
+      },
+      {
+        "id": "cat-belly-m2-s7-solo",
+        "orderIndex": 6,
+        "sourceTemplateId": null,
+        "name": "ロシアンツイスト",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "きついときは足を床に。上体を少し倒して左右にひねる",
+        "illustrationId": "russian-twist-seated"
+      },
+      {
+        "id": "cat-belly-m2-s8-solo",
+        "orderIndex": 7,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
+      },
+      {
+        "id": "cat-belly-m2-s9-solo",
+        "orderIndex": 8,
+        "sourceTemplateId": null,
+        "name": "フォアアームプランク",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "きついときは膝をつく。肘は肩の真下、頭からかかとまで一直線",
+        "illustrationId": "plank-forearm"
+      },
+      {
+        "id": "cat-belly-m2-s10-solo",
+        "orderIndex": 9,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
+      },
+      {
+        "id": "cat-belly-m2-s11-solo",
+        "orderIndex": 10,
+        "sourceTemplateId": null,
+        "name": "サイドプランク（右）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "きついときは膝をつく。右手を肩の真下につき体を一直線に",
+        "illustrationId": "side-plank"
+      },
+      {
+        "id": "cat-belly-m2-s12-solo",
+        "orderIndex": 11,
+        "sourceTemplateId": null,
+        "name": "休憩",
+        "durationSeconds": 30,
+        "type": 2,
+        "description": "力を抜いて次の種目に備える"
+      },
+      {
+        "id": "cat-belly-m2-s13-solo",
+        "orderIndex": 12,
+        "sourceTemplateId": null,
+        "name": "サイドプランク（左）",
+        "durationSeconds": 30,
+        "type": 1,
+        "description": "きついときは膝をつく。左手を肩の真下につき体を一直線に",
+        "illustrationId": "side-plank"
+      }
+    ],
+    "description": "準備1分: 床に仰向けになり、お腹に意識を向ける。クランチ→バイシクルクランチ→レッグレイズ→ロシアンツイスト→フォアアームプランク→サイドプランク(左右)を30秒+休憩30秒で1周。クールダウン1分: 腰を伸ばして呼吸を整える。消費カロリー目安: 約40〜65kcal(体重・強度による)。痛みや体調不良を感じたらすぐに中止してください。"
+  }
+}
